@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "planRevision": 9,
+  "planRevision": 10,
   "updatedAt": "2026-09-11",
   "days": [
     {
@@ -350,51 +350,107 @@
     {
       "date": "2026-11-17",
       "weekday": "二",
-      "city": "杜塞道夫",
-      "title": "MEDICA 第二天，住在杜賽道夫",
+      "city": "杜塞道夫／Solingen・Müngsten",
+      "title": "分組行動｜MEDICA × Schloss Burg＋Müngsten",
       "stay": "杜塞道夫",
-      "morning": "早餐後從 Rath 公寓出發，10:00 進展場，補訪重點展商與已約好的會面。今天不用退房或帶大行李。",
-      "afternoon": "把下午留給展會，17:00 左右整理名片、筆記和需要追蹤的資料；依洽談進度彈性離場。",
-      "evening": "回公寓自煮或附近簡單吃，整理明早往鹿特丹的行李。自由選項：19:30 DEG 主場對 Starbulls Rosenheim；想看球的人提早離展、先吃晚餐，其他人可回公寓休息。",
+      "morning": "A組｜MEDICA：08:30 從 Rath 出發，10:00 進展場，補訪重點展商與已約會面。B組｜Schloss Burg＋Müngsten：08:45–09:00 從杜塞道夫出發，約 10:15 到 Unterburg，10:30 搭 Seilbahn Burg 上山，先看 Schloss Burg 外觀、山谷與 Oberburg 小鎮。",
+      "afternoon": "A組｜MEDICA：展場午餐後繼續參展，17:00 左右整理名片與追蹤資料。B組｜Schloss Burg＋Müngsten：11:45–13:00 吃 Bergisches Land 地方料理、Bergische Waffel／Kaffeetafel 與 Burger Brezel；13:10 左右搭計程車到 Brückenpark Müngsten，13:30–15:45 看德國最高鐵路橋、Wupper 河谷與森林，走輕鬆版河岸散步。",
+      "evening": "兩組傍晚回杜塞道夫會合、一起晚餐並整理隔天前往鹿特丹的行李。19:30 DEG 主場冰球仍保留為自由選項；B組當天已走戶外行程，不建議為了看球再硬趕。",
       "timeline": [
         [
           "08:30",
-          "早餐後出發"
+          "A組｜MEDICA：Rath 出發前往 Messe Düsseldorf"
+        ],
+        [
+          "08:45",
+          "B組｜Schloss Burg＋Müngsten：從杜塞道夫出發"
         ],
         [
           "10:00",
-          "MEDICA 入場"
+          "A組｜MEDICA：進展場"
+        ],
+        [
+          "10:15",
+          "B組｜抵達 Unterburg，Wupper 河邊稍微走走"
+        ],
+        [
+          "10:30",
+          "B組｜搭 Seilbahn Burg 上山；星期二目前營運 10:00–16:45"
+        ],
+        [
+          "10:40",
+          "B組｜Schloss Burg 外觀、Oberburg 山城與景觀；不特別安排城堡內部"
+        ],
+        [
+          "11:45",
+          "B組｜Bergisches Land 午餐／Bergische Waffel、Kaffeetafel、Burger Brezel"
         ],
         [
           "12:30",
-          "展場午餐"
+          "A組｜MEDICA：展場午餐後繼續參展"
+        ],
+        [
+          "13:10",
+          "B組｜Schloss Burg → Brückenpark Müngsten，建議直接搭計程車"
+        ],
+        [
+          "13:30",
+          "B組｜Müngstener Brücke、Wupper 河谷與森林輕鬆散步"
+        ],
+        [
+          "15:45",
+          "B組｜結束河谷散步，準備回杜塞道夫"
         ],
         [
           "17:00",
-          "收整資料，依會面進度離場"
+          "A組｜MEDICA：整理資料，依會面進度離場"
+        ],
+        [
+          "17:15",
+          "B組｜依 VRR／DB 當日路線返回杜塞道夫"
         ],
         [
           "18:30",
-          "晚餐、整理行李"
+          "兩組｜杜塞道夫會合、晚餐、整理行李"
         ],
         [
           "19:30",
-          "自由選項：DEG 對 Starbulls Rosenheim（PSD BANK DOME）"
+          "自由選項｜DEG 對 Starbulls Rosenheim（想看球的人自行前往）"
         ]
       ],
       "transportSteps": [
-        "往展場：從 Rath 查 Rheinbahn，選 U78 到 Messe Nord 的合適接駁。",
-        "看球：701 電車可到 PSD BANK DOME；展場至球場非同一地點，預留轉乘與吃飯時間。"
+        "A組｜MEDICA：Rath → 查 Rheinbahn 即時路線，銜接 U78 到 Messe Nord。",
+        "B組｜去程：杜塞道夫 → Solingen-Burg／Unterburg；2026/11/17 的實際區域列車與公車班次接近出發日再用 DB／VRR 鎖定。",
+        "B組｜Unterburg → 搭 Seilbahn Burg 上到 Schloss Burg 附近；目前星期二時刻為 10:00–16:45，遇強風、雷雨或維修可能臨時調整。",
+        "B組｜Schloss Burg → Brückenpark Müngsten：三人建議直接叫計程車，避免平日轉車繞路。",
+        "B組｜Müngsten → Düsseldorf：以 VRR／DB 當日路線為準，可由 Brückenpark 公車銜接鐵路回程；如果天候差或走累，同樣可直接叫車到最近車站。",
+        "兩組｜晚上回 Rath 公寓會合；看冰球者另外查往 PSD BANK DOME 的接駁。"
       ],
       "ticketingSteps": [
-        "展場票另購，依官方票面使用日期入場。",
-        "冰球是可選行程，購票選 11/17 19:30 DEG–Starbulls Rosenheim；和 11/15 主場比賽擇一即可。"
+        "A組｜MEDICA：展場票依官方票面日期入場；公共交通票需另行處理。",
+        "B組｜Seilbahn Burg：現場依當日營運狀況購票即可，不需要為了城堡內部另外買門票。",
+        "B組｜Schloss Burg 冬季星期二目前 10:00–16:00 開放；這次以外觀、山城與美食為主，除非臨時想進去才買 €10 成人票。",
+        "B組｜計程車費三人分攤，優先換取時間與體力；Müngsten 本身以戶外河谷散步為主。",
+        "自由選項｜冰球票若要看，購買 11/17 19:30 DEG–Starbulls Rosenheim；和 11/15 主場擇一即可。"
       ],
-      "ticketingNote": "明早才退房前往鹿特丹。",
-      "transport": "住宿與展場往返，今日不跨國移動。看球者從展場查往 PSD BANK DOME 的接駁，散場後回 Rath 公寓。",
-      "food": "早餐自煮、午餐展場；晚餐自煮或附近餐廳，看球先吃飽再入場。",
-      "alerts": [],
-      "rain": "",
+      "ticketingNote": "11/17 是兩組分開行動。B組的 Schloss Burg／Müngsten 以戶外景觀、美食和輕鬆步行為主；區域大眾運輸請接近日期再用 DB／VRR 查 2026 冬季實際班次。",
+      "transport": "A組留在杜塞道夫往返 MEDICA；B組前往 Solingen-Burg 與 Müngsten。兩組傍晚再回杜塞道夫會合，今天不跨國移動。",
+      "food": "A組早餐自煮、午餐展場。B組把午餐留給 Schloss Burg 周邊的 Bergisches Land 地方味：優先找 Bergische Kaffeetafel／Waffel mit heißen Kirschen，再吃 Burger Brezel；傍晚兩組回杜塞道夫一起吃晚餐。",
+      "alerts": [
+        [
+          "info",
+          "今天分成兩組行動：A組 MEDICA；B組 Schloss Burg＋Müngsten。晚上再回杜塞道夫會合。"
+        ],
+        [
+          "info",
+          "Seilbahn Burg 目前星期二 10:00–16:45；11 月遇天候或維修可能臨時調整，當天早上再確認官方更新。"
+        ],
+        [
+          "warn",
+          "B組不要把 Schloss Burg 排成完整博物館行程；重點是纜車、山城景觀、Bergisches Land 美食與 Müngsten 河谷。"
+        ]
+      ],
+      "rain": "A組 MEDICA 照常。B組若雨大：保留纜車與 Schloss Burg 周邊美食，把 Müngsten 河谷散步縮短到 45–60 分鐘；Seilbahn 若因天候停駛，改計程車上山或直接把時間留給 Oberburg 與餐飲。",
       "sources": []
     },
     {
@@ -2068,7 +2124,10 @@
     "NDSM Wharf": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NDSM%20Wharf%20%40%20Amsterdam%20(18303885599).jpg?width=2400",
     "Eye Filmmuseum": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amsterdam%20EYE%20Filmmuseum.jpg?width=2400",
     "A'DAM Tower": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amsterdam%20-%20A%E2%80%99DAM%20Toren%20(30003438510).jpg?width=2400",
-    "A'DAM View": "https://commons.wikimedia.org/wiki/Special:Redirect/file/View%20of%20the%20Ij%20river%20in%20Amsterdam%20from%20the%20A'DAM%20lookout%20tower%20in%20September%202026%2C%20facing%20south.jpg?width=2400"
+    "A'DAM View": "https://commons.wikimedia.org/wiki/Special:Redirect/file/View%20of%20the%20Ij%20river%20in%20Amsterdam%20from%20the%20A'DAM%20lookout%20tower%20in%20September%202026%2C%20facing%20south.jpg?width=2400",
+    "Schloss Burg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Schloss%20Burg%2C%20Solingen%20(North%20Rhine-Westphalia).png?width=2400",
+    "Seilbahn Burg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Seilbahn%20Burg.JPG?width=2400",
+    "Müngstener Brücke": "https://commons.wikimedia.org/wiki/Special:Redirect/file/M%C3%BCngstener%20Br%C3%BCcke%20-%20Wupperweg%20zw.%20M%C3%BCngsten%20u.%20Burg%20(1).jpg?width=2400"
   },
   "exchangeRates": {
     "TWD": 1,
@@ -2230,7 +2289,9 @@
     "17": [
       "MEDICA",
       "MEDICA-2",
-      "PSD BANK DOME"
+      "Schloss Burg",
+      "Seilbahn Burg",
+      "Müngstener Brücke"
     ],
     "18": [
       "鹿特丹",
@@ -4693,6 +4754,42 @@
         "現今樣貌",
         "A'DAM LOOKOUT 位在塔頂，可以從北岸回望 Amsterdam Centraal、運河城市與 IJ 河。官方目前每天 10:00–22:00 開放，最後入場 21:00；我們安排約 14:10 上樓，避開太晚離開而壓縮機場時間。",
         "如果想玩 Over The Edge 高空鞦韆可以現場再決定，不把它當必要項目。這一站的重點是把整趟阿姆斯特丹旅行，用一個高空全景收尾。"
+      ]
+    },
+    {
+      "id": "schloss-burg",
+      "day": "17",
+      "title": "Schloss Burg・山城、纜車與 Bergisches Land",
+      "summary": "這次不把 Schloss Burg 當博物館，而是把它當成 Wupper 河谷上的山城風景：纜車上山、看外觀、逛 Oberburg，再把重點留給地方料理與甜點。",
+      "aliases": [
+        "Schloss Burg",
+        "Burg an der Wupper",
+        "Seilbahn Burg"
+      ],
+      "paragraphs": [
+        "歷史與故事",
+        "Schloss Burg 位在 Solingen 的 Burg an der Wupper，高於 Wupper 河谷。它與 Berg 伯爵家族的歷史緊密相關，今天看到的建築經過後世重建與修復；即使不進館，城堡量體、山坡聚落與河谷位置本身就很有存在感。",
+        "現今樣貌",
+        "從 Unterburg 可以搭 Seilbahn Burg 上到靠近城堡的山上。官方目前列出的星期二營運時間是 10:00–16:45；11 月天氣變化較大，遇到強風、雷雨或維修可能臨時調整。",
+        "這次行程刻意不排 90 分鐘的城堡室內參觀，而是留時間給 Oberburg 街區、河谷視野，以及 Bergische Kaffeetafel、熱櫻桃鬆餅和 Burger Brezel 等地方味。"
+      ]
+    },
+    {
+      "id": "muengsten",
+      "day": "17",
+      "title": "Müngstener Brücke・Wupper 河谷裡的鋼鐵巨橋",
+      "summary": "下午把自然景觀留給 Müngsten：森林、Wupper 河與 107 公尺高的鋼鐵鐵路橋，不走完整健行，只挑舒服的河岸與橋下路段。",
+      "aliases": [
+        "Müngstener Brücke",
+        "Brückenpark Müngsten",
+        "Müngsten"
+      ],
+      "paragraphs": [
+        "歷史與故事",
+        "Müngstener Brücke 橫跨 Solingen 與 Remscheid 之間的 Wupper 河谷，是德國最高的鐵路橋，高約 107 公尺。巨大的鋼構跨在森林與河流上方，從橋下看，比單純看照片更能感受到它的尺度。",
+        "現今樣貌",
+        "橋下的 Brückenpark 與 Wupper 河岸適合輕鬆散步。這次不安排 Burg 到 Müngsten 的完整健行，而是直接移動到橋下，走約 2–3 公里的輕鬆版路線，看橋、河谷、森林，再原路回來。",
+        "11 月的重點不是追求滿山秋葉，而是看 Bergisches Land 比較安靜、濕潤的冬前森林感。天候不好時就縮短步行，不需要為了走完路線硬撐。"
       ]
     }
   ],
