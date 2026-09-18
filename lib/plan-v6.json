@@ -2127,7 +2127,9 @@
     "NDSM Sunny": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NDSM%20Wharf%20%40%20Amsterdam%20(18463640396).jpg?width=2400",
     "Eye Blue Sky": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eye%20filmmuseum%20with%20magnificent%20skies%20at%2011%20Februari%202016%20-%20panoramio.jpg?width=2400",
     "A'DAM & Eye": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'DAM%20lookout%20and%20Eye%20Film%20Museum%20in%20Amsterdam.jpg?width=2400",
-    "A'DAM Panorama": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'DAM%20Lookout-07-Panorama%20Southwest.jpg?width=2400"
+    "A'DAM Panorama": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'DAM%20Lookout-07-Panorama%20Southwest.jpg?width=2400",
+    "A'DAM Tower Sunny": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'dam%20Tower%20-%20Amsterdam.jpg?width=2400",
+    "A'DAM View 2026": "https://commons.wikimedia.org/wiki/Special:Redirect/file/View%20of%20the%20Ij%20river%20in%20Amsterdam%20from%20the%20A'DAM%20lookout%20tower%20in%20September%202026%2C%20facing%20south.jpg?width=2400"
   },
   "exchangeRates": {
     "TWD": 1,
@@ -2326,8 +2328,8 @@
     "23": [
       "NDSM Sunny",
       "Eye Blue Sky",
-      "A'DAM & Eye",
-      "A'DAM Panorama"
+      "A'DAM Tower Sunny",
+      "A'DAM View 2026"
     ]
   },
   "landmarks": [
