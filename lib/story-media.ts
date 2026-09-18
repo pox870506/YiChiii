@@ -168,6 +168,20 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
   commons('Amsterdam - A’DAM Toren (30003438510).jpg',"A'DAM Tower 外觀與 IJ 河岸",'Wikimedia Commons'),
   commons("View from the A'DAM tower.jpg","從 A'DAM Tower 望向 Amsterdam Centraal 與市中心",'APK / Wikimedia Commons'),
   commons("View of the Ij river in Amsterdam from the A'DAM lookout tower in September 2026, facing south.jpg","2026 年從 A'DAM LOOKOUT 向南俯瞰 IJ 河與阿姆斯特丹",'Alexis Jazz / Wikimedia Commons')
+ ],
+ 'schloss-burg':[
+  commons('Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 山城與建築全景','Nico Vogel / Wikimedia Commons','這次重點放在山城外觀、河谷位置與周邊氣氛，不特別安排完整館內參觀。'),
+  commons('Schloss Burg, Solingen.jpg','從遠處看 Schloss Burg 與 Bergisches Land 山坡','Morty / Wikimedia Commons'),
+  commons('The buildings of Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 建築群與山城空間','Nico Vogel / Wikimedia Commons'),
+  commons('Seilbahn Burg.JPG','Unterburg 往 Schloss Burg 的 Seilbahn Burg 纜車','Morty / Wikimedia Commons'),
+  commons('02-Schloss-Burg.jpg','Schloss Burg 城門與外觀','Bozena Radowski / Wikimedia Commons')
+ ],
+ 'muengsten':[
+  commons('Müngstener Brücke - Wupperweg zw. Müngsten u. Burg (1).jpg','從 Wupper 河谷步道看 Müngstener Brücke','DiAuras / Wikimedia Commons','森林、Wupper 河與鋼鐵巨橋是下午散步的主角。'),
+  commons('Müngstener Brücke u. Schwebefähre über die Wupper.jpg','Müngstener Brücke 與 Wupper 河景','DiAuras / Wikimedia Commons'),
+  commons('Muengstener Bruecke 02.jpg','Müngstener Brücke 橫跨 Wupper 河谷','Wikimedia Commons'),
+  commons('Muengstener Bruecke.jpg','Müngstener Brücke 與通過橋上的列車','Wikimedia Commons'),
+  commons('Muengstener Bruecke Wuppertal n 201902.jpg','冬季 Wupper 河谷與 Müngstener Brücke','Matthias Nonnenmacher / Wikimedia Commons')
  ]
 };
 
