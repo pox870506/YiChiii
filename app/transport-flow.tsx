@@ -8,7 +8,8 @@ type TransportFlowProps={
 function transportIcon(text:string){
  const t=text.toLowerCase();
  if(/mu\d+|航班|起飛|機場|airport|schiphol/.test(t))return '✈️';
- if(/ice|intercity|sprinter|火車|鐵路|hbf|centraal|bahn|ns /.test(t))return '🚆';
+ if(/ice|intercity|sprinter|火車|列車|鐵路|hbf|centraal|bahn|ns /.test(t))return '🚆';
+ if(/纜車|seilbahn/.test(t))return '🚡';
  if(/地鐵|metro|u78|u-bahn/.test(t))return '🚇';
  if(/電車|tram/.test(t))return '🚋';
  if(/巴士|公車|bus/.test(t))return '🚌';
