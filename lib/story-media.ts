@@ -240,11 +240,6 @@ export const extraStoryMedia:Record<string,StoryMediaItem[]>={
   local('鹿特丹-3','鹿特丹博物館區'),
   local('Erasmusbrug','鹿特丹現代天際線')
  ],
- 'Gouda Markt':[
-  local('Gouda Markt','豪達 Markt 廣場'),
-  local('Gouda Waag','豪達 De Goudse Waag'),
-  local('Sint-Janskerk','豪達聖約翰教堂')
- ],
  'Van Gogh Museum':[
   local('Van Gogh Museum','阿姆斯特丹梵谷博物館'),
   local('向日葵｜1889','梵谷《向日葵》'),
