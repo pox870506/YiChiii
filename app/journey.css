@@ -832,3 +832,64 @@
  .j-group-route{font-size:10.5px}
  .j-group-rejoin{padding:12px}
 }
+
+
+/* Morning / afternoon / evening overview, using the same visual language as transport flows. */
+.j-day-period-card{
+ margin:18px 0;
+ padding:18px 18px 8px;
+}
+.j-day-period-card>h3{
+ margin:0 0 14px;
+ font-size:16px;
+ color:#284a5c;
+}
+.j-day-period-flow .j-icon-flow-step{
+ min-height:84px;
+}
+.j-day-period-flow .j-flow-copy{
+ padding-top:1px;
+ padding-bottom:18px;
+}
+.j-day-period-flow .j-flow-copy small{
+ margin-bottom:5px;
+ font-size:11px;
+ color:#6f858f;
+}
+.j-day-period-flow .j-flow-copy p{
+ font-size:14px;
+ line-height:1.78;
+}
+.j-day-period-flow .j-day-period-icon{
+ font-family:Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif;
+ font-size:20px;
+}
+.j-day-period-flow .j-icon-flow-step:nth-child(1) .j-day-period-icon{
+ background:#fff9e8;
+}
+.j-day-period-flow .j-icon-flow-step:nth-child(2) .j-day-period-icon{
+ background:#edf7fa;
+}
+.j-day-period-flow .j-icon-flow-step:nth-child(3) .j-day-period-icon{
+ background:#f3f0f7;
+}
+.theme-germany .j-day-period-card{
+ background:#fffdf8;
+ border-color:#cbc4ba;
+}
+.theme-germany .j-day-period-card>h3{
+ color:#4d292d;
+}
+.theme-netherlands .j-day-period-card{
+ background:#fffefa;
+ border-color:#c6dde0;
+}
+.theme-netherlands .j-day-period-card>h3{
+ color:#255767;
+}
+@media(max-width:650px){
+ .j-day-period-card{padding:15px 13px 5px}
+ .j-day-period-card>h3{font-size:15px;margin-bottom:12px}
+ .j-day-period-flow .j-icon-flow-step{grid-template-columns:44px minmax(0,1fr)!important;gap:10px!important;min-height:80px}
+ .j-day-period-flow .j-flow-copy p{font-size:13px;line-height:1.72}
+}
