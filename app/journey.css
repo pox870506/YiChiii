@@ -762,3 +762,73 @@
  .j-split-card h3{font-size:15px}
  .j-split-card p{font-size:13px}
 }
+
+
+/* Nov 17: keep the two groups visually separate */
+.j-group-itineraries{
+ display:grid;
+ grid-template-columns:1fr;
+ gap:14px;
+}
+.j-group-schedule{
+ margin:0;
+ overflow:hidden;
+ background:#fffdf9;
+}
+.j-group-schedule>summary{
+ display:flex;
+ align-items:center;
+ gap:9px;
+ font-weight:800;
+}
+.j-group-medica{
+ border-left:4px solid #7b2f3a;
+}
+.j-group-nature{
+ border-left:4px solid #4f7a58;
+}
+.j-group-route{
+ margin:0 0 10px!important;
+ padding:0 2px;
+ color:#738087;
+ font-size:11px;
+ letter-spacing:.01em;
+}
+.j-group-rejoin{
+ margin-top:14px;
+ padding:13px 15px;
+ border:1px dashed #c6cfd2;
+ background:#fff;
+ border-radius:10px;
+}
+.j-group-rejoin strong{
+ display:block;
+ margin-bottom:4px;
+ color:#2d4954;
+}
+.j-group-rejoin p{
+ margin:0!important;
+ font-size:13px;
+ color:#52666f;
+}
+.j-group-transport{
+ display:grid;
+ grid-template-columns:1fr;
+ gap:12px;
+}
+.j-group-transport>.j-transport-card{
+ margin:0;
+}
+.j-split-day .j-split-badge{
+ flex:0 0 auto;
+}
+.theme-germany .j-group-schedule,
+.theme-germany .j-group-rejoin{
+ border-radius:3px;
+}
+@media(max-width:650px){
+ .j-group-itineraries{gap:10px}
+ .j-group-schedule>summary{align-items:flex-start}
+ .j-group-route{font-size:10.5px}
+ .j-group-rejoin{padding:12px}
+}
