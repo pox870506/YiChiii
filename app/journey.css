@@ -550,3 +550,116 @@
  .j-story-copy p{margin-bottom:1.05rem}
  .j-story-copy h4{font-size:16px;margin-top:1.45rem}
 }
+
+
+/* Icon-based transport and ticketing flow. */
+.j-transport-card>summary{font-size:1.08rem}
+.j-transport-summary{
+ margin:4px 0 18px!important;
+ padding:12px 14px;
+ border-radius:12px;
+ background:#f4f7f8;
+ color:#425a65;
+ font-size:14px;
+ line-height:1.75;
+}
+.j-flow-section{margin-top:18px}
+.j-flow-section h4{
+ margin:0 0 10px;
+ font-size:15px;
+ color:#284a5c;
+}
+.j-icon-flow{
+ list-style:none;
+ margin:0;
+ padding:0!important;
+}
+.j-icon-flow-step{
+ display:grid!important;
+ grid-template-columns:46px minmax(0,1fr)!important;
+ gap:12px!important;
+ margin:0!important;
+ min-height:66px;
+}
+.j-flow-rail{
+ position:relative;
+ display:flex;
+ justify-content:center;
+}
+.j-flow-icon{
+ position:relative;
+ z-index:1;
+ width:38px;
+ height:38px;
+ flex:none;
+ display:grid;
+ place-items:center;
+ border:1px solid #d7e2e7;
+ border-radius:12px;
+ background:#fff;
+ font-size:19px;
+ line-height:1;
+ box-shadow:0 3px 10px rgba(36,58,69,.05);
+}
+.j-flow-line{
+ position:absolute;
+ top:38px;
+ bottom:0;
+ width:2px;
+ background:linear-gradient(to bottom,#bfd0d8 55%,transparent 55%);
+ background-size:2px 8px;
+}
+.j-flow-copy{
+ padding:3px 0 16px;
+ border-bottom:1px solid #edf0f2;
+}
+.j-icon-flow-step:last-child .j-flow-copy{border-bottom:0}
+.j-flow-copy small{
+ display:block;
+ margin-bottom:2px;
+ color:#8a9aa1;
+ font-size:10px;
+ font-weight:800;
+ letter-spacing:.12em;
+}
+.j-flow-copy p{
+ margin:0!important;
+ font-size:14px;
+ line-height:1.72;
+ color:#334c58;
+}
+.j-ticket-note{
+ margin:14px 0 0!important;
+ padding:11px 13px;
+ border-left:3px solid #d3a95f;
+ background:#fbf6eb;
+ font-size:13px;
+ line-height:1.7;
+}
+.j-transport-links{
+ margin:-4px 0 20px;
+ padding:0 4px;
+}
+
+/* Let each packing category keep a distinct visual identity. */
+.j-pack-icon{font-family:Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif}
+
+.theme-germany .j-transport-summary{background:#f2eee8;color:#4c4640}
+.theme-germany .j-flow-icon{border-radius:4px;border-color:#c8c1b7;background:#fbfaf6}
+.theme-germany .j-flow-line{background:linear-gradient(to bottom,#a9a39a 55%,transparent 55%);background-size:2px 8px}
+.theme-germany .j-flow-section h4{color:#4d292d}
+.theme-netherlands .j-transport-summary{background:#eaf5f4;color:#315862}
+.theme-netherlands .j-flow-icon{border-radius:14px;border-color:#c3dfe2;background:#fffdf7}
+.theme-netherlands .j-flow-line{background:linear-gradient(to bottom,#83bcc8 55%,transparent 55%);background-size:2px 8px}
+.theme-netherlands .j-flow-section h4{color:#2f7891}
+
+@media(max-width:650px){
+ .j-transport-summary{font-size:13.5px;padding:11px 12px}
+ .j-icon-flow-step{grid-template-columns:42px minmax(0,1fr)!important;gap:10px!important;min-height:62px}
+ .j-flow-icon{width:36px;height:36px;border-radius:11px;font-size:18px}
+ .j-flow-line{top:36px}
+ .j-flow-copy{padding-bottom:14px}
+ .j-flow-copy p{font-size:14px;line-height:1.68}
+ .j-transport-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:-6px}
+ .j-transport-links .j-link{text-align:center;font-size:11px;padding:8px 4px}
+}
