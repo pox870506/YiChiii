@@ -5,6 +5,12 @@ type RouteNode={label:string;dateLabel:string;dayIndex:number;segmentDayIndex?:n
 const shortDate=(date:string)=>date.slice(5).replace('-','/');
 const clean=(city:string)=>city.replace(/一日遊/g,'').trim();
 
+function routeTheme(date:string){
+ if(date>='2026-11-13'&&date<='2026-11-17')return 'germany';
+ if(date>='2026-11-18'&&date<='2026-11-23')return 'netherlands';
+ return 'neutral';
+}
+
 function segmentSummary(day:Plan['days'][number]){
  const travelLine=day.timeline.find(([,text])=>/(MU\d+|ICE|Intercity|Sprinter|火車|地鐵|巴士|電車|機場聯絡線|出發)/i.test(text))?.[1];
  const firstSentence=day.transport.split('。')[0]?.trim();
@@ -56,7 +62,7 @@ export default function RouteOverview({plan,onSelect}:{plan:Plan;onSelect:(index
    {nodes.map((node,index)=>{
     const segmentDay=node.segmentDayIndex===undefined?null:plan.days[node.segmentDayIndex];
     const segment=index===0?'':segmentDay?segmentSummary(segmentDay):'';
-    return <div className="j-route-stop" key={node.label+node.dateLabel}>
+    return <div className={`j-route-stop j-route-${routeTheme(plan.days[node.dayIndex].date)}`} key={node.label+node.dateLabel}>
      <div className="j-route-marker" aria-hidden="true"><span className="j-route-dot"/>{index<nodes.length-1&&<span className="j-route-dash"/>}</div>
      <div className="j-route-copy">
       <button className="j-route-place" onClick={()=>onSelect(node.dayIndex)}>
