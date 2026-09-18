@@ -20,14 +20,14 @@ export function parsePlan(value:unknown):Plan{
  const dates=initialPlan.days.map(d=>d.date);
  if(!value.days.every((d,i)=>record(d)&&d.date===dates[i]&&['weekday','city','title','stay','morning','afternoon','evening','transport','food','rain'].every(k=>string(d[k]))&&(d.ticketingNote===undefined||string(d.ticketingNote))))throw Error('請保留 14 天日期與行程文字');
  if(!Object.values(value.notes).every(string))throw Error('備註必須是文字');
- if(value.schemaVersion!==2||![6,7,8].includes(Number(value.planRevision)))throw Error('請先匯出目前版本 JSON 再修改與匯入');
+ if(value.schemaVersion!==2||![6,7,8,9].includes(Number(value.planRevision)))throw Error('請先匯出目前版本 JSON 再修改與匯入');
  if(!Number.isInteger(value.people)||Number(value.people)<1||Number(value.people)>100)throw Error('分攤人數需為 1–100');
  if(!rows(value.expenses,e=>['id','date','category','detail','currency','payer','note','status'].every(k=>string(e[k]))&&typeof e.amount==='number'&&Number.isFinite(e.amount)&&e.amount>=0&&e.amount<=1e9&&typeof e.rate==='number'&&Number.isFinite(e.rate)&&e.rate>0&&e.rate<=1e6))throw Error('帳目金額或欄位不正確');
  if(!rows(value.packing,e=>['id','category','name'].every(k=>string(e[k]))&&typeof e.done==='boolean'))throw Error('行李清單格式不正確');
  if(!unique(value.expenses as Expense[])||!unique(value.packing as PackItem[]))throw Error('帳目或行李 ID 重複');
  if((value.expenses as Expense[]).some(e=>!e.id.trim()||!e.category.trim()||!e.detail.trim()||!/^\d{4}-\d{2}-\d{2}$/.test(e.date)||!['TWD','EUR','CNY','USD'].includes(e.currency)||(e.currency==='TWD'&&e.rate!==1)||!Number.isSafeInteger(cents(e)))||!Number.isSafeInteger((value.expenses as Expense[]).reduce((n,e)=>n+cents(e),0)))throw Error('帳目日期、幣別或換算金額不正確');
  if(value.stays.length!==3||!value.stays.every(s=>record(s)&&Number.isInteger(s.nights)&&['city','checkIn','checkOut','name','address','booking'].every(k=>string(s[k]))&&Array.isArray(s.nearbySupermarkets)&&s.nearbySupermarkets.every(string)))throw Error('住宿欄位不完整');
- if(value.planRevision===8&&!value.stays.every(s=>record(s)&&https(s.bookingUrl)&&['priceText','paymentText','perNightText','accessNote'].every(k=>string(s[k]))))throw Error('住宿付款資訊或連結不完整');
+ if(Number(value.planRevision)>=8&&!value.stays.every(s=>record(s)&&https(s.bookingUrl)&&['priceText','paymentText','perNightText','accessNote'].every(k=>string(s[k]))))throw Error('住宿付款資訊或連結不完整');
  // Reject malformed reference data before replacing any saved state.
  if(!record(value.reference)||!rows(value.reference.foodLists,c=>string(c.city)&&rows(c.items,f=>['name','dish','when'].every(k=>string(f[k]))))||!rows(value.reference.apps,a=>['name','country','why'].every(k=>string(a[k])))||!rows(value.reference.flights,f=>['group','route','detail'].every(k=>string(f[k])))||!rows(value.reference.ticketDeadlines,t=>['name','detail','url'].every(k=>string(t[k]))))throw Error('共編資料不完整');
  if(!(value.reference.ticketDeadlines as {url:unknown}[]).every(t=>https(t.url))||(value.reference.foodLists as {items:{address?:unknown}[]}[]).some(c=>c.items.some(f=>f.address!==undefined&&!string(f.address))))throw Error('連結或餐廳地址格式不正確');
@@ -38,6 +38,18 @@ export function parsePlan(value:unknown):Plan{
  const safe=(Number(value.planRevision)<8?{...structuredClone(initialPlan),expenses:structuredClone(value.expenses),packing:structuredClone(value.packing),notes:structuredClone(value.notes),people:value.people}:structuredClone(value)) as unknown as Plan;
  if(value.stories!==undefined&&!rows(value.stories,s=>['id','day','title','summary'].every(k=>string(s[k]))&&Array.isArray(s.aliases)&&s.aliases.every(string)&&Array.isArray(s.paragraphs)&&s.paragraphs.every(string)))throw Error('故事內容格式不正確');
  safe.stories=value.stories===undefined?structuredClone(initialPlan.stories):structuredClone(value.stories) as Plan['stories'];
+ if(Number(value.planRevision)<9){
+  const northDay=initialPlan.days.find(d=>d.date==='2026-11-23')!;
+  safe.days=safe.days.map(d=>d.date==='2026-11-23'?structuredClone(northDay):d);
+  safe.stories=[...safe.stories.filter(s=>s.day!=='23'),...structuredClone(initialPlan.stories.filter(s=>s.day==='23'))];
+  const adamDeadline=initialPlan.reference.ticketDeadlines.find(t=>t.name==='A\'DAM LOOKOUT');
+  if(adamDeadline){
+   const index=safe.reference.ticketDeadlines.findIndex(t=>t.name==='A\'DAM LOOKOUT');
+   if(index>=0)safe.reference.ticketDeadlines[index]=structuredClone(adamDeadline);
+   else safe.reference.ticketDeadlines.push(structuredClone(adamDeadline));
+  }
+  safe.planRevision=9;
+ }
  safe.exchangeRates={TWD:1,EUR:36.75,USD:31.65,CNY:4.72};
  if(Number(value.planRevision)<8){const seedIds=new Set(['stay-0','stay-1','stay-2']);safe.expenses=[...structuredClone(initialPlan.expenses),...safe.expenses.filter(e=>!seedIds.has(e.id))];}
  safe.expenses=safe.expenses.map(e=>({...e,category:categoryName(e.category),scope:e.scope||'shared',consumer:e.consumer||e.payer,rate:safe.exchangeRates[e.currency as keyof typeof safe.exchangeRates]}));
