@@ -663,3 +663,102 @@
  .j-transport-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:-6px}
  .j-transport-links .j-link{text-align:center;font-size:11px;padding:8px 4px}
 }
+
+
+/* Nov 17 split-group day */
+.j-split-day{
+ margin:18px 0;
+ padding:14px;
+ border:1px solid #d9e1e4;
+ border-radius:14px;
+ background:rgba(255,255,255,.72);
+}
+.j-split-head{
+ display:flex;
+ align-items:baseline;
+ justify-content:space-between;
+ gap:12px;
+ margin-bottom:12px;
+}
+.j-split-head>span{
+ font-weight:800;
+ font-size:14px;
+ letter-spacing:.02em;
+ color:#2c4b59;
+}
+.j-split-head>small{
+ color:#75868d;
+ font-size:11px;
+}
+.j-split-grid{
+ display:grid;
+ grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:10px;
+}
+.j-split-card{
+ position:relative;
+ padding:15px;
+ border:1px solid #dfe5e7;
+ border-radius:12px;
+ background:#fff;
+ box-shadow:0 5px 16px rgba(39,57,68,.05);
+}
+.j-split-card h3{
+ margin:7px 0 7px;
+ font-size:16px;
+ line-height:1.35;
+}
+.j-split-card p{
+ margin:0 0 8px!important;
+ font-size:13px;
+ line-height:1.7;
+ color:#415964;
+}
+.j-split-card>small{
+ display:block;
+ color:#7d8d94;
+ font-size:10.5px;
+ line-height:1.5;
+}
+.j-split-badge{
+ display:inline-flex;
+ align-items:center;
+ padding:3px 8px;
+ border-radius:999px;
+ font-size:10px;
+ font-weight:800;
+ letter-spacing:.08em;
+}
+.j-split-medica{
+ border-top:3px solid #7b2f3a;
+}
+.j-split-medica .j-split-badge{
+ color:#6f2832;
+ background:#f5e8ea;
+}
+.j-split-nature{
+ border-top:3px solid #4f7a58;
+}
+.j-split-nature .j-split-badge{
+ color:#3f6748;
+ background:#eaf3eb;
+}
+.theme-germany .j-split-day{
+ border-radius:4px;
+ background:#f6f2ec;
+ border-color:#cfc7bd;
+}
+.theme-germany .j-split-card{
+ border-radius:3px;
+ box-shadow:none;
+ background:#fffdf8;
+}
+
+@media(max-width:650px){
+ .j-split-day{padding:12px;margin:15px 0}
+ .j-split-head{align-items:flex-start;flex-direction:column;gap:2px}
+ .j-split-grid{grid-template-columns:1fr;gap:9px}
+ .j-split-card{padding:13px}
+ .j-split-card h3{font-size:15px}
+ .j-split-card p{font-size:13px}
+}
