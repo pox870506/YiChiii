@@ -165,7 +165,7 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
  ],
  'adam-lookout':[
   commons("A'DAM lookout and Eye Film Museum in Amsterdam.jpg","A'DAM Tower 與 Eye Filmmuseum 河岸全景",'Wikimedia Commons','從 IJ 一帶看 Amsterdam-Noord 天際線。'),
-  commons("A'DAM Lookout-01-Entry.jpg","A'DAM LOOKOUT 入口",'Muck / Wikimedia Commons','A'DAM Tower 觀景台入口。'),
+  commons("A'DAM Lookout-01-Entry.jpg","A'DAM LOOKOUT 入口",'Muck / Wikimedia Commons',"A'DAM Tower 觀景台入口。"),
   commons("A'DAM Lookout-02.jpg","A'DAM LOOKOUT 觀景空間",'Muck / Wikimedia Commons','塔頂觀景區。'),
   commons("A'DAM Lookout-07-Panorama Southwest.jpg","A'DAM LOOKOUT 向西南方的城市全景",'Muck / Wikimedia Commons','Amsterdam Centraal 與市中心方向的高空視野。'),
   commons("A'DAM Lookout-06-Panorama Southeast.jpg","A'DAM LOOKOUT 向東南方的城市全景",'Muck / Wikimedia Commons','IJ 河與阿姆斯特丹東南方向的高空視野。')
