@@ -43,3 +43,338 @@
  .j-attraction-photo{max-height:300px}.j-attraction-main{padding:16px}.j-attraction-detail>summary{padding:13px 16px}.j-attraction-story{padding:1px 16px 16px}
  .j-attraction-pills span{font-size:11px}
 }
+
+
+/* Country-specific daily themes: same structure, two distinct visual languages. */
+.j-country-theme{
+ --theme-bg:#f6f4ef;
+ --theme-card:#fff;
+ --theme-accent:#596a73;
+ --theme-accent-2:#8c7658;
+ --theme-ink:#243a45;
+ --theme-muted:#697981;
+ --theme-line:#d8deda;
+ --theme-radius:14px;
+ --theme-shadow:0 8px 22px rgba(36,58,69,.05);
+}
+.j-country-theme .j-day{
+ background:var(--theme-bg);
+ color:var(--theme-ink);
+ border:1px solid var(--theme-line);
+ border-radius:var(--theme-radius);
+ padding:26px;
+ transition:background-color .2s ease,border-color .2s ease;
+}
+.j-country-theme .j-day-controls{
+ background:linear-gradient(to bottom,var(--paper) 78%,rgba(250,248,243,0));
+}
+.j-country-mark{
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:16px;
+ padding:8px 0 12px;
+ margin-bottom:4px;
+ border-bottom:1px solid var(--theme-line);
+}
+.j-country-mark span{
+ color:var(--theme-accent);
+ font-size:12px;
+ font-weight:800;
+ letter-spacing:.16em;
+}
+.j-country-mark small{
+ color:var(--theme-muted);
+ font-size:11px;
+ letter-spacing:.08em;
+ text-align:right;
+}
+.j-country-theme .j-city,
+.j-country-theme .j-muted{color:var(--theme-muted)}
+.j-country-theme .j-kicker,
+.j-country-theme .j-periods>article>span,
+.j-country-theme .j-timeline time{color:var(--theme-accent)}
+.j-country-theme .j-card{
+ background:var(--theme-card);
+ border-color:var(--theme-line);
+ border-radius:var(--theme-radius);
+ box-shadow:var(--theme-shadow);
+}
+.j-country-theme .j-gallery{
+ border-radius:var(--theme-radius);
+ background:var(--theme-card);
+}
+.j-country-theme .j-photo-caption{
+ background:var(--theme-accent);
+}
+.j-country-theme .j-attractions-heading{
+ background:color-mix(in srgb,var(--theme-accent) 9%,white);
+ border-left-color:var(--theme-accent);
+ border-radius:0 calc(var(--theme-radius) * .65) calc(var(--theme-radius) * .65) 0;
+}
+.j-country-theme .j-attraction-card{
+ background:var(--theme-card);
+ border-color:var(--theme-line);
+ border-radius:var(--theme-radius);
+ box-shadow:var(--theme-shadow);
+}
+.j-country-theme .j-attraction-main h4{color:var(--theme-ink)}
+.j-country-theme .j-attraction-sub{color:var(--theme-muted)}
+.j-country-theme .j-attraction-detail{border-top-color:var(--theme-line)}
+.j-country-theme .j-attraction-detail>summary{color:var(--theme-accent)}
+.j-country-theme .j-attraction-pills span{
+ background:color-mix(in srgb,var(--theme-accent) 12%,white);
+ color:var(--theme-ink);
+}
+.j-country-theme .j-night,
+.j-country-theme .j-note{
+ border-left-color:var(--theme-accent);
+ background:color-mix(in srgb,var(--theme-accent) 8%,white);
+}
+
+/* Germany — structured, Bauhaus/industrial, Rhine-city feel. */
+.theme-germany{
+ --theme-bg:#efede7;
+ --theme-card:#fbfaf6;
+ --theme-accent:#7a2732;
+ --theme-accent-2:#222426;
+ --theme-ink:#202326;
+ --theme-muted:#6e6a64;
+ --theme-line:#b9b5ad;
+ --theme-radius:5px;
+ --theme-shadow:none;
+}
+.theme-germany .j-day{
+ background:
+  linear-gradient(90deg,var(--theme-accent) 0 5px,transparent 5px),
+  linear-gradient(#efede7,#efede7);
+ padding-left:31px;
+}
+.theme-germany .j-country-mark{
+ border-bottom:2px solid var(--theme-accent-2);
+}
+.theme-germany .j-country-mark span{
+ background:var(--theme-accent-2);
+ color:#fff;
+ padding:4px 8px;
+ letter-spacing:.14em;
+}
+.theme-germany .j-country-mark small{
+ color:#57534d;
+ text-transform:uppercase;
+}
+.theme-germany .j-day h2{
+ font-weight:800;
+ letter-spacing:-.025em;
+}
+.theme-germany .j-card,
+.theme-germany .j-attraction-card{
+ border-width:1px;
+}
+.theme-germany .j-card{
+ border-left:4px solid var(--theme-accent);
+}
+.theme-germany .j-schedule{
+ border-left-color:var(--theme-accent-2);
+}
+.theme-germany .j-gallery,
+.theme-germany .j-attraction-photo{
+ filter:saturate(.88) contrast(1.03);
+}
+.theme-germany .j-periods{
+ display:grid;
+ grid-template-columns:repeat(3,minmax(0,1fr));
+ border-top:1px solid var(--theme-line);
+ border-bottom:1px solid var(--theme-line);
+ margin:18px 0;
+}
+.theme-germany .j-periods>article{
+ display:block;
+ padding:16px;
+ border-bottom:0;
+ border-right:1px solid var(--theme-line);
+}
+.theme-germany .j-periods>article:last-child{border-right:0}
+.theme-germany .j-periods>article>span{
+ display:block;
+ padding:0 0 5px;
+ color:var(--theme-accent);
+ font-weight:800;
+}
+.theme-germany .j-timeline li{
+ padding:10px 0;
+ margin:0;
+ border-bottom:1px solid #d7d2ca;
+}
+.theme-germany .j-timeline time{
+ font-weight:800;
+ letter-spacing:.04em;
+}
+.theme-germany .j-attractions-heading{
+ background:#e6e1d8;
+ border-left-width:5px;
+ border-radius:0;
+}
+.theme-germany .j-attraction-card{
+ border-left:4px solid var(--theme-accent-2);
+}
+.theme-germany .j-attraction-pills span{
+ border-radius:2px;
+ background:#e9e5dd;
+ border:1px solid #cbc6bc;
+}
+.theme-germany .j-attraction-detail>summary{
+ font-weight:750;
+ letter-spacing:.03em;
+}
+
+/* Netherlands — light, geometric, canal/De Stijl-inspired editorial feel. */
+.theme-netherlands{
+ --theme-bg:#edf6f5;
+ --theme-card:#fffdf7;
+ --theme-accent:#d66f3e;
+ --theme-accent-2:#2f7891;
+ --theme-ink:#244451;
+ --theme-muted:#68818a;
+ --theme-line:#c5dfe1;
+ --theme-radius:22px;
+ --theme-shadow:0 12px 30px rgba(47,120,145,.08);
+}
+.theme-netherlands .j-day{
+ position:relative;
+ overflow:hidden;
+ background:
+  linear-gradient(135deg,rgba(255,255,255,.65),rgba(237,246,245,.85));
+}
+.theme-netherlands .j-day::before{
+ content:'';
+ position:absolute;
+ width:78px;
+ height:12px;
+ right:22px;
+ top:18px;
+ background:var(--theme-accent);
+ border-radius:999px;
+ opacity:.85;
+}
+.theme-netherlands .j-day::after{
+ content:'';
+ position:absolute;
+ width:12px;
+ height:48px;
+ right:18px;
+ top:24px;
+ background:#e6b941;
+ border-radius:999px;
+ opacity:.9;
+}
+.theme-netherlands .j-country-mark{
+ border-bottom:0;
+ padding-right:96px;
+}
+.theme-netherlands .j-country-mark span{
+ color:var(--theme-accent-2);
+}
+.theme-netherlands .j-country-mark small{
+ color:#78929a;
+}
+.theme-netherlands .j-day h2{
+ color:#214f61;
+ font-weight:700;
+ letter-spacing:-.015em;
+}
+.theme-netherlands .j-gallery{
+ box-shadow:0 10px 30px rgba(47,120,145,.08);
+}
+.theme-netherlands .j-periods{
+ display:grid;
+ grid-template-columns:repeat(3,minmax(0,1fr));
+ gap:10px;
+ margin:20px 0;
+}
+.theme-netherlands .j-periods>article{
+ display:block;
+ border:1px solid var(--theme-line);
+ background:rgba(255,253,247,.88);
+ border-radius:16px;
+ padding:14px;
+}
+.theme-netherlands .j-periods>article>span{
+ display:block;
+ padding:0 0 5px;
+ color:var(--theme-accent-2);
+ font-weight:800;
+}
+.theme-netherlands .j-card{
+ backdrop-filter:blur(2px);
+}
+.theme-netherlands .j-schedule{
+ border-top:4px solid var(--theme-accent-2);
+}
+.theme-netherlands .j-timeline li{
+ position:relative;
+ padding:8px 10px 8px 16px;
+ margin:4px 0;
+ border-left:3px solid color-mix(in srgb,var(--theme-accent-2) 35%,white);
+}
+.theme-netherlands .j-timeline li:nth-child(even){
+ border-left-color:color-mix(in srgb,var(--theme-accent) 45%,white);
+}
+.theme-netherlands .j-timeline time{
+ color:var(--theme-accent-2);
+ font-weight:800;
+}
+.theme-netherlands .j-attractions-heading{
+ background:#dff0f1;
+ border-left-color:var(--theme-accent);
+}
+.theme-netherlands .j-attraction-card{
+ position:relative;
+}
+.theme-netherlands .j-attraction-card:nth-of-type(even){
+ border-top:4px solid var(--theme-accent);
+}
+.theme-netherlands .j-attraction-card:nth-of-type(odd){
+ border-top:4px solid var(--theme-accent-2);
+}
+.theme-netherlands .j-attraction-photo{
+ max-height:420px;
+}
+.theme-netherlands .j-attraction-pills span{
+ border-radius:999px;
+ background:#e3f1f3;
+ color:#285b6d;
+}
+.theme-netherlands .j-attraction-pills span:nth-child(even){
+ background:#f8e9df;
+ color:#8a4c2d;
+}
+.theme-netherlands .j-attraction-detail>summary{
+ color:var(--theme-accent-2);
+}
+.theme-netherlands .j-night{
+ border-left:0;
+ border-radius:16px;
+ border:1px solid #d7e7e6;
+ background:#fff8e9;
+}
+
+/* Route map quietly signals where Germany ends and the Netherlands begins. */
+.j-route-germany .j-route-dot{background:#7a2732;border-color:#242628}
+.j-route-germany .j-route-dash{border-left-color:#9b7b7f}
+.j-route-netherlands .j-route-dot{background:#d66f3e;border-color:#2f7891}
+.j-route-netherlands .j-route-dash{border-left-color:#7db8c6}
+.j-route-neutral .j-route-dot{background:#93a3aa;border-color:#4f636d}
+
+@media(max-width:650px){
+ .j-country-theme .j-day{padding:18px}
+ .theme-germany .j-day{padding-left:23px}
+ .theme-germany .j-periods,
+ .theme-netherlands .j-periods{grid-template-columns:1fr}
+ .theme-germany .j-periods>article{border-right:0;border-bottom:1px solid var(--theme-line)}
+ .theme-germany .j-periods>article:last-child{border-bottom:0}
+ .theme-netherlands .j-country-mark{padding-right:70px;align-items:flex-start;flex-direction:column;gap:2px}
+ .theme-netherlands .j-country-mark small{text-align:left}
+ .theme-netherlands .j-day::before{width:52px;right:16px}
+ .theme-netherlands .j-day::after{right:12px}
+}
