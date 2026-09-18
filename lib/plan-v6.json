@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "planRevision": 10,
+  "planRevision": 11,
   "updatedAt": "2026-09-11",
   "days": [
     {
@@ -353,9 +353,9 @@
       "city": "杜塞道夫／Solingen・Müngsten",
       "title": "分組行動｜MEDICA × Schloss Burg＋Müngsten",
       "stay": "杜塞道夫",
-      "morning": "A組｜MEDICA：08:30 從 Rath 出發，10:00 進展場，補訪重點展商與已約會面。B組｜Schloss Burg＋Müngsten：08:45–09:00 從杜塞道夫出發，約 10:15 到 Unterburg，10:30 搭 Seilbahn Burg 上山，先看 Schloss Burg 外觀、山谷與 Oberburg 小鎮。",
-      "afternoon": "A組｜MEDICA：展場午餐後繼續參展，17:00 左右整理名片與追蹤資料。B組｜Schloss Burg＋Müngsten：11:45–13:00 吃 Bergisches Land 地方料理、Bergische Waffel／Kaffeetafel 與 Burger Brezel；13:10 左右搭計程車到 Brückenpark Müngsten，13:30–15:45 看德國最高鐵路橋、Wupper 河谷與森林，走輕鬆版河岸散步。",
-      "evening": "兩組傍晚回杜塞道夫會合、一起晚餐並整理隔天前往鹿特丹的行李。19:30 DEG 主場冰球仍保留為自由選項；B組當天已走戶外行程，不建議為了看球再硬趕。",
+      "morning": "A組 MEDICA：08:30 從 Rath 出發，10:00 進展場，補訪重點展商與已約會面。B組 Schloss Burg＋Müngsten：08:45 左右從杜塞道夫出發，約 10:15 到 Unterburg，10:30 搭 Seilbahn Burg 上山，逛 Oberburg 與 Schloss Burg 周邊。",
+      "afternoon": "A組 MEDICA：展場午餐後繼續參展，17:00 左右整理名片與追蹤資料。B組 Schloss Burg＋Müngsten：11:45–13:00 吃 Bergisches Land 地方料理；13:10 左右搭計程車到 Brückenpark Müngsten，13:30–15:45 沿 Wupper 河谷散步、看 Müngstener Brücke。",
+      "evening": "18:30 左右兩組回杜塞道夫會合，一起晚餐並整理隔天前往鹿特丹的行李。19:30 DEG 主場冰球保留為自由選項。",
       "timeline": [
         [
           "08:30",
@@ -433,21 +433,17 @@
         "B組｜計程車費三人分攤，優先換取時間與體力；Müngsten 本身以戶外河谷散步為主。",
         "自由選項｜冰球票若要看，購買 11/17 19:30 DEG–Starbulls Rosenheim；和 11/15 主場擇一即可。"
       ],
-      "ticketingNote": "11/17 是兩組分開行動。B組的 Schloss Burg／Müngsten 以戶外景觀、美食和輕鬆步行為主；區域大眾運輸請接近日期再用 DB／VRR 查 2026 冬季實際班次。",
+      "ticketingNote": "A、B 兩組分開行動；區域大眾運輸接近日期再用 DB／VRR 查 2026 冬季實際班次。",
       "transport": "A組留在杜塞道夫往返 MEDICA；B組前往 Solingen-Burg 與 Müngsten。兩組傍晚再回杜塞道夫會合，今天不跨國移動。",
       "food": "A組早餐自煮、午餐展場。B組把午餐留給 Schloss Burg 周邊的 Bergisches Land 地方味：優先找 Bergische Kaffeetafel／Waffel mit heißen Kirschen，再吃 Burger Brezel；傍晚兩組回杜塞道夫一起吃晚餐。",
       "alerts": [
         [
           "info",
-          "今天分成兩組行動：A組 MEDICA；B組 Schloss Burg＋Müngsten。晚上再回杜塞道夫會合。"
+          "A組前往 MEDICA；B組前往 Schloss Burg＋Müngsten。18:30 左右回杜塞道夫會合。"
         ],
         [
           "info",
           "Seilbahn Burg 目前星期二 10:00–16:45；11 月遇天候或維修可能臨時調整，當天早上再確認官方更新。"
-        ],
-        [
-          "warn",
-          "B組不要把 Schloss Burg 排成完整博物館行程；重點是纜車、山城景觀、Bergisches Land 美食與 Müngsten 河谷。"
         ]
       ],
       "rain": "A組 MEDICA 照常。B組若雨大：保留纜車與 Schloss Burg 周邊美食，把 Müngsten 河谷散步縮短到 45–60 分鐘；Seilbahn 若因天候停駛，改計程車上山或直接把時間留給 Oberburg 與餐飲。",
@@ -843,28 +839,28 @@
       ],
       "ticketingSteps": [
         "F3、F4、F7 都是 GVB 的 IJ 免費渡輪，行人不需買船票",
-        "A'DAM LOOKOUT 是今天主要付費景點；接近出發前先買約 14:10 的時段票",
-        "Eye Filmmuseum 這天只安排看外觀與河岸，不買館內門票；一般週一展覽休館（學校假期可能例外）",
+        "A'DAM LOOKOUT 約 14:10 入場；接近出發前預約時段票",
+        "Eye Filmmuseum 一般週一展覽休館；行程停留建築外觀與 IJ 河岸",
         "前往 Schiphol 的 NS 火車不包含在 GVB 72 小時票內，可用 OVpay 或另買 NS 車票",
         "20:00 航班以 17:00 抵達 Schiphol 為目標，預留完整 3 小時"
       ],
       "transport": "北區段以免費 IJ 渡輪串接：Pontsteiger → NDSM → Centraal → Buiksloterweg。最後回 Cityden 取行李，再搭大眾運輸或計程車前往 Schiphol；目標 17:00 抵達。",
-      "food": "12:00 在 NDSM Wharf 一帶自由選午餐，下午 Eye／A'DAM 周邊視時間補咖啡；不再安排市中心 Pat’s Poffertjes。",
+      "food": "12:00 在 NDSM Wharf 一帶午餐，下午在 Eye／A'DAM 周邊視時間喝咖啡。",
       "alerts": [
         [
           "info",
-          "Eye Filmmuseum 一般週一展覽休館；這天本來就只安排看建築外觀與 IJ 河岸，不影響行程。"
+          "Eye Filmmuseum 一般週一展覽休館；13:40 左右在建築外觀與 IJpromenade 河岸停留。"
         ],
         [
           "info",
-          "F3、F4、F7 都是 IJ 免費渡輪；出發當天仍請用 GVB App 確認即時班次。"
+          "F3、F4、F7 都是 IJ 免費渡輪；出發當天用 GVB App 確認即時班次。"
         ],
         [
           "warn",
-          "A'DAM LOOKOUT 結束後不要再加景點；16:00 左右離開住宿、17:00 抵 Schiphol，保留完整 3 小時。"
+          "15:10 左右離開 A'DAM LOOKOUT，16:00 左右從住宿出發，17:00 抵達 Schiphol。"
         ]
       ],
-      "rain": "雨勢大時把 NDSM 戶外散步縮短到約 60 分鐘，提早移動到 Buiksloterweg；Eye 只拍外觀，主要時間留給室內電梯與 A'DAM LOOKOUT 觀景體驗。",
+      "rain": "雨勢大時將 NDSM 戶外散步縮短到約 60 分鐘，提早移動到 Buiksloterweg；Eye 以外觀拍照為主，A'DAM LOOKOUT 依原時段入場。",
       "sources": [],
       "ticketingNote": "渡輪與觀景台時段仍以 11/23 當天 GVB／A'DAM 官方資訊為準；如果 NDSM 下雨或逛得較快，可提早往 Eye／A'DAM 移動，但仍維持約 16:00 離開住宿、17:00 到機場。"
     },
@@ -2127,7 +2123,11 @@
     "A'DAM View": "https://commons.wikimedia.org/wiki/Special:Redirect/file/View%20of%20the%20Ij%20river%20in%20Amsterdam%20from%20the%20A'DAM%20lookout%20tower%20in%20September%202026%2C%20facing%20south.jpg?width=2400",
     "Schloss Burg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Schloss%20Burg%2C%20Solingen%20(North%20Rhine-Westphalia).png?width=2400",
     "Seilbahn Burg": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Seilbahn%20Burg.JPG?width=2400",
-    "Müngstener Brücke": "https://commons.wikimedia.org/wiki/Special:Redirect/file/M%C3%BCngstener%20Br%C3%BCcke%20-%20Wupperweg%20zw.%20M%C3%BCngsten%20u.%20Burg%20(1).jpg?width=2400"
+    "Müngstener Brücke": "https://commons.wikimedia.org/wiki/Special:Redirect/file/M%C3%BCngstener%20Br%C3%BCcke%20-%20Wupperweg%20zw.%20M%C3%BCngsten%20u.%20Burg%20(1).jpg?width=2400",
+    "NDSM Sunny": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NDSM%20Wharf%20%40%20Amsterdam%20(18463640396).jpg?width=2400",
+    "Eye Blue Sky": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eye%20filmmuseum%20with%20magnificent%20skies%20at%2011%20Februari%202016%20-%20panoramio.jpg?width=2400",
+    "A'DAM & Eye": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'DAM%20lookout%20and%20Eye%20Film%20Museum%20in%20Amsterdam.jpg?width=2400",
+    "A'DAM Panorama": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A'DAM%20Lookout-07-Panorama%20Southwest.jpg?width=2400"
   },
   "exchangeRates": {
     "TWD": 1,
@@ -2324,10 +2324,10 @@
       "Anne Frank Huis"
     ],
     "23": [
-      "NDSM Wharf",
-      "Eye Filmmuseum",
-      "A'DAM Tower",
-      "A'DAM View"
+      "NDSM Sunny",
+      "Eye Blue Sky",
+      "A'DAM & Eye",
+      "A'DAM Panorama"
     ]
   },
   "landmarks": [
@@ -4707,24 +4707,23 @@
       "id": "ndsm",
       "day": "23",
       "title": "NDSM Wharf・從造船廠到城市實驗場",
-      "summary": "阿姆斯特丹北岸最有反差的一面：巨大的舊造船空間、吊車、碼頭、塗鴉與創意工作室，保留了粗獷工業感。",
+      "summary": "舊造船廠、吊車、碼頭、塗鴉與創意工作室散落在 IJ 河北岸。",
       "aliases": [
         "NDSM",
         "NDSM Wharf"
       ],
       "paragraphs": [
         "歷史與故事",
-        "NDSM 位在 IJ 河北岸，名稱源自 Nederlandsche Dok en Scheepsbouw Maatschappij。這裡曾是荷蘭重要的造船基地之一，大型船塢、廠房與碼頭尺度至今仍清楚可見。造船業衰退後，留下的巨大工業空間沒有被完全抹去，而是逐步被藝術家、設計師、活動與創意產業重新使用。",
+        "NDSM 位在 IJ 河北岸，名稱源自 Nederlandsche Dok en Scheepsbouw Maatschappij。這裡曾是荷蘭重要的造船基地之一，大型船塢、廠房與碼頭尺度至今仍清楚可見。造船業衰退後，舊廠房逐步被藝術家、設計師、活動與創意產業重新使用。",
         "現今樣貌",
-        "今天的 NDSM 最吸引人的地方不是單一景點，而是整個場域的混合感：舊鋼構與新建築並存、戶外藝術貼著工業遺構、河岸旁仍能看到造船時代留下的巨大尺度。即使不進任何館，沿著碼頭走一圈也能感受到和運河老城完全不同的阿姆斯特丹。",
-        "這也是最後一天很好的轉場。前幾天看到的是運河、歷史街區與博物館，NDSM 則把阿姆斯特丹作為港口與工業城市的另一面補上。"
+        "舊鋼構、新建築、戶外藝術與造船遺構混在同一片河岸。從渡輪碼頭往內走，可以看到大型廠房、吊車、塗鴉牆與 IJ 河景。"
       ]
     },
     {
       "id": "eye-noord",
       "day": "23",
       "title": "Eye Filmmuseum・IJ 河畔的白色建築",
-      "summary": "這次不把 Eye 當博物館行程，而是把它當 Amsterdam-Noord 最醒目的當代建築與河岸地標。",
+      "summary": "Eye Filmmuseum 的白色幾何建築坐在 IJ 河邊，從中央車站對岸就能看到。",
       "aliases": [
         "Eye",
         "Eye Filmmuseum",
@@ -4734,15 +4733,15 @@
         "歷史與故事",
         "Eye Filmmuseum 的新館於 2012 年在 IJ 河北岸開幕，由維也納建築團隊 Delugan Meissl Associated Architects 設計。白色量體像被切開、折疊的巨大幾何物，從中央車站對岸就能看到。",
         "現今樣貌",
-        "Eye 所在的 Overhoeks 河岸曾是工業與企業用地，近年逐漸轉型成北區的新城市節點。站在 IJpromenade，可以同時看到渡輪、中央車站、水面與旁邊的 A'DAM Tower。",
-        "11/23 是星期一；Eye 官方目前說明，一般非學校假期的週一展覽休館。這次行程本來就不安排進館，只看建築、河岸與拍照，因此不受影響。"
+        "Eye 所在的 Overhoeks 河岸曾是工業與企業用地，現在是 Amsterdam-Noord 的重要城市節點。站在 IJpromenade，可以同時看到渡輪、Amsterdam Centraal、水面與旁邊的 A'DAM Tower。",
+        "11/23 是星期一；Eye 官方目前列一般非學校假期的週一展覽休館。行程安排在建築外觀與 IJpromenade 河岸停留。"
       ]
     },
     {
       "id": "adam-lookout",
       "day": "23",
       "title": "A'DAM LOOKOUT・從北岸看回整座阿姆斯特丹",
-      "summary": "最後一個付費景點留給高空視角：從接近 100 公尺的塔頂看 IJ 河、中央車站與阿姆斯特丹城市輪廓。",
+      "summary": "從約 100 公尺高的 A'DAM Tower 俯瞰 IJ 河、Amsterdam Centraal 與市中心天際線。",
       "aliases": [
         "A'DAM",
         "A'DAM LOOKOUT",
@@ -4750,10 +4749,10 @@
       ],
       "paragraphs": [
         "歷史與故事",
-        "A'DAM Tower 原本是 1960 年代興建的 Shell 辦公大樓，後來經過大規模改造，成為集合飯店、餐飲、音樂與觀景設施的複合建築。它和旁邊的 Eye 一起，成為 Amsterdam-Noord 河岸轉型後最醒目的天際線組合。",
+        "A'DAM Tower 原本是 1960 年代興建的 Shell 辦公大樓，後來經過大規模改造，成為集合飯店、餐飲、音樂與觀景設施的複合建築。",
         "現今樣貌",
-        "A'DAM LOOKOUT 位在塔頂，可以從北岸回望 Amsterdam Centraal、運河城市與 IJ 河。官方目前每天 10:00–22:00 開放，最後入場 21:00；我們安排約 14:10 上樓，避開太晚離開而壓縮機場時間。",
-        "如果想玩 Over The Edge 高空鞦韆可以現場再決定，不把它當必要項目。這一站的重點是把整趟阿姆斯特丹旅行，用一個高空全景收尾。"
+        "A'DAM LOOKOUT 位在塔頂，可以從北岸回望 Amsterdam Centraal、運河城市與 IJ 河。官方目前每天 10:00–22:00 開放，最後入場 21:00；行程安排約 14:10 上樓、15:10 離開。",
+        "Over The Edge 高空鞦韆可現場再決定是否加購。"
       ]
     },
     {
