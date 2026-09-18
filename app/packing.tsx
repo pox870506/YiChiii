@@ -1,6 +1,22 @@
 'use client';
 import {useMemo,useState} from 'react';
+import {Backpack,Droplets,Package,Pill,Shirt,Smartphone,WalletCards,type LucideIcon} from 'lucide-react';
 import {type Plan} from '@/lib/journey';
+
+const categoryIcons:Record<string,LucideIcon>={
+ '衣物':Shirt,
+ '證件與金錢':WalletCards,
+ '電子用品':Smartphone,
+ '盥洗保養':Droplets,
+ '藥品':Pill,
+ '隨身用品':Backpack,
+ '其他':Package
+};
+
+function PackingIcon({category}:{category:string}){
+ const Icon=categoryIcons[category]||Package;
+ return <span className="j-pack-icon" aria-hidden="true"><Icon size={20} strokeWidth={1.8}/></span>;
+}
 
 export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
  const categories=useMemo(()=>[...new Set(plan.packing.map(x=>x.category))],[plan.packing]);
@@ -45,9 +61,10 @@ export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void})
     const completed=items.filter(x=>x.done).length;
     return <details className="j-card j-pack-group" key={c}>
      <summary>
-      <span className="j-pack-chevron" aria-hidden="true">›</span>
+      <PackingIcon category={c}/>
       <span className="j-pack-title">{c}</span>
       <span className="j-pack-count">{completed}/{items.length}</span>
+      <span className="j-pack-chevron" aria-hidden="true">›</span>
      </summary>
      <div className="j-pack-progress"><progress max={items.length||1} value={completed}/></div>
      <div className="j-pack-items">
