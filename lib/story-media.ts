@@ -156,22 +156,22 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
   commons('Foot of crane at NDSM with graffiti.JPG','NDSM 吊車下方的塗鴉','Mark Ahsmann / Wikimedia Commons','舊工業設施與街頭藝術。'),
   commons('"MAKE ART NOT€" @ NDSM Wharf @ Amsterdam (18302280528).jpg','NDSM Wharf 戶外塗鴉作品','Guilhem Vellut / Wikimedia Commons','NDSM 戶外藝術。'),
   commons('Slipway; crane; NDSM wharf Amsterdam.JPG','NDSM 船台與吊車','Wikimedia Commons','造船廠留下的船台與工業結構。')
- ]
+ ],
  'eye-noord':[
   commons('Eye filmmuseum with magnificent skies at 11 Februari 2016 - panoramio.jpg','藍天下的 Eye Filmmuseum','Henk Monster / Wikimedia Commons','Eye Filmmuseum 與 IJ 河岸。'),
   commons('Amsterdam EYE Filmmuseum.jpg','Eye Filmmuseum 白色幾何外觀','Wikimedia Commons','從河岸看 Eye 建築全貌。'),
   commons('EYE Filmmuseum @ On the Ferry to Amsterdam-Noord @ IJ River @ Amsterdam (16184265745).jpg','從 IJ 渡輪看 Eye Filmmuseum','Guilhem Vellut / Wikimedia Commons','渡輪上的 Eye 河景視角。'),
   commons('Inside the EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (16184704411).jpg','Eye Filmmuseum 室內公共空間','Guilhem Vellut / Wikimedia Commons','Eye 建築內部的階梯與公共空間。')
- ]
+ ],
  'adam-lookout':[
   commons("A'DAM lookout and Eye Film Museum in Amsterdam.jpg","A'DAM Tower 與 Eye Filmmuseum 河岸全景",'Wikimedia Commons','從 IJ 一帶看 Amsterdam-Noord 天際線。'),
   commons("A'DAM Lookout-01-Entry.jpg","A'DAM LOOKOUT 入口",'Muck / Wikimedia Commons','A'DAM Tower 觀景台入口。'),
   commons("A'DAM Lookout-02.jpg","A'DAM LOOKOUT 觀景空間",'Muck / Wikimedia Commons','塔頂觀景區。'),
   commons("A'DAM Lookout-07-Panorama Southwest.jpg","A'DAM LOOKOUT 向西南方的城市全景",'Muck / Wikimedia Commons','Amsterdam Centraal 與市中心方向的高空視野。'),
   commons("A'DAM Lookout-06-Panorama Southeast.jpg","A'DAM LOOKOUT 向東南方的城市全景",'Muck / Wikimedia Commons','IJ 河與阿姆斯特丹東南方向的高空視野。')
- ]
+ ],
  'schloss-burg':[
-  commons('Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 山城與建築全景','Nico Vogel / Wikimedia Commons','這次重點放在山城外觀、河谷位置與周邊氣氛，不特別安排完整館內參觀。'),
+  commons('Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 山城與建築全景','Nico Vogel / Wikimedia Commons','Schloss Burg 建築群位在 Wupper 河谷上方。'),
   commons('Schloss Burg, Solingen.jpg','從遠處看 Schloss Burg 與 Bergisches Land 山坡','Morty / Wikimedia Commons'),
   commons('The buildings of Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 建築群與山城空間','Nico Vogel / Wikimedia Commons'),
   commons('Seilbahn Burg.JPG','Unterburg 往 Schloss Burg 的 Seilbahn Burg 纜車','Morty / Wikimedia Commons'),
