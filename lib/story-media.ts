@@ -152,23 +152,24 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
   local('Anne Frank Huis','安妮之家與王子運河街景')
  ],
  'ndsm':[
-  commons('NDSM Wharf @ Amsterdam (18303885599).jpg','NDSM Wharf 舊造船廠與工業空間','Guilhem Vellut / Wikimedia Commons','舊造船廠留下的巨大尺度，是 Amsterdam-Noord 最有辨識度的景觀之一。'),
-  commons('NDSM Wharf @ Amsterdam (18302413098).jpg','NDSM Wharf 碼頭與工業遺構','Guilhem Vellut / Wikimedia Commons'),
-  commons('NDSM Wharf @ Amsterdam (18303914739).jpg','NDSM Wharf 戶外藝術與造船廠景觀','Guilhem Vellut / Wikimedia Commons'),
-  commons('NDSM Wharf @ Amsterdam (18490221565).jpg','NDSM Wharf 河岸與舊廠房','Guilhem Vellut / Wikimedia Commons')
- ],
+  commons('NDSM Wharf @ Amsterdam (18463640396).jpg','晴天的 NDSM Wharf 舊造船廠','Guilhem Vellut / Wikimedia Commons','NDSM 河岸與舊造船廠全景。'),
+  commons('Foot of crane at NDSM with graffiti.JPG','NDSM 吊車下方的塗鴉','Mark Ahsmann / Wikimedia Commons','舊工業設施與街頭藝術。'),
+  commons('"MAKE ART NOT€" @ NDSM Wharf @ Amsterdam (18302280528).jpg','NDSM Wharf 戶外塗鴉作品','Guilhem Vellut / Wikimedia Commons','NDSM 戶外藝術。'),
+  commons('Slipway; crane; NDSM wharf Amsterdam.JPG','NDSM 船台與吊車','Wikimedia Commons','造船廠留下的船台與工業結構。')
+ ]
  'eye-noord':[
-  commons('Amsterdam EYE Filmmuseum.jpg','IJ 河畔的 Eye Filmmuseum 白色建築','Zairon / Wikimedia Commons','這次不進館，把 Eye 當作北岸建築與河岸景觀來看。'),
-  commons('EYE Filmmuseum @ On the Ferry to Amsterdam-Noord @ IJ River @ Amsterdam (16184265745).jpg','從 IJ 河渡輪望向 Eye Filmmuseum','Guilhem Vellut / Wikimedia Commons'),
-  commons('EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (15999183008).jpg','Eye Filmmuseum 幾何外觀','Guilhem Vellut / Wikimedia Commons'),
-  commons('EYE Film Institute Netherlands, Amsterdam.jpg','Eye Filmmuseum 與 Amsterdam-Noord 河岸','JoachimKohlerBremen / Wikimedia Commons')
- ],
+  commons('Eye filmmuseum with magnificent skies at 11 Februari 2016 - panoramio.jpg','藍天下的 Eye Filmmuseum','Henk Monster / Wikimedia Commons','Eye Filmmuseum 與 IJ 河岸。'),
+  commons('Amsterdam EYE Filmmuseum.jpg','Eye Filmmuseum 白色幾何外觀','Wikimedia Commons','從河岸看 Eye 建築全貌。'),
+  commons('EYE Filmmuseum @ On the Ferry to Amsterdam-Noord @ IJ River @ Amsterdam (16184265745).jpg','從 IJ 渡輪看 Eye Filmmuseum','Guilhem Vellut / Wikimedia Commons','渡輪上的 Eye 河景視角。'),
+  commons('Inside the EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (16184704411).jpg','Eye Filmmuseum 室內公共空間','Guilhem Vellut / Wikimedia Commons','Eye 建築內部的階梯與公共空間。')
+ ]
  'adam-lookout':[
-  commons("A'dam Tower - Amsterdam.jpg","A'DAM Tower 與 Amsterdam-Noord 天際線",'Wikimedia Commons',"A'DAM Tower 是最後一天唯一安排的主要付費景點。"),
-  commons('Amsterdam - A’DAM Toren (30003438510).jpg',"A'DAM Tower 外觀與 IJ 河岸",'Wikimedia Commons'),
-  commons("View from the A'DAM tower.jpg","從 A'DAM Tower 望向 Amsterdam Centraal 與市中心",'APK / Wikimedia Commons'),
-  commons("View of the Ij river in Amsterdam from the A'DAM lookout tower in September 2026, facing south.jpg","2026 年從 A'DAM LOOKOUT 向南俯瞰 IJ 河與阿姆斯特丹",'Alexis Jazz / Wikimedia Commons')
- ],
+  commons("A'DAM lookout and Eye Film Museum in Amsterdam.jpg","A'DAM Tower 與 Eye Filmmuseum 河岸全景",'Wikimedia Commons','從 IJ 一帶看 Amsterdam-Noord 天際線。'),
+  commons("A'DAM Lookout-01-Entry.jpg","A'DAM LOOKOUT 入口",'Muck / Wikimedia Commons','A'DAM Tower 觀景台入口。'),
+  commons("A'DAM Lookout-02.jpg","A'DAM LOOKOUT 觀景空間",'Muck / Wikimedia Commons','塔頂觀景區。'),
+  commons("A'DAM Lookout-07-Panorama Southwest.jpg","A'DAM LOOKOUT 向西南方的城市全景",'Muck / Wikimedia Commons','Amsterdam Centraal 與市中心方向的高空視野。'),
+  commons("A'DAM Lookout-06-Panorama Southeast.jpg","A'DAM LOOKOUT 向東南方的城市全景",'Muck / Wikimedia Commons','IJ 河與阿姆斯特丹東南方向的高空視野。')
+ ]
  'schloss-burg':[
   commons('Schloss Burg, Solingen (North Rhine-Westphalia).png','Schloss Burg 山城與建築全景','Nico Vogel / Wikimedia Commons','這次重點放在山城外觀、河谷位置與周邊氣氛，不特別安排完整館內參觀。'),
   commons('Schloss Burg, Solingen.jpg','從遠處看 Schloss Burg 與 Bergisches Land 山坡','Morty / Wikimedia Commons'),
