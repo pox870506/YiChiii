@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "planRevision": 8,
+  "planRevision": 9,
   "updatedAt": "2026-09-11",
   "days": [
     {
@@ -717,36 +717,60 @@
     {
       "date": "2026-11-23",
       "weekday": "一",
-      "city": "阿姆斯特丹 → 上海",
-      "title": "上午跳蚤市場，下午前往機場",
+      "city": "阿姆斯特丹北區 → 上海",
+      "title": "NDSM 工業河岸、Eye 建築與 A'DAM 高空收尾",
       "stay": "",
-      "morning": "08:30 早餐後退房，行李寄 Cityden 櫃台（24 小時）。09:30 Noordermarkt 週一跳蚤市場（09:00–14:00，二手古著與老件，與週六農夫市集完全不同）。",
-      "afternoon": "12:00 午餐與最後採買。15:00 回住處取行李，15:30 出發，16:30 抵 Schiphol，預留 3.5 小時報到與可能的退稅。",
-      "evening": "5 人同搭 MU772，20:00 AMS → 次日 14:00 PVG。益萁於上海結束；耘欣、靖宜、靖枝、玉穎續轉桃園。",
+      "morning": "09:00 早餐後退房，行李寄 Cityden 櫃台。前往 Pontsteiger，搭免費 F7 渡輪跨越 IJ 河到 NDSM Wharf；上午留給舊造船廠、碼頭、戶外藝術與河岸散步。",
+      "afternoon": "12:00 在 NDSM 一帶午餐。13:00 左右搭 F4 回 Amsterdam Centraal，再轉免費 F3 到 Buiksloterweg；看 Eye Filmmuseum 白色建築與 IJ 河岸，不安排進館。14:10 前後付費登 A'DAM LOOKOUT，約 15:10 離開，回住宿取行李；16:00 左右出發前往 Schiphol，17:00 抵達。",
+      "evening": "17:00 抵達 Schiphol，預留 3 小時辦理報到、托運、安檢與需要時的退稅。5 人同搭 MU772，20:00 AMS → 次日 14:00 PVG；益萁於上海結束，耘欣、靖宜、靖枝、玉穎續轉桃園。",
       "timeline": [
         [
-          "08:30",
+          "09:00",
           "早餐後退房，行李寄 Cityden 櫃台"
         ],
         [
-          "09:30",
-          "Noordermarkt 週一跳蚤市場"
+          "09:25",
+          "前往 Pontsteiger 渡輪碼頭"
+        ],
+        [
+          "10:00",
+          "搭免費 F7：Pontsteiger → NDSM，約 7 分鐘"
+        ],
+        [
+          "10:15",
+          "NDSM Wharf：舊造船廠、碼頭、戶外藝術與 IJ 河岸散步"
         ],
         [
           "12:00",
-          "午餐、最後採買"
+          "NDSM 一帶午餐"
         ],
         [
-          "15:00",
-          "回住處取行李"
+          "13:00",
+          "搭免費 F4：NDSM → Amsterdam Centraal"
         ],
         [
-          "15:30",
-          "出發前往機場"
+          "13:25",
+          "轉免費 F3：Centraal → Buiksloterweg"
         ],
         [
-          "16:30",
-          "抵達 Schiphol，報到、退稅"
+          "13:40",
+          "Eye Filmmuseum 外觀、IJpromenade 河岸拍照；不安排進館"
+        ],
+        [
+          "14:10",
+          "A'DAM LOOKOUT 付費觀景台，從北岸看阿姆斯特丹與 IJ 河"
+        ],
+        [
+          "15:10",
+          "搭 F3 回 Centraal，返回 Cityden 取行李"
+        ],
+        [
+          "16:00",
+          "由住宿出發前往 Schiphol"
+        ],
+        [
+          "17:00",
+          "抵達 Schiphol，報到、托運、安檢／需要時辦退稅"
         ],
         [
           "20:00",
@@ -754,27 +778,39 @@
         ]
       ],
       "transportSteps": [
-        "Cityden → 步行至 De Vlugtlaan 站",
-        "地鐵 50 或 51 往南至 Amsterdam Lelylaan 站",
-        "Lelylaan 換 NS 火車直達 Schiphol，約 7–10 分鐘",
-        "行李多可直接叫大車從住處到機場"
+        "Cityden → 依 GVB 即時路線前往 Pontsteiger 渡輪碼頭",
+        "搭 F7 免費渡輪：Pontsteiger → NDSM，官方約 7 分鐘",
+        "逛完 NDSM 後搭 F4 免費渡輪：NDSM → Amsterdam Centraal",
+        "在 Centraal 轉 F3 免費渡輪：Centraal → Buiksloterweg，步行即可到 Eye 與 A'DAM Tower",
+        "A'DAM LOOKOUT 後搭 F3 回 Centraal，再返回 Cityden 取行李",
+        "Cityden → De Vlugtlaan／Lelylaan → NS 火車到 Schiphol；若拖大行李想省力可改叫大型計程車"
       ],
       "ticketingSteps": [
-        "GVB 72 小時票不能搭去機場的火車",
-        "這段需用 OVpay 感應卡，或在售票機另外買 NS 車票",
-        "退稅在 Schiphol 的 Tax Refund 櫃台辦理，需排隊，時間留足",
-        "退稅需備：未拆封商品、收據、護照、登機證"
+        "F3、F4、F7 都是 GVB 的 IJ 免費渡輪，行人不需買船票",
+        "A'DAM LOOKOUT 是今天主要付費景點；接近出發前先買約 14:10 的時段票",
+        "Eye Filmmuseum 這天只安排看外觀與河岸，不買館內門票；一般週一展覽休館（學校假期可能例外）",
+        "前往 Schiphol 的 NS 火車不包含在 GVB 72 小時票內，可用 OVpay 或另買 NS 車票",
+        "20:00 航班以 17:00 抵達 Schiphol 為目標，預留完整 3 小時"
       ],
-      "transport": "步行、候車、轉乘與行李合計留 45–65 分。",
-      "food": "早餐後在市中心散步，可選 Pat’s Poffertjes Nieuwendijk 小鬆餅；午餐吃飽，機場依需要補充。",
+      "transport": "北區段以免費 IJ 渡輪串接：Pontsteiger → NDSM → Centraal → Buiksloterweg。最後回 Cityden 取行李，再搭大眾運輸或計程車前往 Schiphol；目標 17:00 抵達。",
+      "food": "12:00 在 NDSM Wharf 一帶自由選午餐，下午 Eye／A'DAM 周邊視時間補咖啡；不再安排市中心 Pat’s Poffertjes。",
       "alerts": [
         [
+          "info",
+          "Eye Filmmuseum 一般週一展覽休館；這天本來就只安排看建築外觀與 IJ 河岸，不影響行程。"
+        ],
+        [
+          "info",
+          "F3、F4、F7 都是 IJ 免費渡輪；出發當天仍請用 GVB App 確認即時班次。"
+        ],
+        [
           "warn",
-          "週一 Noordermarkt 是跳蚤市場，不是農夫市集，賣的東西完全不同。"
+          "A'DAM LOOKOUT 結束後不要再加景點；16:00 左右離開住宿、17:00 抵 Schiphol，保留完整 3 小時。"
         ]
       ],
-      "rain": "取行李後直接接地鐵與機場火車；雨大或拖箱不便則改大型計程車。",
-      "sources": []
+      "rain": "雨勢大時把 NDSM 戶外散步縮短到約 60 分鐘，提早移動到 Buiksloterweg；Eye 只拍外觀，主要時間留給室內電梯與 A'DAM LOOKOUT 觀景體驗。",
+      "sources": [],
+      "ticketingNote": "渡輪與觀景台時段仍以 11/23 當天 GVB／A'DAM 官方資訊為準；如果 NDSM 下雨或逛得較快，可提早往 Eye／A'DAM 移動，但仍維持約 16:00 離開住宿、17:00 到機場。"
     },
     {
       "date": "2026-11-24",
@@ -932,6 +968,11 @@
         "name": "DEG 冰球主場（自由選項）",
         "detail": "11/15 17:00 對 Ravensburg Towerstars；11/17 19:30 對 Starbulls Rosenheim。選一場即可，5 人連座可先買票。",
         "url": "https://www.deg-eishockey.de/saison/spielplan/"
+      },
+      {
+        "name": "A'DAM LOOKOUT",
+        "detail": "11/23 約 14:10 付費登觀景台；接近出發前預約時段。結束後直接回住宿取行李，目標 17:00 抵達 Schiphol。",
+        "url": "https://www.adamlookout.com/en/"
       }
     ],
     "apps": [
@@ -2023,7 +2064,11 @@
     "伴手禮・tonys": "/photos/fast-95ade3221466.webp",
     "伴手禮・schuddebuikjes": "/photos/fast-3c360be01c67.webp",
     "伴手禮・old-amsterdam": "/photos/fast-3daf945ec539.webp",
-    "PSD BANK DOME": "/photos/fast-eab5e4613d63.webp"
+    "PSD BANK DOME": "/photos/fast-eab5e4613d63.webp",
+    "NDSM Wharf": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NDSM%20Wharf%20%40%20Amsterdam%20(18303885599).jpg?width=2400",
+    "Eye Filmmuseum": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amsterdam%20EYE%20Filmmuseum.jpg?width=2400",
+    "A'DAM Tower": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amsterdam%20-%20A%E2%80%99DAM%20Toren%20(30003438510).jpg?width=2400",
+    "A'DAM View": "https://commons.wikimedia.org/wiki/Special:Redirect/file/View%20of%20the%20Ij%20river%20in%20Amsterdam%20from%20the%20A'DAM%20lookout%20tower%20in%20September%202026%2C%20facing%20south.jpg?width=2400"
   },
   "exchangeRates": {
     "TWD": 1,
@@ -2046,7 +2091,7 @@
     },
     {
       "name": "Amsterdam → Schiphol Airport",
-      "text": "11/23 阿姆斯特丹 → 史基浦機場。一般 NS 國內車票不用提早搶座位，先確認從住宿到站的接駁及列車時間；保留機場報到時間。"
+      "text": "11/23 Amsterdam-Noord 行程結束後回 Cityden 取行李，約 16:00 出發前往 Schiphol，目標 17:00 抵達、距 20:00 航班約 3 小時。NS 國內車票不用搶座位；GVB 市區票不涵蓋 NS 機場火車。"
     },
     {
       "name": "Rotterdam → Den Haag → Gouda → Rotterdam",
@@ -2218,7 +2263,10 @@
       "Anne Frank Huis"
     ],
     "23": [
-      "荷蘭11月 照片"
+      "NDSM Wharf",
+      "Eye Filmmuseum",
+      "A'DAM Tower",
+      "A'DAM View"
     ]
   },
   "landmarks": [
@@ -4525,21 +4573,6 @@
       ]
     },
     {
-      "id": "noorder-mon",
-      "day": "23",
-      "title": "北市場・週一跳蚤市場",
-      "summary": "古著、舊書與布料，把最後一個早晨留給尋寶。",
-      "aliases": [
-        "Noordermarkt"
-      ],
-      "paragraphs": [
-        "週一晨間限定的快閃節奏：與週六熱鬧飄香的有機農夫市集截然不同，跳蚤市場嚴格限定在「週一上午」（約 09:00 至 13:00／14:00）。午後攤商便陸續打烊收攤，短暫的開放時間讓這裡避開了龐大的常規旅行團，多是在地尋寶客、服裝設計師、造型師與資深古著愛好者穿梭其間。",
-        "北市場古著與西街布料的雙重動線：市集在動線上自然分成兩大區塊——環繞著北教堂的「北市場」以高品質古著服飾（歐洲軍裝夾克、羊毛大衣、復古絲巾、老皮鞋）、古董銀飾、舊相機、黑膠唱片與二手家具為主；從廣場延伸出去的「西街（Westerstraat）」則依然擺滿了整卷的棉麻布、蕾絲、皮革邊料、鈕扣與各類手工縫紉配件。",
-        "未經精修的原汁淘寶樂趣：這裡少有觀光紀念品，攤主大多隨性地將舊書籍、老海報、古董瓷器與飾品堆在紙箱或折疊木桌上，保留了傳統跳蚤市場「翻箱倒櫃」的粗糙尋寶感，價格也比運河區的精品古董店親民許多，且保有小幅度的議價空間。",
-        "早午餐與咖啡的收尾日常：上午 11 點過後，淘完寶的人潮會自然流向廣場邊緣的露天座。無論是到 Winkel 43 點一塊溫熱厚實的荷式蘋果派配黑咖啡，還是鑽進轉角百年歷史的運河棕色咖啡館（Bruin Café）喝杯啤酒，已成為感受約丹區最純粹、最從容的週一晨間在地日常。"
-      ]
-    },
-    {
       "id": "albert",
       "day": "20",
       "title": "Albert Cuyp 亞伯特市場",
@@ -4607,6 +4640,59 @@
       "paragraphs": [
         "Albert Heijn 是荷蘭常見的連鎖超市。挑選鄰近住宿的分店即可，不需要特地追求「最大間」。鹿特丹抵達日可買早餐、水果、麵包與晚餐食材。",
         "搭配網站的超市與伴手禮分頁看包裝認商品；自助結帳時先確認付款方式，買完保留收據，部分出口需掃描收據條碼。"
+      ]
+    },
+    {
+      "id": "ndsm",
+      "day": "23",
+      "title": "NDSM Wharf・從造船廠到城市實驗場",
+      "summary": "阿姆斯特丹北岸最有反差的一面：巨大的舊造船空間、吊車、碼頭、塗鴉與創意工作室，保留了粗獷工業感。",
+      "aliases": [
+        "NDSM",
+        "NDSM Wharf"
+      ],
+      "paragraphs": [
+        "歷史與故事",
+        "NDSM 位在 IJ 河北岸，名稱源自 Nederlandsche Dok en Scheepsbouw Maatschappij。這裡曾是荷蘭重要的造船基地之一，大型船塢、廠房與碼頭尺度至今仍清楚可見。造船業衰退後，留下的巨大工業空間沒有被完全抹去，而是逐步被藝術家、設計師、活動與創意產業重新使用。",
+        "現今樣貌",
+        "今天的 NDSM 最吸引人的地方不是單一景點，而是整個場域的混合感：舊鋼構與新建築並存、戶外藝術貼著工業遺構、河岸旁仍能看到造船時代留下的巨大尺度。即使不進任何館，沿著碼頭走一圈也能感受到和運河老城完全不同的阿姆斯特丹。",
+        "這也是最後一天很好的轉場。前幾天看到的是運河、歷史街區與博物館，NDSM 則把阿姆斯特丹作為港口與工業城市的另一面補上。"
+      ]
+    },
+    {
+      "id": "eye-noord",
+      "day": "23",
+      "title": "Eye Filmmuseum・IJ 河畔的白色建築",
+      "summary": "這次不把 Eye 當博物館行程，而是把它當 Amsterdam-Noord 最醒目的當代建築與河岸地標。",
+      "aliases": [
+        "Eye",
+        "Eye Filmmuseum",
+        "EYE"
+      ],
+      "paragraphs": [
+        "歷史與故事",
+        "Eye Filmmuseum 的新館於 2012 年在 IJ 河北岸開幕，由維也納建築團隊 Delugan Meissl Associated Architects 設計。白色量體像被切開、折疊的巨大幾何物，從中央車站對岸就能看到。",
+        "現今樣貌",
+        "Eye 所在的 Overhoeks 河岸曾是工業與企業用地，近年逐漸轉型成北區的新城市節點。站在 IJpromenade，可以同時看到渡輪、中央車站、水面與旁邊的 A'DAM Tower。",
+        "11/23 是星期一；Eye 官方目前說明，一般非學校假期的週一展覽休館。這次行程本來就不安排進館，只看建築、河岸與拍照，因此不受影響。"
+      ]
+    },
+    {
+      "id": "adam-lookout",
+      "day": "23",
+      "title": "A'DAM LOOKOUT・從北岸看回整座阿姆斯特丹",
+      "summary": "最後一個付費景點留給高空視角：從接近 100 公尺的塔頂看 IJ 河、中央車站與阿姆斯特丹城市輪廓。",
+      "aliases": [
+        "A'DAM",
+        "A'DAM LOOKOUT",
+        "A'DAM Tower"
+      ],
+      "paragraphs": [
+        "歷史與故事",
+        "A'DAM Tower 原本是 1960 年代興建的 Shell 辦公大樓，後來經過大規模改造，成為集合飯店、餐飲、音樂與觀景設施的複合建築。它和旁邊的 Eye 一起，成為 Amsterdam-Noord 河岸轉型後最醒目的天際線組合。",
+        "現今樣貌",
+        "A'DAM LOOKOUT 位在塔頂，可以從北岸回望 Amsterdam Centraal、運河城市與 IJ 河。官方目前每天 10:00–22:00 開放，最後入場 21:00；我們安排約 14:10 上樓，避開太晚離開而壓縮機場時間。",
+        "如果想玩 Over The Edge 高空鞦韆可以現場再決定，不把它當必要項目。這一站的重點是把整趟阿姆斯特丹旅行，用一個高空全景收尾。"
       ]
     }
   ],
