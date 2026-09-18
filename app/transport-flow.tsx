@@ -1,4 +1,5 @@
 type TransportFlowProps={
+ title?:string;
  transport:string;
  transportSteps?:string[];
  ticketingSteps?:string[];
@@ -50,9 +51,9 @@ function FlowList({items,kind}:{items:string[];kind:'transport'|'ticket'}){
  </ol>;
 }
 
-export default function TransportFlow({transport,transportSteps=[],ticketingSteps=[],ticketingNote}:TransportFlowProps){
+export default function TransportFlow({title='🚆 交通與購票',transport,transportSteps=[],ticketingSteps=[],ticketingNote}:TransportFlowProps){
  return <details className="j-card j-transport-card">
-  <summary>🚆 交通與購票</summary>
+  <summary>{title}</summary>
   {transport&&<p className="j-transport-summary">{transport}</p>}
 
   {transportSteps.length>0&&<section className="j-flow-section" aria-label="交通流程">
