@@ -1,21 +1,19 @@
 'use client';
 import {useMemo,useState} from 'react';
-import {Backpack,Droplets,Package,Pill,Shirt,Smartphone,WalletCards,type LucideIcon} from 'lucide-react';
 import {type Plan} from '@/lib/journey';
 
-const categoryIcons:Record<string,LucideIcon>={
- '衣物':Shirt,
- '證件與金錢':WalletCards,
- '電子用品':Smartphone,
- '盥洗保養':Droplets,
- '藥品':Pill,
- '隨身用品':Backpack,
- '其他':Package
+const categoryIcons:Record<string,string>={
+ '衣物':'👕',
+ '證件與金錢':'🪪',
+ '電子用品':'🔌',
+ '盥洗保養':'🧴',
+ '藥品':'💊',
+ '隨身用品':'🎒',
+ '其他':'📦'
 };
 
 function PackingIcon({category}:{category:string}){
- const Icon=categoryIcons[category]||Package;
- return <span className="j-pack-icon" aria-hidden="true"><Icon size={20} strokeWidth={1.8}/></span>;
+ return <span className="j-pack-icon" aria-hidden="true">{categoryIcons[category]||'🧳'}</span>;
 }
 
 export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
@@ -27,7 +25,7 @@ export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void})
 
  return <section>
   <p className="j-kicker">PACK LIGHT, TRAVEL WELL</p>
-  <h2>行李</h2>
+  <h2>🧳 行李</h2>
   <div className="j-pack-summary">
    <div><strong>{done}／{plan.packing.length}</strong><span> 件已準備</span></div>
    <progress max={plan.packing.length||1} value={done}/>
