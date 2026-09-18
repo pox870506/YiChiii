@@ -53,7 +53,7 @@ export default function PlaceStories({plan,date,city}:{plan:Plan;date:string;cit
  if(!stories.length&&!extras.length&&date!=='2026-11-21')return null;
 
  return <details className="j-card j-stories" aria-label={city+'故事與歷史'}>
-  <summary>故事與歷史</summary>
+  <summary>📖 故事與歷史</summary>
   <div className="j-stories-content">
    {stories.map(s=>{
     const media=storyMedia[s.id]?.length?storyMedia[s.id]:fallbackMedia(plan,day,s.title);
