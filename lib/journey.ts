@@ -20,7 +20,7 @@ export function parsePlan(value:unknown):Plan{
  const dates=initialPlan.days.map(d=>d.date);
  if(!value.days.every((d,i)=>record(d)&&d.date===dates[i]&&['weekday','city','title','stay','morning','afternoon','evening','transport','food','rain'].every(k=>string(d[k]))&&(d.ticketingNote===undefined||string(d.ticketingNote))))throw Error('請保留 14 天日期與行程文字');
  if(!Object.values(value.notes).every(string))throw Error('備註必須是文字');
- if(value.schemaVersion!==2||![6,7,8,9,10].includes(Number(value.planRevision)))throw Error('請先匯出目前版本 JSON 再修改與匯入');
+ if(value.schemaVersion!==2||![6,7,8,9,10,11].includes(Number(value.planRevision)))throw Error('請先匯出目前版本 JSON 再修改與匯入');
  if(!Number.isInteger(value.people)||Number(value.people)<1||Number(value.people)>100)throw Error('分攤人數需為 1–100');
  if(!rows(value.expenses,e=>['id','date','category','detail','currency','payer','note','status'].every(k=>string(e[k]))&&typeof e.amount==='number'&&Number.isFinite(e.amount)&&e.amount>=0&&e.amount<=1e9&&typeof e.rate==='number'&&Number.isFinite(e.rate)&&e.rate>0&&e.rate<=1e6))throw Error('帳目金額或欄位不正確');
  if(!rows(value.packing,e=>['id','category','name'].every(k=>string(e[k]))&&typeof e.done==='boolean'))throw Error('行李清單格式不正確');
@@ -55,6 +55,12 @@ export function parsePlan(value:unknown):Plan{
   safe.days=safe.days.map(d=>d.date==='2026-11-17'?structuredClone(splitDay):d);
   safe.stories=[...safe.stories.filter(s=>s.day!=='17'),...structuredClone(initialPlan.stories.filter(s=>s.day==='17'))];
   safe.planRevision=10;
+ }
+ if(Number(value.planRevision)<11){
+  const refreshDates=new Set(['2026-11-17','2026-11-23']);
+  safe.days=safe.days.map(d=>refreshDates.has(d.date)?structuredClone(initialPlan.days.find(seed=>seed.date===d.date)!):d);
+  safe.stories=[...safe.stories.filter(s=>s.day!=='23'),...structuredClone(initialPlan.stories.filter(s=>s.day==='23'))];
+  safe.planRevision=11;
  }
  safe.exchangeRates={TWD:1,EUR:36.75,USD:31.65,CNY:4.72};
  if(Number(value.planRevision)<8){const seedIds=new Set(['stay-0','stay-1','stay-2']);safe.expenses=[...structuredClone(initialPlan.expenses),...safe.expenses.filter(e=>!seedIds.has(e.id))];}
