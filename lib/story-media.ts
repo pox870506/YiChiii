@@ -152,13 +152,13 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
   local('Anne Frank Huis','安妮之家與王子運河街景')
  ],
  'ndsm':[
-  commons('NDSM Wharf @ Amsterdam (18463640396).jpg','晴天的 NDSM Wharf 舊造船廠','Guilhem Vellut / Wikimedia Commons','NDSM 河岸與舊造船廠全景。'),
+  commons('NDSM Wharf @ Amsterdam (18302338988).jpg','NDSM Wharf 舊造船廠廣場','Guilhem Vellut / Wikimedia Commons','NDSM 廣場與工業建築。'),
   commons('Foot of crane at NDSM with graffiti.JPG','NDSM 吊車下方的塗鴉','Mark Ahsmann / Wikimedia Commons','舊工業設施與街頭藝術。'),
   commons('"MAKE ART NOT€" @ NDSM Wharf @ Amsterdam (18302280528).jpg','NDSM Wharf 戶外塗鴉作品','Guilhem Vellut / Wikimedia Commons','NDSM 戶外藝術。'),
   commons('Slipway; crane; NDSM wharf Amsterdam.JPG','NDSM 船台與吊車','Wikimedia Commons','造船廠留下的船台與工業結構。')
  ],
  'eye-noord':[
-  commons('Eye filmmuseum with magnificent skies at 11 Februari 2016 - panoramio.jpg','藍天下的 Eye Filmmuseum','Henk Monster / Wikimedia Commons','Eye Filmmuseum 與 IJ 河岸。'),
+  commons('EYE Filmmuseum @ Amsterdam (22563494720).jpg','Eye Filmmuseum 河岸側外觀','Guilhem Vellut / Wikimedia Commons','從 IJ 河岸看 Eye Filmmuseum。'),
   commons('Amsterdam EYE Filmmuseum.jpg','Eye Filmmuseum 白色幾何外觀','Wikimedia Commons','從河岸看 Eye 建築全貌。'),
   commons('EYE Filmmuseum @ On the Ferry to Amsterdam-Noord @ IJ River @ Amsterdam (16184265745).jpg','從 IJ 渡輪看 Eye Filmmuseum','Guilhem Vellut / Wikimedia Commons','渡輪上的 Eye 河景視角。'),
   commons('Inside the EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (16184704411).jpg','Eye Filmmuseum 室內公共空間','Guilhem Vellut / Wikimedia Commons','Eye 建築內部的階梯與公共空間。')
