@@ -11,3 +11,35 @@
 
 .j-stories:not([open])>.j-stories-content{display:none}.j-stories>summary{font-size:1.3rem}.j-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.j-shopping-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.j-shopping-filters button{font-size:1rem}.j-shopping{margin-top:28px}
 .j-shopping-countries{display:grid;grid-template-columns:1fr 1fr}.j-shopping-countries button{font-size:1.2rem;min-height:60px}.j-shopping-count{color:#47647a;font-size:1rem}.j-shopping .j-gift{margin:0;align-self:start}.j-shopping .j-gift .j-image-button img{height:360px;max-height:none;object-fit:contain}.j-shopping .j-kicker{font-size:14px;letter-spacing:0;color:#526e86}.j-shopping-tips{border-top:1px solid #dce2e5;margin-top:16px;padding-top:8px}.j-shopping-tips ul{margin:0;padding-bottom:8px}.j-shopping-tips:not([open])>ul{display:none}@media(max-width:650px){.j-shopping .j-gift .j-image-button img{height:390px}.j-shopping-countries button{padding:10px 6px;font-size:1.1rem}}
+
+/* Route overview inspired by a compact travel field-note timeline. */
+.j-route-card{background:#fff;border:1px solid #dbe4e9;border-radius:22px;padding:20px 22px 16px;box-shadow:0 10px 30px rgba(36,58,69,.06);margin:0 0 22px}
+.j-route-head{display:flex;align-items:center;gap:10px;border-bottom:1px solid #e6ecef;padding-bottom:12px;margin-bottom:10px}
+.j-route-head>span{color:#4e9bc2;font-size:23px}.j-route-head h3{margin:0;font-size:20px}
+.j-route-line{display:flex;flex-direction:column}.j-route-stop{display:grid;grid-template-columns:26px minmax(0,1fr);gap:8px;min-height:72px}
+.j-route-marker{position:relative;display:flex;justify-content:center}.j-route-dot{width:13px;height:13px;border-radius:50%;background:#58a5cf;border:2px solid #244c6c;margin-top:13px;z-index:1}
+.j-route-dash{position:absolute;top:26px;bottom:-3px;border-left:2px dashed #63a6ca}
+.j-route-copy{padding:2px 0 8px}.journey .j-route-place{width:100%;padding:6px 0;border:0;background:transparent;display:flex;justify-content:space-between;align-items:center;gap:16px;text-align:left;min-height:auto}
+.j-route-place strong{font-size:18px;color:#223b50}.j-route-place time{font-size:14px;color:#80909c;white-space:nowrap}.journey .j-route-place:hover{background:transparent;color:var(--navy)}
+.j-route-move{font-size:13px;color:#7a8a95;margin:0 0 0 9px!important;display:flex;gap:7px;align-items:flex-start}.j-route-foot{margin:8px 0 0!important;text-align:center;font-size:12px;color:#80909c}
+
+/* Collapsible packing categories. */
+.j-pack-summary{display:grid;gap:8px;margin:0 0 18px}.j-pack-summary strong{font-size:24px;color:#183d5d}.j-pack-summary span{color:var(--muted)}
+.j-pack-groups{display:grid;gap:12px}.j-pack-group{margin:0}.j-pack-group>summary{list-style:none;display:flex;align-items:center;gap:10px;margin:0!important}
+.j-pack-group>summary::-webkit-details-marker{display:none}.j-pack-chevron{font-size:25px;color:#4f8fb5;transition:transform .18s ease;line-height:1}.j-pack-group[open] .j-pack-chevron{transform:rotate(90deg)}
+.j-pack-title{flex:1;font-size:17px}.j-pack-count{font-size:13px;color:#67808f;background:#edf5f8;border-radius:999px;padding:3px 9px}
+.j-pack-progress{padding:4px 0 10px}.j-pack-progress progress{height:7px}.j-pack-items{border-top:1px solid #edf0f2;padding-top:4px}
+
+/* Attraction cards live inside the daily flow. */
+.j-attractions{margin:22px 0}.j-attractions-heading{display:flex;align-items:center;gap:9px;padding:9px 12px;background:#eef7fb;border-left:4px solid #5fa7ca;border-radius:0 10px 10px 0;margin-bottom:12px}.j-attractions-heading h3{margin:0;font-size:19px}
+.j-attraction-card{background:#fff;border:1px solid #dbe3e8;border-radius:18px;overflow:hidden;margin:14px 0;box-shadow:0 7px 22px rgba(36,58,69,.05)}
+.j-attraction-photo{display:block;width:100%;max-height:390px;object-fit:cover;background:#eff2f3}.j-attraction-main{padding:18px 20px 13px}.j-attraction-main h4{font-size:20px;color:#253d50;margin:0 0 3px}.j-attraction-sub{font-size:14px;color:#75858f;margin:0!important}
+.j-attraction-pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.j-attraction-pills span{display:inline-flex;align-items:center;max-width:100%;font-size:12px;line-height:1.5;padding:5px 10px;border-radius:999px;background:#dff1f7;color:#315c70;overflow-wrap:anywhere}
+.j-attraction-detail{border-top:1px solid #e6ecef}.j-attraction-detail>summary{list-style:none;padding:13px 20px;color:#457995;font-size:14px;display:flex;justify-content:space-between;align-items:center;margin:0!important}.j-attraction-detail>summary::-webkit-details-marker{display:none}.j-attraction-detail>summary span{transition:transform .18s ease}.j-attraction-detail[open]>summary span{transform:rotate(180deg)}
+.j-attraction-story{padding:1px 20px 18px;max-width:78ch}.j-attraction-story p{line-height:1.95}.j-attraction-story h5{font-size:16px;color:#244c60;margin:18px 0 4px}
+
+@media(max-width:650px){
+ .j-route-card{padding:16px 15px 14px;border-radius:18px}.j-route-place strong{font-size:17px}.j-route-place time{font-size:13px}.j-route-stop{grid-template-columns:24px minmax(0,1fr)}
+ .j-attraction-photo{max-height:300px}.j-attraction-main{padding:16px}.j-attraction-detail>summary{padding:13px 16px}.j-attraction-story{padding:1px 16px 16px}
+ .j-attraction-pills span{font-size:11px}
+}
