@@ -2,22 +2,42 @@
 import {useMemo,useState} from 'react';
 import {type Plan} from '@/lib/journey';
 
-const categoryIcons:Record<string,string>={
+const preferredCategoryIcons:Record<string,string>={
+ '證件與錢':'🛂',
+ '電子與充電':'🔋',
  '衣物':'👕',
- '證件與金錢':'🪪',
- '電子用品':'🔌',
- '盥洗保養':'🧴',
+ '盥洗與保養':'🧴',
  '藥品':'💊',
+ '展會用品':'🗂️',
+ '生活雜項':'🧺',
+ '證件與金錢':'🪪',
+ '電子用品':'💻',
+ '盥洗保養':'🪥',
  '隨身用品':'🎒',
  '其他':'📦'
 };
+const fallbackCategoryIcons=['🧢','🧣','🕶️','📓','🧷','🧼','🔦','🧵','🎫','🥤','🧻','🪄'];
 
-function PackingIcon({category}:{category:string}){
- return <span className="j-pack-icon" aria-hidden="true">{categoryIcons[category]||'🧳'}</span>;
+function buildCategoryIconMap(categories:string[]){
+ const used=new Set<string>();
+ const map:Record<string,string>={};
+ categories.forEach((category,index)=>{
+  const preferred=preferredCategoryIcons[category];
+  let icon=preferred&&!used.has(preferred)?preferred:undefined;
+  if(!icon)icon=fallbackCategoryIcons.find(candidate=>!used.has(candidate))||fallbackCategoryIcons[index%fallbackCategoryIcons.length];
+  map[category]=icon;
+  used.add(icon);
+ });
+ return map;
+}
+
+function PackingIcon({icon}:{icon:string}){
+ return <span className="j-pack-icon" aria-hidden="true">{icon}</span>;
 }
 
 export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
  const categories=useMemo(()=>[...new Set(plan.packing.map(x=>x.category))],[plan.packing]);
+ const categoryIconMap=useMemo(()=>buildCategoryIconMap(categories),[categories]);
  const [category,setCategory]=useState(categories[0]||'衣物');
  const [name,setName]=useState('');
  const [removed,setRemoved]=useState<Plan['packing'][number]|null>(null);
@@ -59,7 +79,7 @@ export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void})
     const completed=items.filter(x=>x.done).length;
     return <details className="j-card j-pack-group" key={c}>
      <summary>
-      <PackingIcon category={c}/>
+      <PackingIcon icon={categoryIconMap[c]}/>
       <span className="j-pack-title">{c}</span>
       <span className="j-pack-count">{completed}/{items.length}</span>
       <span className="j-pack-chevron" aria-hidden="true">›</span>
