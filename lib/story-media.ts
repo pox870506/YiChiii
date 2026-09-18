@@ -151,11 +151,23 @@ export const storyMedia:Record<string,StoryMediaItem[]>={
   commons('Anne Frank House, Amsterdam.JPG','從西南側看安妮之家','Supercarwaar / Wikimedia Commons'),
   local('Anne Frank Huis','安妮之家與王子運河街景')
  ],
- 'noorder-mon':[
-  commons('Noordermarkt foto 1.JPG','阿姆斯特丹 Noordermarkt','Alf van Beem / Wikimedia Commons','週一的廣場轉為跳蚤市場，和週六農夫市集的氣氛不同。'),
-  commons('Noordermarkt 1.jpg','Noordermarkt 周邊歷史建築','Marion Golsteijn / Wikimedia Commons'),
-  commons('Noorderkerk, Noordermarkt.JPG','Noordermarkt 與 Noorderkerk','Alf van Beem / Wikimedia Commons'),
-  commons('Noordermarkt foto11.JPG','Noordermarkt 市集場景','Alf van Beem / Wikimedia Commons')
+ 'ndsm':[
+  commons('NDSM Wharf @ Amsterdam (18303885599).jpg','NDSM Wharf 舊造船廠與工業空間','Guilhem Vellut / Wikimedia Commons','舊造船廠留下的巨大尺度，是 Amsterdam-Noord 最有辨識度的景觀之一。'),
+  commons('NDSM Wharf @ Amsterdam (18302413098).jpg','NDSM Wharf 碼頭與工業遺構','Guilhem Vellut / Wikimedia Commons'),
+  commons('NDSM Wharf @ Amsterdam (18303914739).jpg','NDSM Wharf 戶外藝術與造船廠景觀','Guilhem Vellut / Wikimedia Commons'),
+  commons('NDSM Wharf @ Amsterdam (18490221565).jpg','NDSM Wharf 河岸與舊廠房','Guilhem Vellut / Wikimedia Commons')
+ ],
+ 'eye-noord':[
+  commons('Amsterdam EYE Filmmuseum.jpg','IJ 河畔的 Eye Filmmuseum 白色建築','Zairon / Wikimedia Commons','這次不進館，把 Eye 當作北岸建築與河岸景觀來看。'),
+  commons('EYE Filmmuseum @ On the Ferry to Amsterdam-Noord @ IJ River @ Amsterdam (16184265745).jpg','從 IJ 河渡輪望向 Eye Filmmuseum','Guilhem Vellut / Wikimedia Commons'),
+  commons('EYE Filmmuseum @ Amsterdam-Noord @ Amsterdam (15999183008).jpg','Eye Filmmuseum 幾何外觀','Guilhem Vellut / Wikimedia Commons'),
+  commons('EYE Film Institute Netherlands, Amsterdam.jpg','Eye Filmmuseum 與 Amsterdam-Noord 河岸','JoachimKohlerBremen / Wikimedia Commons')
+ ],
+ 'adam-lookout':[
+  commons("A'dam Tower - Amsterdam.jpg","A'DAM Tower 與 Amsterdam-Noord 天際線",'Wikimedia Commons',"A'DAM Tower 是最後一天唯一安排的主要付費景點。"),
+  commons('Amsterdam - A’DAM Toren (30003438510).jpg',"A'DAM Tower 外觀與 IJ 河岸",'Wikimedia Commons'),
+  commons("View from the A'DAM tower.jpg","從 A'DAM Tower 望向 Amsterdam Centraal 與市中心",'APK / Wikimedia Commons'),
+  commons("View of the Ij river in Amsterdam from the A'DAM lookout tower in September 2026, facing south.jpg","2026 年從 A'DAM LOOKOUT 向南俯瞰 IJ 河與阿姆斯特丹",'Alexis Jazz / Wikimedia Commons')
  ]
 };
 
