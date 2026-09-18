@@ -1,0 +1,12 @@
+from pathlib import Path
+p=Path('app/page.tsx');s=p.read_text(encoding='utf-8')
+s=s.replace("import {initialDraft,","import Budget from './budget';\nimport {budgetItems,budgetAssumptions,lodgingQuotes,estimateBudget} from '@/lib/budget';\nimport {migrateDraft,initialDraft,")
+s=s.replace("setDraft(saved);setMessage('已載入本機暫存');","const migrated=migrateDraft(saved);if(migrated!==saved){localStorage.setItem(KEY+'-before-revision-2',raw);localStorage.setItem(KEY,JSON.stringify(migrated));}setDraft(migrated);setMessage(migrated!==saved?'已更新住宿與自煮行程，保留個人備註；舊版已在本機備份。':'已載入本機暫存');")
+s=s.replace('update(data);','update(migrateDraft(data));').replace('reference:{flights,assumptions,sources}','reference:{flights,assumptions,sources,budgetItems,budgetAssumptions,lodgingQuotes,budget:estimateBudget()}')
+s=s.replace('<TabsTrigger value="sources">','<TabsTrigger value="budget">每人預算</TabsTrigger><TabsTrigger value="sources">',1)
+s=s.replace('<TabsContent value="sources">','<TabsContent value="budget"><Budget/></TabsContent><TabsContent value="sources">',1)
+s=s.replace('`今晚城市：${day.stay} · 住宿待填`','`今晚：${draft.stays.find(s=>s.city===day.stay)?.name||day.stay}`')
+s=s.replace('住宿留白，確認後再填','住宿資料與共編').replace('所有住宿目前空白。','三段歐洲住宿已登記，仍需確認稅費、廚具與鹿特丹正式門牌。')
+s=s.replace('reference 是背景資料，航班分組以本頁最新設定為準。','reference 是背景資料，航班與費用以本頁主資料為準；修改住宿文字不會自動改動報價與預算。')
+p.write_text(s,encoding='utf-8')
+p=Path('tsconfig.json');s=p.read_text(encoding='utf-8').replace('"noEmit": true,','"noEmit": true,\n    "allowImportingTsExtensions": true,');p.write_text(s,encoding='utf-8')

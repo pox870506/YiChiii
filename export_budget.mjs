@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+import {budgetMarkdown,estimateBudget} from './lib/budget.ts';
+const b=estimateBudget();const n=x=>Math.round(x).toLocaleString('zh-TW');
+const text=['德國・荷蘭旅遊費用估算單','2026/11/13–11/23｜11 天 10 晚｜4 位成人','估算製作基準：2026/09/09','',budgetMarkdown().replace(/^#+ /gm,'').replace(/^- /gm,'・'),'','住宿資料','11/13–17：2 Raum City-Apartment 5min zum HBF Grupello-2，4 晚 42,521 元。','11/17–20：鹿特丹 Airbnb，Speeltuin Sint-Jacobsplaats 附近，正式房源名稱待補，3 晚 25,307 元。','11/20–23：Amsterdam ID Aparthotel，Booking.com，3 晚 27,937 元。','上述金額按全組 4 人合計，未核對訂單稅費、清潔費與服務費是否已含。','','餐食敏感度','暫依早餐與多數晚餐自己煮、午餐外食計算。','若其實是午晚餐都外食，8 餐自煮晚餐改外食，每人另外抓約 NT$3,000–6,100。','','參訪與科隆','11/14 科隆：半日／一日二選一。來回車費已含，一日版額外博物館由選配門票預算支應。','11/18 Humanitas Bergweg、11/20 Het AMSTELhuis：待取得同意，尚未聯繫、未預約；交通已含市區估算，參訪費與翻譯另計。','Het AMSTELhuis 是高齡者自主居住住宅；Humanitas Bergweg 是護理照護機構。','','價格及位置來源','台銀匯率：https://rate.bot.com.tw/xrt/quote/ltm/EUR?Lang=en-US','Rijksmuseum：https://www.rijksmuseum.nl/en/visit/practical-info/opening-hours-and-prices','Mauritshuis：https://www.mauritshuis.nl/en/visit','安妮之家：https://www.annefrank.org/en/museum/tickets/','MEDICA 票種與售票：https://www.medica-tradefair.com/en/Visit/Preparation/Tickets_vouchers','ID Aparthotel：https://www.amsterdamidaparthotel.com/about-us','Humanitas Bergweg：https://www.stichtinghumanitas.nl/locaties/bergweg','Het AMSTELhuis：https://hetamstelhuis.nl/'].join('\r\n');
+fs.writeFileSync('exports/德荷旅遊_每人費用估算.txt','\ufeff'+text,'utf8');
+console.log('TXT saved; lodging total 95,765 / 4 = 23,941.25; full group budget '+n(b.recommendedLow*4)+'–'+n(b.recommendedHigh*4));
+
+fs.mkdirSync('public',{recursive:true});fs.copyFileSync('exports/德荷旅遊_每人費用估算.txt','public/travel-budget.txt');

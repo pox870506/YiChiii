@@ -1,0 +1,4634 @@
+{
+  "schemaVersion": 2,
+  "planRevision": 8,
+  "updatedAt": "2026-09-11",
+  "days": [
+    {
+      "date": "2026-11-12",
+      "weekday": "四",
+      "city": "台北松山 → 上海",
+      "title": "四位旅伴從台灣出發，晚上在浦東會合",
+      "stay": "",
+      "morning": "旅伴共 5 人：益萁、耘欣、靖宜、靖枝、玉穎。耘欣、靖宜、靖枝、玉穎從台灣出發，益萁在上海加入。",
+      "afternoon": "四位旅伴搭 MU5098，17:15 台北松山 TSA → 18:50 上海虹橋 SHA。",
+      "evening": "四位旅伴領行李、出關，跨機場前往浦東 PVG 與益萁會合，五人同搭 11/13 00:45 MU219。兩段起降間隔 5 小時 55 分，含入境、換機場與再次報到。",
+      "timeline": [
+        [
+          "17:15",
+          "MU5098 松山 TSA 起飛"
+        ],
+        [
+          "18:50",
+          "抵達上海虹橋 SHA，領行李、出關"
+        ],
+        [
+          "19:30",
+          "轉往浦東機場 PVG"
+        ],
+        [
+          "22:00",
+          "目標時間：抵達浦東，五人會合"
+        ]
+      ],
+      "transportSteps": [
+        "出關後跟著「機場聯絡線」指標走（不是地鐵 2 號線，聯絡線快很多）",
+        "機場聯絡線 虹橋 → 浦東，約 40 分鐘",
+        "行李多也可叫車，約 60–70 分鐘，但塞車風險高"
+      ],
+      "ticketingSteps": [
+        "機場聯絡線可用支付寶或微信掃碼直接進站",
+        "沒有中國支付工具者，站內售票機可買單程票"
+      ],
+      "transport": "SHA → PVG 須跨機場地面交通。目標 22:00 前抵達 PVG。益萁直接到 PVG，不去虹橋繞路。",
+      "food": "四位旅伴在虹橋／浦東簡餐；益萁在浦東會合。",
+      "alerts": [
+        [
+          "crit",
+          "兩班飛機之間只有 5 小時 55 分，中間要出關、跨機場、再報到，緩衝很少。請先向東航確認行李能否從松山直掛法蘭克福，以及換機場的報到截止時間。"
+        ]
+      ],
+      "rain": "",
+      "sources": []
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "五",
+      "city": "法蘭克福 → 杜塞道夫",
+      "title": "清晨落地，行李寄車站，白天輕鬆逛老城",
+      "stay": "杜塞道夫",
+      "morning": "5 人同搭 MU219，00:45 上海浦東 PVG → 05:45 法蘭克福 FRA。一起入境、領行李，預留 1.5 小時。",
+      "afternoon": "搭經 Köln 高速線的直達 ICE 至 Düsseldorf Hbf。行李直接寄中央站置物櫃，不先跑公寓、也不假設房東同意早寄。午餐後逛老城。",
+      "evening": "15:30 回中央站取行李，前往 Rath 公寓，依房東確認的時間入住。附近超市採買晚餐與早餐，自煮後早睡調時差。",
+      "timeline": [
+        [
+          "00:45",
+          "MU219 上海浦東起飛"
+        ],
+        [
+          "05:45",
+          "抵達法蘭克福 FRA"
+        ],
+        [
+          "07:15",
+          "入境、領行李完成"
+        ],
+        [
+          "08:15–08:45",
+          "搭 ICE 前往杜塞道夫"
+        ],
+        [
+          "10:00–10:30",
+          "到 Düsseldorf Hbf，行李寄置物櫃"
+        ],
+        [
+          "11:00",
+          "老城 Altstadt、Burgplatz、萊茵河畔散步"
+        ],
+        [
+          "12:30",
+          "午餐 Schumacher Alt（Oststraße 123，離車站步行 8 分）"
+        ],
+        [
+          "14:00",
+          "Carlsplatz 市場／Königsallee 大道"
+        ],
+        [
+          "15:30",
+          "回車站取行李 → Rath 公寓入住"
+        ],
+        [
+          "17:00",
+          "超市買晚餐食材，自煮，早睡"
+        ]
+      ],
+      "transportSteps": [
+        "住宿位於 Rath。以房東提供的正式門牌查 Rheinbahn：附近 Düsseldorf-Rath S 車站及 701 電車可銜接市區；班次與施工以當天查詢為準。",
+        "出關後跟 Fernbahnhof / Long-distance trains 指標走，依抵達航廈前往長途車站；不要誤走 Regionalbahnhof 區域車站，保留航廈接駁時間",
+        "搭 ICE 直達 Düsseldorf Hbf，約 1 小時 15 分至 1 小時 40 分",
+        "上車前務必看電子看板確認月台，德國火車常臨時換月台",
+        "到站後找 Schließfächer（置物櫃）標示",
+        "Frankfurt(M) Flughafen Fernbf → ICE → Düsseldorf Hbf；再轉市區交通到 Rath。抵達日不預設可以提早入住，先與房東確認行李安排。"
+      ],
+      "ticketingSteps": [
+        "推薦出發前在台灣就用手機買好。下載 DB Navigator（德國鐵路官方）",
+        "用 email 註冊帳號",
+        "起點 Frankfurt(M) Flughafen Fernbf、終點 Düsseldorf Hbf",
+        "日期 11/13、人數 5 人",
+        "票種選 Flexpreis 彈性票，確認指定日期、路線及車種的有效範圍；不是任意路線通用",
+        "付款後票在 App 內，查票時出示 QR Code",
+        "現場買亦可：車站紅色售票機可切英文、收信用卡，但剛下飛機人多需排隊"
+      ],
+      "ticketingNote": "不要買 Sparpreis 早鳥票，該票通常綁定長途班次；航班延誤不一定有免費改搭保障，需依票種及聯程條件處理。",
+      "luggageLockers": [
+        "Düsseldorf Hbf 主通道有投幣式置物櫃（Schließfächer）",
+        "大行李箱需用大格，約 €5–6／24 小時，5 人約需 2–3 格",
+        "收信用卡也收硬幣",
+        "取件密碼或條碼務必拍照存手機"
+      ],
+      "transport": "法蘭克福機場長途站 → 直達 ICE → Düsseldorf Hbf。先寄行李逛老城，下午再取行李轉市區交通前往 Rath 住宿。",
+      "food": "午餐 Schumacher Alt；下午可逛 Carlsplatz。晚餐自煮，回 Rath 前或住宿附近的超市買食材。",
+      "alerts": [
+        [
+          "warn",
+          "紅眼班機加長途火車，體力最差的一天，行程刻意排鬆，逛不完就回住處休息。"
+        ]
+      ],
+      "rain": "",
+      "sources": []
+    },
+    {
+      "date": "2026-11-14",
+      "weekday": "六",
+      "city": "科隆一日遊",
+      "title": "科隆大教堂、鐘塔、德國豬腳；晚上回杜塞大採買",
+      "stay": "杜塞道夫",
+      "morning": "09:30 出發（第二天仍在調時差，不排太早）。10:10 抵 Köln Hbf，出站左手邊即大教堂。10:20 進主堂參觀，11:30 爬鐘塔。",
+      "afternoon": "12:30 午餐 Malzmühle 或 Keule。14:00 Hohenzollernbrücke 情人橋、萊茵河畔與老城散步，路上吃 Reibekuchen 馬鈴薯煎餅配蘋果醬。15:00 巧克力博物館或老城逛街（德國週六是最後購物日）。",
+      "evening": "17:00 回杜塞道夫，17:45 超市大採買（週日一般超市多休息，兩餐＋零食一次買足），19:30 自煮晚餐。",
+      "timeline": [
+        [
+          "09:30",
+          "出發"
+        ],
+        [
+          "10:10",
+          "抵達 Köln Hbf"
+        ],
+        [
+          "10:20",
+          "大教堂主堂（週六參觀時段 10:00–17:45，需門票）"
+        ],
+        [
+          "11:30",
+          "爬鐘塔 Domturm（533 階，30–45 分）"
+        ],
+        [
+          "12:30",
+          "午餐 Malzmühle 或 Keule"
+        ],
+        [
+          "14:00",
+          "Hohenzollernbrücke、萊茵河畔、老城散步；Reibekuchen"
+        ],
+        [
+          "15:00",
+          "巧克力博物館或老城逛街"
+        ],
+        [
+          "17:00",
+          "回杜塞道夫"
+        ],
+        [
+          "17:45",
+          "超市大採買"
+        ],
+        [
+          "19:30",
+          "自煮晚餐"
+        ]
+      ],
+      "transportSteps": [
+        "住宿位於 Rath。以房東提供的正式門牌查 Rheinbahn：附近 Düsseldorf-Rath S 車站及 701 電車可銜接市區；班次與施工以當天查詢為準。",
+        "確認車票適用車種；區域票不能搭 ICE。含接駁及候車，單程留約一小時。",
+        "先到 Düsseldorf Hbf，再搭 ICE／IC 或 RE 直達 Köln Hbf；回程返回 Rath 住宿。"
+      ],
+      "ticketingSteps": [
+        "火車票：RE 票價固定，提前買不會較便宜，當天買即可",
+        "在 DB Navigator App 或售票機，起點直接輸入 Düsseldorf-Rath、終點 Köln Hbf，核對票面是否涵蓋市區接駁；沒有涵蓋的路段另買 Rheinbahn 車票",
+        "人數選 5 人；售票機右上角可切英文，收信用卡",
+        "大教堂門票：2026/7/1 起參觀需購票",
+        "可於 koelner-dom.de/tickets 線上購買，或現場 Kurienhaus 售票處（每日 09:00–17:30）",
+        "鐘塔為另外一張票，需分開購買"
+      ],
+      "ticketingNote": "鐘塔 11–2 月僅開放 09:00–16:00，最後入場 15:30。想爬塔請安排在上午。",
+      "transport": "Rath 住宿 → Düsseldorf Hbf → ICE／IC 或 RE 直達 Köln Hbf。回程先看車種與票面有效範圍，再回 Rath 公寓。",
+      "food": "午餐 Malzmühle 或 Keule（德國豬腳）；街頭 Reibekuchen 馬鈴薯煎餅配蘋果醬（偏酸解膩，網友評必點）；晚餐回杜塞自煮。",
+      "alerts": [
+        [
+          "warn",
+          "德國週日一般商店休息。今天回程買好週日早餐與自煮食材，超市營業時間依門市查詢。"
+        ]
+      ],
+      "rain": "雨天以主堂、巧克力博物館等室內點為主，取消河畔長走。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-15",
+      "weekday": "日",
+      "city": "杜塞道夫",
+      "title": "河岸、媒體港，傍晚可選 DEG 冰球主場",
+      "stay": "杜塞道夫",
+      "morning": "10:00 慢慢出門。10:40 Burgplatz、萊茵河畔散步與老城。",
+      "afternoon": "午餐後 13:30 左右到 MedienHafen 看 Gehry 建築。看球組 15:00 左右結束散步，搭車往 PSD BANK DOME；不看球可繼續慢逛、回公寓休息。",
+      "evening": "自由選項：17:00 DEG 對 Ravensburg Towerstars，預留整個傍晚看球。若不看球，可到 Das Weiss Blaue Haus 吃巴伐利亞料理或回公寓自煮；看球組可將這家改為午餐，散場再簡單吃。",
+      "timeline": [
+        [
+          "10:00",
+          "慢慢出門"
+        ],
+        [
+          "10:40",
+          "老城與萊茵河散步"
+        ],
+        [
+          "12:00",
+          "午餐，Das Weiss Blaue Haus 可作選項"
+        ],
+        [
+          "13:30",
+          "MedienHafen 建築散步"
+        ],
+        [
+          "15:00",
+          "看球組出發往 PSD BANK DOME"
+        ],
+        [
+          "16:00",
+          "目標抵達，驗票、找座位"
+        ],
+        [
+          "17:00",
+          "自由選項：DEG–Ravensburg Towerstars"
+        ],
+        [
+          "晚上",
+          "依散場時間簡單吃；不看球組自煮或餐廳"
+        ]
+      ],
+      "transportSteps": [
+        "住宿位於 Rath。以房東提供的正式門牌查 Rheinbahn：附近 Düsseldorf-Rath S 車站及 701 電車可銜接市區；班次與施工以當天查詢為準。",
+        "老城、Burgplatz、萊茵河畔皆在步行範圍內",
+        "前往冰球：701 電車到 PSD BANK DOME，下車步行到入口；從媒體港出發先查最快銜接。",
+        "球場在 Rath 一帶；回住宿依房東門牌查末段交通。"
+      ],
+      "ticketingSteps": [
+        "買 VRR 24-StundenTicket（24 小時票）Preisstufe A",
+        "一張票最多 5 人共用：金額以官方當期票價為準；選 5 人方案",
+        "5 人同行須選正確人數與涵蓋區域，核對使用時效",
+        "下載 Rheinbahn App，或在車站售票機購買（有英文、收信用卡）",
+        "購買時需選對三項：24-StundenTicket、5 Personen、Preisstufe A",
+        "可選冰球：官網購票選 11/15 17:00 DEG–Ravensburg Towerstars，5 人想連座可提前訂。"
+      ],
+      "ticketingNote": "官方目前賽程：11/15 對 Ravensburg Towerstars；對 Starbulls Rosenheim 是 11/17 19:30。兩場都在杜賽道夫住宿期間，選一場即可。",
+      "transport": "Rath → 市中心／MedienHafen；看球組預留約 1 小時移動與轉乘，701 電車到 PSD BANK DOME 站。",
+      "food": "Das Weiss Blaue Haus 可安排午餐，或留給不看球組晚餐；看球組入場前先吃點東西，散場後簡餐或回家自煮。",
+      "alerts": [
+        [
+          "warn",
+          "德國週日一般超市、藥妝與服飾店大多休息。真的缺東西，可查中央站內商店的當日營業時間，不預設全天營業。"
+        ],
+        [
+          "good",
+          "這天刻意排鬆。明天即 MEDICA 第一天，連兩天長途移動再進展場會撐不住。"
+        ]
+      ],
+      "rain": "雨天改為老城室內、K20／K21 美術館等，取消 MedienHafen 長走。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "一",
+      "city": "杜塞道夫",
+      "title": "MEDICA 第一天",
+      "stay": "杜塞道夫",
+      "morning": "07:30 早餐自煮，08:45 出發，09:40 抵展場北入口，10:00 開展後先跑重點展商。",
+      "afternoon": "午餐在場內；10:00–18:00 參展，17:15 整理當日成果並確認已約好的會面。",
+      "evening": "18:00 閉展，回 Rath 公寓自煮。",
+      "timeline": [
+        [
+          "07:30",
+          "早餐自煮"
+        ],
+        [
+          "08:45",
+          "出發"
+        ],
+        [
+          "09:40",
+          "抵達展場北入口"
+        ],
+        [
+          "10:00",
+          "開展，先跑重點展商"
+        ],
+        [
+          "12:30",
+          "午餐在場內"
+        ],
+        [
+          "17:15",
+          "整理當日成果"
+        ],
+        [
+          "18:00",
+          "閉展，回公寓自煮"
+        ]
+      ],
+      "transportSteps": [
+        "住宿位於 Rath。以房東提供的正式門牌查 Rheinbahn：附近 Düsseldorf-Rath S 車站及 701 電車可銜接市區；班次與施工以當天查詢為準。",
+        "同站換 U78，往 Messe Nord 方向",
+        "坐到 MERKUR SPIEL-ARENA / Messe Nord（約 20 分鐘）",
+        "出站跟人潮走即展場北入口",
+        "由 Rath 住宿查往展場的最快接駁；選 U78 至 MERKUR SPIEL-ARENA / Messe Nord。"
+      ],
+      "ticketingSteps": [
+        "MEDICA 官方已明示：展覽入場票不包含免費往返公共交通，須另外準備車票",
+        "可比較適用區域的 24 小時 5 人票；價格以 Rheinbahn 購票頁為準",
+        "MEDICA 門票只在官網線上販售，現場不賣，請於 10 月底前買好"
+      ],
+      "transport": "Rath 住宿 → Rheinbahn 接駁 → U78 → Messe Nord。門到門先預留約 60 分鐘，依當日班次調整。",
+      "food": "早餐自煮、場內午餐、晚餐自煮。每人帶水與小點心。",
+      "alerts": [
+        [
+          "warn",
+          "5 人很容易走散。約定每天中午與收攤前在固定地點集合，並確認每支手機都有網路。"
+        ]
+      ],
+      "rain": "",
+      "sources": []
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "二",
+      "city": "杜塞道夫",
+      "title": "MEDICA 第二天，住在杜賽道夫",
+      "stay": "杜塞道夫",
+      "morning": "早餐後從 Rath 公寓出發，10:00 進展場，補訪重點展商與已約好的會面。今天不用退房或帶大行李。",
+      "afternoon": "把下午留給展會，17:00 左右整理名片、筆記和需要追蹤的資料；依洽談進度彈性離場。",
+      "evening": "回公寓自煮或附近簡單吃，整理明早往鹿特丹的行李。自由選項：19:30 DEG 主場對 Starbulls Rosenheim；想看球的人提早離展、先吃晚餐，其他人可回公寓休息。",
+      "timeline": [
+        [
+          "08:30",
+          "早餐後出發"
+        ],
+        [
+          "10:00",
+          "MEDICA 入場"
+        ],
+        [
+          "12:30",
+          "展場午餐"
+        ],
+        [
+          "17:00",
+          "收整資料，依會面進度離場"
+        ],
+        [
+          "18:30",
+          "晚餐、整理行李"
+        ],
+        [
+          "19:30",
+          "自由選項：DEG 對 Starbulls Rosenheim（PSD BANK DOME）"
+        ]
+      ],
+      "transportSteps": [
+        "往展場：從 Rath 查 Rheinbahn，選 U78 到 Messe Nord 的合適接駁。",
+        "看球：701 電車可到 PSD BANK DOME；展場至球場非同一地點，預留轉乘與吃飯時間。"
+      ],
+      "ticketingSteps": [
+        "展場票另購，依官方票面使用日期入場。",
+        "冰球是可選行程，購票選 11/17 19:30 DEG–Starbulls Rosenheim；和 11/15 主場比賽擇一即可。"
+      ],
+      "ticketingNote": "明早才退房前往鹿特丹。",
+      "transport": "住宿與展場往返，今日不跨國移動。看球者從展場查往 PSD BANK DOME 的接駁，散場後回 Rath 公寓。",
+      "food": "早餐自煮、午餐展場；晚餐自煮或附近餐廳，看球先吃飽再入場。",
+      "alerts": [],
+      "rain": "",
+      "sources": []
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "三",
+      "city": "杜塞道夫 → 鹿特丹",
+      "title": "跨國火車到鹿特丹，市場與港邊散步",
+      "stay": "鹿特丹",
+      "morning": "08:00 早餐、收行李並退房，前往 Düsseldorf Hbf；選上午較早的 ICE 經 Utrecht 轉 Intercity 到 Rotterdam Centraal。先確定實際班次，再通知鹿特丹房東。",
+      "afternoon": "目標中午至下午初抵達，先吃午餐；15:00 後辦理入住。安頓後以同一區的 Markthal、方塊屋與 Oude Haven 為主，走累了就坐下喝咖啡。",
+      "evening": "有體力可到 Erasmusbrug 河岸看夜景；否則回公寓自煮。Depot 改為彈性建築外觀選項，不再排固定 14:00 入館。",
+      "timeline": [
+        [
+          "08:00",
+          "早餐、收行李、退房"
+        ],
+        [
+          "09:00–10:00",
+          "目標從 Düsseldorf Hbf 搭 ICE 出發（以訂票班次為準）"
+        ],
+        [
+          "12:00–13:30",
+          "目標抵鹿特丹；12:00 起可先到住宿寄放行李，再吃午餐"
+        ],
+        [
+          "15:00",
+          "Airbnb 入住、稍作休息"
+        ],
+        [
+          "15:45",
+          "Markthal → 方塊屋 → Oude Haven，同區慢走"
+        ],
+        [
+          "17:30",
+          "彈性：河岸看 Erasmusbrug，或直接買菜回家"
+        ],
+        [
+          "18:30",
+          "晚餐自煮或 Little V"
+        ]
+      ],
+      "transportSteps": [
+        "從 Rath 公寓出發到 Düsseldorf Hbf，另留搬行李及進站時間。",
+        "ICE 到 Utrecht Centraal，換 NS Intercity 到 Rotterdam Centraal。這段通常需要一次轉乘，不當成直達車。",
+        "Rotterdam Centraal → 公寓／Blaak 周邊，帶行李可選市區接駁或大型計程車。",
+        "Markthal、方塊屋、Oude Haven 可步行串聯；Depot 與 Erasmusbrug 視抵達時間二選一。"
+      ],
+      "ticketingSteps": [
+        "提前在 DB 或 NS International 買 11/18 Düsseldorf Hbf → Rotterdam Centraal 的 ICE＋Intercity 聯程，5 位成人。",
+        "ICE 可加訂座位；國內 Intercity 不指定座位。",
+        "Depot 不先買固定入館票；若當天提早到、有足夠時間，再查剩餘時段。"
+      ],
+      "ticketingNote": "跨國移動日預留延誤空間。Airbnb 入住 15:00–22:00，若列車延誤即通知房東。",
+      "transport": "Düsseldorf Hbf → ICE → Utrecht Centraal → NS Intercity → Rotterdam Centraal，一次轉乘。優先選總時間短、轉車至少 20–30 分鐘的聯程；站到站約 3 小時上下，實際依 11/18 班次。",
+      "food": "早餐在杜賽道夫；午餐車上簡餐或抵達後在 Markthal。Dudok 蘋果派視時間；晚餐 Little V 或超市買菜自煮。",
+      "alerts": [],
+      "rain": "下雨優先 Markthal 室內與公寓休息，河岸和 Depot 外觀可省略。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "四",
+      "city": "海牙 → 豪達",
+      "title": "名畫、海邊街區的午餐，午後走進起司與糖漿鬆餅之城",
+      "stay": "鹿特丹",
+      "morning": "08:30 左右離開住處，先到 Rotterdam Centraal，搭直達 Den Haag Centraal 的 Intercity。09:30 左右抵海牙，沿 Hofvijver 湖畔短走，10:00–11:30 參觀莫瑞泰斯皇家美術館 Mauritshuis（戴珍珠耳環的少女）。",
+      "afternoon": "11:30 離館，搭電車或計程車前往 Scheveningen 的 FishnBites，12:15–13:00 午餐；步行到附近 Yaya lekkernijen，13:05–13:30 喝咖啡或外帶甜點。13:30 出發回 Den Haag Centraal，目標 14:15 左右搭直達 Intercity 到 Gouda，約 14:40 抵達，步行進老城。15:30 預約 Kamphuisen Siroopwafelfabriek，結束後到 ’t Kaaswinkeltje Gouda 選起司。",
+      "evening": "17:00 左右在 Markt 廣場、Waag 秤量所與 Sint-Janskerk 聖約翰教堂外圍散步，沿小街回車站。18:00 左右搭直達 Intercity 返回 Rotterdam Centraal，晚餐在鹿特丹簡單吃或回公寓煮。",
+      "timeline": [
+        [
+          "08:30–09:30",
+          "住處 → Rotterdam Centraal → 直達 Intercity → Den Haag Centraal"
+        ],
+        [
+          "09:30–10:00",
+          "步行至美術館，Hofvijver 湖畔短走"
+        ],
+        [
+          "10:00–11:30",
+          "Mauritshuis（戴珍珠耳環的少女）"
+        ],
+        [
+          "11:30–12:15",
+          "前往 Scheveningen；預留候車與步行"
+        ],
+        [
+          "12:15–13:00",
+          "FishnBites 午餐（Stevinstraat 126A）"
+        ],
+        [
+          "13:05–13:30",
+          "Yaya lekkernijen（Gentsestraat 7），可改外帶"
+        ],
+        [
+          "13:30–14:15",
+          "返回 Den Haag Centraal"
+        ],
+        [
+          "14:15–15:15",
+          "直達 Intercity → Gouda，步行約 15 分進 Markt 廣場"
+        ],
+        [
+          "15:30–16:30",
+          "Kamphuisen Siroopwafelfabriek 導覽與試吃"
+        ],
+        [
+          "16:30–17:00",
+          "’t Kaaswinkeltje Gouda，Lange Tiendeweg 30"
+        ],
+        [
+          "17:00–17:40",
+          "Markt 市政廳、Waag、聖約翰教堂外觀；有餘裕再看小巷"
+        ],
+        [
+          "18:00 左右",
+          "Gouda → Rotterdam Centraal 直達 Intercity，回住處"
+        ]
+      ],
+      "transportSteps": [
+        "住處先接駁到 Rotterdam Centraal；NS 輸入 Den Haag Centraal，選 Intercity 且 0 次轉乘。不要誤選 Den Haag HS，也不要為了不換車而改搭較慢的跨城地鐵 E。",
+        "海牙中央站步行約 10–15 分至 Mauritshuis。午餐兩店在 Scheveningen 的 Belgisch Park 街區，需市內接駁，不能當作館旁步行店。用 9292 查館外上車點至 Stevinstraat；若候車太久可叫車。",
+        "Yaya 後以 Den Haag Centraal 為目的地，預留約 40–45 分接駁。抵站選往 Gouda 的直達 Intercity，不搭逐站停的 Sprinter。",
+        "Gouda 下車走 Kleiweg 進 Markt 廣場，工廠位於 Markt 69。回程同樣 Gouda → Rotterdam Centraal 直達 Intercity，再接駁住處。"
+      ],
+      "ticketingSteps": [
+        "荷蘭國內這三段一般不需要預約座位；每人可用自己的 OVpay 卡進出站，或在 NS 買各段車票。",
+        "這三段普通 Intercity 不行經 Rotterdam–Schiphol 高速線，不需要 Intercity direct 附加票。",
+        "先訂 10:00 Mauritshuis 和 15:30 Kamphuisen 工廠。工廠目前最後導覽 16:00；若預約時段不合，先調整午餐與甜點停留，不押最後一班才到。"
+      ],
+      "ticketingNote": "這是含兩個城市、海牙市內來回接駁的一日行程。以 15:30 工廠預約為下午的時間基準；豪達 11 月不安排春夏季的傳統起司交易表演。",
+      "transport": "城際三段都優先選 Intercity、0 次轉乘：Rotterdam Centraal → Den Haag Centraal（鹿特丹→海牙，約 25–30 分）；Den Haag Centraal → Gouda（海牙→豪達，約 18–25 分）；Gouda → Rotterdam Centraal（豪達→鹿特丹，約 18–25 分）。這裡的「直達」是不用換車，並非途中不停站。11/19 的精確發車時間與工程變動，訂票／出發前在 NS 確認。",
+      "food": "午餐 FishnBites；下午 Yaya lekkernijen 分享甜點；豪達嚐 Kamphuisen 糖漿鬆餅，’t Kaaswinkeltje 選起司；晚餐回鹿特丹。",
+      "rain": "雨天縮短 Hofvijver 與豪達戶外散步，優先保留美術館、餐廳、鬆餅工廠。FishnBites／Yaya 不在海牙老城：若交通延誤，甜點改外帶，避免錯過工廠預約。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "五",
+      "city": "鹿特丹 → 阿姆斯特丹",
+      "title": "換城市，下午逛 Albert Cuyp 市集",
+      "stay": "阿姆斯特丹",
+      "morning": "09:30 退房，步行至 Rotterdam Centraal，10:00 出發。",
+      "afternoon": "11:30 抵阿姆斯特丹，先到 Cityden BoLo District 寄行李（須事先確認可寄存）。12:30 午餐。14:00 Albert Cuyp Markt（De Pijp 區，週一至週六 09:30–17:00，週日休）。",
+      "evening": "晚餐可選 Foodhallen，各自挑喜歡的攤位；也可在 AH／Jumbo 買義大利麵、番茄醬、蘑菇與沙拉，回 Cityden 煮。",
+      "timeline": [
+        [
+          "09:30",
+          "退房，步行至 Rotterdam Centraal"
+        ],
+        [
+          "10:00",
+          "出發"
+        ],
+        [
+          "11:30",
+          "抵阿姆斯特丹，Cityden 寄行李"
+        ],
+        [
+          "12:30",
+          "午餐"
+        ],
+        [
+          "14:00",
+          "Albert Cuyp Markt"
+        ],
+        [
+          "16:30",
+          "回住處方向，順路超市採買"
+        ],
+        [
+          "18:00",
+          "自煮晚餐，正式入住"
+        ]
+      ],
+      "transportSteps": [
+        "Rotterdam Centraal 搭 Intercity Direct 至 Schiphol 機場站（約 25–30 分）",
+        "Schiphol 換車至 Amsterdam Lelylaan（約 10 分）",
+        "換地鐵 50 或 51，往 Isolatorweg 方向至 De Vlugtlaan 站",
+        "步行 10–15 分鐘至 Bos en Lommerplantsoen 45a"
+      ],
+      "ticketingSteps": [
+        "Intercity Direct 走高鐵線，需另加 Toeslag 附加費",
+        "使用 OVpay 時，除正常進出站外，需在月台紅色 Supplement Pole 以同一張卡加購附加票；不會僅靠一般進出站自動加上",
+        "買紙票者，售票機上務必勾選 Toeslag，否則會被補票",
+        "抵阿姆斯特丹後買 GVB 72 小時票（查當期售價）：電車、地鐵、公車無限搭，用到 11/23",
+        "GVB 票可在地鐵站售票機、GVB 服務櫃台或 GVB App 購買"
+      ],
+      "ticketingNote": "GVB 票不能搭火車，也不能搭機場線。11/23 去機場那段需另外買票或用感應卡。",
+      "transport": "全段含轉乘與行李留 75–105 分。行李多可考慮叫 5 人座大車從車站直達住處。",
+      "food": "早餐用完鹿特丹剩餘食材；午餐外食；Albert Cuyp 市集現做 stroopwafel 焦糖煎餅、炸魚、起司；晚餐自煮，食材在 Albert Heijn（Bos en Lommerweg 117）採買。 晚餐可選 Foodhallen，各自挑喜歡的攤位；也可在 AH／Jumbo 買義大利麵、番茄醬、蘑菇與沙拉，回 Cityden 煮。",
+      "alerts": [],
+      "rain": "寄放行李後才出門；交通以地鐵轉乘或大型車為主。雨大則改室內午餐與休息。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-21",
+      "weekday": "六",
+      "city": "阿姆斯特丹",
+      "title": "週六市集與梵谷的色彩",
+      "stay": "阿姆斯特丹",
+      "morning": "09:00 Noordermarkt 農夫市集，接著慢逛 Lindengracht。11:30 Winkel 43 蘋果派；人太多改到附近 The Papeneiland。",
+      "afternoon": "12:30 午餐後沿九街散步，Fabel Friet 或 Lanskroon Bakery 擇一分享。14:15 啟程往 Museumplein，15:00 梵谷美術館 Van Gogh Museum，保留約兩小時，先訂好五人的入場時段。",
+      "evening": "晚餐推薦 Moeders 傳統荷蘭菜，五人先訂位；若逛累了，改買鮭魚、馬鈴薯與青花菜回住宿簡單煎煮。",
+      "timeline": [
+        [
+          "09:00",
+          "Noordermarkt・Lindengracht 市集"
+        ],
+        [
+          "11:30",
+          "Winkel 43／The Papeneiland"
+        ],
+        [
+          "12:30",
+          "午餐・九街散步"
+        ],
+        [
+          "14:15",
+          "前往 Museumplein"
+        ],
+        [
+          "15:00–17:00",
+          "梵谷美術館（必排，預約入場）"
+        ],
+        [
+          "18:30",
+          "Moeders 晚餐／Foodhallen 備選"
+        ]
+      ],
+      "transportSteps": [
+        "早上依 GVB／9292 從 Cityden 前往 Noordermarkt。",
+        "Noordermarkt、Lindengracht、The Papeneiland 可步行串聯。",
+        "下午搭電車前往 Museumplein，至少提前 15 分鐘到梵谷美術館入口。",
+        "看展後前往 Rozengracht 251 的 Moeders；依訂位時間安排交通。"
+      ],
+      "ticketingSteps": [
+        "梵谷美術館：先至 vangoghmuseum.nl 預約 11/21 15:00 五人時段，票價依購票頁。",
+        "電車與地鐵可用適用的 GVB 時數票或 OVpay，各人以同一卡／裝置進出站。"
+      ],
+      "transport": "Cityden → Jordaan 市集 → 九街 → Museumplein → Moeders → Cityden。市集區以步行串聯，14:15 起依 GVB／9292 查電車前往美術館，預留候車與走到入口的時間。",
+      "food": "Winkel 43 或 The Papeneiland 蘋果派；Fabel Friet 薯條、Lanskroon 大片焦糖煎餅擇一。晚餐 Moeders 荷蘭家常菜，五人可分享不同主餐。 晚餐推薦 Moeders 傳統荷蘭菜，五人先訂位；若逛累了，改買鮭魚、馬鈴薯與青花菜回住宿簡單煎煮。",
+      "alerts": [
+        [
+          "good",
+          "梵谷美術館先預約 15:00 五人入場；Moeders 另訂晚餐。點心挑喜歡的分享即可。"
+        ]
+      ],
+      "rain": "縮短市集與九街，在咖啡店或室內午餐休息；梵谷美術館仍依成功預約的時段入場。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-22",
+      "weekday": "日",
+      "city": "贊斯風車村 → 阿姆斯特丹",
+      "title": "風車村半日，下午安妮之家",
+      "stay": "阿姆斯特丹",
+      "morning": "08:45 出發，10:00 抵 Zaanse Schans 贊斯風車村，停留 2–3 小時（綠色木屋、河畔風車、木屐工坊、起司工坊）。",
+      "afternoon": "13:00 回阿姆斯特丹，14:00 午餐，15:30 安妮之家 Anne Frank Huis（須先搶到票）。",
+      "evening": "晚餐可回 Foodhallen 分頭點餐，或到附近超市買濃湯、麵包、蛋與沙拉，回住宿輕鬆吃。",
+      "timeline": [
+        [
+          "08:45",
+          "出發"
+        ],
+        [
+          "10:00",
+          "Zaanse Schans 贊斯風車村"
+        ],
+        [
+          "13:00",
+          "回阿姆斯特丹"
+        ],
+        [
+          "14:00",
+          "午餐"
+        ],
+        [
+          "15:30",
+          "安妮之家（若搶到票）"
+        ],
+        [
+          "17:00",
+          "Jordaan 運河邊散步"
+        ],
+        [
+          "18:30",
+          "回住處自煮，整理行李"
+        ]
+      ],
+      "transportSteps": [
+        "Cityden → 步行至 De Vlugtlaan 站",
+        "地鐵 50 或 51 往 Isolatorweg 方向至 Sloterdijk 站",
+        "Sloterdijk 換 NS 火車至 Zaandijk Zaanse Schans 站",
+        "務必搭 Sprinter 慢車，Intercity 快車不停此站",
+        "出站沿指標步行 15–20 分鐘，過橋即到"
+      ],
+      "ticketingSteps": [
+        "去風車村的火車段 GVB 票不能用，需用 OVpay 感應卡或在售票機買 NS 車票",
+        "風車村戶外與各館入場規定，出發前查看官方當期方案",
+        "各風車、博物館與工坊收費不同；免費示範與付費參觀分開確認",
+        "安妮之家只有官網 annefrank.org 售票，現場完全不賣",
+        "11/22 的票在 10/13（週二）荷蘭時間 10:00 ＝ 台灣／上海時間 16:00 開賣，需準時上線搶"
+      ],
+      "ticketingNote": "官網說明：每週二 10:00 釋出六週後的全部票，售完無候補。搶不到則改為九街散步或運河遊船。",
+      "transport": "單程門到門 55–75 分。停小站需搭 Sprinter。",
+      "food": "早餐自煮；午餐在風車村或回市區；風車村現做起司可試吃；晚餐自煮，清空冰箱。 晚餐可回 Foodhallen 分頭點餐，或到附近超市買濃湯、麵包、蛋與沙拉，回住宿輕鬆吃。",
+      "alerts": [
+        [
+          "warn",
+          "今天 Albert Cuyp 市集休市（週日不開），前幾天沒去的話今天補不了。"
+        ],
+        [
+          "crit",
+          "風車村河岸多為開闊地帶，遮蔽有限。出發前務必看 Buienradar，有強風警報就取消，改市區室內行程。"
+        ]
+      ],
+      "rain": "持續風雨或強陣風取消風車村，改市區室內活動與已訂的安妮之家。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "一",
+      "city": "阿姆斯特丹 → 上海",
+      "title": "上午跳蚤市場，下午前往機場",
+      "stay": "",
+      "morning": "08:30 早餐後退房，行李寄 Cityden 櫃台（24 小時）。09:30 Noordermarkt 週一跳蚤市場（09:00–14:00，二手古著與老件，與週六農夫市集完全不同）。",
+      "afternoon": "12:00 午餐與最後採買。15:00 回住處取行李，15:30 出發，16:30 抵 Schiphol，預留 3.5 小時報到與可能的退稅。",
+      "evening": "5 人同搭 MU772，20:00 AMS → 次日 14:00 PVG。益萁於上海結束；耘欣、靖宜、靖枝、玉穎續轉桃園。",
+      "timeline": [
+        [
+          "08:30",
+          "早餐後退房，行李寄 Cityden 櫃台"
+        ],
+        [
+          "09:30",
+          "Noordermarkt 週一跳蚤市場"
+        ],
+        [
+          "12:00",
+          "午餐、最後採買"
+        ],
+        [
+          "15:00",
+          "回住處取行李"
+        ],
+        [
+          "15:30",
+          "出發前往機場"
+        ],
+        [
+          "16:30",
+          "抵達 Schiphol，報到、退稅"
+        ],
+        [
+          "20:00",
+          "MU772 起飛"
+        ]
+      ],
+      "transportSteps": [
+        "Cityden → 步行至 De Vlugtlaan 站",
+        "地鐵 50 或 51 往南至 Amsterdam Lelylaan 站",
+        "Lelylaan 換 NS 火車直達 Schiphol，約 7–10 分鐘",
+        "行李多可直接叫大車從住處到機場"
+      ],
+      "ticketingSteps": [
+        "GVB 72 小時票不能搭去機場的火車",
+        "這段需用 OVpay 感應卡，或在售票機另外買 NS 車票",
+        "退稅在 Schiphol 的 Tax Refund 櫃台辦理，需排隊，時間留足",
+        "退稅需備：未拆封商品、收據、護照、登機證"
+      ],
+      "transport": "步行、候車、轉乘與行李合計留 45–65 分。",
+      "food": "早餐後在市中心散步，可選 Pat’s Poffertjes Nieuwendijk 小鬆餅；午餐吃飽，機場依需要補充。",
+      "alerts": [
+        [
+          "warn",
+          "週一 Noordermarkt 是跳蚤市場，不是農夫市集，賣的東西完全不同。"
+        ]
+      ],
+      "rain": "取行李後直接接地鐵與機場火車；雨大或拖箱不便則改大型計程車。",
+      "sources": []
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "二",
+      "city": "上海",
+      "title": "抵達上海，四位旅伴轉機",
+      "stay": "",
+      "morning": "MU772 飛行中。",
+      "afternoon": "14:00 抵達上海浦東。益萁在上海結束旅程，四位旅伴辦理轉機與行李相關手續。",
+      "evening": "四位旅伴在浦東等候隔日航班，不安排住宿。",
+      "timeline": [
+        [
+          "14:00",
+          "MU772 抵達浦東"
+        ],
+        [
+          "抵達後",
+          "益萁結束旅程；四位旅伴轉機"
+        ]
+      ],
+      "transport": "依東航指引確認行李與隔日航班報到安排。",
+      "food": "在機場依當日需求用餐。",
+      "alerts": [],
+      "rain": "",
+      "sources": [],
+      "transportSteps": [],
+      "ticketingSteps": []
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "三",
+      "city": "上海 → 桃園",
+      "title": "四位台灣旅伴返回桃園",
+      "stay": "",
+      "morning": "耘欣、靖宜、靖枝、玉穎：MU5007 12:05 PVG 起飛。",
+      "afternoon": "14:00 抵台灣桃園 TPE。",
+      "evening": "返回家中休息。",
+      "timeline": [
+        [
+          "12:05",
+          "MU5007 浦東起飛"
+        ],
+        [
+          "14:00",
+          "抵達桃園 TPE"
+        ]
+      ],
+      "transport": "回程是桃園 TPE，不是松山 TSA。",
+      "food": "機上／返家用餐。",
+      "alerts": [
+        [
+          "warn",
+          "回程降落桃園，不是松山，接機的人要注意。"
+        ]
+      ],
+      "rain": "",
+      "sources": [],
+      "ticketingSteps": []
+    }
+  ],
+  "stays": [
+    {
+      "city": "杜塞道夫",
+      "checkIn": "2026-11-13",
+      "checkOut": "2026-11-18",
+      "nights": 5,
+      "name": "Stylish & modern apartment in Rath｜杜賽道夫",
+      "address": "Rath 區，近 Düsseldorf-Rath S 車站；完整門牌依 Airbnb 訂單",
+      "booking": "入住時間請依房東確認訊息",
+      "nearbySupermarkets": [
+        "REWE｜搜尋 Düsseldorf-Rath 附近門市",
+        "ALDI｜搜尋 Düsseldorf-Rath 附近門市"
+      ],
+      "bookingUrl": "https://www.airbnb.com.tw/rooms/1173342480683589371",
+      "priceText": "€1,581.06／原確認 NT$58,036 · 5 晚",
+      "paymentText": "靖宜代付，信用卡刷歐元。9/11 扣款 €813；10/29 扣款 €768.06。",
+      "perNightText": "每人每晚約 NT$2,321",
+      "accessNote": "位於五樓、沒有電梯；大行李需安排分工搬運。"
+    },
+    {
+      "city": "鹿特丹",
+      "checkIn": "2026-11-18",
+      "checkOut": "2026-11-20",
+      "nights": 2,
+      "name": "Spacious apartment on the Binnerotteplein hotspot",
+      "address": "Binnenrotteplein／Meent 附近，近 Blaak；正式門牌以 Airbnb 訂單為準",
+      "booking": "12:00 起可先寄放行李；正式入住 15:00–22:00。",
+      "nearbySupermarkets": [
+        "Jumbo",
+        "Albert Heijn｜Grotemarkt 98｜Markthal 旁",
+        "Albert Heijn｜Coolsingel 47",
+        "亞洲食材：Amazing Oriental｜West-Kruiskade 26｜步行 12–15 分"
+      ],
+      "bookingUrl": "https://www.airbnb.com.tw/rooms/51521537",
+      "priceText": "€556.90／NT$20,444 · 2 晚",
+      "paymentText": "靖宜代付，信用卡刷歐元。10/11 一次扣款 €556.90。",
+      "perNightText": "每人每晚約 NT$2,044",
+      "accessNote": "房源位於樓上、沒有電梯；搬行李預留時間。"
+    },
+    {
+      "city": "阿姆斯特丹",
+      "checkIn": "2026-11-20",
+      "checkOut": "2026-11-23",
+      "nights": 3,
+      "name": "Cityden BoLo District｜Penthouse",
+      "address": "Bos en Lommerplantsoen 45a, 1055 AA Amsterdam；Bos en Lommer 區",
+      "booking": "",
+      "nearbySupermarkets": [
+        "Albert Heijn",
+        "Vomar",
+        "Lidl",
+        "亞洲食材：市中心中國城 Toko Dun Yong｜Stormsteeg 9"
+      ],
+      "bookingUrl": "https://www.cityden.com/amsterdam-bolodistrict/apartments-studios/#penthouse",
+      "priceText": "NT$43,324 · 3 晚（訂單總額標示人民幣 9,185）",
+      "paymentText": "靖宜代付。微信支付人民幣 8,324；抵達現場另刷城市稅 €110.47，住宿總額沿用原確認 NT$43,324。",
+      "perNightText": "每人每晚約 NT$2,888",
+      "accessNote": "預訂房型為 Penthouse；照片與設施依此房型。"
+    }
+  ],
+  "notes": {},
+  "reference": {
+    "ticketDeadlines": [
+      {
+        "name": "梵谷美術館",
+        "detail": "11/21 15:00 五人時段，優先預約。",
+        "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices"
+      },
+      {
+        "name": "安妮之家",
+        "detail": "11/22 參觀：預計 10/13 週二荷蘭 10:00（台灣／上海 16:00）開賣；依售票日曆確認。",
+        "url": "https://www.annefrank.org/en/museum/tickets/choose-your-ticket/"
+      },
+      {
+        "name": "Mauritshuis（戴珍珠耳環的少女）",
+        "detail": "11/19 10:00，留約 90 分鐘；先看名畫，再前往 FishnBites 午餐。",
+        "url": "https://www.mauritshuis.nl/en/visit"
+      },
+      {
+        "name": "Kamphuisen Siroopwafelfabriek",
+        "detail": "11/19 豪達 15:30 導覽；目前最後一場 16:00，先預約時段。",
+        "url": "https://siroopwafelfabriek.nl/"
+      },
+      {
+        "name": "ICE：Frankfurt(M) Flughafen Fernbf → Düsseldorf Hbf",
+        "detail": "11/13 法蘭克福機場長途車站 → 杜賽道夫中央車站。可先比較票價並預約五人座位；飛機抵達後需入境領行李，較有彈性的票種更適合不確定的抵達時間。",
+        "url": "https://int.bahn.de/en"
+      },
+      {
+        "name": "ICE＋IC：Düsseldorf Hbf → Rotterdam Centraal",
+        "detail": "11/18 杜賽道夫中央車站 → 鹿特丹中央車站，ICE 經 Utrecht 轉 Intercity；選上午出發、一次轉乘的聯程。提前比價並加訂 ICE 座位。",
+        "url": "https://int.bahn.de/en"
+      },
+      {
+        "name": "DEG 冰球主場（自由選項）",
+        "detail": "11/15 17:00 對 Ravensburg Towerstars；11/17 19:30 對 Starbulls Rosenheim。選一場即可，5 人連座可先買票。",
+        "url": "https://www.deg-eishockey.de/saison/spielplan/"
+      }
+    ],
+    "apps": [
+      {
+        "country": "德國",
+        "name": "DB Navigator",
+        "why": "德國國鐵官方。訂票、看月台、看誤點。最重要的一個"
+      },
+      {
+        "country": "德國",
+        "name": "Rheinbahn",
+        "why": "杜塞道夫市區交通，買 24 小時 5 人票用這個"
+      },
+      {
+        "country": "荷蘭",
+        "name": "Buienradar",
+        "why": "荷蘭常用的雨雷達，可看未來兩小時逐分鐘降雨，出門前看一眼決定要不要帶雨具"
+      },
+      {
+        "country": "荷蘭",
+        "name": "NS",
+        "why": "荷蘭國鐵，查班次與月台"
+      },
+      {
+        "country": "荷蘭",
+        "name": "9292",
+        "why": "全荷蘭大眾運輸轉乘查詢，公車電車地鐵都查得到"
+      },
+      {
+        "country": "荷蘭",
+        "name": "GVB",
+        "why": "阿姆斯特丹電車地鐵，買 72 小時票用這個"
+      },
+      {
+        "country": "共通",
+        "name": "Google Maps",
+        "why": "出發前先下載德國、荷蘭離線地圖"
+      },
+      {
+        "country": "共通",
+        "name": "Google 翻譯",
+        "why": "下載德文、荷蘭文離線包；相機對著菜單即時翻譯最好用"
+      },
+      {
+        "country": "共通",
+        "name": "WhatsApp",
+        "why": "歐洲通用，訂位與聯絡房東會用到"
+      },
+      {
+        "name": "Reclamefolder",
+        "country": "荷蘭",
+        "why": "查看超市與藥妝店本週促銷目錄，出門前比對商品容量與折扣條件。"
+      }
+    ],
+    "foodLists": [
+      {
+        "city": "杜塞道夫",
+        "items": [
+          {
+            "name": "Schumacher Alt",
+            "address": "Oststraße 123",
+            "dish": "萊茵地區德式家常菜、肉類主餐與 Altbier 啤酒",
+            "when": "11/13 午餐",
+            "note": "",
+            "image": "/photos/fast-6d7c197f9ed3.webp",
+            "intro": "杜賽道夫的傳統 Altbier 啤酒館，餐桌上以份量紮實的德式肉料理配當地啤酒；很適合作為第一餐的城市味道。",
+            "images": [
+              "/photos/fast-6d7c197f9ed3.webp"
+            ]
+          },
+          {
+            "name": "Uerige",
+            "address": "Berger Straße 1",
+            "dish": "Altbier 與德式小食",
+            "when": "老城備選",
+            "note": "",
+            "image": "/photos/fast-d022b8458935.webp",
+            "intro": "老城啤酒文化的代表之一，重點是小杯 Altbier 與熱鬧的站飲、酒館氣氛；不必把每間啤酒館都排成大餐。",
+            "images": [
+              "/photos/fast-d022b8458935.webp"
+            ]
+          },
+          {
+            "name": "Im Füchschen",
+            "address": "Ratinger Straße 28",
+            "dish": "德式豬腳",
+            "when": "老城備選",
+            "note": "",
+            "image": "/photos/fast-3e2143512c9a.webp",
+            "intro": "名字是「小狐狸」的傳統啤酒館，把 Altbier 與豬腳等德式料理放在同一桌，適合幾個人一起分享。",
+            "images": [
+              "/photos/fast-3e2143512c9a.webp"
+            ]
+          },
+          {
+            "name": "Carlsplatz 市場",
+            "address": "Carlsplatz，舊城區",
+            "dish": "Berliner Ecke 咖哩香腸與薯條；市場另有起司與熟食",
+            "when": "11/13 下午",
+            "note": "",
+            "image": "/photos/fast-b73c5bcf8da6.webp",
+            "intro": "老城旁的日常食材市場，蔬果、起司、熟食和午餐攤混在一起。先繞一圈再決定，能依胃口挑小份。 這裡仍是買菜與吃午餐的場所，不只是觀光市集。看看居民怎麼挑食材、攤位賣什麼時令蔬果，再選一份熱食，就能把展會城市和日常生活連在一起。",
+            "images": [
+              "/photos/fast-b73c5bcf8da6.webp"
+            ]
+          },
+          {
+            "name": "Das Weiss Blaue Haus",
+            "dish": "巴伐利亞料理、豬腳／炸豬排與 Paulaner 啤酒",
+            "when": "11/15 午餐，或不看球組晚餐",
+            "address": "Nordstraße 115, Düsseldorf",
+            "intro": "巴伐利亞風格餐館，和老城 Altbier 酒館的風格不同；適合想吃豬腳、炸豬排與小麥啤酒的一晚。",
+            "image": "/photos/fast-2e67f5eaf4b1.webp",
+            "images": [
+              "/photos/fast-2e67f5eaf4b1.webp"
+            ]
+          },
+          {
+            "name": "Café Hüftgold 咖啡與蛋糕",
+            "dish": "蛋糕／咖啡",
+            "when": "下午茶可選",
+            "address": "Ackerstraße 113, Düsseldorf",
+            "intro": "逛 Flingern 街區時的咖啡蛋糕選項，先看看當天櫃檯甜點，再選一塊配熱飲。",
+            "image": "/photos/fast-docx2-extra-hueftgold.webp",
+            "images": [
+              "/photos/fast-docx2-extra-hueftgold.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "city": "科隆",
+        "items": [
+          {
+            "name": "Brauhaus Malzmühle",
+            "dish": "德式啤酒館料理，可找豬腳或燉肉主餐",
+            "when": "11/14 午餐候選",
+            "note": "",
+            "image": "/photos/fast-de9544e08062.webp",
+            "intro": "科隆的傳統 Kölsch 啤酒館，適合搭配德式肉料理；Kölsch 是科隆自己的啤酒風格，和杜賽道夫 Altbier 各有特色。",
+            "images": [
+              "/photos/fast-de9544e08062.webp"
+            ]
+          },
+          {
+            "name": "Keule",
+            "dish": "德式豬腳",
+            "when": "11/14 午餐候選",
+            "note": "",
+            "image": "/photos/fast-96319d072610.webp",
+            "intro": "科隆老城的德式餐館選項，逛完教堂與河岸可坐下吃熱食；份量依點餐內容，豬腳可先問是否適合分享。",
+            "images": [
+              "/photos/fast-96319d072610.webp"
+            ]
+          },
+          {
+            "name": "Rievkoochebud",
+            "dish": "馬鈴薯煎餅配蘋果醬",
+            "when": "散步途中共享",
+            "note": "",
+            "image": "/photos/fast-794e93d9a67a.webp",
+            "address": "Salzgasse 6, Köln",
+            "intro": "名字呼應萊茵地區的馬鈴薯煎餅 Reibekuchen；酥熱煎餅配蘋果醬，適合當河岸散步時的小點。",
+            "images": [
+              "/photos/fast-794e93d9a67a.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "city": "鹿特丹",
+        "items": [
+          {
+            "name": "Markthal 餐食攤",
+            "dish": "Royal Fish 炸魚與海鮮餐盤，市場另有三明治等攤位",
+            "when": "11/18 午餐",
+            "note": "",
+            "image": "/photos/fast-f81f57f49ddc.webp",
+            "intro": "拱形室內市場把食物攤位與巨幅天花彩繪放在一起；炸魚選 Royal Fish，買好再慢慢欣賞建築。",
+            "images": [
+              "/photos/fast-f81f57f49ddc.webp"
+            ]
+          },
+          {
+            "name": "Dudok",
+            "address": "Meent 88",
+            "dish": "荷式蘋果派、正餐",
+            "when": "11/18 下午茶",
+            "note": "",
+            "image": "/photos/fast-954567f68b85.webp",
+            "intro": "以蘋果派和咖啡作為停留重點的咖啡館；逛鹿特丹現代建築時，可以在這裡暖身休息。",
+            "images": [
+              "/photos/fast-954567f68b85.webp"
+            ]
+          },
+          {
+            "name": "Little V",
+            "dish": "越南乾拌河粉",
+            "when": "午餐備案",
+            "note": "",
+            "image": "/photos/fast-af9f8d2339a5.webp",
+            "intro": "越南料理餐廳，河粉、春捲與香草風味能讓連吃德式大餐的味蕾換個方向。",
+            "images": [
+              "/photos/fast-af9f8d2339a5.webp"
+            ]
+          },
+          {
+            "name": "Het Eethuisje van Delfshaven",
+            "address": "Mathenesserdijk 436",
+            "dish": "家常荷蘭菜",
+            "when": "若安排 Delfshaven 才去",
+            "note": "",
+            "image": "/photos/fast-fa3583fa6c73.webp",
+            "intro": "在 Delfshaven 一帶的家常餐館選項，適合願意多繞一段路坐下吃的人；不把它當成 Markthal 隔壁。",
+            "images": [
+              "/photos/fast-fa3583fa6c73.webp"
+            ]
+          },
+          {
+            "name": "Bram Ladage",
+            "dish": "現炸薯條配美乃滋",
+            "when": "散步小吃",
+            "note": "",
+            "image": "/photos/fast-22327b5e07f7.webp",
+            "intro": "鹿特丹街頭常見的薯條品牌，現炸薯條是簡單直接的一餐小點，醬料可另外挑。",
+            "images": [
+              "/photos/fast-22327b5e07f7.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "city": "海牙",
+        "items": [
+          {
+            "name": "Waroeng Padang Lapek",
+            "dish": "印尼巴東風味飯食",
+            "when": "11/19 海牙正餐備選",
+            "note": "",
+            "image": "/photos/fast-8b2d6cff9c94.webp",
+            "intro": "印尼 Padang 風味的小店，飯搭不同配菜，適合喜歡香料的人；辣度先問店員。",
+            "images": [
+              "/photos/fast-8b2d6cff9c94.webp"
+            ]
+          },
+          {
+            "name": "Bookstor Café",
+            "dish": "咖啡、茶與糕點",
+            "when": "老城散步休息",
+            "note": "",
+            "image": "/photos/fast-88ba34085ca4.webp",
+            "address": "Noordeinde 39, Den Haag",
+            "intro": "Noordeinde 的書香咖啡館，書本、窗邊座位與咖啡是主角；適合另外有老城閒逛時間時停留。",
+            "images": [
+              "/photos/fast-88ba34085ca4.webp"
+            ]
+          },
+          {
+            "name": "Single Estate",
+            "dish": "精品咖啡與可頌",
+            "when": "下午短休息",
+            "note": "",
+            "image": "/photos/fast-a2148ec7e89e.webp",
+            "intro": "以咖啡為主角的選項，適合用一杯咖啡和可頌，取代排隊很久的完整早午餐。",
+            "images": [
+              "/photos/fast-a2148ec7e89e.webp"
+            ]
+          },
+          {
+            "name": "FishnBites",
+            "dish": "魚料理、炸魚與薯條",
+            "when": "11/19 午餐",
+            "address": "Stevinstraat 126A, Den Haag",
+            "intro": "位於 Scheveningen 的魚料理餐廳，午餐以海鮮熱食暖胃。這一站需從美術館搭車過來，安排坐下休息約 45 分鐘。 Scheveningen 有海濱與漁業生活的背景，所以魚料理是這天很自然的味道。若點 kibbeling，吃的是裹粉炸魚塊，可搭醬和薯條；與冷食的 haring 鯡魚是不同吃法。",
+            "image": "/photos/fast-564470c07d9a.webp",
+            "images": [
+              "/photos/fast-564470c07d9a.webp"
+            ]
+          },
+          {
+            "name": "Yaya lekkernijen",
+            "dish": "咖啡與手作蛋糕",
+            "when": "11/19 午後",
+            "address": "Gentsestraat 7, Den Haag",
+            "intro": "由甜點與餐飲團隊經營的糕點咖啡店，櫥窗裡可挑蛋糕與小點；午餐後步行過來，時間緊就外帶。 荷蘭文 lekkernijen 可理解為各式好吃的小點，這站以看看櫥窗、挑自己喜歡的蛋糕為主。午餐後不必每人再吃一整份，可以分享或外帶，保留往豪達的移動時間。",
+            "image": "/photos/fast-5f2b0b954f63.webp",
+            "images": [
+              "/photos/fast-5f2b0b954f63.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "city": "阿姆斯特丹",
+        "items": [
+          {
+            "name": "Winkel 43",
+            "address": "Noordermarkt 43",
+            "dish": "厚切荷式蘋果派",
+            "when": "11/21 上午，市集旁",
+            "note": "",
+            "image": "/photos/fast-5ac51f649be7.webp",
+            "intro": "Noordermarkt 旁以厚切蘋果派聞名的咖啡館，派皮、蘋果塊和鮮奶油是重點；週六市集時常需排隊。",
+            "images": [
+              "/photos/fast-5ac51f649be7.webp"
+            ]
+          },
+          {
+            "name": "Fabel Friet",
+            "address": "Runstraat 1",
+            "dish": "現炸薯條，可選喜歡的醬料分享",
+            "when": "11/21 下午，九街",
+            "note": "",
+            "image": "/photos/fast-bbba3593841b.webp",
+            "intro": "九街一帶的薯條店，起司與醬料是熱門搭配；可分享一份，保留胃口給甜點。",
+            "images": [
+              "/photos/fast-bbba3593841b.webp"
+            ]
+          },
+          {
+            "name": "Noordermarkt 週六農夫市集",
+            "dish": "起司、麵包、有機農產",
+            "when": "11/21 09:00–16:00",
+            "note": "",
+            "image": "/photos/fast-f0fcee0c6f2d.webp",
+            "intro": "Jordaan 的週六市集，適合看起司、麵包與農產；和週一的二手市集是不同逛法。",
+            "images": [
+              "/photos/fast-f0fcee0c6f2d.webp"
+            ]
+          },
+          {
+            "name": "Lindengracht Markt",
+            "dish": "食材、衣物、小吃",
+            "when": "11/21 09:00–16:00",
+            "note": "",
+            "image": "/photos/fast-5520b7659abf.webp",
+            "intro": "沿街排開的週六市場，食材、花卉和日用品交錯，適合慢逛看看阿姆斯特丹的週末生活。 市集沿著長街展開，和旁邊 Noordermarkt 廣場的農夫市集可一起散步。不是每一攤都賣紀念品，花、衣物、食材與生活用品的混合，正是週末街區的特色。",
+            "images": [
+              "/photos/fast-5520b7659abf.webp"
+            ]
+          },
+          {
+            "name": "Albert Cuyp Markt",
+            "dish": "現做 stroopwafel、炸魚、起司",
+            "when": "11/20 下午",
+            "note": "",
+            "image": "/photos/fast-9c8306dad75d.webp",
+            "intro": "De Pijp 的街頭市場，適合一路少量嚐薯條、鯡魚或現做糖漿鬆餅，也看看附近多元的小店。",
+            "images": [
+              "/photos/fast-9c8306dad75d.webp"
+            ]
+          },
+          {
+            "name": "Foodhallen",
+            "dish": "De Ballenbar 荷式炸肉丸，或挑其他多國料理",
+            "when": "11/21 晚餐備選",
+            "note": "",
+            "image": "/photos/fast-b5c4eeeb83d6.webp",
+            "intro": "由舊電車車廠空間改成的室內美食廣場，同行的人可各自選餐；De Ballenbar 的炸肉丸適合分享。",
+            "images": [
+              "/photos/fast-b5c4eeeb83d6.webp"
+            ]
+          },
+          {
+            "name": "Van Stapele Koekmakerij",
+            "dish": "巧克力軟餅乾",
+            "when": "順路點心或伴手禮",
+            "note": "",
+            "image": "/photos/fast-0358b31cb964.webp",
+            "intro": "以深色可可餅乾包白巧克力內餡作為招牌，適合外帶一塊當散步點心。",
+            "images": [
+              "/photos/fast-0358b31cb964.webp"
+            ]
+          },
+          {
+            "name": "Noordermarkt 週一跳蚤市場",
+            "dish": "二手古著、老件",
+            "when": "11/23 09:00–13:00",
+            "note": "",
+            "image": "/photos/fast-a59a52f103d2.webp",
+            "intro": "週一重點是古著、布料與二手小物；慢慢翻找有趣老件，不當成週六農夫市集來逛。",
+            "images": [
+              "/photos/fast-a59a52f103d2.webp"
+            ]
+          },
+          {
+            "name": "The Papeneiland",
+            "address": "Prinsengracht 2",
+            "dish": "荷式蘋果派",
+            "when": "11/21 Winkel 43 排隊太久時替換",
+            "note": "",
+            "image": "/photos/fast-7cfcd2f82439.webp",
+            "intro": "Jordaan 運河轉角的棕色咖啡館，木質內裝與蘋果派很適合午後休息，是 Winkel 43 人多時的替代。 店家把歷史追溯到 1642 年，位於運河轉角。所謂棕色咖啡館，是阿姆斯特丹傳統木質、深色內裝酒館的稱呼；在這裡坐一下，也是在體驗老城社交生活。",
+            "images": [
+              "/photos/fast-7cfcd2f82439.webp"
+            ]
+          },
+          {
+            "name": "Pat’s Poffertjes Nieuwendijk",
+            "address": "Nieuwendijk 32",
+            "dish": "奶油糖粉荷蘭小鬆餅",
+            "when": "11/23 上午市中心散步",
+            "note": "",
+            "image": "/photos/fast-134d00f749e0.webp",
+            "intro": "荷蘭小鬆餅店，圓滾滾的 poffertjes 以奶油和糖粉最能吃到基本風味，適合幾人分著嚐。",
+            "images": [
+              "/photos/fast-134d00f749e0.webp"
+            ]
+          },
+          {
+            "name": "Frens Haringhandel",
+            "address": "Koningsplein／Singel",
+            "dish": "Haring 鯡魚配洋蔥與酸黃瓜",
+            "when": "11/21 九街散步時，先點一份切塊分享",
+            "note": "",
+            "image": "/photos/fast-f0a765d0297f.webp",
+            "intro": "靠近花市一帶的魚攤，可試切塊鯡魚搭洋蔥、酸黃瓜；第一次吃先分享一份即可。",
+            "images": [
+              "/photos/fast-f0a765d0297f.webp"
+            ]
+          },
+          {
+            "name": "Lanskroon Bakery",
+            "address": "Singel 385",
+            "dish": "Koningsstroopwafel 大片焦糖煎餅",
+            "when": "11/21 九街附近點心，亦可 11/23 順路",
+            "note": "",
+            "image": "/photos/fast-fc65ab76c970.webp",
+            "intro": "運河旁的小烘焙店，以大尺寸糖漿鬆餅當散步補給，也能配咖啡停一下。 Singel 這個地點已有逾百年烘焙歷史。店家的 Koningsstroopwafel 是長久累積的招牌，不同於街邊現壓的薄小糖漿餅；可以留意大小、脆度與內餡的差別。",
+            "images": [
+              "/photos/fast-fc65ab76c970.webp"
+            ]
+          },
+          {
+            "name": "Moeders",
+            "address": "Rozengracht 251",
+            "dish": "Stamppot 薯泥與荷蘭燉肉",
+            "when": "11/21 18:30 晚餐，先訂位",
+            "note": "",
+            "image": "/photos/fast-f60a9e0d0db3.webp",
+            "intro": "以荷蘭家常料理和牆上滿滿母親照片營造家庭餐桌氣氛；stamppot 蔬菜馬鈴薯泥適合認識傳統口味。 Moeders 在荷蘭文是「媽媽們」，家庭照片和不刻意配成一套的餐具，呼應家常餐桌。Stamppot 是將馬鈴薯與蔬菜搗在一起的料理，和燉肉搭配很適合冷天；五人先訂位，吃累了也可改回住宿自煮。",
+            "images": [
+              "/photos/fast-f60a9e0d0db3.webp"
+            ]
+          },
+          {
+            "name": "Rudi’s Original Stroopwafels",
+            "dish": "現烤糖漿煎餅",
+            "when": "市集散步時可選",
+            "address": "Albert Cuypstraat 182 對面附近, Amsterdam",
+            "intro": "從 1978 年起在市集製作糖漿煎餅；可現吃熱的，也可買小包。",
+            "image": "/photos/fast-docx2-nl-image5.webp",
+            "images": [
+              "/photos/fast-docx2-nl-image5.webp"
+            ]
+          },
+          {
+            "name": "Het Koekemannetje",
+            "dish": "手工巧克力餅乾",
+            "when": "下午茶／回程前可選",
+            "address": "Runstraat 3, Amsterdam",
+            "intro": "有黑、牛奶、白巧克力等餅乾選項，Schiphol Plaza 也有門市。",
+            "image": "/photos/fast-docx2-nl-image12.webp",
+            "images": [
+              "/photos/fast-docx2-nl-image12.webp"
+            ]
+          },
+          {
+            "name": "China Sichuan 川菜館",
+            "dish": "川菜／熱炒",
+            "when": "午餐或晚餐可選",
+            "address": "Warmoesstraat 17, Amsterdam",
+            "intro": "想換成中式熱食，可選熱炒配白飯，點餐先說希望的辣度。",
+            "image": "/photos/fast-docx2-extra-sichuan.webp",
+            "images": [
+              "/photos/fast-docx2-extra-sichuan.webp"
+            ]
+          },
+          {
+            "name": "Xi’an Delicious Foods 西安小吃",
+            "dish": "油潑麵／麵食",
+            "when": "午餐或晚餐可選",
+            "address": "Lange Leidsedwarsstraat 21H, Amsterdam",
+            "intro": "油潑寬麵以熱油帶出辣椒與香料氣味，喜歡麵食可以列入；怕辣先請店員調整。",
+            "image": "/photos/fast-docx2-extra-xian.webp",
+            "images": [
+              "/photos/fast-docx2-extra-xian.webp"
+            ]
+          },
+          {
+            "name": "The Pancake Bakery 荷式鬆餅",
+            "dish": "荷式大薄鬆餅",
+            "when": "早餐／午餐可選",
+            "address": "Prinsengracht 191, Amsterdam",
+            "intro": "荷式鬆餅比美式鬆餅薄而大片，甜鹹口味都可比較，適合運河區散步時用餐。",
+            "image": "/photos/fast-docx2-extra-pancake-bakery.webp",
+            "images": [
+              "/photos/fast-docx2-extra-pancake-bakery.webp"
+            ]
+          },
+          {
+            "name": "Greenwoods Singel 早午餐",
+            "dish": "英式早餐／早午餐",
+            "when": "早餐／午餐可選",
+            "address": "Singel 103, Amsterdam",
+            "intro": "適合坐下吃一份熱早餐，再接著逛運河；同行者可各選自己喜歡的蛋料理或早午餐。",
+            "image": "/photos/fast-docx2-extra-greenwoods.webp",
+            "images": [
+              "/photos/fast-docx2-extra-greenwoods.webp"
+            ]
+          },
+          {
+            "name": "Eye 電影博物館餐廳",
+            "dish": "咖啡／簡餐",
+            "when": "午餐／下午茶可選",
+            "address": "IJpromenade 1, Amsterdam",
+            "intro": "位於 IJ 河對岸的電影博物館，可將河景和休息用餐排在一起。",
+            "image": "/photos/fast-docx2-extra-eye.webp",
+            "images": [
+              "/photos/fast-docx2-extra-eye.webp"
+            ]
+          },
+          {
+            "name": "Blue Amsterdam 景觀咖啡館",
+            "dish": "咖啡／輕食",
+            "when": "午餐／下午茶可選",
+            "address": "Singel 457, Amsterdam",
+            "intro": "購物途中想坐下看城市景觀，可以把這裡當休息站。",
+            "image": "/photos/fast-docx2-extra-blue.webp",
+            "images": [
+              "/photos/fast-docx2-extra-blue.webp"
+            ]
+          },
+          {
+            "name": "Linguini 義式餐廳",
+            "dish": "義大利麵",
+            "when": "晚餐可選",
+            "address": "Amsterdam，多間分店",
+            "intro": "想吃義大利麵的晚餐選項；選 Jordaan、De Pijp 或 West 等順路分店，再確認訂位。",
+            "image": "/photos/fast-docx2-extra-linguini.webp",
+            "images": [
+              "/photos/fast-docx2-extra-linguini.webp"
+            ]
+          },
+          {
+            "name": "Boerderij Meerzicht 森林鬆餅屋",
+            "dish": "荷式鬆餅",
+            "when": "午餐可選",
+            "address": "Koenenkade 56, Amsterdam",
+            "intro": "位於阿姆斯特丹森林，適合有額外時間、想走自然路線時搭配，與市中心行程分開考量。",
+            "image": "/photos/fast-docx2-extra-meerzicht.webp",
+            "images": [
+              "/photos/fast-docx2-extra-meerzicht.webp"
+            ]
+          },
+          {
+            "name": "Dignita Hoftuin 庭園早午餐",
+            "dish": "早午餐／咖啡",
+            "when": "早餐／午餐可選",
+            "address": "Nieuwe Herengracht 18a, Amsterdam",
+            "intro": "在 Hoftuin 庭園周邊安排一段慢下來的用餐時間，適合喜歡綠意與早午餐的人。",
+            "image": "/photos/fast-docx2-extra-dignita.webp",
+            "images": [
+              "/photos/fast-docx2-extra-dignita.webp"
+            ]
+          },
+          {
+            "name": "Star BBQ 燒烤餐廳",
+            "dish": "燒烤／熱食",
+            "when": "晚餐可選",
+            "address": "Tafelbergweg 4B, Amsterdam Zuidoost",
+            "intro": "位於東南區的燒烤選項，與市中心有距離；想去再單獨安排交通，並先確認點餐方式。",
+            "image": "/photos/fast-docx2-extra-star-bbq.webp",
+            "images": [
+              "/photos/fast-docx2-extra-star-bbq.webp"
+            ]
+          },
+          {
+            "name": "Box Sociaal 早午餐",
+            "dish": "早午餐／漢堡",
+            "when": "早餐／午餐可選",
+            "address": "Plantage Middenlaan 30A 或 Bloemgracht 47, Amsterdam",
+            "intro": "偏澳式風格的早午餐與餐點，依當天散步路線選 Plantage 或 Jordaan 分店。",
+            "image": "/photos/fast-docx2-extra-box-gallery.webp",
+            "images": [
+              "/photos/fast-docx2-extra-box-gallery.webp"
+            ]
+          },
+          {
+            "name": "Florentin Brunch 早午餐",
+            "dish": "早午餐",
+            "when": "早餐／午餐可選",
+            "address": "Eerste Sweelinckstraat 20, Amsterdam",
+            "intro": "位於 De Pijp，逛 Albert Cuyp 市集前後可列入坐下用餐的選項。",
+            "image": "/photos/fast-docx2-extra-florentin.webp",
+            "images": [
+              "/photos/fast-docx2-extra-florentin.webp"
+            ]
+          },
+          {
+            "name": "Café-Restaurant De Plantage 庭園餐廳",
+            "dish": "歐式餐點",
+            "when": "晚餐可選",
+            "address": "Plantage Kerklaan 36, Amsterdam",
+            "intro": "玻璃窗、綠色鋼構與庭園環境是特色，適合想安排一晚坐下慢慢吃的晚餐；先確認訂位。",
+            "image": "/photos/fast-docx2-extra-plantage.webp",
+            "images": [
+              "/photos/fast-docx2-extra-plantage.webp"
+            ]
+          },
+          {
+            "name": "Patat oorlog 荷式薯條吃法",
+            "dish": "花生醬、美乃滋與洋蔥薯條",
+            "when": "散步點心可選",
+            "address": "Amsterdam 薯條店，點餐確認供應",
+            "intro": "想換一種吃法，可詢問是否有花生沙嗲醬、美乃滋與洋蔥搭配。照片示範搭配方式，並非特定店家餐點。",
+            "image": "/photos/fast-docx2-extra-patat-oorlog.webp",
+            "images": [
+              "/photos/fast-docx2-extra-patat-oorlog.webp"
+            ]
+          }
+        ]
+      },
+      {
+        "city": "豪達",
+        "items": [
+          {
+            "name": "Kamphuisen Siroopwafelfabriek",
+            "dish": "糖漿鬆餅導覽、試吃與伴手禮",
+            "when": "11/19 15:30",
+            "address": "Markt 69, Gouda",
+            "intro": "藏在 Markt 廣場店面後的糖漿鬆餅工廠，可看製作流程、聞烘焙香並嚐鬆餅；導覽和買伴手禮分開留時間。 品牌將配方追溯到 1810 年，現今供遊客參觀的工廠則於 2018 年開放。參觀時可以把它當成小型食品工藝體驗：看烘烤、夾餡、冷卻到包裝，最後再試吃，會比單買一盒更有記憶。",
+            "image": "/photos/fast-987bfe37e7d8.webp",
+            "images": [
+              "/photos/fast-987bfe37e7d8.webp",
+              "/photos/fast-1bffbdb9b71f.webp",
+              "/photos/fast-aa74c1e33886.webp",
+              "/photos/fast-10b120d35bf9.webp"
+            ]
+          },
+          {
+            "name": "’t Kaaswinkeltje Gouda",
+            "dish": "豪達起司、熟成起司",
+            "when": "11/19 工廠之後",
+            "address": "Lange Tiendeweg 30, Gouda",
+            "intro": "以起司為主的小店，先問熟成程度、試味再選：年輕起司柔和，熟成起司更濃郁。要帶走可詢問包裝與保存方式。 Gouda 不只有一種味道，熟成時間會讓口感從柔軟溫和變成濃郁、帶結晶感。第一次買可請店員比較年輕和熟成兩款，少量試味後再選，比只看起司輪大小更容易找到喜歡的。",
+            "image": "/photos/fast-05d5270e2ffb.webp",
+            "images": [
+              "/photos/fast-05d5270e2ffb.webp",
+              "/photos/fast-ec2fbde2b09c.webp",
+              "/photos/fast-0acbf3291303.webp"
+            ]
+          }
+        ]
+      }
+    ],
+    "flights": [
+      {
+        "group": "耘欣、靖宜、靖枝、玉穎｜4 人",
+        "route": "TSA → SHA → PVG → FRA",
+        "detail": "11/12 MU5098 17:15 松山 → 18:50 虹橋；地面換機場至浦東。11/13 MU219 00:45 浦東 → 05:45 法蘭克福。"
+      },
+      {
+        "group": "益萁｜上海加入",
+        "route": "PVG → FRA",
+        "detail": "11/13 MU219 00:45 → 05:45，五人同班前往法蘭克福。"
+      },
+      {
+        "group": "全體 5 人",
+        "route": "AMS → PVG",
+        "detail": "11/23 MU772 20:00 阿姆斯特丹 → 11/24 14:00 上海浦東。益萁在上海結束旅程。"
+      },
+      {
+        "group": "耘欣、靖宜、靖枝、玉穎｜4 人",
+        "route": "PVG → TPE",
+        "detail": "11/25 MU5007 12:05 浦東 → 14:00 桃園；上海等候 22 小時 05 分。"
+      }
+    ]
+  },
+  "expenses": [
+    {
+      "id": "stay-0",
+      "date": "2026-11-13",
+      "category": "住宿",
+      "detail": "Stylish & modern apartment in Rath｜杜賽道夫",
+      "amount": 1581.06,
+      "currency": "EUR",
+      "rate": 36.75,
+      "payer": "靖宜",
+      "note": "靖宜代付，信用卡刷歐元。9/11 扣款 €813；10/29 扣款 €768.06。",
+      "status": "9/11 首期扣款；10/29 尾款",
+      "confirmedTwd": 58036,
+      "consumer": "全組",
+      "scope": "shared",
+      "owner": "靖宜",
+      "bookingId": "lodging-0"
+    },
+    {
+      "id": "stay-1",
+      "date": "2026-11-18",
+      "category": "住宿",
+      "detail": "Spacious apartment on the Binnerotteplein hotspot",
+      "amount": 556.9,
+      "currency": "EUR",
+      "rate": 36.75,
+      "payer": "靖宜",
+      "note": "靖宜代付，信用卡刷歐元。10/11 一次扣款 €556.90。",
+      "status": "10/11 扣款",
+      "confirmedTwd": 20444,
+      "consumer": "全組",
+      "scope": "shared",
+      "owner": "靖宜",
+      "bookingId": "lodging-1"
+    },
+    {
+      "id": "stay-2",
+      "date": "2026-11-20",
+      "category": "住宿",
+      "detail": "Cityden BoLo District｜Penthouse",
+      "amount": 9185,
+      "currency": "CNY",
+      "rate": 4.72,
+      "payer": "靖宜",
+      "note": "靖宜代付。微信支付人民幣 8,324；抵達現場另刷城市稅 €110.47，住宿總額沿用原確認 NT$43,324。",
+      "status": "城市稅現場刷卡",
+      "confirmedTwd": 43324,
+      "consumer": "全組",
+      "scope": "shared",
+      "owner": "靖宜",
+      "bookingId": "lodging-2"
+    }
+  ],
+  "packing": [
+    {
+      "id": "pack-0-0",
+      "category": "證件與錢",
+      "name": "護照（依各段入境規定核對效期）",
+      "done": false
+    },
+    {
+      "id": "pack-0-1",
+      "category": "證件與錢",
+      "name": "台胞證",
+      "done": false
+    },
+    {
+      "id": "pack-0-2",
+      "category": "證件與錢",
+      "name": "電子機票／訂位代號",
+      "done": false
+    },
+    {
+      "id": "pack-0-3",
+      "category": "證件與錢",
+      "name": "住宿訂單（列印一份紙本）",
+      "done": false
+    },
+    {
+      "id": "pack-0-4",
+      "category": "證件與錢",
+      "name": "歐元現金",
+      "done": false
+    },
+    {
+      "id": "pack-0-5",
+      "category": "證件與錢",
+      "name": "Visa／Mastercard（先跟銀行報備出國）",
+      "done": false
+    },
+    {
+      "id": "pack-0-6",
+      "category": "證件與錢",
+      "name": "旅遊保險保單",
+      "done": false
+    },
+    {
+      "id": "pack-0-7",
+      "category": "證件與錢",
+      "name": "證件影本、大頭照 2 張",
+      "done": false
+    },
+    {
+      "id": "pack-1-0",
+      "category": "電子與充電",
+      "name": "手機＋充電線",
+      "done": false
+    },
+    {
+      "id": "pack-1-1",
+      "category": "電子與充電",
+      "name": "歐規轉接頭（雙圓孔）2–3 個",
+      "done": false
+    },
+    {
+      "id": "pack-1-2",
+      "category": "電子與充電",
+      "name": "行動電源（隨身，不能託運）",
+      "done": false
+    },
+    {
+      "id": "pack-1-3",
+      "category": "電子與充電",
+      "name": "延長線",
+      "done": false
+    },
+    {
+      "id": "pack-1-4",
+      "category": "電子與充電",
+      "name": "相機、記憶卡",
+      "done": false
+    },
+    {
+      "id": "pack-1-5",
+      "category": "電子與充電",
+      "name": "耳機",
+      "done": false
+    },
+    {
+      "id": "pack-2-0",
+      "category": "衣物",
+      "name": "防風防水外套（有帽子）",
+      "done": false
+    },
+    {
+      "id": "pack-2-1",
+      "category": "衣物",
+      "name": "刷毛或薄羽絨保暖層",
+      "done": false
+    },
+    {
+      "id": "pack-2-2",
+      "category": "衣物",
+      "name": "排汗內衣 3–4 件",
+      "done": false
+    },
+    {
+      "id": "pack-2-3",
+      "category": "衣物",
+      "name": "長褲 2–3 件",
+      "done": false
+    },
+    {
+      "id": "pack-2-4",
+      "category": "衣物",
+      "name": "防水止滑步行鞋（不要穿新鞋）",
+      "done": false
+    },
+    {
+      "id": "pack-2-5",
+      "category": "衣物",
+      "name": "厚襪 5 雙以上",
+      "done": false
+    },
+    {
+      "id": "pack-2-6",
+      "category": "衣物",
+      "name": "圍巾、薄手套、毛帽",
+      "done": false
+    },
+    {
+      "id": "pack-2-7",
+      "category": "衣物",
+      "name": "室內拖鞋",
+      "done": false
+    },
+    {
+      "id": "pack-3-0",
+      "category": "盥洗與保養",
+      "name": "牙刷牙膏",
+      "done": false
+    },
+    {
+      "id": "pack-3-1",
+      "category": "盥洗與保養",
+      "name": "洗髮沐浴（分裝）",
+      "done": false
+    },
+    {
+      "id": "pack-3-2",
+      "category": "盥洗與保養",
+      "name": "乳液、護唇膏",
+      "done": false
+    },
+    {
+      "id": "pack-3-3",
+      "category": "盥洗與保養",
+      "name": "保養品",
+      "done": false
+    },
+    {
+      "id": "pack-3-4",
+      "category": "盥洗與保養",
+      "name": "毛巾",
+      "done": false
+    },
+    {
+      "id": "pack-3-5",
+      "category": "盥洗與保養",
+      "name": "面紙、濕紙巾",
+      "done": false
+    },
+    {
+      "id": "pack-4-0",
+      "category": "藥品",
+      "name": "個人常備藥（帶處方箋或英文說明）",
+      "done": false
+    },
+    {
+      "id": "pack-4-1",
+      "category": "藥品",
+      "name": "感冒藥、腸胃藥",
+      "done": false
+    },
+    {
+      "id": "pack-4-2",
+      "category": "藥品",
+      "name": "止痛藥",
+      "done": false
+    },
+    {
+      "id": "pack-4-3",
+      "category": "藥品",
+      "name": "OK 繃、暈車藥",
+      "done": false
+    },
+    {
+      "id": "pack-4-4",
+      "category": "藥品",
+      "name": "口罩",
+      "done": false
+    },
+    {
+      "id": "pack-5-0",
+      "category": "展會用品",
+      "name": "名片（多帶）",
+      "done": false
+    },
+    {
+      "id": "pack-5-1",
+      "category": "展會用品",
+      "name": "筆記本、筆",
+      "done": false
+    },
+    {
+      "id": "pack-5-2",
+      "category": "展會用品",
+      "name": "MEDICA 門票（存手機＋列印）",
+      "done": false
+    },
+    {
+      "id": "pack-5-3",
+      "category": "展會用品",
+      "name": "展商名單、洽談清單",
+      "done": false
+    },
+    {
+      "id": "pack-5-4",
+      "category": "展會用品",
+      "name": "資料袋或摺疊環保袋",
+      "done": false
+    },
+    {
+      "id": "pack-6-0",
+      "category": "生活雜項",
+      "name": "摺疊購物袋（歐洲塑膠袋要錢）",
+      "done": false
+    },
+    {
+      "id": "pack-6-1",
+      "category": "生活雜項",
+      "name": "保溫瓶",
+      "done": false
+    },
+    {
+      "id": "pack-6-2",
+      "category": "生活雜項",
+      "name": "雨衣（比傘實用）",
+      "done": false
+    },
+    {
+      "id": "pack-6-3",
+      "category": "生活雜項",
+      "name": "小鎖頭",
+      "done": false
+    },
+    {
+      "id": "pack-6-4",
+      "category": "生活雜項",
+      "name": "洗衣袋",
+      "done": false
+    },
+    {
+      "id": "pack-6-5",
+      "category": "生活雜項",
+      "name": "泡麵、零食",
+      "done": false
+    }
+  ],
+  "travelers": [
+    "益萁",
+    "耘欣",
+    "靖宜",
+    "靖枝",
+    "玉穎"
+  ],
+  "people": 5,
+  "photos": {
+    "Cityden BoLo District 1": "/photos/fast-aa92927fea44.webp",
+    "Cityden BoLo District 2": "/photos/fast-0be9c74c61ec.webp",
+    "Cityden BoLo District 3": "/photos/fast-c9ab8d63494e.webp",
+    "Depot": "/photos/fast-b0d61425f515.webp",
+    "MEDICA-2": "/photos/fast-7e11d10fc760.webp",
+    "MEDICA": "/photos/fast-0cb038f49a16.webp",
+    "Zaanse Schans": "/photos/fast-1f9a76a1c90e.webp",
+    "杜賽道夫-2": "/photos/fast-6a7a93cb2c88.webp",
+    "杜賽道夫-3": "/photos/fast-e3481f4777f0.webp",
+    "杜賽道夫": "/photos/fast-15b3c5c2239b.webp",
+    "杜賽道夫住宿1": "/photos/fast-5ca272b0ef00.webp",
+    "杜賽道夫住宿2": "/photos/fast-bf5186201b28.webp",
+    "珍珠耳環少女": "/photos/fast-2671f983591c.webp",
+    "科隆": "/photos/fast-1b18ffa290bc.webp",
+    "荷蘭11月 照片": "/photos/fast-9a89e65b524e.webp",
+    "鹿特丹-2": "/photos/fast-3ea0374d125f.webp",
+    "鹿特丹-3": "/photos/fast-84f0afbd9cad.webp",
+    "鹿特丹": "/photos/fast-298740b50eb7.webp",
+    "鹿特丹住宿 1": "/photos/fast-5aee30acb963.webp",
+    "鹿特丹住宿 2": "/photos/fast-b271642b065f.webp",
+    "鹿特丹住宿 3": "/photos/fast-1b47e7d1eacc.webp",
+    "鹿特丹住宿 4": "/photos/fast-8e518ab0b901.webp",
+    "鹿特丹住宿 5": "/photos/fast-e2b4c467e62a.webp",
+    "Van Gogh Museum": "/photos/fast-07216d1d8ae3.webp",
+    "Lindengracht Markt": "/photos/fast-593b2e4f0628.webp",
+    "Delft Market": "/photos/fast-90650da1cea1.webp",
+    "Gouda Markt": "/photos/fast-a7c03da9ffe2.webp",
+    "Kubuswoningen": "/photos/fast-7a11bb50d494.webp",
+    "新增・杜賽道夫住宿1": "/photos/fast-1915f2791fee.webp",
+    "新增・杜賽道夫住宿10": "/photos/fast-2130d032ae09.webp",
+    "新增・杜賽道夫住宿2": "/photos/fast-69fc2fff867e.webp",
+    "新增・杜賽道夫住宿3": "/photos/fast-833dde1319f6.webp",
+    "新增・杜賽道夫住宿4": "/photos/fast-6b1af86f2b3f.webp",
+    "新增・杜賽道夫住宿5": "/photos/fast-5ea614a0050d.webp",
+    "新增・杜賽道夫住宿6": "/photos/fast-eb098e719202.webp",
+    "新增・杜賽道夫住宿7": "/photos/fast-efde66a9f7a2.webp",
+    "新增・杜賽道夫住宿9": "/photos/fast-91280aa3c1a5.webp",
+    "新增・豪達起司1": "/photos/fast-ec2fbde2b09c.webp",
+    "新增・豪達起司2": "/photos/fast-0acbf3291303.webp",
+    "新增・阿姆斯特丹住宿1": "/photos/fast-48ab748ef90b.webp",
+    "新增・阿姆斯特丹住宿2": "/photos/fast-6683894e2f8f.webp",
+    "新增・阿姆斯特丹住宿3": "/photos/fast-bb8d1b9d0e1f.webp",
+    "新增・鬆餅店1": "/photos/fast-1bffbdb9b71f.webp",
+    "新增・鬆餅店2": "/photos/fast-aa74c1e33886.webp",
+    "新增・鬆餅店3": "/photos/fast-10b120d35bf9.webp",
+    "新增・鹿特丹住宿1": "/photos/fast-13ed886d6a9e.webp",
+    "新增・鹿特丹住宿2": "/photos/fast-7033f562982c.webp",
+    "新增・鹿特丹住宿3": "/photos/fast-10f04de9b863.webp",
+    "新增・鹿特丹住宿5": "/photos/fast-2f6b37bfed4a.webp",
+    "新增・鹿特丹住宿6": "/photos/fast-60c5a88a3143.webp",
+    "新增・鹿特丹住宿7": "/photos/fast-2cbdf5999be4.webp",
+    "新增・鹿特丹住宿8": "/photos/fast-bef2225d6e42.webp",
+    "新增・鹿特丹住宿9": "/photos/fast-2d911a7f9aca.webp",
+    "Hohenzollernbrücke": "/photos/fast-cf0f27d3659d.webp",
+    "Schokoladenmuseum": "/photos/fast-3faca69d4c3c.webp",
+    "MedienHafen": "/photos/fast-6856b199c47c.webp",
+    "Burgplatz": "/photos/fast-0bb2b78a0f20.webp",
+    "Oude Haven": "/photos/fast-8980f402ebc8.webp",
+    "Erasmusbrug": "/photos/fast-6e0fbdb8cf8e.webp",
+    "Hofvijver": "/photos/fast-c62c323f680b.webp",
+    "Sint-Janskerk": "/photos/fast-b0bec2e1e98b.webp",
+    "Gouda Waag": "/photos/fast-1cdbbfe9246d.webp",
+    "Anne Frank Huis": "/photos/fast-7180945a8a31.webp",
+    "Albert Cuyp Markt 街景": "/photos/fast-bc788530e49d.webp",
+    "Rath住宿・臥室": "/photos/fast-c84accbcac2d.webp",
+    "Rath住宿・第二間房": "/photos/fast-59f5b6861592.webp",
+    "Rath住宿・浴室": "/photos/fast-666c720b34a5.webp",
+    "Rath住宿・浴室洗手台": "/photos/fast-96d998f5f592.webp",
+    "鹿特丹住宿官網・客廳餐廳": "/photos/fast-9be63a72ba7c.webp",
+    "鹿特丹住宿官網・客廳窗景": "/photos/fast-e17935d8ac3c.webp",
+    "Penthouse・私人露台": "/photos/fast-2bbff847b68d.webp",
+    "Penthouse・餐廳與廚房": "/photos/fast-ccf69cb4709a.webp",
+    "向日葵｜1889": "/photos/fast-ef022113c541.webp",
+    "杏花盛開｜1890": "/photos/fast-711f5a403ff9.webp",
+    "吃馬鈴薯的人｜1885": "/photos/fast-7d838d7b819c.webp",
+    "臥室｜1888": "/photos/fast-c73a4591e64b.webp",
+    "伴手禮・ritter": "/photos/fast-34a8345790e9.webp",
+    "伴手禮・haribo": "/photos/fast-5bde4295c4d3.webp",
+    "伴手禮・balea": "/photos/fast-b601856d0de6.webp",
+    "伴手禮・nivea": "/photos/fast-fe67b1b0d4f1.webp",
+    "伴手禮・marzipan": "/photos/fast-92f3cc143e9b.webp",
+    "伴手禮・tonys": "/photos/fast-95ade3221466.webp",
+    "伴手禮・schuddebuikjes": "/photos/fast-3c360be01c67.webp",
+    "伴手禮・old-amsterdam": "/photos/fast-3daf945ec539.webp",
+    "PSD BANK DOME": "/photos/fast-eab5e4613d63.webp"
+  },
+  "exchangeRates": {
+    "TWD": 1,
+    "EUR": 36.75,
+    "USD": 31.65,
+    "CNY": 4.72
+  },
+  "transportBooking": [
+    {
+      "name": "Düsseldorf Hbf → Utrecht Centraal → Rotterdam Centraal",
+      "text": "11/18 杜賽道夫 → 烏特勒支轉車 → 鹿特丹。提前買 ICE＋Intercity 聯程；優先上午出發，轉車留 20–30 分鐘。這段跨國路線通常需一次轉乘，依 DB／NS International 當日可售班次確認。"
+    },
+    {
+      "name": "Düsseldorf Hbf ↔ Köln Hbf",
+      "text": "11/14 杜賽道夫中央車站 ↔ 科隆中央車站。選 ICE／IC 可提前買指定班次優惠票與座位；若要當天彈性回程，改比 RE 區域列車票。兩種票適用車種不同。"
+    },
+    {
+      "name": "Rotterdam Centraal → Amsterdam Zuid／Centraal",
+      "text": "11/20 鹿特丹 → 阿姆斯特丹。一般 NS 國內車票不需訂座；比較到住宿的總時間再選車站。經 Schiphol 高速線的 Intercity direct／Eurocity Direct 需額外附加票，普通 Intercity 依路線搭乘。"
+    },
+    {
+      "name": "Amsterdam → Schiphol Airport",
+      "text": "11/23 阿姆斯特丹 → 史基浦機場。一般 NS 國內車票不用提早搶座位，先確認從住宿到站的接駁及列車時間；保留機場報到時間。"
+    },
+    {
+      "name": "Rotterdam → Den Haag → Gouda → Rotterdam",
+      "text": "11/19 鹿特丹 → 海牙 → 豪達 → 鹿特丹。三段優先選 0 次轉乘 Intercity，無須預約座位，可當天使用 OVpay／NS 車票。"
+    }
+  ],
+  "stayPhotos": [
+    [
+      "Rath住宿・臥室",
+      "Rath住宿・第二間房",
+      "Rath住宿・浴室",
+      "Rath住宿・浴室洗手台"
+    ],
+    [
+      "鹿特丹住宿官網・客廳餐廳",
+      "鹿特丹住宿官網・客廳窗景",
+      "鹿特丹住宿 1",
+      "鹿特丹住宿 2",
+      "鹿特丹住宿 3",
+      "鹿特丹住宿 4",
+      "鹿特丹住宿 5",
+      "新增・鹿特丹住宿1",
+      "新增・鹿特丹住宿2",
+      "新增・鹿特丹住宿3",
+      "新增・鹿特丹住宿5",
+      "新增・鹿特丹住宿6",
+      "新增・鹿特丹住宿7",
+      "新增・鹿特丹住宿8",
+      "新增・鹿特丹住宿9"
+    ],
+    [
+      "Penthouse・私人露台",
+      "Penthouse・餐廳與廚房",
+      "Cityden BoLo District 1",
+      "Cityden BoLo District 2",
+      "Cityden BoLo District 3",
+      "新增・阿姆斯特丹住宿1",
+      "新增・阿姆斯特丹住宿2",
+      "新增・阿姆斯特丹住宿3"
+    ]
+  ],
+  "cityStories": [
+    {
+      "date": "2026-11-13",
+      "city": "杜賽道夫 Düsseldorf",
+      "text": "從 Düssel 河口的小聚落發展而來，1288 年取得城市權利。今天既是展會、時尚與商業城市，也保有老城 Altbier 酒館文化。沿萊茵河走到媒體港，能看到老城與當代建築在同一座城市裡相接。 Düsseldorf 的名字可理解為 Düssel 河畔的聚落，萊茵河則帶來更大的交通與商業網絡。老城留下宮廷時代的痕跡，今日城市又以展覽、設計及辦公產業聞名。初到這裡可先看 Burgplatz 的塔樓，再沿河走向媒體港：同一條河岸，把舊城記憶和當代建築串起來。Altbier 是當地酒館的重要文化，不喝酒也可以透過餐桌與熱鬧街景感受城市。"
+    },
+    {
+      "date": "2026-11-14",
+      "city": "科隆 Köln",
+      "text": "科隆的根源可追溯至羅馬時代，萊茵河讓它長久扮演交通與貿易中心。雙塔大教堂是城市天際線的核心，老城啤酒館則讓人認識 Kölsch 與熱鬧的萊茵生活。 羅馬時代的城市基礎、萊茵河貿易與中世紀宗教地位，共同塑造科隆。大教堂從 1248 年開始建造，直到 1880 年才完成主要工程，所以眼前看似完整的建築，其實跨越了好幾代人的時間。二戰後城市重建，教堂仍成為居民辨認家鄉的象徵。今天從中央站走出來就能仰望雙塔，再往河橋走，最容易理解教堂、火車與河流的關係。"
+    },
+    {
+      "date": "2026-11-18",
+      "city": "鹿特丹 Rotterdam",
+      "text": "城市名字源自 Rotte 河上的水壩，港口帶來貿易與多元人口。1940 年市中心遭轟炸後，重建選擇向現代建築前進；方塊屋、Markthal 與大橋，呈現它不斷試驗新樣貌的個性。 1940 年的轟炸重創市中心，戰後鹿特丹沒有全面復刻舊街景，而是用寬闊道路和新建築重新安排生活。因此它與阿姆斯特丹的運河老屋很不一樣。Markthal 把住宅與買菜空間疊在一起，方塊屋把「住在城市」變成建築實驗，Oude Haven 的老船則提醒我們港口才是這座城市的起點。抵達第一天不急著跑完地標，看看建築之間的對比就很有收穫。"
+    },
+    {
+      "date": "2026-11-19",
+      "city": "海牙 Den Haag",
+      "text": "從荷蘭伯爵的宮廷聚落發展成政府與王室所在的城市，兼有外交機構、名畫收藏與海濱生活。它不是荷蘭首都；今天先看 Hofvijver 與 Mauritshuis，再到 Scheveningen 的街區吃午餐。 海牙的城市核心與伯爵宮廷有關，Binnenhof 周邊後來發展成政治中心；國會、政府與王室讓這裡多了莊重的街道氣質。荷蘭首都是阿姆斯特丹，中央政府卻在海牙，兩者角色不同。國際司法機構又使海牙與和平、法律的形象相連。今天的行程從宮廷池塘和名畫開始，午餐走到 Scheveningen 海邊生活圈，就能看到政治城市也有輕鬆的另一面。"
+    },
+    {
+      "date": "2026-11-19",
+      "city": "豪達 Gouda",
+      "text": "因起司交易而聞名的運河小城，市集廣場上的哥德式市政廳與 Waag 秤量所，留下昔日商業的痕跡。今天的味道是起司與糖漿鬆餅；11 月來看店舖與老城，不安排春夏起司市集表演。 豪達起司得名於交易中心，起司主要來自周邊農村，商人在城裡秤量、議價與出售。這就是為什麼廣場、市政廳和 Waag 值得一起看：它們不只是漂亮建築，而是城市商業運作的舞台。糖漿餅則是另一種在地味道，可以先看工坊再試吃。11 月沒有春夏的起司市集表演，適合看店舖、運河與老城；市政廳可能仍有修繕圍擋，沿途以實際開放狀況為準。"
+    },
+    {
+      "date": "2026-11-20",
+      "city": "阿姆斯特丹 Amsterdam",
+      "text": "從 Amstel 河上的水壩與港口聚落成長，17 世紀貿易擴張帶動環狀運河與窄面寬商人住宅的建設。今天可以在運河橋、市集、博物館與咖啡館之間，慢慢感受這座水上城市的日常。 運河不是單純的風景，而是城市擴張、運貨與居住規劃的一部分。17 世紀海上貿易帶來財富，也與殖民擴張和剝削相連；華麗商人住宅背後有複雜的歷史。散步時可看窄屋正面、屋頂吊鉤與水邊倉庫，想像貨物如何從船運進房子。今天市集、自行車、咖啡館與來自不同地方的料理，讓老街繼續成為生活空間。"
+    },
+    {
+      "date": "2026-11-22",
+      "city": "贊斯地區・Zaanse Schans",
+      "text": "贊斯地區曾以風力支撐木材、油料等產業。風車村的綠色木屋與風車展示這段工業生活史，不只是拍照背景；散步時看看風車用途與工坊手藝。 過去風車是機械動力來源，用來鋸木、榨油或加工原料，不同風車的工作不一樣。贊斯地區曾聚集大量工業風車；今日風車村也包含被保存及遷移至此的歷史建築。綠色木屋、河運與工坊放在一起看，比只拍一座風車更能理解這裡。步行時挑一間有興趣的工坊慢慢看，其他時間留給河岸與村落。"
+    }
+  ],
+  "shopping": [
+    {
+      "country": "荷蘭",
+      "groups": [
+        {
+          "title": "超市",
+          "text": "甜辣洋芋片：Lay’s、Tyrrells、起司點心與隨手餅乾、Jules Destrooper 奶油薄脆與巧克力餅乾、Tony’s Chocolonely 巧克力、AH 開心果抹醬、Bonne Maman 杏桃果醬、AH 焦糖烤布蕾與起司蛋糕、冰淇淋：Ben & Jerry’s、Oppo、Jumbo 臘腸與 Stracciatella 起司、Jumbo 迷你杏仁餡水果麵包、鮮奶與原味優格、AH 果汁與優格果昔、荷蘭莓果：覆盆子、紅醋栗、AH 芥末脆豆、優格巧克力球與 Optimel 優酪乳、AH 牛奶巧克力米餅、AH Terra 無糖豆奶、生薑果汁小瓶、De Pindakaaswinkel 顆粒花生醬、Apple Bandit 蘋果酒、Chocomel 巧克力牛奶、De Ruijter 巧克力米"
+        },
+        {
+          "title": "藥妝",
+          "text": "荷蘭藥妝店怎麼分、Rituals 香氛、身體保養與禮盒、De Tuinen 蝸牛保養系列、De Tuinen 乳霜三款、Jacob Hooy 保養精華、De Tuinen 洗面、卸妝與眼唇清潔、De Tuinen 炭泥膜與綠泥膜、De Tuinen 大蒜潤髮乳、Q+A 果酸身體磨砂膏、LOOKX 眼部精華、Simple 潔面產品、魚油與鱈魚肝油比較、H&B 複方、異黃酮與月見草油、Lucovitaal 電解質、鎂與離胺酸、維他命 D3、鐵與複方補充品、AVEA 膠原相關補充品、Q+A 玻尿酸臉部精華 30 ml、Ultrasun Face SPF30 臉部防曬 50 ml、金盞花乳霜選購參考、Mixa 身體乳選購參考、Marie-Stella-Maris 香氛洗手露、Zenology 居家香氛、Het Amsterdamse Zeephuis 運河屋香皂、Abel 香水、HEMA 彩妝與香氛"
+        },
+        {
+          "title": "伴手禮",
+          "text": "Miffy 米飛兔專賣店與生活小物、梵谷博物館紀念品、市集磁鐵、木鬱金香與代爾夫特藍陶、阿姆斯特丹運河屋與城市紀念品、荷蘭果醬迷你組合、Bergman’s Botersprits 奶油擠花餅乾、Neuhaus 巧克力條、Ananda 礦石與手作小物、Bolletje 肉桂香料小餅乾、Old Amsterdam Extra Intens 起司、Kamphuisen 糖漿鬆餅、Van Stapele 巧克力餅乾、Playmobil 梵谷畫家公仔、Primark 印花睡衣與日常服飾、藍白荷蘭風格餅乾鐵盒、Het Koekemannetje 手工餅乾、Rudi’s Original Stroopwafels、Daelmans 糖漿煎餅、AGU 雨衣與自行車服飾、Filling Pieces 休閒鞋、America Today 雨衣與休閒服、Kinfill 居家清潔組、O My Bag 皮件與包款、Foekje Fleur 陶瓷花器、Bamboo Basics 基本款衣物、Little Dutch 兒童玩具、Heineken 海尼根周邊、Patta 街頭服飾、The Mercer Brand 運動休閒鞋、Starbucks 阿姆斯特丹城市杯"
+        }
+      ]
+    },
+    {
+      "country": "德國",
+      "groups": [
+        {
+          "title": "超市",
+          "text": "Bakery 抹茶白巧克力餅乾麵糰、Kaufland Gold Edition 章魚與薄切牛肉、Milka Choco Wafer 巧克力威化、料理補給：噴霧油與千島醬、Nucao 草莓巧克力、Cavi-art 與 KoRo 青醬、季節葡萄飲與巧克力利口酒、早餐冷藏櫃：優格與飲品、巧克力餅乾與夾心點心、鹹點：米果、洋芋片與蝴蝶餅、REWE 義式薄脆餅 Pane Guttiau、Wicklein 生薑香橙餅乾、果醬與栗子抹醬、Feiny Biscuits 黑巧克力蛋捲、黑虎蝦冷凍包、飯後甜點：提拉米蘇與布丁、EDEKA 熟食櫃：烤雞、排骨、豬腳、REWE Bio 酪梨調味料、KoRo 開心果威化餅、培根包椰棗、REWE Feine Welt 原味與松露洋芋片、鳳梨乾小點心、REWE Feine Welt 芝麻與開心果冰淇淋、Alnatura 優格米餅與椰子小點、Pistachub 開心果抹醬、奶油乳酪夾心椰棗"
+        },
+        {
+          "title": "藥妝",
+          "text": "居家清潔小物、Balea 與 alverde 入門保養、Doppelherz 與 Mivolis 補充品對照、Zirkulin 洋車前子種子、Balea Q10 晚霜與玻尿酸安瓶、Balea 潔面膠與摩洛哥堅果卸妝油、露得清護手霜與 Labello 原味護唇、alverde 野玫瑰臉部保養油、AJONA 紅管濃縮牙膏、SANTE 固體洗髮餅、Salthouse 洗髮精、Garnier 防曬噴霧與 sebamed 潔膚露、S-QUiTO free 檸檬尤加利防蚊噴霧、Schaebens 褪黑激素噴霧、NIVEA 密集滋養護手霜"
+        },
+        {
+          "title": "伴手禮",
+          "text": "Lindt Nuxor 榛果巧克力、杜塞道夫 Altbier 老啤酒、Reese’s 花生醬巧克力、Ritter Sport Alpenmilch、Niederegger 杏仁膏巧克力、Katjes Wunderland +Vitamine 水果軟糖、HARIBO Goldbären 小熊軟糖"
+        }
+      ]
+    }
+  ],
+  "dayPhotos": {
+    "13": [
+      "杜賽道夫",
+      "杜賽道夫-2",
+      "Burgplatz"
+    ],
+    "14": [
+      "科隆",
+      "Hohenzollernbrücke",
+      "Schokoladenmuseum"
+    ],
+    "15": [
+      "杜賽道夫-3",
+      "杜賽道夫",
+      "MedienHafen",
+      "PSD BANK DOME"
+    ],
+    "16": [
+      "MEDICA",
+      "MEDICA-2"
+    ],
+    "17": [
+      "MEDICA",
+      "MEDICA-2",
+      "PSD BANK DOME"
+    ],
+    "18": [
+      "鹿特丹",
+      "Kubuswoningen",
+      "Depot",
+      "Oude Haven",
+      "Erasmusbrug"
+    ],
+    "19": [
+      "珍珠耳環少女",
+      "Gouda Markt",
+      "Hofvijver",
+      "Sint-Janskerk",
+      "Gouda Waag"
+    ],
+    "20": [
+      "荷蘭11月 照片",
+      "Albert Cuyp Markt 街景"
+    ],
+    "21": [
+      "Van Gogh Museum",
+      "向日葵｜1889",
+      "杏花盛開｜1890",
+      "吃馬鈴薯的人｜1885",
+      "臥室｜1888",
+      "Lindengracht Markt"
+    ],
+    "22": [
+      "Zaanse Schans",
+      "Anne Frank Huis"
+    ],
+    "23": [
+      "荷蘭11月 照片"
+    ]
+  },
+  "landmarks": [
+    {
+      "day": "14",
+      "name": "Hohenzollernbrücke",
+      "label": "科隆・霍亨索倫橋",
+      "intro": "橫跨萊茵河的鐵路橋，步行道能看見教堂雙塔；走一小段就能感受火車、河流與城市相交。"
+    },
+    {
+      "day": "14",
+      "name": "Schokoladenmuseum",
+      "label": "科隆・巧克力博物館",
+      "intro": "河畔的巧克力博物館，可作下午室內選項；若不入館，也能沿碼頭欣賞建築與河景。"
+    },
+    {
+      "day": "15",
+      "name": "MedienHafen",
+      "label": "杜賽道夫・媒體港 Gehry 建築",
+      "intro": "舊港區轉為創意與辦公街區，Gehry 的彎曲立面是主角。沿水邊看建築外觀即可，不必趕多個室內點。"
+    },
+    {
+      "day": "13",
+      "name": "Burgplatz",
+      "label": "杜賽道夫・城堡廣場 Burgplatz",
+      "intro": "萊茵河畔老城的重要廣場，城堡塔樓留下昔日宮殿的痕跡。適合抵達日慢走、找個地方坐下。"
+    },
+    {
+      "day": "18",
+      "name": "Oude Haven",
+      "label": "鹿特丹・老港 Oude Haven",
+      "intro": "老船、港池與現代建築相鄰，是方塊屋附近適合放慢腳步的一角。"
+    },
+    {
+      "day": "18",
+      "name": "Erasmusbrug",
+      "label": "鹿特丹・伊拉斯謨橋 Erasmusbrug",
+      "intro": "白色斜張橋連接城市兩岸，造型像天鵝；橋面風大，夜景也可留在河岸欣賞。"
+    },
+    {
+      "day": "19",
+      "name": "Hofvijver",
+      "label": "海牙・宮廷池塘 Hofvijver",
+      "intro": "美術館旁的水景把宮廷與政府建築串在一起。11/19 入館前短停拍照，不再額外繞遠。"
+    },
+    {
+      "day": "19",
+      "name": "Sint-Janskerk",
+      "label": "豪達・聖約翰教堂 Sint-Janskerk",
+      "intro": "豪達的重要教堂，以彩繪玻璃著稱。這天到得較晚，安排外觀與教堂周邊小巷；若想入內需另外確認開放時間。"
+    },
+    {
+      "day": "19",
+      "name": "Gouda Waag",
+      "label": "豪達・起司秤量所 De Goudse Waag",
+      "intro": "廣場上的歷史秤量所與昔日起司交易有關，和市政廳一起看，便能理解豪達的商業背景。"
+    },
+    {
+      "day": "22",
+      "name": "Anne Frank Huis",
+      "label": "阿姆斯特丹・安妮之家外觀",
+      "intro": "透過安妮與家人的藏匿故事，認識二戰時期的迫害與日常。參觀時間依預約票，館內保持安靜。 安妮一家在納粹占領期間藏身於後屋，日記留下日常、恐懼與期待。家人遭逮捕後，父親 Otto Frank 倖存並參與日記出版。參觀不只是看一間房子，而是透過個人生命理解反猶迫害與大屠殺；進入前先知道這段背景，會更能理解狹小空間的重量。"
+    },
+    {
+      "day": "20",
+      "name": "Albert Cuyp Markt 街景",
+      "label": "阿姆斯特丹・Albert Cuyp 市集",
+      "intro": "De Pijp 區的街頭市場，食材與小吃攤密集；午餐少量多樣，留時間看周邊街道。"
+    },
+    {
+      "day": "14",
+      "name": "科隆",
+      "label": "科隆大教堂",
+      "intro": "哥德式雙塔教堂是科隆地標；抬頭看尖拱與雕刻，主堂與鐘塔依各自票種與開放時間參觀。 建築的尖拱、肋架與高窗把視線帶向上方；不懂建築術語，也能從光線與高度感受到哥德式教堂想營造的氛圍。主堂參觀與登塔是不同體力需求，這天先以主堂和外觀為主。"
+    },
+    {
+      "day": "18",
+      "name": "鹿特丹",
+      "label": "鹿特丹・Markthal 拱門市場",
+      "intro": "巨大的拱形空間把住宅、市場和彩繪天花結合，抬頭和逛攤同樣有趣。 市場拱形內側的大型彩繪，把水果、花朵與昆蟲放大，讓買菜空間像走進一幅畫；外側其實是住宅。先抬頭看整體，再各自選小吃，會比只找一家店更有趣。"
+    },
+    {
+      "day": "18",
+      "name": "Kubuswoningen",
+      "label": "鹿特丹・方塊屋",
+      "intro": "Piet Blom 設計的傾斜黃色方塊，把房子想像成樹、群落想像成森林。先看外觀與公共步道。 傾斜的房子並不是裝飾模型，而是可居住的住宅。公共步道像穿過樹林，若想知道斜牆裡怎麼擺家具，可另外選示範屋參觀；趕時間看外觀也能讀懂設計概念。"
+    },
+    {
+      "day": "18",
+      "name": "Depot",
+      "label": "鹿特丹・Depot Boijmans",
+      "intro": "鏡面外牆映出城市，室內是可參觀的藝術庫房；若入內請先訂票。 一般美術館只展出部分館藏，Depot 則讓庫房本身被看見。它的重點是作品如何分類、保存與管理，不是傳統依年代排好的展廳。這次抵達日下午先保持彈性，想入館再確認時段，不與入住時間互相擠壓。"
+    },
+    {
+      "day": "19",
+      "name": "珍珠耳環少女",
+      "label": "海牙・Mauritshuis《戴珍珠耳環的少女》",
+      "intro": "17 世紀建築裡收藏荷蘭繪畫，這天以維梅爾的少女為重點，也留時間看其他畫作。 《戴珍珠耳環的少女》不是已知身分者的正式肖像，而是稱為 tronie 的人物習作，著重神情、服飾與光影。可以留意嘴唇、眼睛和耳環的亮點，背景的暗色讓她回頭的一瞬更突出。館舍原是17世紀住宅，房間尺度比大型博物館親近，適合逐室慢看，也認識林布蘭與其他荷蘭畫家。"
+    },
+    {
+      "day": "19",
+      "name": "Gouda Markt",
+      "label": "豪達・Markt 廣場與市政廳",
+      "intro": "獨立立在廣場上的哥德式市政廳，和周圍的小店一起構成豪達老城中心。"
+    },
+    {
+      "day": "21",
+      "name": "Van Gogh Museum",
+      "label": "阿姆斯特丹・梵谷美術館",
+      "intro": "從早期作品到鮮明色彩，沿著梵谷的創作生涯看畫；預留兩小時，別只找一幅名作。 館藏的形成與弟弟西奧及家人保存畫作、書信的努力密切相關。參觀時可沿年代看：荷蘭時期偏深色的農民生活，巴黎時期逐漸明亮的筆觸，再到法國南部的黃色、藍色與強烈對比。把畫旁的年代和創作地一起看，會比只認名作更清楚他怎麼改變。作品可能借展或輪換，以當日陳列為準。"
+    },
+    {
+      "day": "22",
+      "name": "Zaanse Schans",
+      "label": "贊斯風車村・Zaanse Schans",
+      "intro": "河邊風車、綠色木屋與工坊呈現贊斯地區的生活與產業。時間留給散步與選一兩個有興趣的工坊。"
+    },
+    {
+      "day": "15",
+      "name": "PSD BANK DOME Düsseldorf",
+      "label": "DEG 冰球主場・PSD BANK DOME",
+      "intro": "DEG 是杜賽道夫的冰球隊。現場最有趣的是高速攻防、換人和球迷一起加油的氣氛。冰球分三節，中間有休息與整冰，17:00 開始不代表一小時內結束；將整個傍晚留給比賽即可。第一次看球不必懂完所有規則，跟著冰球與球迷反應也很有趣。"
+    }
+  ],
+  "artworks": [
+    {
+      "name": "向日葵｜1889",
+      "image": "/photos/fast-ef022113c541.webp",
+      "intro": "用不同黃色畫出花瓣、花瓶與背景，讓近似色也能有豐富變化。這幅是阿姆斯特丹館藏版本；梵谷畫過不只一幅向日葵。可留意盛開、低垂和已結籽的花朵並存在同一束裡。"
+    },
+    {
+      "name": "杏花盛開｜1890",
+      "image": "/photos/fast-711f5a403ff9.webp",
+      "intro": "梵谷送給剛出生、以他名字命名的姪子的禮物。淡色花朵對上清澈藍天，樹枝像從畫面外伸入；花開象徵新的生命，也能看出他對日本版畫構圖的興趣。"
+    },
+    {
+      "name": "吃馬鈴薯的人｜1885",
+      "image": "/photos/fast-7d838d7b819c.webp",
+      "intro": "早期荷蘭時期的代表作，色調與後來的向日葵非常不同。昏暗燈光下的農家圍桌吃飯，粗糙的手、臉和簡單食物是理解畫面的重點：他想讓人看見勞動者的生活。"
+    },
+    {
+      "name": "臥室｜1888",
+      "image": "/photos/fast-c73a4591e64b.webp",
+      "intro": "畫的是法國阿爾勒黃房子裡的臥室。床、椅子與牆上的畫讓人覺得熟悉，傾斜的線條與平塗色面又顯得特別。看畫時可想像：他如何用色彩與簡化的家具，表達想要休息的空間。"
+    }
+  ],
+  "giftProducts": [
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Miffy 米飛兔專賣店與生活小物",
+      "where": "De Winkel van Nijntje／HEMA",
+      "intro": "除了玩偶，也可以找杯子、圍兜、隔熱手套、木製小物與居家用品；先想好要送誰，再挑實用或收藏款。",
+      "image": "/photos/fast-docx-nl-image1.webp",
+      "images": [
+        "/photos/fast-docx-nl-image1.webp",
+        "/photos/fast-docx-nl-image59.webp",
+        "/photos/fast-docx-nl-image60.webp",
+        "/photos/fast-docx-nl-image61.webp"
+      ],
+      "tips": [
+        "專賣店適合找不同造型；HEMA 可以順路比較日常用品。",
+        "照片中的快煮壺屬於家電，購買前確認電壓、插頭及保固，不當成一般小紀念品直接帶走。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "梵谷博物館紀念品",
+      "where": "梵谷博物館禮品店",
+      "intro": "畫作磁鐵、提袋、鉛筆、明信片與巧克力，把最喜歡的畫帶回家；也可以留意與米飛兔結合的系列。",
+      "image": "/photos/fast-docx-nl-image3.webp",
+      "images": [
+        "/photos/fast-docx-nl-image3.webp"
+      ],
+      "tips": [
+        "先逛完展覽再選圖案，比較容易挑到真正有感覺的紀念品。",
+        "巧克力、磁鐵與包裝限定款分開比較，不必每種都買。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "市集磁鐵、木鬱金香與代爾夫特藍陶",
+      "where": "Albert Cuyp 市集／紀念品店",
+      "intro": "風車、木鞋、鬱金香、藍白陶器與名畫磁鐵，是體積小、容易分送的荷蘭紀念品。",
+      "image": "/photos/fast-docx-nl-image4.webp",
+      "images": [
+        "/photos/fast-docx-nl-image4.webp",
+        "/photos/fast-docx-nl-image39.webp",
+        "/photos/fast-docx-nl-image40.webp"
+      ],
+      "tips": [
+        "戴珍珠耳環的少女、小畫框和立體風車可比較市集與博物館的設計。",
+        "照片價格是當時記錄，挑選時仍以現場標價為準。",
+        "陶器和立體磁鐵請店家分開包好。",
+        "荷蘭旅客退稅：先向店家確認資格與方案；符合條件的荷蘭購物滿 €50，可請店家當場數位登錄發票。出境時用 NL Customs VAT 或海關櫃台驗證，商品要能出示。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "阿姆斯特丹運河屋與城市紀念品",
+      "where": "Amsterdam Souvenirs／市區紀念品店",
+      "intro": "窄窄高高的運河屋磁鐵很有城市辨識度；也可以找帆布袋、明信片與小尺寸米飛兔。",
+      "image": "/photos/fast-docx-nl-image24.webp",
+      "images": [
+        "/photos/fast-docx-nl-image24.webp",
+        "/photos/fast-docx-nl-image25.webp"
+      ],
+      "tips": [
+        "先確認磁鐵背面牢固、圖樣完整，再挑要送的數量。",
+        "不一定每間店都有相同配色或聯名款。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "荷蘭果醬迷你組合",
+      "where": "博物館禮品店／紀念品店",
+      "intro": "小罐果醬組合適合早餐，也方便分送；不同口味排成一組，比單買大罐更容易試吃。",
+      "image": "/photos/fast-docx-nl-image38.webp",
+      "images": [
+        "/photos/fast-docx-nl-image38.webp"
+      ],
+      "tips": [
+        "玻璃罐另包防碰撞，並注意液體與手提行李規則。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Bergman’s Botersprits 奶油擠花餅乾",
+      "where": "超市／地方食品店",
+      "intro": "傳統擠花造型的奶油餅乾，適合配茶或咖啡；盒裝也可以當點心伴手禮。",
+      "image": "/photos/fast-docx-nl-image62.webp",
+      "images": [
+        "/photos/fast-docx-nl-image62.webp"
+      ],
+      "tips": [
+        "奶油香與鬆酥口感是重點；外盒容易壓到，放行李時留一點空間。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Neuhaus 巧克力條",
+      "where": "巧克力專賣店／百貨",
+      "intro": "照片推薦覆盆子黑巧克力與薄片巧克力系列；小條裝適合自己試吃或分送。",
+      "image": "/photos/fast-docx-nl-image104.webp",
+      "images": [
+        "/photos/fast-docx-nl-image104.webp"
+      ],
+      "tips": [
+        "這是比利時品牌，在荷蘭遇到門市或通路時可選購，不必另外繞去比利時。",
+        "注意口味與可可濃度，不同包裝不是同一款。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Ananda 礦石與手作小物",
+      "where": "Ananda 礦石店",
+      "intro": "可以慢慢看不同顏色、紋理的礦石與小飾品；照片中的圓片也適合作為手作材料。",
+      "image": "/photos/fast-docx-nl-image105.webp",
+      "images": [
+        "/photos/fast-docx-nl-image105.webp",
+        "/photos/fast-docx-nl-image106.webp"
+      ],
+      "tips": [
+        "依顏色和造型挑喜歡的即可，不以能量或療效作為購買依據。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "甜辣洋芋片：Lay’s、Tyrrells",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "Lay’s Sensations 泰式甜辣與 Tyrrells Sweet Chilli 都是零食；想試不同口感，可以先各買一小包。",
+      "image": "/photos/fast-docx-nl-image5.webp",
+      "images": [
+        "/photos/fast-docx-nl-image5.webp",
+        "/photos/fast-docx-nl-image63.webp"
+      ],
+      "tips": [
+        "Lay’s 和 Tyrrells 是不同品牌，甜辣程度、厚薄與包裝不同。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "起司點心與隨手餅乾",
+      "where": "Albert Heijn",
+      "intro": "Kaas Bolletjes 起司球餅、Kaas Roertjes 起司條，搭配 Sultana 水果餅乾和 LIGA Milkbreak 夾心餅，適合當移動日的小點心。",
+      "image": "/photos/fast-docx-nl-image6.webp",
+      "images": [
+        "/photos/fast-docx-nl-image6.webp",
+        "/photos/fast-docx-nl-image14.webp"
+      ],
+      "tips": [
+        "起司類偏鹹香；水果餅與夾心餅偏甜。",
+        "四種合併在一起，依照片包裝找，不需要每種都買大份量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Jules Destrooper 奶油薄脆與巧克力餅乾",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "可比較原味奶油格子薄餅與巧克力包覆版本；喜歡奶油香的先試原味，喜歡巧克力的再挑包覆款。",
+      "image": "/photos/fast-docx-nl-image7.webp",
+      "images": [
+        "/photos/fast-docx-nl-image7.webp",
+        "/photos/fast-docx-nl-image17.webp"
+      ],
+      "tips": [
+        "品牌來自比利時，在荷蘭超市也能留意；實際品項依門市供貨。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Tony’s Chocolonely 巧克力",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "彩色包裝很容易辨認，從牛奶巧克力到焦糖海鹽都有不同選擇；適合先買一條大家分著試。",
+      "image": "/photos/fast-docx-nl-image8.webp",
+      "images": [
+        "/photos/fast-docx-nl-image8.webp"
+      ],
+      "tips": [
+        "不同顏色代表不同口味，先看包裝文字與堅果標示。",
+        "回程要送人，再按喜歡的口味補買。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH 開心果抹醬",
+      "where": "Albert Heijn",
+      "intro": "Pistache crème 是開心果抹醬，可搭吐司、可頌或優格；照片為標示 45% 開心果的版本。",
+      "image": "/photos/fast-docx-nl-image10.webp",
+      "images": [
+        "/photos/fast-docx-nl-image10.webp"
+      ],
+      "tips": [
+        "不是整顆開心果醬都一樣，確認成分比例與是否加糖。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Bonne Maman 杏桃果醬",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "Abrikozen 是杏桃，適合配住宿早餐的麵包，也可和原味優格一起吃。",
+      "image": "/photos/fast-docx-nl-image11.webp",
+      "images": [
+        "/photos/fast-docx-nl-image11.webp"
+      ],
+      "tips": [
+        "同品牌有許多水果口味，依包裝水果圖案和名稱選。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH 焦糖烤布蕾與起司蛋糕",
+      "where": "Albert Heijn",
+      "intro": "Crème Brûlée 焦糖烤布蕾與 Cheesecake 起司蛋糕，是回住宿後可以分著吃的甜點。",
+      "image": "/photos/fast-docx-nl-image12.webp",
+      "images": [
+        "/photos/fast-docx-nl-image12.webp",
+        "/photos/fast-docx-nl-image16.webp"
+      ],
+      "tips": [
+        "先看冷藏或冷凍保存方式；冷凍蛋糕依包裝退冰，當天買回住宿再吃。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "冰淇淋：Ben & Jerry’s、Oppo",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "可比較 Ben & Jerry’s Brookies、Half Baked，以及 Oppo 巧克力布朗尼口味；適合幾個人共享一桶。",
+      "image": "/photos/fast-docx-nl-image13.webp",
+      "images": [
+        "/photos/fast-docx-nl-image13.webp",
+        "/photos/fast-docx-nl-image15.webp"
+      ],
+      "tips": [
+        "安排在回住宿前購買，避免邊逛邊提著融化。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Jumbo 臘腸與 Stracciatella 起司",
+      "where": "Jumbo",
+      "intro": "可比較 Parmitufo 松露與帕瑪森風味臘腸、Fuet 細臘腸，以及 Stracciatella 柔軟乳酪；可配麵包做簡單晚餐。",
+      "image": "/photos/fast-docx-nl-image20.webp",
+      "images": [
+        "/photos/fast-docx-nl-image20.webp",
+        "/photos/fast-docx-nl-image21.webp"
+      ],
+      "tips": [
+        "Stracciatella 是柔軟乳酪，不是冰淇淋口味；這裡指照片中的乳酪盒。",
+        "肉品與乳酪安排在當地享用，依包裝冷藏。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Jumbo 迷你杏仁餡水果麵包",
+      "where": "Jumbo",
+      "intro": "Ministol met amandelspijs 是含杏仁餡的小型水果麵包，適合早餐或下午配熱茶。",
+      "image": "/photos/fast-docx-nl-image22.webp",
+      "images": [
+        "/photos/fast-docx-nl-image22.webp"
+      ],
+      "tips": [
+        "不是一般原味吐司；不喜歡杏仁餡、葡萄乾的人先少量試。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "鮮奶與原味優格",
+      "where": "Albert Heijn",
+      "intro": "Elke Melk 玻璃瓶鮮奶、Pur Natur 有機優格，適合放在住宿冰箱當早餐；先看保存日期與份量。",
+      "image": "/photos/fast-docx-nl-image28.webp",
+      "images": [
+        "/photos/fast-docx-nl-image28.webp",
+        "/photos/fast-docx-nl-image34.webp"
+      ],
+      "tips": [
+        "玻璃奶瓶較重；先買旅途中喝得完的量。",
+        "優格的酸度和濃稠度不同，可先買一款大家試。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH 果汁與優格果昔",
+      "where": "Albert Heijn",
+      "intro": "可找綠色蔬果汁、莓果優格果昔、柳橙奇異果汁；對照照片顏色，再看瓶身成分選喜歡的組合。",
+      "image": "/photos/fast-docx-nl-image29.webp",
+      "images": [
+        "/photos/fast-docx-nl-image29.webp",
+        "/photos/fast-docx-nl-image30.webp",
+        "/photos/fast-docx-nl-image31.webp"
+      ],
+      "tips": [
+        "綠色款含鳳梨、柳橙、菠菜等；莓果款含優格，不是純果汁。",
+        "需要冷藏，買完回住宿或當天喝完。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "荷蘭莓果：覆盆子、紅醋栗",
+      "where": "Albert Heijn",
+      "intro": "Frambozen 是覆盆子，Rode Bessen 是紅醋栗；適合配優格或當點心，紅醋栗通常酸味更明顯。",
+      "image": "/photos/fast-docx-nl-image32.webp",
+      "images": [
+        "/photos/fast-docx-nl-image32.webp",
+        "/photos/fast-docx-nl-image33.webp"
+      ],
+      "tips": [
+        "選果粒完整、盒內沒有出水的；購買後輕拿、盡快吃。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH 芥末脆豆",
+      "where": "Albert Heijn",
+      "intro": "Wasabi Bollen Pittig 是帶芥末辛香的脆豆點心，喜歡鹹香、帶點嗆辣的人可以試一包。",
+      "image": "/photos/fast-docx-nl-image35.webp",
+      "images": [
+        "/photos/fast-docx-nl-image35.webp"
+      ],
+      "tips": [
+        "Pittig 表示偏辣；不確定口味時不要一次買太多。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "優格巧克力球與 Optimel 優酪乳",
+      "where": "Albert Heijn／Jumbo",
+      "intro": "一款是附巧克力球、堅果或餅乾配料的優格，另一款是 Optimel 飲用型優酪乳；適合當早餐換換口味。",
+      "image": "/photos/fast-docx-nl-image64.webp",
+      "images": [
+        "/photos/fast-docx-nl-image64.webp",
+        "/photos/fast-docx-nl-image66.webp"
+      ],
+      "tips": [
+        "配料型優格可分開拌入，保留脆口感；飲用型的口感比較流動。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH 牛奶巧克力米餅",
+      "where": "Albert Heijn",
+      "intro": "Rijstwafels Melkchocolade 是牛奶巧克力包覆米餅，輕脆口感適合帶一小包搭車吃。",
+      "image": "/photos/fast-docx-nl-image65.webp",
+      "images": [
+        "/photos/fast-docx-nl-image65.webp"
+      ],
+      "tips": [
+        "包裝容易壓碎，放隨身包上層。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "AH Terra 無糖豆奶",
+      "where": "Albert Heijn",
+      "intro": "Sojadrink ongezoet 是無糖豆奶，可搭早餐穀片，也方便想換成植物飲的人選購。",
+      "image": "/photos/fast-docx-nl-image67.webp",
+      "images": [
+        "/photos/fast-docx-nl-image67.webp"
+      ],
+      "tips": [
+        "Ongezoet 是無加糖；開封後的冷藏期限看包裝。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "荷蘭藥妝店怎麼分",
+      "where": "Kruidvat／Etos／Holland & Barrett",
+      "intro": "Kruidvat、Etos 適合補洗護和日用品；Holland & Barrett 常被叫花園店，可看 De Tuinen 保養與營養補充品。",
+      "image": "/photos/fast-docx-nl-image87.webp",
+      "images": [
+        "/photos/fast-docx-nl-image87.webp"
+      ],
+      "tips": [
+        "Drogist：藥妝店；Apotheek：藥局。需要藥品時請藥師確認用途。",
+        "Trekpleister、Normal 也可以順路比日用品價格。",
+        "先比較容量與每單位價格，再看買一送一；照片中的促銷不是固定售價。",
+        "痘痘藥膏沒有完整品名，先拿成分或需求詢問藥師，不按暱稱買藥。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Rituals 香氛、身體保養與禮盒",
+      "where": "Rituals 專賣店",
+      "intro": "可以從護手霜、沐浴、身體乳、擴香或小禮盒挑選，先試聞喜歡的香味。",
+      "image": "/photos/fast-docx-nl-image2.webp",
+      "images": [
+        "/photos/fast-docx-nl-image2.webp",
+        "/photos/fast-docx-nl-image85.webp"
+      ],
+      "tips": [
+        "White Basil 白羅勒香氛；系列和香味依門市供貨。",
+        "香味喜好差異很大，送人可優先挑小容量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "De Tuinen 蝸牛保養系列",
+      "where": "Holland & Barrett",
+      "intro": "蝸牛凝膠、乳霜與眼部精華分開辨認，不要只看到蝸牛圖案就拿同一款。",
+      "image": "/photos/fast-docx-nl-image71.webp",
+      "images": [
+        "/photos/fast-docx-nl-image71.webp",
+        "/photos/fast-docx-nl-image76.webp",
+        "/photos/fast-docx-nl-image88.webp"
+      ],
+      "tips": [
+        "Slakkengel：蝸牛凝膠；Slakkencrème：蝸牛霜；Oogserum：眼部精華。",
+        "先看質地、成分與使用方式，依自己的膚況選擇。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "De Tuinen 乳霜三款",
+      "where": "Holland & Barrett",
+      "intro": "維他命 E 日夜霜、荷荷芭晚霜與死海日夜霜，都是罐裝保養；依喜歡的質地比較。",
+      "image": "/photos/fast-docx-nl-image72.webp",
+      "images": [
+        "/photos/fast-docx-nl-image72.webp",
+        "/photos/fast-docx-nl-image50.webp",
+        "/photos/fast-docx-nl-image51.webp"
+      ],
+      "tips": [
+        "Dag- & Nachtcrème：日夜霜；Nachtcrème：晚霜。",
+        "同品牌不同系列成分不一樣，先試少量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Jacob Hooy 保養精華",
+      "where": "Holland & Barrett",
+      "intro": "照片為 Lifting Treatment 與 Super Collagen 精華，分別對照外盒名稱，避免把它們當成注射療程。",
+      "image": "/photos/fast-docx-nl-image73.webp",
+      "images": [
+        "/photos/fast-docx-nl-image73.webp"
+      ],
+      "tips": [
+        "這裡是外用保養品，依包裝用法使用；不把網路上的「水光針」暱稱當作醫療效果。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "De Tuinen 洗面、卸妝與眼唇清潔",
+      "where": "Holland & Barrett",
+      "intro": "茶樹洗面膠、維他命 E 卸妝水，以及眼部卸妝液可以一起比較，按平常化妝習慣選。",
+      "image": "/photos/fast-docx-nl-image74.webp",
+      "images": [
+        "/photos/fast-docx-nl-image74.webp",
+        "/photos/fast-docx-nl-image78.webp"
+      ],
+      "tips": [
+        "Facewash：洗面；Micellar Water：卸妝水；Oogmake-up Reinigingslotion：眼部卸妝液。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "De Tuinen 炭泥膜與綠泥膜",
+      "where": "Holland & Barrett",
+      "intro": "Houtskool 是炭，Groene Klei 是綠泥；兩款都是清潔型泥膜，按包裝說明使用。",
+      "image": "/photos/fast-docx-nl-image75.webp",
+      "images": [
+        "/photos/fast-docx-nl-image75.webp"
+      ],
+      "tips": [
+        "不要只用包裝顏色分辨，確認名稱與適用方式。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "De Tuinen 大蒜潤髮乳",
+      "where": "Holland & Barrett",
+      "intro": "Knoflook Conditioner 是大蒜系列潤髮乳，可和一般洗髮產品區分開來。",
+      "image": "/photos/fast-docx-nl-image77.webp",
+      "images": [
+        "/photos/fast-docx-nl-image77.webp"
+      ],
+      "tips": [
+        "Conditioner 是潤髮乳，不是洗髮精；先看香味和髮質是否合適。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Q+A 果酸身體磨砂膏",
+      "where": "Holland & Barrett",
+      "intro": "照片為 AHA Exfoliator 身體磨砂膏，屬身體清潔保養，不是臉部精華。",
+      "image": "/photos/fast-docx-nl-image54.webp",
+      "images": [
+        "/photos/fast-docx-nl-image54.webp"
+      ],
+      "tips": [
+        "先確認是身體用產品；依標示使用，不和其他去角質產品隨意疊加。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "LOOKX 眼部精華",
+      "where": "美妝通路／LOOKX 通路",
+      "intro": "眼部產品以 LOOKX 品牌辨認；挑選時確認外盒型號，不只看「鳥鳥尾眼霜」之類暱稱。",
+      "image": "/photos/fast-docx-nl-image82.webp",
+      "images": [
+        "/photos/fast-docx-nl-image82.webp"
+      ],
+      "tips": [
+        "不同容量或版本可能使用方式不同，購買時請店員協助核對。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Simple 潔面產品",
+      "where": "Kruidvat／Etos",
+      "intro": "可比較照片中的潔面膠與泡沫型潔面；先按自己習慣的清潔方式挑選。",
+      "image": "/photos/fast-docx-nl-image83.webp",
+      "images": [
+        "/photos/fast-docx-nl-image83.webp"
+      ],
+      "tips": [
+        "Refreshing Facial Wash 是潔面膠；包裝相近時仍看完整名稱。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "魚油與鱈魚肝油比較",
+      "where": "Holland & Barrett／藥妝店",
+      "intro": "Möller’s 鱈魚肝油、Lucovitaal Omega 3 與 Omega 3-6-9，以及 H&B Omega 3；把不同配方放在一起對照。",
+      "image": "/photos/fast-docx-nl-image47.webp",
+      "images": [
+        "/photos/fast-docx-nl-image47.webp",
+        "/photos/fast-docx-nl-image48.webp",
+        "/photos/fast-docx-nl-image49.webp",
+        "/photos/fast-docx-nl-image53.webp"
+      ],
+      "tips": [
+        "鱈魚肝油和一般魚油不是同一種配方；看每份成分與含量。",
+        "營養補充品不是藥品；有固定用藥者先請藥師確認是否適合，不照照片自行決定劑量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "H&B 複方、異黃酮與月見草油",
+      "where": "Holland & Barrett",
+      "intro": "收錄皮膚頭髮指甲複方、Soja Isoflavonen 大豆異黃酮，以及 Teunisbloemolie 月見草油；品項分開看成分。",
+      "image": "/photos/fast-docx-nl-image52.webp",
+      "images": [
+        "/photos/fast-docx-nl-image52.webp",
+        "/photos/fast-docx-nl-image81.webp",
+        "/photos/fast-docx-nl-image111.webp"
+      ],
+      "tips": [
+        "這些是不同用途的營養補充品，不可把個人心得當成治療效果。",
+        "不要只因買一送一就一起服用；先請藥師確認需求與用藥。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Lucovitaal 電解質、鎂與離胺酸",
+      "where": "藥妝店／Holland & Barrett",
+      "intro": "照片整理電解質膠囊、Super Magnesium 6 Complex、Magnesium 400 與 L-Lysine；核對配方，不把名稱相近的當同款。",
+      "image": "/photos/fast-docx-nl-image55.webp",
+      "images": [
+        "/photos/fast-docx-nl-image55.webp",
+        "/photos/fast-docx-nl-image56.webp",
+        "/photos/fast-docx-nl-image57.webp",
+        "/photos/fast-docx-nl-image58.webp"
+      ],
+      "tips": [
+        "先看每份含量與包裝說明；不同鎂產品不需要重複購買。",
+        "有固定用藥或身體不適，先詢問藥師。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "維他命 D3、鐵與複方補充品",
+      "where": "Holland & Barrett／藥妝店",
+      "intro": "清單另可比較 H&B 維他命 D3、Ijzer Fumaraat 鐵補充品，以及 Lucovitaal Geheugen & Concentratie 複方。",
+      "image": "/photos/fast-docx-nl-image80.webp",
+      "images": [
+        "/photos/fast-docx-nl-image80.webp",
+        "/photos/fast-docx-nl-image107.webp",
+        "/photos/fast-docx-nl-image109.webp"
+      ],
+      "tips": [
+        "含鐵或複方品項先確認是否需要；不採用照片中的自行加量或治療建議。",
+        "D3 不同包裝的濃度可能不同，按實際標示核對。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "AVEA 膠原相關補充品",
+      "where": "AVEA 品牌通路",
+      "intro": "Collagen Activator 膠囊；可以記下品牌與外盒，想買時再核對成分與規格。",
+      "image": "/photos/fast-docx-nl-image108.webp",
+      "images": [
+        "/photos/fast-docx-nl-image108.webp"
+      ],
+      "tips": [
+        "這是瑞士品牌的產品參考，不代表荷蘭每間藥妝店都有。",
+        "保養心得屬個人經驗，不保證相同效果。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Bakery 抹茶白巧克力餅乾麵糰",
+      "where": "Kaufland 冷藏區",
+      "intro": "Matcha White Chocolate 是待烘烤的餅乾麵糰，可以在有烤箱的住宿做熱餅乾。",
+      "image": "/photos/fast-docx-de-image2.webp",
+      "images": [
+        "/photos/fast-docx-de-image2.webp"
+      ],
+      "tips": [
+        "先確認住宿有可用烤箱與烤盤，再購買；依包裝時間與溫度烘烤。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Kaufland Gold Edition 章魚與薄切牛肉",
+      "where": "Kaufland 冷藏區",
+      "intro": "收錄熟章魚足與 Carpaccio 薄切牛肉兩款；不是同一類料理，挑選時看清楚是否即食。",
+      "image": "/photos/fast-docx-de-image3.webp",
+      "images": [
+        "/photos/fast-docx-de-image3.webp",
+        "/photos/fast-docx-de-image8.webp"
+      ],
+      "tips": [
+        "章魚足可搭沙拉；Carpaccio 是生食型薄切牛肉，不想吃生食就改挑熟食。",
+        "留在當地依標示冷藏、盡快吃完。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Milka Choco Wafer 巧克力威化",
+      "where": "Kaufland／超市",
+      "intro": "巧克力包覆的威化餅，適合當搭車點心；也有其他限定口味，可先試原味再比較。",
+      "image": "/photos/fast-docx-de-image4.webp",
+      "images": [
+        "/photos/fast-docx-de-image4.webp"
+      ],
+      "tips": [
+        "限定口味不一定每次都有，以架上品項為準。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "料理補給：噴霧油與千島醬",
+      "where": "Kaufland",
+      "intro": "可比較氣炸料理用噴霧油與零糖千島沙拉醬，適合安排自己煮或做簡單沙拉時選購。",
+      "image": "/photos/fast-docx-de-image5.webp",
+      "images": [
+        "/photos/fast-docx-de-image5.webp",
+        "/photos/fast-docx-de-image6.webp"
+      ],
+      "tips": [
+        "噴霧油依容器和烹調標示使用；千島醬也要看是否含蛋奶。",
+        "只買這幾天用得到的份量。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Nucao 草莓巧克力",
+      "where": "Kaufland／有機食品區",
+      "intro": "凍乾草莓包覆巧克力，果香與巧克力味一起吃；粉紅包裝很容易認。",
+      "image": "/photos/fast-docx-de-image7.webp",
+      "images": [
+        "/photos/fast-docx-de-image7.webp"
+      ],
+      "tips": [
+        "先確認是草莓版本，其他水果口味口感不同。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Cavi-art 與 KoRo 青醬",
+      "where": "Kaufland／超市",
+      "intro": "Cavi-art 是魚卵外觀的海藻製品；KoRo Pesto Verde 是青醬，可配麵包或義大利麵。",
+      "image": "/photos/fast-docx-de-image9.webp",
+      "images": [
+        "/photos/fast-docx-de-image9.webp",
+        "/photos/fast-docx-de-image11.webp"
+      ],
+      "tips": [
+        "不要把 Cavi-art 當成真正魚子醬；依瓶身成分辨認。",
+        "青醬開封後需依標示冷藏。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "伴手禮",
+      "name": "Lindt Nuxor 榛果巧克力",
+      "where": "Kaufland／超市",
+      "intro": "金色盒裝的榛果巧克力，適合送喜歡堅果與巧克力的人，也可一起分著吃。",
+      "image": "/photos/fast-docx-de-image10.webp",
+      "images": [
+        "/photos/fast-docx-de-image10.webp"
+      ],
+      "tips": [
+        "含榛果；先留意收禮者是否吃堅果。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "季節葡萄飲與巧克力利口酒",
+      "where": "超市酒類區",
+      "intro": "照片為季節性葡萄飲與 Mozart 巧克力利口酒；前者偏當地嘗鮮，後者可作酒類伴手禮選項。",
+      "image": "/photos/fast-docx-de-image25.webp",
+      "images": [
+        "/photos/fast-docx-de-image25.webp"
+      ],
+      "tips": [
+        "葡萄飲是否含酒精要看實際標示；季節款不保證 11 月仍有。",
+        "只有有喝酒的同行者再選購，酒瓶另包防碰撞。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "早餐冷藏櫃：優格與飲品",
+      "where": "Kaufland／REWE／EDEKA",
+      "intro": "Activia、Elinas 希臘式優格、Almighurt 果味優格、Milchreis 牛奶米布丁、Buttermilch 酪乳、Alpro 植物優格與 Yakult 養樂多都可比較。",
+      "image": "/photos/fast-docx-de-image26.webp",
+      "images": [
+        "/photos/fast-docx-de-image26.webp",
+        "/photos/fast-docx-de-image47.webp"
+      ],
+      "tips": [
+        "也可比較 Emmi Caffè Latte 咖啡飲、innocent 柳橙綜合果汁。",
+        "先看容量、甜度與保存日期；圖片中的促銷價不是現在固定價格。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "巧克力餅乾與夾心點心",
+      "where": "Kaufland／REWE／EDEKA",
+      "intro": "Lindt、PiCK UP!、Knoppers、Milka、Nutella Biscuits、Lotus Biscoff，以及 Leibniz 燕麥餅和 Dark Choc Cream 夾心餅，可按奶香、巧克力或穀物風味挑。",
+      "image": "/photos/fast-docx-de-image27.webp",
+      "images": [
+        "/photos/fast-docx-de-image27.webp",
+        "/photos/fast-docx2-de-image7.webp",
+        "/photos/fast-docx2-de-image9.webp",
+        "/photos/fast-docx2-de-image16.webp"
+      ],
+      "tips": [
+        "想分送就挑獨立包裝；想大家分著試，每款先買一包。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "鹹點：米果、洋芋片與蝴蝶餅",
+      "where": "Kaufland／REWE／EDEKA",
+      "intro": "可比較 Mitsuba 甜辣米果、Lorenz Crunchips、funny-frisch Chakalaka、Lay’s Subway 聯名、Elephant 海鹽或蜂蜜芥末脆餅，以及 Wasa 海鹽薄脆。",
+      "image": "/photos/fast-docx-de-image28.webp",
+      "images": [
+        "/photos/fast-docx-de-image28.webp",
+        "/photos/fast-docx-de-image32.webp",
+        "/photos/fast-docx-de-image41.webp",
+        "/photos/fast-docx2-de-image6.webp",
+        "/photos/fast-docx2-de-image8.webp",
+        "/photos/fast-docx2-de-image12.webp",
+        "/photos/fast-docx2-de-image13.webp"
+      ],
+      "tips": [
+        "偏甜辣、煙燻、海鹽或酸辣的口味不同，按包裝選。",
+        "不喜歡辣味的人可先挑海鹽或原味。",
+        "Snyder’s 酸辣蝴蝶餅碎與 Western BBQ 洋芋片也保留在照片選項。",
+        "聯名或季節包裝不一定仍有；先挑自己喜歡的口味。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "REWE 義式薄脆餅 Pane Guttiau",
+      "where": "REWE",
+      "intro": "很薄、很脆的片狀麵餅，可以直接當鹹點，也可搭起司和抹醬。",
+      "image": "/photos/fast-docx-de-image31.webp",
+      "images": [
+        "/photos/fast-docx-de-image31.webp"
+      ],
+      "tips": [
+        "容易碎，買完不要壓在購物袋底下。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "伴手禮",
+      "name": "杜塞道夫 Altbier 老啤酒",
+      "where": "在地釀酒館／酒類店",
+      "intro": "在杜塞道夫喝過喜歡的老啤酒，再選瓶裝或有城市圖案的啤酒杯帶回去，紀念感更強。",
+      "image": "/photos/fast-docx-de-image33.webp",
+      "images": [
+        "/photos/fast-docx-de-image33.webp"
+      ],
+      "tips": [
+        "先喝再挑喜歡的品牌；酒瓶和玻璃杯請店家包好。",
+        "德國購物退稅通常要求每張收據至少 €50.01，仍須符合旅客資格與店家方案。結帳索取退稅文件，離開歐盟時備妥商品、護照與單據供驗證；德國購物不能直接用荷蘭 NL Customs VAT 處理。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "伴手禮",
+      "name": "Reese’s 花生醬巧克力",
+      "where": "超市／糖果店",
+      "intro": "橘色包裝的花生醬巧克力，適合送喜歡花生味的人；可比較單包與分享包。",
+      "image": "/photos/fast-docx-de-image34.webp",
+      "images": [
+        "/photos/fast-docx-de-image34.webp"
+      ],
+      "tips": [
+        "不是德國限定品牌，也可在旅途中選購。",
+        "同區也可留意 Haribo 軟糖，下方另有包裝照片。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Wicklein 生薑香橙餅乾",
+      "where": "EDEKA／超市",
+      "intro": "Vitalgebäck 生薑香橙口味，適合配熱茶；喜歡香料、果香的人可先試小包。",
+      "image": "/photos/fast-docx-de-image36.webp",
+      "images": [
+        "/photos/fast-docx-de-image36.webp"
+      ],
+      "tips": [
+        "商品名稱含特殊穀物或 Superfood 不等於治療或減重效果，當一般餅乾挑選。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "果醬與栗子抹醬",
+      "where": "EDEKA／超市",
+      "intro": "GLÜCK 甜橙果醬與 Bonne Maman 栗子抹醬，適合搭早餐吐司，也可以淋在優格上。",
+      "image": "/photos/fast-docx-de-image37.webp",
+      "images": [
+        "/photos/fast-docx-de-image37.webp",
+        "/photos/fast-docx-de-image38.webp"
+      ],
+      "tips": [
+        "橘子果醬有果皮或過篩版本；栗子醬不是巧克力醬，口味不同。",
+        "玻璃罐較重，回程送人可少量挑。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Feiny Biscuits 黑巧克力蛋捲",
+      "where": "EDEKA／超市",
+      "intro": "Dark Chocolate Wafer Sticks 是黑巧克力威化捲，罐裝適合大家分享。",
+      "image": "/photos/fast-docx-de-image39.webp",
+      "images": [
+        "/photos/fast-docx-de-image39.webp"
+      ],
+      "tips": [
+        "放行李時注意不要壓凹罐身。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "黑虎蝦冷凍包",
+      "where": "ALDI／超市冷凍區",
+      "intro": "Black Tiger Garnelen 可用來做番茄蝦或簡單煎蝦；適合有廚房、當晚會煮的時候買。",
+      "image": "/photos/fast-docx-de-image40.webp",
+      "images": [
+        "/photos/fast-docx-de-image40.webp"
+      ],
+      "tips": [
+        "先看有沒有去殼、是否生蝦與退冰方式；不用為了帶回國特別買冷凍海鮮。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "飯後甜點：提拉米蘇與布丁",
+      "where": "EDEKA／超市",
+      "intro": "Dolce Italia 提拉米蘇、榛果布丁與 Landliebe Grießpudding 小麥粗粒布丁，都可以買回住宿分著吃。",
+      "image": "/photos/fast-docx-de-image42.webp",
+      "images": [
+        "/photos/fast-docx-de-image42.webp",
+        "/photos/fast-docx-de-image45.webp",
+        "/photos/fast-docx-de-image48.webp"
+      ],
+      "tips": [
+        "Grießpudding 口感有細細穀粒，和滑順奶布丁不同。",
+        "照片裡也有 Landliebe 原味奶布丁；依自己喜歡的口感挑。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "EDEKA 熟食櫃：烤雞、排骨、豬腳",
+      "where": "EDEKA 熟食櫃",
+      "intro": "不想煮晚餐時，可看看烤雞腿、烤排骨或德式豬腳，再配沙拉、麵包一起吃。",
+      "image": "/photos/fast-docx-de-image43.webp",
+      "images": [
+        "/photos/fast-docx-de-image43.webp"
+      ],
+      "tips": [
+        "每間門市是否有熟食櫃、當日供應與售完時間不同。",
+        "價格是舊紀錄，實際依秤重與現場標價。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "居家清潔小物",
+      "where": "dm",
+      "intro": "Profissimo 海綿抹布、魔術清潔棉、Denkmit 玻璃濕巾與 Dr. Beckmann 去漬劑，都是實用小物。",
+      "image": "/photos/fast-docx-de-image14.webp",
+      "images": [
+        "/photos/fast-docx-de-image14.webp",
+        "/photos/fast-docx-de-image15.webp",
+        "/photos/fast-docx-de-image16.webp",
+        "/photos/fast-docx-de-image17.webp"
+      ],
+      "tips": [
+        "魔術清潔棉先在不明顯處測試，避免磨傷表面。",
+        "去漬劑依污漬種類挑選，Dr. Beckmann 不同瓶子的用途不同。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Balea 與 alverde 入門保養",
+      "where": "dm",
+      "intro": "Balea Q10 護手霜、維他命 C／Q10／A 醇／玻尿酸濃縮膠囊，以及 alverde 多用途保養油，可依平常習慣挑選。",
+      "image": "/photos/fast-docx-de-image19.webp",
+      "images": [
+        "/photos/fast-docx-de-image19.webp",
+        "/photos/fast-docx-de-image20.webp",
+        "/photos/fast-docx-de-image24.webp"
+      ],
+      "tips": [
+        "各色膠囊不是同一配方；先看外盒，不用整排都買。",
+        "保養油與乳霜質地不同，可先試少量。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Doppelherz 與 Mivolis 補充品對照",
+      "where": "dm／藥妝店",
+      "intro": "可比較魚油、蒜油、胺基酸、日夜眼部複方、A–Z 綜合維他命、銀杏，以及蔓越莓維他命 C、頭髮複方、Dr. Jacoby 馬膏。",
+      "image": "/photos/fast-docx-de-image18.webp",
+      "images": [
+        "/photos/fast-docx-de-image18.webp",
+        "/photos/fast-docx-de-image29.webp",
+        "/photos/fast-docx-de-image30.webp"
+      ],
+      "tips": [
+        "口服補充品與外用馬膏分開看；不是看到同品牌就能混用。",
+        "圖卡中的效果描述不是選購保證；先按實際成分、含量與藥師建議挑選。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Zirkulin 洋車前子種子",
+      "where": "dm／藥妝店",
+      "intro": "Bio Flohsamen 是洋車前子種子；如果原本就有使用習慣，可核對是否為自己熟悉的品項。",
+      "image": "/photos/fast-docx-de-image46.webp",
+      "images": [
+        "/photos/fast-docx-de-image46.webp"
+      ],
+      "tips": [
+        "整粒種子、殼與粉末不是同款；依標示方式使用。",
+        "有固定用藥或腸胃狀況，先向藥師確認，不依照片決定用量。"
+      ]
+    },
+    {
+      "name": "Ritter Sport Alpenmilch",
+      "country": "德國",
+      "image": "/photos/fast-34a8345790e9.webp",
+      "intro": "認方形包裝；阿爾卑斯牛奶口味適合入門，亦可挑綜合迷你包。",
+      "where": "超市／品牌門市",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-34a8345790e9.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Niederegger 杏仁膏巧克力",
+      "country": "德國",
+      "image": "/photos/fast-92f3cc143e9b.webp",
+      "intro": "呂貝克代表甜點；圖為大盒組合，現場可挑小盒或獨立包裝。",
+      "where": "超市／品牌門市",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-92f3cc143e9b.webp",
+        "/photos/fast-docx2-de-image3.webp"
+      ],
+      "tips": [
+        "有些包裝是 Marzipan 杏仁膏，有些是其他巧克力組合；不喜歡杏仁膏要先讀品名。"
+      ]
+    },
+    {
+      "name": "Bolletje 肉桂香料小餅乾",
+      "country": "荷蘭",
+      "image": "/photos/fast-3c360be01c67.webp",
+      "intro": "Schuddebuikjes Speculaas 是小粒香料餅乾；適合灑在吐司或優格上。",
+      "where": "超市／品牌門市",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-3c360be01c67.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Old Amsterdam Extra Intens 起司",
+      "country": "荷蘭",
+      "image": "/photos/fast-3daf945ec539.webp",
+      "intro": "認黑色包裝；適合旅途中享用，帶回前確認保存與入境規定。",
+      "where": "超市／品牌門市",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-3daf945ec539.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Kamphuisen 糖漿鬆餅",
+      "country": "荷蘭",
+      "image": "/photos/fast-987bfe37e7d8.webp",
+      "intro": "工坊逛完再挑盒裝或袋裝；薄脆餅夾糖漿，送人可先確認保存期限。",
+      "where": "豪達 Markt 69",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-987bfe37e7d8.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Van Stapele 巧克力餅乾",
+      "country": "荷蘭",
+      "image": "/photos/fast-0358b31cb964.webp",
+      "intro": "可可餅乾配白巧克力內餡；適合接近離境時買，依店家建議保存、盡早享用。",
+      "where": "阿姆斯特丹市中心",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-0358b31cb964.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Q+A 玻尿酸臉部精華 30 ml",
+      "country": "荷蘭",
+      "category": "藥妝",
+      "where": "Holland & Barrett",
+      "intro": "圖示為紅白包裝的玻尿酸臉部精華，30 ml 小瓶方便攜帶。購買時認 Hyaluronic Acid（玻尿酸），不要和 Retinol（A 醇）系列混淆。",
+      "image": "/photos/fast-shop-52ddd7c99a5a.webp",
+      "images": [
+        "/photos/fast-shop-52ddd7c99a5a.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Ultrasun Face SPF30 臉部防曬 50 ml",
+      "country": "荷蘭",
+      "category": "藥妝",
+      "where": "Holland & Barrett",
+      "intro": "Face SPF30 臉部防曬，50 ml 包裝適合旅行。對照瓶身 Face 與防曬係數；依產品標示使用與補擦。",
+      "image": "/photos/fast-shop-5739ca166d39.webp",
+      "images": [
+        "/photos/fast-shop-5739ca166d39.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "Katjes Wunderland +Vitamine 水果軟糖",
+      "country": "德國",
+      "category": "伴手禮",
+      "where": "REWE／EDEKA 等超市",
+      "intro": "彩色造型水果軟糖，喜歡 Haribo 也可以換個品牌試試。圖示為 Wunderland +Vitamine 款，挑自己喜歡的口味；當作糖果享用。",
+      "image": "/photos/fast-shop-6a4ce41d74b2.webp",
+      "images": [
+        "/photos/fast-shop-6a4ce41d74b2.webp"
+      ],
+      "tips": []
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Balea Q10 晚霜與玻尿酸安瓶",
+      "where": "dm",
+      "intro": "Q10 晚霜與 7-FACH LIFTING-KUR 玻尿酸安瓶，對照盒裝與罐裝，選自己習慣的保養形式。",
+      "image": "/photos/fast-docx-extra-balea-q10-night.webp",
+      "images": [
+        "/photos/fast-docx-extra-balea-q10-night.webp",
+        "/photos/fast-docx-extra-balea-lifting-ampoules.webp"
+      ],
+      "tips": [
+        "安瓶為 7 支小包裝，晚霜是罐裝；不是同一款。",
+        "先看使用方式與成分，再決定是否適合自己的保養習慣。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Balea 潔面膠與摩洛哥堅果卸妝油",
+      "where": "dm",
+      "intro": "Erfrischendes Waschgel 是清爽潔面膠；Reinigungsöl mit Arganöl 是含摩洛哥堅果油的卸妝油。",
+      "image": "/photos/fast-docx-extra-balea-washgel.webp",
+      "images": [
+        "/photos/fast-docx-extra-balea-washgel.webp",
+        "/photos/fast-docx-extra-balea-cleansing-oil.webp"
+      ],
+      "tips": [
+        "潔面與卸妝兩種步驟分開辨認，依包裝用法使用。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "露得清護手霜與 Labello 原味護唇",
+      "where": "dm／藥妝店",
+      "intro": "Neutrogena 挪威配方護手霜與 Labello Original 護唇膏，小份量方便放包包，也適合實用型伴手禮。",
+      "image": "/photos/fast-docx-extra-neutrogena-handcream.webp",
+      "images": [
+        "/photos/fast-docx-extra-neutrogena-handcream.webp",
+        "/photos/fast-docx-extra-labello-original.webp"
+      ],
+      "tips": [
+        "照片護手霜為無香版本，其他版本請看完整標示。",
+        "護唇膏有不同香味與配方，是經典原味。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "alverde 野玫瑰臉部保養油",
+      "where": "dm",
+      "intro": "Bio-Wildrose 野玫瑰保養油，以滴管瓶和粉紅玫瑰外盒辨認；和多用途身體油分開選。",
+      "image": "/photos/fast-docx-extra-alverde-wildrose.webp",
+      "images": [
+        "/photos/fast-docx-extra-alverde-wildrose.webp"
+      ],
+      "tips": [
+        "Gesichtsöl 表示臉部油；依標示取少量使用。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "AJONA 紅管濃縮牙膏",
+      "where": "dm／藥妝店",
+      "intro": "Stomaticum 小紅管牙膏是口腔清潔品，體積小，購買時確認是否符合自己平常使用的配方。",
+      "image": "/photos/fast-docx-extra-ajona-toothpaste.webp",
+      "images": [
+        "/photos/fast-docx-extra-ajona-toothpaste.webp"
+      ],
+      "tips": [
+        "照片為無氟濃縮款；按包裝使用方式，不把它當成治療牙齦或牙齒疾病的藥。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "SANTE 固體洗髮餅、Salthouse 洗髮精",
+      "where": "dm／藥妝店",
+      "intro": "SANTE 芒果蘆薈固體洗髮餅，以及 Salthouse 死海系列洗髮精，是兩種不同形式的洗髮產品。",
+      "image": "/photos/fast-docx-extra-sante-solid-shampoo.webp",
+      "images": [
+        "/photos/fast-docx-extra-sante-solid-shampoo.webp",
+        "/photos/fast-docx-extra-salthouse-shampoo.webp"
+      ],
+      "tips": [
+        "固體洗髮餅用後晾乾再收納；瓶裝款則依髮質與標示選購。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Garnier 防曬噴霧與 sebamed 潔膚露",
+      "where": "dm／藥妝店",
+      "intro": "Ambre Solaire Sensitive Expert+ SPF50+ 防曬噴霧、sebamed 液態潔膚露，適合補日常清潔與防曬用品。",
+      "image": "/photos/fast-docx-extra-garnier-sensitive-spray.webp",
+      "images": [
+        "/photos/fast-docx-extra-garnier-sensitive-spray.webp",
+        "/photos/fast-docx-extra-sebamed-wash.webp"
+      ],
+      "tips": [
+        "防曬和清潔用途不同，分開看包裝。",
+        "照片潔膚露為 3 合 1 版本，依實際標示用途使用。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "S-QUiTO free 檸檬尤加利防蚊噴霧",
+      "where": "dm",
+      "intro": "檸檬尤加利系列防蚊噴霧，以淺綠瓶身辨認；依個人需要選購，不必為這趟 11 月行程特別囤貨。",
+      "image": "/photos/fast-docx-extra-s-quito-lemon-eucalyptus.webp",
+      "images": [
+        "/photos/fast-docx-extra-s-quito-lemon-eucalyptus.webp"
+      ],
+      "tips": [
+        "季節商品可能沒有現貨；先查門市供貨。",
+        "使用部位、適用年齡與補噴方式都依瓶身標示。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "藥妝",
+      "name": "Schaebens 褪黑激素噴霧",
+      "where": "dm／藥妝店",
+      "intro": "睡眠相關補充品，依盒裝品名辨認。",
+      "image": "/photos/fast-docx-extra-schaebens-melatonin-spray.webp",
+      "images": [
+        "/photos/fast-docx-extra-schaebens-melatonin-spray.webp"
+      ],
+      "tips": [
+        "是否適合使用，先請藥師依用藥與個人狀況確認；不照網路建議自行加量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "金盞花乳霜選購參考",
+      "where": "Holland & Barrett",
+      "intro": "照片為 A.Vogel Calendula 金盞花乳霜，可依自己熟悉的用途與質地比較同類型產品。",
+      "image": "/photos/fast-docx-extra-calendula-avogel-variant.webp",
+      "images": [
+        "/photos/fast-docx-extra-calendula-avogel-variant.webp"
+      ],
+      "tips": [
+        "金盞花產品有不同品牌與配方，先確認成分與用途。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "生薑果汁小瓶",
+      "where": "Jumbo／其他超市",
+      "intro": "Ginger shot 是生薑果汁小瓶；照片為 DekaMarkt 蘋果、生薑、檸檬款。",
+      "image": "/photos/fast-docx-extra-dekamarkt-ginger-shot-alternative.webp",
+      "images": [
+        "/photos/fast-docx-extra-dekamarkt-ginger-shot-alternative.webp"
+      ],
+      "tips": [
+        "Jumbo 等超市可能有不同品牌與配方，按當店品項挑選。",
+        "生薑味較強烈，可以先買一瓶試味道。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Mixa 身體乳選購參考",
+      "where": "藥妝店／超市",
+      "intro": "Mixa 身體乳，照片中的 Urea Cica Repair+ 是可以對照的其中一款；依自己熟悉的質地挑。",
+      "image": "/photos/fast-docx-de-image23.webp",
+      "images": [
+        "/photos/fast-docx-de-image23.webp"
+      ],
+      "tips": [
+        "同品牌有不同成分與容量，荷蘭、德國門市的供貨可能不同。"
+      ]
+    },
+    {
+      "name": "HARIBO Goldbären 小熊軟糖",
+      "country": "德國",
+      "image": "/photos/fast-5bde4295c4d3.webp",
+      "intro": "認金色包裝 Goldbären；小包容易分送，德國版包裝方便現場比對。",
+      "where": "超市／品牌門市",
+      "category": "伴手禮",
+      "images": [
+        "/photos/fast-5bde4295c4d3.webp"
+      ],
+      "tips": []
+    },
+    {
+      "name": "NIVEA 密集滋養護手霜",
+      "country": "德國",
+      "image": "/photos/fast-fe67b1b0d4f1.webp",
+      "intro": "75ml 藍色軟管；適合想送日常用品、偏好熟悉品牌的人。",
+      "where": "dm／Rossmann",
+      "category": "藥妝",
+      "images": [
+        "/photos/fast-fe67b1b0d4f1.webp"
+      ],
+      "tips": []
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "De Pindakaaswinkel 顆粒花生醬",
+      "where": "De Pindakaaswinkel 專賣店",
+      "intro": "Naturel met pindastukjes 是原味帶花生顆粒的版本，適合抹吐司或搭早餐。",
+      "image": "/photos/fast-docx2-nl-image3.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image3.webp"
+      ],
+      "tips": [
+        "先試原味，再看其他調味系列；注意是否有堅果過敏。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Apple Bandit 蘋果酒",
+      "where": "超市／酒吧",
+      "intro": "照片中的 Apple Bandit 是蘋果酒，喜歡果香酒款的人可以嘗試。",
+      "image": "/photos/fast-docx2-nl-image3.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image3.webp"
+      ],
+      "tips": [
+        "這是含酒精飲品，不是一般蘋果汁。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Playmobil 梵谷畫家公仔",
+      "where": "博物館禮品店／玩具通路",
+      "intro": "畫家拿著調色盤、搭配畫作的小公仔，適合喜歡梵谷或收藏玩具的人。",
+      "image": "/photos/fast-docx2-nl-image3.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image3.webp"
+      ],
+      "tips": [
+        "照片是 Playmobil 畫家款，不是米飛兔公仔。",
+        "核對盒上適用年齡，小零件不適合幼童。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Primark 印花睡衣與日常服飾",
+      "where": "Primark",
+      "intro": "可找角色印花睡衣、上衣與日常用品；照片為海綿寶寶圖案睡衣，適合挑輕鬆實用的小禮物。",
+      "image": "/photos/fast-docx2-nl-image6.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image6.webp"
+      ],
+      "tips": [
+        "圖案與尺寸依當季供貨，照片中的款式與價格不保證仍有。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "Chocomel 巧克力牛奶",
+      "where": "超市／便利店",
+      "intro": "橘色瓶身的巧克力牛奶，適合買一瓶配麵包或甜點，冷熱飲用方式依包裝。",
+      "image": "/photos/fast-docx2-nl-image7.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image7.webp"
+      ],
+      "tips": [
+        "照片為標示 0% 添加糖的版本，其他瓶裝配方可能不同。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "藍白荷蘭風格餅乾鐵盒",
+      "where": "紀念品店／超市禮盒區",
+      "intro": "藍白圖案鐵盒本身就有紀念感，想送餅乾又想留下收納盒，可以留意這類包裝。",
+      "image": "/photos/fast-docx2-nl-image8.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image8.webp"
+      ],
+      "tips": [
+        "先看盒內餅乾種類與保存期限，不只看鐵盒外觀。",
+        "原圖品名不夠清晰，現場以實際品牌與盒裝內容核對。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Het Koekemannetje 手工餅乾",
+      "where": "Runstraat／Schiphol Plaza",
+      "intro": "可以比較黑巧克力、牛奶巧克力和白巧克力等口味；盒裝適合分送，也可當回程前的小點心。",
+      "image": "/photos/fast-docx2-nl-image12.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image12.webp"
+      ],
+      "tips": [
+        "市區店在 Runstraat，機場 Plaza 也有門市；先看當天供應口味。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Rudi’s Original Stroopwafels",
+      "where": "Albert Cuyp 市集",
+      "intro": "現烤荷式糖漿煎餅，喜歡熱熱酥香的口感可以現場吃，也可買小包帶走。",
+      "image": "/photos/fast-docx2-nl-image5.webp",
+      "images": [
+        "/photos/fast-docx2-nl-image5.webp"
+      ],
+      "tips": [
+        "攤位位於 Albert Cuypstraat 182 號對面附近；先確認擺攤日再去。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "REWE Bio 酪梨調味料",
+      "where": "REWE",
+      "intro": "Avocado Gewürzzubereitung 是搭配酪梨的調味料，也能按口味少量灑在蛋或麵包上。",
+      "image": "/photos/fast-docx2-de-image1.webp",
+      "images": [
+        "/photos/fast-docx2-de-image1.webp"
+      ],
+      "tips": [
+        "調味料不是酪梨本身；先看是否含鹽、辣椒等成分。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "KoRo 開心果威化餅",
+      "where": "REWE／dm／KoRo 通路",
+      "intro": "Pistazienschnitte 是夾心威化，照片為標示 45% 開心果的版本，適合喜歡堅果香的人。",
+      "image": "/photos/fast-docx2-de-image2.webp",
+      "images": [
+        "/photos/fast-docx2-de-image2.webp"
+      ],
+      "tips": [
+        "和 KoRo 青醬是完全不同商品，依包裝名稱找。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "培根包椰棗",
+      "where": "REWE 冷藏食品區",
+      "intro": "Datteln im Speckmantel 是培根包覆的椰棗，甜鹹搭配，可依包裝加熱後當小點心。",
+      "image": "/photos/fast-docx2-de-image4.webp",
+      "images": [
+        "/photos/fast-docx2-de-image4.webp"
+      ],
+      "tips": [
+        "與乳酪夾心椰棗不同，這款含肉。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "REWE Feine Welt 原味與松露洋芋片",
+      "where": "REWE",
+      "intro": "同品牌可比較原味與松露風味；看包裝上的 Trüffel 即是松露。",
+      "image": "/photos/fast-docx2-de-image5.webp",
+      "images": [
+        "/photos/fast-docx2-de-image5.webp",
+        "/photos/fast-docx2-extra-rewe-truffle-chips.webp"
+      ],
+      "tips": [
+        "第一張原味，下一張松露口味；按自己喜歡的香氣挑選。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "鳳梨乾小點心",
+      "where": "超市／藥妝食品區",
+      "intro": "Ananas 是鳳梨；想換成水果類點心，可以看這類袋裝鳳梨乾。",
+      "image": "/photos/fast-docx2-de-image8.webp",
+      "images": [
+        "/photos/fast-docx2-de-image8.webp"
+      ],
+      "tips": [
+        "先看是凍乾、乾燥或其他處理方式，以及是否加糖。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "REWE Feine Welt 芝麻與開心果冰淇淋",
+      "where": "REWE 冷凍區",
+      "intro": "Sesam 是芝麻，Pistazie 是開心果，可依口味比較這兩款金蓋冰淇淋。",
+      "image": "/photos/fast-docx2-de-image9.webp",
+      "images": [
+        "/photos/fast-docx2-de-image9.webp",
+        "/photos/fast-docx2-extra-rewe-pistachio-icecream.webp"
+      ],
+      "tips": [
+        "留到回住宿前購買，避免提著逛街融化。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Alnatura 優格米餅與椰子小點",
+      "where": "有機食品店／超市",
+      "intro": "Alnatura 優格米餅，搭配照片中的椰子包覆小點心，可作巧克力以外的零食選擇。",
+      "image": "/photos/fast-docx2-de-image10.webp",
+      "images": [
+        "/photos/fast-docx2-de-image10.webp"
+      ],
+      "tips": [
+        "品牌或外包裝不同時，先看甜度、成分與份量。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "Pistachub 開心果抹醬",
+      "where": "超市／食品通路",
+      "intro": "Pistazien Creme 是開心果抹醬，照片為 45% 開心果版本，適合抹吐司、配餅乾或當甜點內餡。",
+      "image": "/photos/fast-docx2-de-image11.webp",
+      "images": [
+        "/photos/fast-docx2-de-image11.webp"
+      ],
+      "tips": [
+        "和荷蘭 AH 開心果抹醬是不同品牌，分開比較。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Marie-Stella-Maris 香氛洗手露",
+      "where": "品牌店／百貨保養區",
+      "intro": "照片為 Lemon Notes 檸檬香調洗手露，可先試聞，再比較洗手露、身體保養等系列。",
+      "image": "/photos/fast-docx2-extra-marie-stella-maris.webp",
+      "images": [
+        "/photos/fast-docx2-extra-marie-stella-maris.webp"
+      ],
+      "tips": [
+        "液體用品注意容量與行李重量，並將瓶口封好。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Zenology 居家香氛",
+      "where": "香氛與居家選物店",
+      "intro": "照片為 Libri 室內香氛噴霧；偏好清新或木質氣味，可以到店試聞。",
+      "image": "/photos/fast-docx2-extra-zenology.webp",
+      "images": [
+        "/photos/fast-docx2-extra-zenology.webp"
+      ],
+      "tips": [
+        "這是空間香氛，不是身體香水；大瓶裝先考量行李容量。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Daelmans 糖漿煎餅",
+      "where": "超市／伴手禮食品區",
+      "intro": "兩片薄餅夾焦糖糖漿，適合配咖啡或熱茶；有袋裝與禮盒等不同包裝。",
+      "image": "/photos/fast-docx2-extra-daelmans.webp",
+      "images": [
+        "/photos/fast-docx2-extra-daelmans.webp"
+      ],
+      "tips": [
+        "照片是焦糖口味，送人時可優先比較獨立包裝與保存期限。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "AGU 雨衣與自行車服飾",
+      "where": "品牌店／戶外用品通路",
+      "intro": "照片為藍色雨衣，喜歡戶外或騎車用品的人可以比較防雨外套與配件。",
+      "image": "/photos/fast-docx2-extra-agu.webp",
+      "images": [
+        "/photos/fast-docx2-extra-agu.webp"
+      ],
+      "tips": [
+        "試穿時把內層衣物厚度一起算進去。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Filling Pieces 休閒鞋",
+      "where": "品牌店／鞋履選物店",
+      "intro": "簡潔輪廓的休閒鞋選項，照片為黑色低筒款；適合想逛鞋店的人。",
+      "image": "/photos/fast-docx2-extra-filling-pieces.webp",
+      "images": [
+        "/photos/fast-docx2-extra-filling-pieces.webp"
+      ],
+      "tips": [
+        "不同鞋款楦頭可能不同，現場試穿比只看尺碼更準。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Het Amsterdamse Zeephuis 運河屋香皂",
+      "where": "品牌／禮品選物店",
+      "intro": "將運河屋立面做成香皂，照片為 Herengracht 組合，兼具荷蘭街景特色與實用性。",
+      "image": "/photos/fast-docx2-extra-amsterdamse-zeephuis.webp",
+      "images": [
+        "/photos/fast-docx2-extra-amsterdamse-zeephuis.webp"
+      ],
+      "tips": [
+        "和陶瓷運河屋不同，這組是香皂；送禮前確認香味。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "America Today 雨衣與休閒服",
+      "where": "品牌門市",
+      "intro": "可逛雨衣、外套與日常服飾，照片為黑色長版雨衣。",
+      "image": "/photos/fast-docx2-extra-america-today.webp",
+      "images": [
+        "/photos/fast-docx2-extra-america-today.webp"
+      ],
+      "tips": [
+        "依實際防水標示與尺寸挑選，別只憑外觀當成登山裝備。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Kinfill 居家清潔組",
+      "where": "居家選物店／品牌通路",
+      "intro": "照片為多表面清潔組，偏好設計感日用品的人可以比較瓶器與補充液。",
+      "image": "/photos/fast-docx2-extra-kinfill.webp",
+      "images": [
+        "/photos/fast-docx2-extra-kinfill.webp"
+      ],
+      "tips": [
+        "清潔濃縮液依說明稀釋；先確認液體攜帶與材質使用限制。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "Abel 香水",
+      "where": "香氛選物店／品牌通路",
+      "intro": "照片為 Cyan Nori 香水，可作認識品牌的起點；試聞後再決定喜歡的香調。",
+      "image": "/photos/fast-docx2-extra-abel.webp",
+      "images": [
+        "/photos/fast-docx2-extra-abel.webp"
+      ],
+      "tips": [
+        "氣味在每個人身上感受不同，先試香、稍等再聞。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "O My Bag 皮件與包款",
+      "where": "品牌門市／選物店",
+      "intro": "照片為黑色 Audrey 肩背包，適合想挑日常皮件或送禮的人。",
+      "image": "/photos/fast-docx2-extra-o-my-bag.webp",
+      "images": [
+        "/photos/fast-docx2-extra-o-my-bag.webp"
+      ],
+      "tips": [
+        "現場確認重量、背帶長度、內層分隔及材質保養方式。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Foekje Fleur 陶瓷花器",
+      "where": "設計選物店",
+      "intro": "以日常瓶身輪廓做成彩色陶瓷花器，照片為黃色款，可當家飾紀念品。",
+      "image": "/photos/fast-docx2-extra-foekje-fleur.webp",
+      "images": [
+        "/photos/fast-docx2-extra-foekje-fleur.webp"
+      ],
+      "tips": [
+        "這是陶瓷花器，不是香水；請店家加強防撞包裝。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Bamboo Basics 基本款衣物",
+      "where": "服飾／百貨通路",
+      "intro": "照片為黑色基本款上衣，也可按需要比較品牌其他日常貼身衣物。",
+      "image": "/photos/fast-docx2-extra-bamboo-basics.webp",
+      "images": [
+        "/photos/fast-docx2-extra-bamboo-basics.webp"
+      ],
+      "tips": [
+        "先看成分、尺碼與洗滌標示，貼身商品確認退換規則。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Little Dutch 兒童玩具",
+      "where": "兒童用品／選物店",
+      "intro": "照片為森林主題疊疊積木盒；插畫與柔和配色適合挑小朋友禮物。",
+      "image": "/photos/fast-docx2-extra-little-dutch.webp",
+      "images": [
+        "/photos/fast-docx2-extra-little-dutch.webp"
+      ],
+      "tips": [
+        "依孩子年齡挑選，注意小零件與適齡標示。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Heineken 海尼根周邊",
+      "where": "品牌紀念品店",
+      "intro": "除了啤酒，也可挑有品牌標誌的杯具或服飾；照片為小啤酒杯。",
+      "image": "/photos/fast-docx2-extra-heineken.webp",
+      "images": [
+        "/photos/fast-docx2-extra-heineken.webp"
+      ],
+      "tips": [
+        "杯子易碎，請店家包好；照片中的飲料只是杯具展示。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Patta 街頭服飾",
+      "where": "品牌門市",
+      "intro": "照片為黑色標誌上衣，喜歡街頭風格可以逛上衣、帽子與配件。",
+      "image": "/photos/fast-docx2-extra-patta.webp",
+      "images": [
+        "/photos/fast-docx2-extra-patta.webp"
+      ],
+      "tips": [
+        "聯名款和尺寸供貨變動較快，當天以門市款式為準。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "藥妝",
+      "name": "HEMA 彩妝與香氛",
+      "where": "HEMA 門市",
+      "intro": "平價彩妝、護唇與香氛都可一起逛；照片為 Tompouce 甜點主題香水的款式參考。",
+      "image": "/photos/fast-docx2-extra-hema.webp",
+      "images": [
+        "/photos/fast-docx2-extra-hema.webp"
+      ],
+      "tips": [
+        "照片為曾推出的香水系列，非保證現售；可在門市比較當季彩妝、護唇用品。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "The Mercer Brand 運動休閒鞋",
+      "where": "品牌／鞋履通路",
+      "intro": "照片為 Re-Run 系列休閒鞋，喜歡復古運動輪廓可以列入逛店選項。",
+      "image": "/photos/fast-docx2-extra-mercer.webp",
+      "images": [
+        "/photos/fast-docx2-extra-mercer.webp"
+      ],
+      "tips": [
+        "旅行走路多，試穿時多走幾步確認舒適度。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "超市",
+      "name": "De Ruijter 巧克力米",
+      "where": "AH／Jumbo 等超市",
+      "intro": "Hagelslag 是灑在抹奶油吐司上的巧克力米，照片為 Puur 黑巧克力款。",
+      "image": "/photos/fast-docx2-extra-de-ruijter.webp",
+      "images": [
+        "/photos/fast-docx2-extra-de-ruijter.webp"
+      ],
+      "tips": [
+        "不是沖泡可可粉；想試荷式早餐可搭配吐司與奶油。"
+      ]
+    },
+    {
+      "country": "荷蘭",
+      "category": "伴手禮",
+      "name": "Starbucks 阿姆斯特丹城市杯",
+      "where": "星巴克門市",
+      "intro": "以城市圖案留念，照片為阿姆斯特丹 You Are Here 系列款式參考。",
+      "image": "/photos/fast-docx2-extra-starbucks.webp",
+      "images": [
+        "/photos/fast-docx2-extra-starbucks.webp"
+      ],
+      "tips": [
+        "城市杯會換系列，照片舊款未必仍有；以門市當季款為準。"
+      ]
+    },
+    {
+      "country": "德國",
+      "category": "超市",
+      "name": "奶油乳酪夾心椰棗",
+      "where": "超市冷藏／熟食區",
+      "intro": "椰棗的甜味搭配奶油乳酪，可當甜鹹小點；照片為 Die Käsemacher 同類產品參考。",
+      "image": "/photos/fast-docx2-extra-dates-cream-cheese.webp",
+      "images": [
+        "/photos/fast-docx2-extra-dates-cream-cheese.webp"
+      ],
+      "tips": [
+        "不是保證 REWE 熟食櫃同一款，購買時向店員確認品項。",
+        "和培根包椰棗不同，選購時看清楚內餡。"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "cologne-cathedral",
+      "day": "14",
+      "title": "科隆大教堂",
+      "summary": "一座花了六百多年完成的哥德式教堂。",
+      "aliases": [
+        "Kölner Dom",
+        "科隆大教堂"
+      ],
+      "paragraphs": [
+        "科隆大教堂（Kölner Dom，聖伯多祿主教座堂）始建於 1248 年，經過長期停工與重啟，直到 1880 年完成，跨越 632 年。雙尖塔約高 157 公尺，是抵達科隆時最鮮明的地標。",
+        "哥德式結構的看點：尖拱、肋架拱頂與飛扶壁把重量向外傳遞，讓牆面能開出高大的窗戶。站在中殿往上看，便能感受建築如何用石頭營造向天空延伸的力量。",
+        "不同年代的彩繪玻璃：既有敘說聖經故事的歷史花窗，也有 2007 年格哈德・里希特設計的彩色方格窗。可以比較具象人物與抽象色塊，如何在同一座教堂裡表現光。",
+        "三王聖龕：高祭壇後方的金色聖物龕保存相傳屬於東方三博士的聖物。中世紀朝聖人潮是教堂擴建的重要背景；「相傳」也提醒我們，宗教傳統和可驗證史實不是同一件事。",
+        "另外兩件值得留意的作品：格羅十字架約製於西元 970 年，呈現耶穌受難的重量與身體感；斯特凡・洛赫納的科隆主保聖人祭壇畫，則能看到晚期哥德式繪畫精細的色彩與衣飾。"
+      ]
+    },
+    {
+      "id": "markthal",
+      "day": "18",
+      "title": "拱門市場 Markthal",
+      "summary": "抬頭是巨大蔬果壁畫，拱形外殼裡其實住著人。",
+      "aliases": [
+        "Markthal"
+      ],
+      "paragraphs": [
+        "市集廣場（Markthal 拱門市場）由荷蘭頂尖建築團隊 MVRDV 設計，於 2014 年落成，是一座將大型室內生鮮市集與集合住宅巧妙融為一體的開創性地標。整座建築以巨大的倒 U 型拱頂矗立於廣場上，挑高中庭透過兩端特製的柔性鋼索玻璃幕牆採光，內部人聲鼎沸、香氣四溢，打破了傳統公共市場與居住空間的藩籬。",
+        "馬蹄拱型複合結構：高達 40 公尺的拱形外殼實為 228 戶住宅公寓，住戶的窗戶可直接朝內俯瞰市場熱鬧景象或朝外遠眺城市市景。",
+        "巨幅天頂壁畫「豐饒之角」：挑高拱頂內壁覆蓋了藝術家 Arno Coenen 與 Iris Roskam 創作的 11,000 平方公尺超高解析度壁畫，繽紛呈現巨型新鮮蔬果、花卉與海鮮，被譽為現代數位版的「西斯汀天頂畫」。"
+      ]
+    },
+    {
+      "id": "cube",
+      "day": "18",
+      "title": "方塊屋 Kubuswoningen",
+      "summary": "把住宅想成樹木，讓整個街區成為幾何森林。",
+      "aliases": [
+        "Kubus",
+        "方塊屋"
+      ],
+      "paragraphs": [
+        "方塊屋（Kubuswoningen）位於拱門市場斜對面，由建築師皮特·布洛姆（Piet Blom）於 1980 年代初打造，是鹿特丹戰後重建中最具前衛顛覆性的實驗住宅群。建築師以「城市屋頂上的生活」為核心理念，將每座明黃色的立方體房屋傾斜 45 度架設在水泥柱頂，彼此緊密相連，遠看彷彿一座由抽象幾何樹木構成的幾何森林（Blaakse Bos）。",
+        "傾斜空間的生活實驗：立方體傾斜後，外牆、天花板與窗戶不再符合一般住宅的直角經驗。能正常站立與擺放家具的空間受到限制，因此收納與家具配置也必須重新思考。",
+        "垂直三層格局規劃：單戶內部依功能垂直向上延伸，底層為三角錐狀的客廳與廚房，中層規劃為臥室與衛浴，頂層三面採光的小金字塔空間常作為綠意休憩區或書房。"
+      ]
+    },
+    {
+      "id": "depot",
+      "day": "18",
+      "title": "博伊曼斯藝術倉庫 Depot",
+      "summary": "鏡面大碗裡，收藏、修復與保存本身就是主角。",
+      "aliases": [
+        "Depot"
+      ],
+      "paragraphs": [
+        "博伊曼斯・范・伯寧恩藝術倉庫（Depot）於 2021 年開放，由 MVRDV 建築團隊設計。鏡面碗狀外牆映照博物館公園與城市天空；它把原本藏在幕後的藝術保存工作，變成可供公眾認識的參觀主題。",
+        "可參觀的典藏庫：庫房收藏超過 15 萬件作品，但不是所有作品同時攤開展出，也不是每個庫房都可自由走入。參觀重點是透過展示、玻璃界面與指定導覽，理解作品如何收藏、搬運與保存。",
+        "五大氣候分區與交錯天梯：內部依據金屬、紙張、油畫、攝影底片等不同材質的溫濕度維護需求，劃分為五種不同的氣候儲藏環境，挑高中庭則由縱橫交錯的玻璃樓梯穿梭串聯。",
+        "空中森林與全景景觀：近 40 公尺高的屋頂平台種植了 75 棵特製抗風的白樺樹與綠植，並設有景觀餐廳，提供 360 度俯瞰鹿特丹壯闊天際線的絕佳視野。"
+      ]
+    },
+    {
+      "id": "kamphuisen",
+      "day": "19",
+      "title": "Kamphuisen 糖漿煎餅工廠",
+      "summary": "豪達兩百年烘焙故事，從秘方到薄脆糖漿煎餅。",
+      "aliases": [
+        "Kamphuisen"
+      ],
+      "paragraphs": [
+        "Kamphuisen 糖漿煎餅工廠位在豪達市集廣場。品牌以 1810 年的烘焙傳承與秘方故事為主軸，讓一片小點心連上豪達的城市記憶。",
+        "品牌歷史與百年秘方",
+        "始於 1810 年：麵包師 Pieter Willem Kamphuisen 於 1810 年在豪達開立烘焙坊，是豪達糖漿煎餅的開創鼻祖之一，歷史甚至早於多數現代常見的荷蘭煎餅品牌。",
+        "鎖在保險庫的機密配方：兩百多年來，Kamphuisen 的配方與調味比例始終嚴格保密，至今仍鎖在特製的實體保險庫中，僅有極少數核心傳人知曉。",
+        "獨特之處：Siroopwafel 與一般 Stroopwafel 的差異",
+        "市面上多數的荷蘭煎餅（Stroopwafel）與 Kamphuisen 的糖漿煎餅（Siroopwafel）在工法與口感上有明顯區隔：",
+        "一般荷蘭煎餅（Stroopwafel）：烤好一片較厚的麵餅後，趁熱用刀鋒橫向剖開成兩半，抹入焦糖內餡黏合，口感偏軟韌、帶有嚼勁。Kamphuisen 煎餅（Siroopwafel）：由兩片獨立烘烤、質地極致輕薄酥脆的特製奶油脆餅夾入獨家肉桂焦糖漿。入口酥脆細緻，奶香與焦糖甜感層次分明，不易黏牙。",
+        "參觀體驗（Factory Experience）",
+        "整座工廠融合了歷史博物館、互動體驗與實際生產線：",
+        "歷史互動導覽：訪客可透過影音與互動裝置了解 19 世紀初烘焙工坊的生活風貌，以及兩百年來配方傳承的傳奇故事。",
+        "神秘保險庫巡禮：參觀象徵守護機密配方的巨大厚重保險庫。",
+        "透明生產線：沿著參觀步道透過玻璃窗近距離觀看現代化製程——從揉麵、壓模、烘烤到注入溫熱糖漿與包裝，現場瀰漫著濃郁的奶油與烘焙香氣。",
+        "試吃與選購：完成體驗後再依現場安排品嚐煎餅、挑選伴手禮。生產示範、試吃內容與可參觀區域以當日預約內容為準，不把每個展示都當成一定會運轉的生產線。"
+      ]
+    },
+    {
+      "id": "cheese",
+      "day": "19",
+      "title": "’t Kaaswinkeltje 豪達起司小店",
+      "summary": "認識農場起司，以及熟成時間帶來的不同風味。",
+      "aliases": [
+        "Kaaswinkeltje"
+      ],
+      "paragraphs": [
+        "’t Kaaswinkeltje 位於豪達老城的 Lange Tiendeweg（長天街），以農場起司為特色。走進堆放起司輪的店裡，不妨把它當作一堂小型味覺課：同樣是牛乳，牧場、製法與熟成時間都會改變最後的味道。",
+        "正統生乳農場起司（Boerenkaas）：店內最具代表性的是未經巴氏殺菌的傳統生乳起司，由豪達周邊農場遵循古法手工壓製與發酵，相比一般工廠規格化生產的起司，香氣更為醇厚複雜、乳香層次鮮明。",
+        "各年份熟成與風味選擇：陳列了從奶香清爽溫和的嫩起司（Jong）、堅果香氣濃郁的熟成起司（Oud），到產生微脆酪蛋白結晶的超陳年老起司（Overjarig）；此外也有加入黑松露、孜然、香草、胡椒等特色調味的農場起司，店員通常樂於提供分切試吃與風味解說。",
+        "包裝與帶回：可詢問真空包裝、切片器與適合送禮的尺寸。真空不等於可以常溫久放，購買時請店員說明保存溫度與期限，再依旅程安排攜帶。"
+      ]
+    },
+    {
+      "id": "mauritshuis",
+      "day": "19",
+      "title": "莫瑞泰斯皇家美術館 Mauritshuis",
+      "summary": "在昔日宅邸裡，與《戴珍珠耳環的少女》近距離相遇。",
+      "aliases": [
+        "Mauritshuis",
+        "莫瑞泰斯"
+      ],
+      "paragraphs": [
+        "莫瑞泰斯皇家美術館（Mauritshuis）坐落於荷蘭海牙市中心、緊鄰宮廷池（Hofvijver）旁，是展示荷蘭黃金時代（Dutch Golden Age）繪畫藝術最重要的殿堂之一。這座建築原為 17 世紀荷蘭古典主義風格的宮殿宅邸，由約翰·毛里茨伯爵（Johan Maurits）下令興建；不同於大型巨型博物館的龐雜，全館以小巧精緻的宮廷格局，典藏了大量維梅爾、林布蘭等巨匠的傳世真跡，營造出寧靜典雅的藝術鑑賞氛圍。",
+        "鎮館之寶《戴珍珠耳環的少女》：藏有約翰尼斯·維梅爾（Johannes Vermeer）舉世聞名的代表作，被譽為「北方的蒙娜麗莎」，以畫中少女神秘的回眸神情、溫潤微光以及對珍珠反光的極致細膩刻畫聞名；同館亦收藏其風景巨作《台夫特之景》（View of Delft）。",
+        "林布蘭核心名作收藏：館藏多幅林布蘭（Rembrandt van Rijn）的重要作品，包含奠定其大師地位的成名之作《杜爾普醫生的解剖課》（The Anatomy Lesson of Dr. Nicolaes Tulp），以及晚期筆觸蒼勁、神情內省的經典《自畫像》。",
+        "荷蘭黃金時代精華薈萃：展出卡雷爾·法布里蒂烏斯（Carel Fabritius）筆觸精湛的傳奇畫作《金翅雀》（The Goldfinch），以及揚·斯特恩（Jan Steen）與法蘭斯·哈爾斯（Frans Hals）等生動描繪 17 世紀市井百態與生動肖像的名作。",
+        "古典沙龍與地下現代擴建：主樓展廳完整保留了典雅的木質地板、水晶吊燈與織錦牆面，呈現古典沙龍的私邸風貌；動線則透過巧妙的地下採光通道串聯現代擴建翼樓，兼顧歷史古蹟質感與流暢舒適的參觀體驗。"
+      ]
+    },
+    {
+      "id": "gouda",
+      "day": "19",
+      "title": "初到豪達",
+      "summary": "從沼澤與運河貿易，走到起司、花窗與煎餅。",
+      "aliases": [
+        "豪達"
+      ],
+      "paragraphs": [
+        "沼澤起家與起司專營：11 世紀起，移民開始排乾豪厄河（Gouwe）與荷蘭艾瑟爾河交會處的泥炭沼澤。1272 年荷蘭伯爵弗洛里斯五世賜予豪達城市自治權。憑藉內陸運河樞紐地位，豪達在中世紀爭取到周邊唯一的起司專營權，所有農家製作的起司輪皆須送至此處檢驗、稱量與交易，奠定了百年商業榮景。",
+        "烈火重生的獨立市政廳：豪達在 1361 與 1438 年遭遇嚴重祝融之災，全城幾成焦土。1438 年大火後，居民決定打破將公家建築與民宅緊貼的傳統，在市集廣場中央興建一座完全獨立、四面不挨鄰房的石造市政廳，成就了如今荷蘭現存最古老的哥德式獨立市政廳。",
+        "人文主義巨擘的故里：文藝復興人文主義思想家德西德里烏斯·伊拉斯謨（Erasmus）與豪達關係極深。他的父親是豪達的本堂神父，伊拉斯謨在此度過童年並接受早期啟蒙教育，這段背景深刻形塑了他日後對宗教批判與人文主義的觀點。",
+        "蠟燭、陶土煙斗與煎餅：除了起司，豪達也以蠟燭與陶土煙斗工藝聞名。糖漿煎餅的早期起源有不同說法，常被連結到節省材料的烘焙智慧；比起認定單一發明傳說，更適合把它看成在地工坊逐漸發展出的飲食文化。",
+        "現今樣貌",
+        "市場與今日生活：春夏有傳統起司市集活動，但我們 11 月到訪不安排這類季節性表演。仍可以逛廣場、市政廳、起司店與煎餅工廠，從日常商店認識地方傳統。",
+        "古樸宜居的文化小鎮：作為荷蘭蘭斯台德（Randstad）都會圈內的一環，豪達既保留了聖約翰教堂 72 面國寶級彩色花窗等中世紀遺產，又維持著慢節奏的居住環境。每年 12 月的「豪達燭光之夜（Gouda bij Kaarslicht）」，全城熄滅現代照明、點亮數千支蜂蠟蠟燭，是凝聚地方傳統與吸引全球旅人的年度盛典。"
+      ]
+    },
+    {
+      "id": "hague",
+      "day": "19",
+      "title": "初到海牙",
+      "summary": "伯爵的狩獵行宮，如何成為政治與國際司法之都。",
+      "aliases": [
+        "海牙"
+      ],
+      "paragraphs": [
+        "「伯爵的樹籬」與宮廷核心：海牙的全名「's-Gravenhage」意為「伯爵的樹籬」。約在 1230 年，荷蘭伯爵弗洛里斯四世在此購地建造狩獵行宮；其子威廉二世與孫弗洛里斯五世擴建出核心建築「騎士廳」（Ridderzaal），使此地逐步轉化為荷蘭的貴族聚會地與政治核心。",
+        "「最大村莊」的綽號：海牙以宮廷與行政中心發展，和由商業自治壯大的荷蘭城市不同。它的城市地位與歷史權利不能簡化為單一授權日期；「村莊」更多是描述這段特殊身世的趣稱。",
+        "1672 年的政治暴力：荷蘭遭遇戰爭危機與內部權力鬥爭，約翰・德・維特兄弟在海牙被暴民殺害。這段歷史提醒我們，今天象徵和平與司法的城市，也曾經歷失序與迫害。",
+        "世界和平與正義的起點：1899 年，在海牙召開了首屆海牙和平會議，催生了奠定國際戰爭法規的《海牙公約》，並設立常設仲裁法院。隨後在美國實業家卡內基捐資下興建和平宮，讓這座城市從昔日皇室狩獵林地，一躍升格為全球國際法的基石之地。",
+        "現今樣貌",
+        "荷蘭實質政治心臟與皇家之都：荷蘭的憲法首都雖為阿姆斯特丹，但海牙才是國家運作的實際中樞——荷蘭國會、中央政府各部門、最高法院、各國駐荷大使館，以及荷蘭國王威廉-亞歷山大（Willem-Alexander）的辦公宮殿與私人住所皆設於此，洋溢著端莊典雅的貴族與行政氣度。",
+        "國際法與多邊外交中心：海牙與紐約、日內瓦、維也納並列為聯合國核心機構所在地，進駐了聯合國國際法院（ICJ）、國際刑事法院（ICC）、禁止化學武器組織（OPCW）與歐洲刑警組織（Europol），每天都在此審理與裁決重大的跨國法律爭端與人權事件。",
+        "摩天大樓與濱海沙灘的多元風貌：現代的海牙兼具高密度的國際商務機能與北歐沿海休閒步調。中央車站周邊聳立著現代化摩天辦公大樓，市區西側則緊鄰著名的斯赫弗寧恩（Scheveningen）海灘，擁有開闊的北海沙灘、濱海摩天輪與度假棧橋，形成了兼具嚴肅法治與愜意海岸度假的獨特雙重性格。"
+      ]
+    },
+    {
+      "id": "dusseldorf",
+      "day": "13",
+      "title": "初到杜塞道夫",
+      "summary": "萊茵河口的小聚落，成為藝術、商務與日本文化交會的城市。",
+      "aliases": [
+        "杜塞道夫",
+        "杜賽道夫"
+      ],
+      "paragraphs": [
+        "沃林根戰役與「科隆宿怨」：杜塞道夫最初只是杜瑟爾河（Düssel）匯入萊茵河口的一處微小漁村。1288 年爆發著名的「沃林根戰役（Battle of Worringen）」，貝格伯爵阿道夫五世（Adolf V of Berg）率領當地居民與農民，聯手擊潰了跋扈的科隆大主教軍隊。獲勝後，伯爵於同年 8 月 14 日正式授予杜塞道夫城市自治權；這場血戰不僅奠定了城市根基，也成為杜塞道夫與鄰近科隆長達七百多年瑜亮情結（從城市競爭到啤酒之爭）的起點。",
+        "側翻男孩的傳說：杜塞道夫街頭常見翻跟斗男孩圖案，關於起源有戰勝後孩童歡慶、婚禮車輪意外等不同傳說。它們是城市民間故事，不必當成已證實的單一史實；這種幽默活力正是圖案流傳的魅力。",
+        "宮廷璀璨與海涅誕生地：17 至 18 世紀在選帝侯約翰·威廉（民間暱稱 Jan Wellem）與其妻子安娜·瑪麗亞·路易莎·德·麥第奇的統治下，杜塞道夫大舉修建宮殿、成立畫廊與劇院，奠定文藝復興晚期以來的藝術重鎮地位。1797 年，德國浪漫主義偉大詩人海因里希·海涅（Heinrich Heine）誕生於老城區，其奔放又帶有銳利批判的文筆，為這座城市刻下深厚的文學印記。",
+        "「魯爾區的辦公桌」：杜塞道夫與鄰近魯爾工業區往來密切，企業管理、金融與商務服務逐漸聚集，因此得到這個綽號。不代表它沒有製造業，而是凸顯辦公與決策功能在城市中的份量。",
+        "現今樣貌",
+        "邦首府與會展城市：杜塞道夫是北萊茵－西發利亞邦首府，行政、商務、金融與會展活動交織。這次參加 MEDICA，也能理解國際展覽如何讓城市的旅館、交通與餐飲在短期內忙碌起來。",
+        "世界最長吧檯與頂層發酵老啤酒（Altbier）：杜塞道夫的老城區（Altstadt）聚集了超過 300 家傳統酒館與酒吧，彼此店面緊密相連，被戲稱為「世界最長的吧檯（Die längste Theke der Welt）」。當地堅持飲用傳統深琥珀色、帶有濃郁麥芽香與微苦啤酒花香的「老啤酒（Altbier）」，身穿藍色圍裙的侍應生（Köbes）穿梭各桌間自動替換空酒杯，展現熱情直爽的萊茵酒館文化。",
+        "歐洲大陸最大的「小東京」：杜塞道夫擁有歐洲大陸最具規模的日本僑民社群。自戰後日本三菱、三井等商社在此設立歐洲分部以來，中央車站前的因默曼街（Immermannstraße）發展成道地的日本街，林立著頂級日料、拉麵館、日系書店與連鎖超市；每年初夏舉辦的「杜塞道夫日本日（Japan-Tag）」更吸引數十萬人湧入參與動漫文化與萊茵河畔的壯麗日式煙火。",
+        "時尚之都與媒體港建築伸展台：國王大道（Königsallee，暱稱 Kö）中央被清澈運河與老樹掩映，兩側匯聚全球頂級奢侈品牌與時尚買手店，是歐洲知名的奢華購物街與時裝週基地。往南延伸的媒體港（MedienHafen）則將昔日廢棄碼頭轉型為前衛建築聚落，建築大師法蘭克·蓋瑞（Frank Gehry）設計的傾斜不對稱建築群「新關稅大院」成為萊茵河畔最具動感的當代視覺焦點。"
+      ]
+    },
+    {
+      "id": "cologne",
+      "day": "14",
+      "title": "初到科隆",
+      "summary": "羅馬殖民地、朝聖雙塔與熱情酒館，共同留下城市的性格。",
+      "aliases": [
+        "科隆"
+      ],
+      "paragraphs": [
+        "羅馬殖民地起源與皇后命名：科隆是德國歷史最悠久的大城市之一。西元 50 年，羅馬帝國皇帝克勞狄烏斯應其皇后小阿格里皮娜（Agrippina the Younger，出生於此）的請求，將這座前線軍營升格為羅馬殖民地，命名為 Colonia Claudia Ara Agrippinensium，「科隆（Köln / Cologne）」之名即源自拉丁語的「Colonia（殖民地）」。城牆、地下水道與總督府遺跡至今仍沉睡在市中心地下。",
+        "東方三博士聖物與六百年建堂史：1164 年，神聖羅馬帝國皇帝腓特烈一世征服米蘭後，將相傳的「東方三博士」遺骨賜予科隆大主教。龐大的朝聖人潮帶來巨額財富，促使教區於 1248 年拆除舊堂，動工興建一座規模空前的哥德式大教堂。因戰亂與財政中斷，工程停滯超過三個世紀，直至 1880 年才在普魯士王室資助下全面落成，歷時整整 632 年。",
+        "沃林根戰役與自治：1288 年科隆市民與同盟擊敗大主教一方，此後逐漸擺脫大主教的世俗控制；正式自由帝國城市地位則在 1475 年得到確認。杜塞道夫同年獲城市權，兩城的競爭後來也成為酒館文化裡的玩笑。",
+        "二戰地獄火海與屹立的雙塔奇蹟：二戰期間，科隆遭受盟軍多達 262 次猛烈空襲，市中心超過 90% 化為焦黑瓦礫。然而在整座城市幾乎被抹平的黑色廢墟中，科隆大教堂雖遭多枚炸彈擊中，雙尖塔卻奇蹟般屹立不倒，在戰後成為這座城市乃至整個西德從毀滅中重生的精神支柱。",
+        "古龍水（Eau de Cologne）的發祥地：18 世紀初，定居科隆的義大利調香師喬瓦尼·瑪麗亞·法里納（Giovanni Maria Farina）調配出一款帶有柑橘、佛手柑與草本清香的香水，為紀念第二故鄉而命名為「Eau de Cologne」（科隆之水，即古龍水），拿破崙與歌德皆為其忠實擁躉，使科隆成為現代香水產業的重要發源地。",
+        "現今樣貌",
+        "德國第四大城與萊茵傳媒會展重鎮：科隆人口突破百萬，是德國第四大城市與北萊茵-西發利亞邦的文化中心。它是德國重要的傳媒中樞，西德廣播公司（WDR）與德國最大商業電視台 RTL 皆以此為總部；科隆展覽中心（Koelnmesse）更是全球頂級商展重鎮，每年舉辦國際遊戲展（Gamescom）與食品展（Anuga）等國際盛會。",
+        "「第五季節」狂歡節之都：科隆以全民狂歡的開放天性聞名。每年 11 月 11 日上午 11 點 11 分揭開序幕的「科隆狂歡節（Kölner Karneval）」被當地人視為一年之中的「第五季節」；在冬末的玫瑰星期一（Rosenmontag），全城數百萬人盛裝打扮湧入街頭遊行，高呼「Kölle Alaaf！」，拋灑糖果與鮮花，是全歐規模最龐大、最狂熱的民俗慶典之一。",
+        "科隆啤酒文化：Kölsch 是淡金色的上層發酵啤酒，常以 0.2 公升的細長杯供應。傳統酒館可能主動續上新杯；不再喝時，把杯墊放在杯口並告知服務人員，結帳前一起確認杯數。",
+        "全德最開放包容的多元文化港灣：科隆是德國 LGBTQ+ 族群的首都與大本營，每年夏天的科隆驕傲節（Cologne Pride / CSD）吸引近百萬來自世界各地的訪客。這座流淌著萊茵河水的古城，將深厚的中世紀信仰、幽默接地氣的酒館文化與高度的現代社會包容度完美融合。"
+      ]
+    },
+    {
+      "id": "rotterdam",
+      "day": "18",
+      "title": "初到鹿特丹",
+      "summary": "港口、戰爭與重建，讓這座城市敢於把建築變成實驗。",
+      "aliases": [
+        "鹿特丹"
+      ],
+      "paragraphs": [
+        "羅特河壩的防洪起點：1270 年前後，當地漁民與居民在羅特河（Rotte）匯入新馬斯河（Nieuwe Maas）的河口修建了一道水壩，以保護低窪定居地免受潮汐洪水侵襲，「Rotter-dam」（羅特河大壩）由此得名。1340 年，荷蘭伯爵威廉四世授予城市自治權，居民開鑿水道連結內陸城鎮，開啟了小漁村向貿易中繼港的轉型。",
+        "「新水路」開鑿與歐洲門戶成形：19 世紀前，鹿特丹受限於泥沙淤積，巨型海輪難以入港。1866 至 1872 年間，荷蘭土木工程師彼得·卡蘭德（Pieter Caland）主持開鑿了直通北海的人工深水航道「新水路（Nieuwe Waterweg）」。這條沒有船閘阻礙的黃金水道，讓大型海輪得以長驅直入，恰逢鄰近德國魯爾工業區煤鐵產業爆發，鹿特丹迅速超越阿姆斯特丹，崛起為歐洲大陸面向全球的咽喉樞紐。",
+        "1940 年 5 月 14 日的轟炸：德國空襲及隨後的大火重創鹿特丹市中心，許多人失去生命與住家。扎德金的雕塑《被摧毀的城市》以胸口空洞的人形，表現城市彷彿失去心臟的創傷。",
+        "廢墟上的歷史抉擇：絕不復刻過去：二戰結束後，鹿特丹面臨重建抉擇。市民與城市規劃者決定不走「原樣復建古蹟」的老路，而是毅然將這片焦黑廢墟視為通往未來的白紙，大膽將整個市區開放給前衛建築家自由實驗。這項非凡的勇氣，徹底改寫了城市的基因，將災難淬鍊為全球現代建築創新的搖籃。",
+        "現今樣貌",
+        "全歐洲第一大港與全球物流命脈：鹿特丹港（Port of Rotterdam）是全歐洲貨物吞吐量最大的超級深水巨港（曾長年位居世界第一），碼頭設施沿著新馬斯河向西綿延 40 公里直達北海。如今的港區高度自動化，由無人搬運車、全自動起重機與智慧物流系統日夜運轉，支撐著荷蘭與中歐廣大腹地的能源與物資流通。",
+        "街頭的建築實驗：伊拉斯謨橋、鹿特丹大樓、方塊屋、拱門市場與藝術倉庫，都呈現不同世代對城市的想像。鹿特丹並非完全沒有歷史建築；正因老港與舊建物仍在，走路時更能比較新舊之間的對話。",
+        "「捲起袖子幹活」的務實藍領精神：相較於阿姆斯特丹的自由隨興與海牙的皇家官場氣派，鹿特丹始終保有著鮮明、踏實的工人大港性格。荷蘭有句著名俗諺：「阿姆斯特丹負責思考，海牙負責發號施令，鹿特丹負責捲起袖子幹活（Rotterdam stroopt de mouwen op）。」這種勤勞、直接、講求實效的態度深植於市民的日常生活之中。",
+        "前衛酷炫的跨文化熔爐：港口的國際流動性賦予了鹿特丹極具包容度的移民特質，市內生活著來自全球超過 170 個不同國籍的居民。這股多元力量轉化為極富生命力的地下音樂、街頭藝術、實驗設計與多元異國飲食，使鹿特丹成為當代歐洲最年輕、前衛且最具實驗氣息的酷炫都會。"
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "day": "20",
+      "title": "初到阿姆斯特丹",
+      "summary": "從河上的水壩到運河商都，也看見繁榮背後的歷史。",
+      "aliases": [
+        "阿姆斯特丹"
+      ],
+      "paragraphs": [
+        "阿姆斯特爾河築壩與漁村起家：12 世紀末，漁民在阿姆斯特爾河（Amstel）匯入艾灣（IJ）處築起大壩以防潮患，「Amstel-redamme（阿姆斯特爾水壩）」之名由此而來，市中心的水壩廣場（Dam）即為昔日築壩的起點。1300 年後獲得城市權，憑藉著波羅的海的鯡魚與木材貿易，逐步從小漁村壯大為商業海港。",
+        "運河與商業擴張：17 世紀貿易與金融繁榮，帶動紳士、國王與王子運河等運河帶的擴建。窄面、深進的地塊和昂貴土地塑造住宅形狀，不能簡單歸因於「窗稅」。屋頂吊鉤則協助家具沿外牆搬運。荷蘭東印度公司的財富也和殖民剝削及暴力相連，欣賞繁華時值得一起理解。",
+        "鬱金香狂熱與思想避難所：1630 年代，阿姆斯特丹成為歷史上首次重大投機金融泡沫「鬱金香狂熱（Tulip Mania）」的風暴核心，單株珍稀鬱金香球莖的身價曾高達一棟運河豪宅。與此同時，這座城市以高度的實用主義與思想寬容著稱，收留了來自歐洲各地遭受宗教迫害的猶太人、法國胡格諾派教徒與自由思想家，孕育了哲學家史賓諾沙（Spinoza）與藝術巨擘林布蘭（Rembrandt）。",
+        "安妮日記與猶太社群：納粹佔領期間，阿姆斯特丹猶太社群遭到大規模迫害。安妮與另外七人在後宅躲藏兩年多，直到 1944 年被捕；藏身處如何被發現至今並無定論，不能把「遭人告發」寫成確定事實。",
+        "現今樣貌",
+        "運河與自行車交織的水上之都：阿姆斯特丹被譽為「北方威尼斯」，城內擁有逾 100 公里長的運河、90 座島嶼及 1,500 多座橋樑。這座城市更是全球綠色交通典範，自行車數量甚至超過常住人口，專用車道綿密穿梭於歷史水巷間，形塑出動態且從容的城市步調。",
+        "世界級藝術殿堂與文化首都：荷蘭的文化瑰寶高度集中於市中心的博物館廣場（Museumplein）。荷蘭國家博物館（Rijksmuseum）珍藏著林布蘭的《夜巡》與維梅爾的多幅真跡；鄰近的梵谷博物館（Van Gogh Museum）則典藏了全球最豐富的梵谷畫作與手稿，構築出無可取代的歐洲藝術高地。",
+        "前衛、包容與自由主義的前哨：阿姆斯特丹長期走在社會包容與世俗務實的最前線。這裡合法監管紅燈區（De Wallen）與大麻咖啡館（Coffeeshops），也是全球第一個承認同性婚姻合法化國家（2001 年）的核心推動地，每年運河上的同志驕傲遊行（Canal Parade）展現了城市對個人自由與多元價值的高度尊重。",
+        "觀光城市也是居民的家：運河、住宅、自行車道與商店仍是當地人的生活空間。散步時不堵住門口、不站在自行車道拍照、降低夜間音量，就是體驗城市同時尊重日常的方式。"
+      ]
+    },
+    {
+      "id": "zaanse",
+      "day": "22",
+      "title": "贊斯風車村 Zaanse Schans",
+      "summary": "風車曾是工廠的引擎，綠色木屋是保存下來的生活記憶。",
+      "aliases": [
+        "Zaanse",
+        "贊斯"
+      ],
+      "paragraphs": [
+        "歐洲最早的「風力工業心臟」：17 至 18 世紀的贊河地區（Zaanstreek）並非幽靜農村，而是被歷史學家公認為「歐洲最早的工業區」。在蒸汽機尚未發明前，當地人利用源源不絕的北海強風作為動力來源，全區沿著贊河兩岸曾矗立著超過 600 至 1,000 座功能各異的風車，日夜轟鳴運轉，構成了前所未見的早期機械化生產網絡。",
+        "風力支撐造船與加工：齒輪、曲軸與鋸片把風轉為加工木材、油料與顏料的力量，支持荷蘭的造船和貿易。1697 年俄羅斯沙皇彼得到贊丹學習造船，但在贊丹停留約八天，之後轉到阿姆斯特丹繼續學習，並不是在贊丹當了數月木工。",
+        "一場搶救歷史遺產的「搬遷行動」：19 世紀蒸氣機與電力普及後，贊河風車迅速沒落廢棄，周圍傳統綠色木造老屋面臨拆遷危機。1960 至 1970 年代，荷蘭建築師與保育人士發起了一項浩大的搶救計畫，將散落在贊河地區瀕臨傾頹的歷史風車、倉庫與 18 世紀民宅，以拖車、起重機與駁船沿河完整遷移至贊斯堡壘（Zaanse Schans）集中安置，成功將一段即將消逝的工業歷史搶救保存下來。",
+        "現今樣貌",
+        "仍能看見運作原理：顏料風車 De Kat（貓）、榨油風車 De Zoeker（探索者）等，展示不同加工方式；鋸木風車 Het Jonge Schaap（小羊）是 2007 年完成的復建風車，不能把所有建物都當成原址保存的數百年原件。各風車依開放與風況運作。",
+        "傳統荷式綠色木屋與工匠聚落：村內整齊排列著特有的「贊斯綠（Zaanse groen）」木造房屋群。這些建築使用富含樹脂的松木並刷上防水綠漆，以抵禦低窪沼澤的潮氣；聚落內完整保留了傳統木鞋雕刻工坊（現場示範利用原木削製木鞋）、Catharina Hoeve 傳統起司農場，以及荷蘭最大連鎖超市 Albert Heijn 於 1887 年創立時的第一家雜貨老鋪原型。",
+        "水草低地的經典荷蘭田園畫卷：贊斯風車村坐落在蜿蜒的贊河畔，周圍環繞著開闊平整的低地圩田與縱橫交錯的微型排水渠，黑白乳牛、綿羊與水鳥悠閒棲息於草甸間。這裡將荷蘭人千百年來「借風使力、向水爭地」的生存智慧，凝聚成全球旅人認識荷蘭傳統鄉村工藝與田園風光最具代表性的一扇窗口。"
+      ]
+    },
+    {
+      "id": "anne",
+      "day": "22",
+      "title": "安妮之家",
+      "summary": "書架後的八個人，與一本沒有被戰爭抹去的日記。",
+      "aliases": [
+        "Anne Frank",
+        "安妮之家"
+      ],
+      "paragraphs": [
+        "王子運河畔的秘密後宅：建築座落於阿姆斯特丹王子運河 263 號，原為安妮·法蘭克的父親奧托·法蘭克（Otto Frank）經營的果膠與香料公司所在地。1942 年 7 月，隨著納粹針對猶太人的抓捕加劇，法蘭克一家四口、范·佩爾斯一家三口以及牙醫菲佛共八人，悄悄躲入這座老運河民居後方的隱蔽空間「後宅（Achterhuis）」。",
+        "書架後的生活：八位藏匿者靠協助者送來食物與消息。為了不被樓下工作人員察覺，在上班時間尤其必須控制腳步、說話與用水聲；不能理解成兩年內完全不能使用廁所。狹小空間裡的等待，也讓家庭摩擦與青春心事更加強烈。",
+        "13 歲生日禮物與人性見證：安妮在 13 歲生日收到的紅白格紋日記本，成了她在密室中唯一的傾訴對象。她在日記中以細膩純粹的筆調記錄了青春期成長的迷惘、與家人室友的摩擦、對戰爭的恐懼，以及對人性的深刻信仰：「我依然堅信，人性本善。」",
+        "被捕與日記出版：1944 年 8 月 4 日，藏匿者遭逮捕；被發現的原因仍未確定。安妮與姊姊後來死於貝爾根－貝爾森，八人中只有父親奧托倖存。梅普・吉斯保存的日記手稿交還給他，1947 年首度出版，讓原本私人的書寫成為世界共同閱讀的見證。",
+        "搶救老屋免於拆除：1950 年代中期，這處破舊的老屋一度面臨地產開發商拆除改建為工廠的危機。在民間輿論抗議與奧托·法蘭克的奔走推動下，安妮·法蘭克基金會於 1957 年成立，成功搶救原址並於 1960 年正式闢為博物館對外開放。",
+        "現今樣貌",
+        "刻意留白的震撼空間：依照奧托·法蘭克的生前意願，後宅內絕大多數房間並未復刻擺放全套家具，而是維持空曠赤裸的原狀。這種刻意的「留白」，讓參觀者更能直面生命被強行抹除後的空虛與寂靜。",
+        "牆上的真實生活痕跡：空間內仍完好保留著當年安妮親手貼在牆面上的好萊塢明星照、明信片剪報，以及奧托記錄安妮與姊姊瑪格特身高的刻度鉛筆線，將八十年前青春生命的溫度凝固在幽暗的壁紙上。",
+        "日記原件與人權教育樞紐：館內陳列著安妮的原版紅白格紋日記本真跡、散落的手稿與歷史影像紀錄。現代擴建的展廳常年舉辦關於種族主義、歧視與反猶太主義的專題展覽，成為全球最重要的反戰與公民人權教育基地之一。",
+        "預約參觀：老建築狹窄且樓梯陡，需依預約時段入場。訂票時間與參觀規則請看當日行程的購票欄；在屋內放慢腳步，把注意力留給空間與人的故事。"
+      ]
+    },
+    {
+      "id": "vangogh",
+      "day": "21",
+      "title": "梵谷博物館",
+      "summary": "除了畫家的生命，也認識把作品留給世界的家族。",
+      "aliases": [
+        "Van Gogh",
+        "梵谷"
+      ],
+      "paragraphs": [
+        "生前的孤寂與死後的託付：文森·梵谷（Vincent van Gogh）於 1890 年在奧維爾小鎮離世，生前僅售出極少數作品，在藝術市場上長期被視為邊緣與瘋狂的異類。梵谷逝世僅半年後，長年在經濟與精神上全心資助他的弟弟西奧·梵谷（Theo van Gogh）也相繼病逝，留下數百幅無人問津的油畫、素描與堆積如山的兄弟信件。",
+        "西奧之妻的堅韌托舉：梵谷藝術能夠被世界看見，關鍵推手是西奧的年輕遺孀喬安娜·梵谷-邦格（Jo van Gogh-Bonger）。面對外界對梵谷畫作的冷嘲熱諷，喬安娜堅決不低價拋售，而是積極在歐洲各地奔走籌辦展覽，並耗費數年梳理翻譯文森與西奧之間的數百封通信，於 1914 年整理出版。這部書信集讓世人看見了畫作背後深邃的思想、文學素養與掙扎靈魂，徹底扭轉了梵谷的歷史地位。",
+        "家族捐贈與專屬美術館催生：喬安娜逝世後，其子文森·威廉·梵谷（Vincent Willem van Gogh，人稱「工程師」）繼承了這批龐大遺產。為了避免家族珍藏流散全球，他與荷蘭政府達成協議成立「梵谷基金會」，促成國家在阿姆斯特丹博物館廣場為其興建一座專屬美術館。",
+        "兩代現代建築大師的交融：博物館主樓由荷蘭「風格派（De Stijl）」建築大師赫里特·里特費爾德（Gerrit Rietveld）操刀設計，於 1973 年落成，以幾何極簡與明亮的天光中庭為特色；1999 年，日本建築名家黑川紀章增建了橢圓形的現代特展翼樓；2015 年進一步加建了弧形全玻璃採光入口大廳，使整座場館成為當代建築的經典範例。",
+        "現今樣貌",
+        "全球最完整、規模最大的梵谷真跡寶庫：全館典藏了超過 200 幅油畫、500 幅素描與 700 封親筆書信，完整且系統性地勾勒出梵谷短暫而耀眼的創作生涯。",
+        "依時序編排的藝術心靈旅程：常設展依據畫家的人生軌跡鋪展——從早期荷蘭農村的深沉泥土色調（《吃馬鈴薯的人》）、巴黎時期的印象派光影探索與浮世繪影響，到南法阿爾勒的燦爛色彩爆發（《向日葵》、《黃色房屋》、《在亞爾的臥室》），以及聖雷米療養院時期的心靈折射（《盛開的杏花》、《鳶尾花》）與生命最後的《麥田群鴉》，動線猶如一場沉浸式的情感自傳。",
+        "同時代大師的藝術對話：除梵谷本人作品外，館內亦陳列著對其風格產生關鍵影響或曾與其密切交往的同時代巨匠原作，包含保羅·高更（Paul Gauguin）、莫內（Claude Monet）、土魯斯-羅特列克（Toulouse-Lautrec）等人，還原 19 世紀末後印象派的狂飆時代。",
+        "文保研究與數位科技的先鋒：梵谷博物館兼具世界領先的藝術科學修復研究中心職能，長期透過顯微分析、X 光掃描揭示梵谷畫布底層的草圖、顏料氧化過程與畫作流轉歷程；作為阿姆斯特丹人氣最高的文化地標之一，全館採取極為嚴格的時段預約制，始終維持著世界級的美術展覽標準。"
+      ]
+    },
+    {
+      "id": "noorder-sat",
+      "day": "21",
+      "title": "北市場・週六農夫市集",
+      "summary": "有機蔬果、酸種麵包、古物與街角蘋果派。",
+      "aliases": [
+        "Noordermarkt"
+      ],
+      "paragraphs": [
+        "週六黃金限定的雙重市集氛圍：每逢週六，北教堂廣場會化身為阿姆斯特丹最具生活質感的聚會地。市集由兩股風格交融而成——一側是頂級有機小農市集，擺滿在地農場直送的手工生乳起司、野生菌菇、自製酵母酸種麵包、生蠔與有機蔬果；另一側則是充滿挖寶樂趣的跳蚤古董攤，陳列著黑膠唱片、復古首飾、舊書與古董銀器。",
+        "經典街角咖啡與蘋果派聖地：廣場四周環繞著歷史悠久的傳統荷式棕色咖啡館（Bruin Café）。其中正對市集的「Winkel 43」以剛出爐、肉桂香氣濃郁且堆滿現打鮮奶油的荷式厚皮蘋果派（Appeltaart）聞名，無論晴雨，戶外露天座總是座無虛席。",
+        "週六與週一不同：週六重點是農夫市集與古物，週一北市場有古著舊貨；附近 Westerstraat（西街）的布料市場是另一段可以接著走的路線。這次分別安排在 11/21 與 11/23。"
+      ]
+    },
+    {
+      "id": "linden",
+      "day": "21",
+      "title": "Lindengracht 菩提樹運河街市集",
+      "summary": "從北市場接著走，逛進居民日常採買的熱鬧街道。",
+      "aliases": [
+        "Lindengracht"
+      ],
+      "paragraphs": [
+        "週六居民市集：Lindengracht 的攤位沿街展開，可從北市場步行接過來。比起一直追著名店，這裡更適合觀察居民如何挑魚、買花與採買一週的食材。",
+        "荷蘭經典街頭小吃集散地：相較於北市場的雅緻，Lindengracht 更具庶民生活感。沿途瀰漫著現炸鮮魚（Kibbeling）與烤全雞的香氣，攤販現切生鯡魚（Haring）佐生洋蔥，還有比臉盤還大的現烤溫熱焦糖煎餅（Stroopwafel）、烤堅果、各色醃橄欖與成堆的平價荷蘭起司輪。",
+        "平實日常與雜貨風情：除豐富的美食生鮮外，街上林立著販售新鮮鬱金香與季節切花的花攤、生活五金、襪子毛巾、皮革皮帶乃至自行車配件，展現出真實而充滿活力的荷蘭在地生活百態。",
+        "平日的綠意漫步街區：在沒有市集的週日至週五，Lindengracht 恢復為寧靜宜人的林蔭大道。街道兩側保留著 17 世紀古典山牆老宅，穿插著獨立咖啡館、小酒館與設計選物店，是避開運河鬧區人潮、靜靜感受約丹區慢步調氛圍的理想散步路線。"
+      ]
+    },
+    {
+      "id": "noorder-mon",
+      "day": "23",
+      "title": "北市場・週一跳蚤市場",
+      "summary": "古著、舊書與布料，把最後一個早晨留給尋寶。",
+      "aliases": [
+        "Noordermarkt"
+      ],
+      "paragraphs": [
+        "週一晨間限定的快閃節奏：與週六熱鬧飄香的有機農夫市集截然不同，跳蚤市場嚴格限定在「週一上午」（約 09:00 至 13:00／14:00）。午後攤商便陸續打烊收攤，短暫的開放時間讓這裡避開了龐大的常規旅行團，多是在地尋寶客、服裝設計師、造型師與資深古著愛好者穿梭其間。",
+        "北市場古著與西街布料的雙重動線：市集在動線上自然分成兩大區塊——環繞著北教堂的「北市場」以高品質古著服飾（歐洲軍裝夾克、羊毛大衣、復古絲巾、老皮鞋）、古董銀飾、舊相機、黑膠唱片與二手家具為主；從廣場延伸出去的「西街（Westerstraat）」則依然擺滿了整卷的棉麻布、蕾絲、皮革邊料、鈕扣與各類手工縫紉配件。",
+        "未經精修的原汁淘寶樂趣：這裡少有觀光紀念品，攤主大多隨性地將舊書籍、老海報、古董瓷器與飾品堆在紙箱或折疊木桌上，保留了傳統跳蚤市場「翻箱倒櫃」的粗糙尋寶感，價格也比運河區的精品古董店親民許多，且保有小幅度的議價空間。",
+        "早午餐與咖啡的收尾日常：上午 11 點過後，淘完寶的人潮會自然流向廣場邊緣的露天座。無論是到 Winkel 43 點一塊溫熱厚實的荷式蘋果派配黑咖啡，還是鑽進轉角百年歷史的運河棕色咖啡館（Bruin Café）喝杯啤酒，已成為感受約丹區最純粹、最從容的週一晨間在地日常。"
+      ]
+    },
+    {
+      "id": "albert",
+      "day": "20",
+      "title": "Albert Cuyp 亞伯特市場",
+      "summary": "在德派普區邊走邊吃，認識荷蘭與移民家庭的味道。",
+      "aliases": [
+        "Albert Cuyp"
+      ],
+      "paragraphs": [
+        "德派普區的露天市場：Albert Cuyp 市場沿街集中食品、服飾與生活用品攤位，通常週一至週六營業。這次安排週五到訪，天氣與攤商出攤狀況會影響熱鬧程度。",
+        "小吃怎麼認：焦糖煎餅以金屬格紋烤模烘烤，趁熱夾糖漿；Kibbeling 是裹粉炸魚塊，魚種依攤商；Haring 是處理、醃製後的鯡魚，不是直接從海裡取出的生魚；Poffertjes 是撒糖粉、加奶油的荷式小鬆餅。第一次吃鯡魚可請店家切小塊，和旅伴分食。",
+        "異國風味與日常雜貨的交響：除了傳統荷蘭美食，攤位間穿插著現烤土耳其捲餅、蘇利南雞肉三明治（Broodje Pom）、印尼沙嗲、現榨石榴汁、異國香料、各年份荷蘭起司輪，以及平價成衣、皮件皮帶、鮮花切花與自行車配件，洋溢著熱氣騰騰的市井叫賣聲。",
+        "新舊交融的波希米亞潮流生活圈：市集所在的德派普區近年已蛻變為阿姆斯特丹著名的文青區（常被比作荷蘭的拉丁區）。傳統攤販背後的運河建築一樓，進駐了精品獨立咖啡館、早午餐店、精釀啤酒吧與設計師買手店，形成一邊是熱鬧草根攤位、一邊是時髦街區的生動街景。"
+      ]
+    },
+    {
+      "id": "sintjan",
+      "day": "19",
+      "title": "豪達・聖約翰教堂",
+      "summary": "彩繪花窗把宗教、政治與城市記憶留在光線裡。",
+      "aliases": [
+        "Sint-Jan",
+        "聖約翰"
+      ],
+      "paragraphs": [
+        "彩繪玻璃的主角：豪達聖約翰教堂以大量 16 世紀花窗聞名。站遠一點看構圖，再靠近辨認人物、服飾與捐贈者，能讀到宗教與當時政治權力之間的關係；光線也會隨天氣改變。",
+        "新教崇拜與頂級管風琴音樂殿堂：教堂目前隸屬於荷蘭基督教歸正教會（PKN），週日仍維持常態的崇拜聚會。殿內高聳的「莫羅管風琴（Moreau-orgel）」落成於 1736 年，擁有超過 3,000 根音管與精緻的洛可可風格雕飾，其空靈深遠的音響迴盪在長達 123 公尺的中殿內，是世界級管風琴家爭相演奏的頂級音樂場地。",
+        "這次怎麼看：11/19 下午還有煎餅體驗與起司店，原行程以教堂外觀為主。若要進內看花窗，必須先確認當日最後入場，並刪減其他停留；不要把室內參觀誤當成已預留的項目。"
+      ]
+    },
+    {
+      "id": "dam",
+      "day": "20",
+      "title": "水壩廣場",
+      "summary": "城市名稱裡的「壩」，就在這一帶的起點。",
+      "aliases": [
+        "Dam Square",
+        "水壩廣場"
+      ],
+      "paragraphs": [
+        "水壩廣場連著阿姆斯特爾河築壩的城市起源。今天廣場周圍的王宮、教堂與商業街景，讓人同時看見公共權力、宗教與商業活動。",
+        "若當日逛完市場仍有精神，可以沿市中心散步經過；它是彈性選項，不另外增加必須趕到的時段。"
+      ]
+    },
+    {
+      "id": "carrousel",
+      "day": "20",
+      "title": "De Carrousel 荷式鬆餅",
+      "summary": "市場附近的另一個鬆餅選項，累了就坐下來慢慢吃。",
+      "aliases": [
+        "De Carrousel"
+      ],
+      "paragraphs": [
+        "這家店可列為荷式鬆餅的用餐備選。Pannenkoeken 是較大片的荷式薄餅；Poffertjes 是一顆顆的小鬆餅，點餐前先分清楚想吃哪一種。",
+        "當作 Albert Cuyp 市場與周邊散步的彈性補給，依當日營業與排隊情況決定，不額外擠進固定行程。"
+      ]
+    },
+    {
+      "id": "ah",
+      "day": "18",
+      "title": "Albert Heijn 超市",
+      "summary": "走進藍色招牌，買一頓在暫時的家享用的晚餐。",
+      "aliases": [
+        "Albert Heijn"
+      ],
+      "paragraphs": [
+        "Albert Heijn 是荷蘭常見的連鎖超市。挑選鄰近住宿的分店即可，不需要特地追求「最大間」。鹿特丹抵達日可買早餐、水果、麵包與晚餐食材。",
+        "搭配網站的超市與伴手禮分頁看包裝認商品；自助結帳時先確認付款方式，買完保留收據，部分出口需掃描收據條碼。"
+      ]
+    }
+  ],
+  "paymentRevision": 1,
+  "shoppingRevision": 2,
+  "shoppingDiningNames": [
+    "Rudi’s Original Stroopwafels",
+    "Het Koekemannetje",
+    "China Sichuan 川菜館",
+    "Xi’an Delicious Foods 西安小吃",
+    "The Pancake Bakery 荷式鬆餅",
+    "Greenwoods Singel 早午餐",
+    "Eye 電影博物館餐廳",
+    "Blue Amsterdam 景觀咖啡館",
+    "Linguini 義式餐廳",
+    "Boerderij Meerzicht 森林鬆餅屋",
+    "Café Hüftgold 咖啡與蛋糕",
+    "Dignita Hoftuin 庭園早午餐",
+    "Star BBQ 燒烤餐廳",
+    "Box Sociaal 早午餐",
+    "Florentin Brunch 早午餐",
+    "Café-Restaurant De Plantage 庭園餐廳",
+    "Patat oorlog 荷式薯條吃法"
+  ]
+}
