@@ -893,3 +893,17 @@
  .j-day-period-flow .j-icon-flow-step{grid-template-columns:44px minmax(0,1fr)!important;gap:10px!important;min-height:80px}
  .j-day-period-flow .j-flow-copy p{font-size:13px;line-height:1.72}
 }
+
+/* Expandable tickets and full, uncropped electronic receipts. */
+.j-ticket-category>summary{display:flex;justify-content:space-between;align-items:center;gap:12px;cursor:pointer;font-size:19px;font-weight:700;list-style:none;padding:5px 0}
+.j-ticket-category>summary::-webkit-details-marker{display:none}
+.j-ticket-category>summary>span:last-child{font-size:15px;font-weight:500;white-space:nowrap}
+.j-ticket-content{padding-top:18px;min-width:0}
+.j-ticket-category:not([open])>.j-ticket-content{display:none}
+.j-ticket-item{padding:8px 0 22px;border-bottom:1px solid #ccd5dc;margin-bottom:18px}
+.j-ticket-item h4{font-size:17px;line-height:1.6;margin:0 0 12px}
+.j-ticket-item .j-photo-frame{aspect-ratio:auto;max-height:none;background:#fff}
+.j-ticket-item .j-photo-frame img{width:100%;height:auto;max-height:none;object-fit:contain}
+.j-ticket-upload{display:block;font-size:17px;font-weight:700;color:#194a6b;border:1px dashed #537b94;border-radius:12px;padding:16px;background:#f5f9fc}
+.j-ticket-upload input{display:block;width:100%;max-width:100%;margin-top:10px;font-size:16px}
+.j-ticket-content>.j-grid{margin-top:16px}

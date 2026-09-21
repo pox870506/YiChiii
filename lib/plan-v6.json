@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "planRevision": 11,
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-21",
   "days": [
     {
       "date": "2026-11-12",
@@ -774,7 +774,7 @@
       "stay": "",
       "morning": "09:00 早餐後退房，行李寄 Cityden 櫃台。前往 Pontsteiger，搭免費 F7 渡輪跨越 IJ 河到 NDSM Wharf；上午留給舊造船廠、碼頭、戶外藝術與河岸散步。",
       "afternoon": "12:00 在 NDSM 一帶午餐。13:00 左右搭 F4 回 Amsterdam Centraal，再轉免費 F3 到 Buiksloterweg；看 Eye Filmmuseum 白色建築與 IJ 河岸，不安排進館。14:10 前後付費登 A'DAM LOOKOUT，約 15:10 離開，回住宿取行李；16:00 左右出發前往 Schiphol，17:00 抵達。",
-      "evening": "17:00 抵達 Schiphol，預留 3 小時辦理報到、托運、安檢與需要時的退稅。5 人同搭 MU772，20:00 AMS → 次日 14:00 PVG；益萁於上海結束，耘欣、靖宜、靖枝、玉穎續轉桃園。",
+      "evening": "17:00 抵達 Schiphol，預留 3 小時辦理報到、托運、安檢與需要時的退稅。5 人同搭 MU772，20:00 AMS → 次日 14:00 PVG；益萁於上海結束，耘欣、靖宜、靖枝、玉穎隔日搭 FM819 返回台北松山。",
       "timeline": [
         [
           "09:00",
@@ -872,7 +872,7 @@
       "stay": "",
       "morning": "MU772 飛行中。",
       "afternoon": "14:00 抵達上海浦東。益萁在上海結束旅程，四位旅伴辦理轉機與行李相關手續。",
-      "evening": "四位旅伴在浦東等候隔日航班，不安排住宿。",
+      "evening": "四位旅伴在浦東等候隔日 11:00 的 FM819，轉機間隔 21 小時，不安排住宿。",
       "timeline": [
         [
           "14:00",
@@ -894,33 +894,35 @@
     {
       "date": "2026-11-25",
       "weekday": "三",
-      "city": "上海 → 桃園",
-      "title": "四位台灣旅伴返回桃園",
+      "city": "上海 → 台北松山",
+      "title": "四位台灣旅伴返回松山",
       "stay": "",
-      "morning": "耘欣、靖宜、靖枝、玉穎：MU5007 12:05 PVG 起飛。",
-      "afternoon": "14:00 抵台灣桃園 TPE。",
+      "morning": "耘欣、靖宜、靖枝、玉穎：搭上海航空 FM819，11:00 上海浦東 PVG T1 起飛。",
+      "afternoon": "12:55 抵達台北松山 TSA。",
       "evening": "返回家中休息。",
       "timeline": [
         [
-          "12:05",
-          "MU5007 浦東起飛"
+          "11:00",
+          "FM819 上海浦東 PVG T1 起飛"
         ],
         [
-          "14:00",
-          "抵達桃園 TPE"
+          "12:55",
+          "抵達台北松山 TSA"
         ]
       ],
-      "transport": "回程是桃園 TPE，不是松山 TSA。",
+      "transport": "回程降落台北松山 TSA，接機請前往松山機場。",
       "food": "機上／返家用餐。",
       "alerts": [
         [
-          "warn",
-          "回程降落桃園，不是松山，接機的人要注意。"
+          "info",
+          "已購票：FM819，11/25 11:00 浦東出發、12:55 抵達松山。"
         ]
       ],
       "rain": "",
       "sources": [],
-      "ticketingSteps": []
+      "ticketingSteps": [
+        "機票已付款；出發前確認航班動態、航廈及報到時間。"
+      ]
     }
   ],
   "stays": [
@@ -1683,24 +1685,24 @@
     ],
     "flights": [
       {
-        "group": "耘欣、靖宜、靖枝、玉穎｜4 人",
+        "group": "耘欣、靖宜、靖枝、玉穎｜4 人・已購票",
         "route": "TSA → SHA → PVG → FRA",
-        "detail": "11/12 MU5098 17:15 松山 → 18:50 虹橋；地面換機場至浦東。11/13 MU219 00:45 浦東 → 05:45 法蘭克福。"
+        "detail": "11/12 MU5098 17:15 松山 TSA → 18:50 虹橋 SHA T1；需地面換機場至浦東。11/13 MU219 00:45 浦東 PVG T1 → 05:45 法蘭克福 FRA T3。"
       },
       {
-        "group": "益萁｜上海加入",
+        "group": "益萁｜上海加入・已付款",
         "route": "PVG → FRA",
-        "detail": "11/13 MU219 00:45 → 05:45，五人同班前往法蘭克福。"
+        "detail": "11/13 MU219 00:45 浦東 PVG T1 → 05:45 法蘭克福 FRA T3，五人同班。截圖當時顯示正在出票中，票號待補。"
       },
       {
-        "group": "全體 5 人",
+        "group": "全體 5 人・已購票",
         "route": "AMS → PVG",
-        "detail": "11/23 MU772 20:00 阿姆斯特丹 → 11/24 14:00 上海浦東。益萁在上海結束旅程。"
+        "detail": "11/23 MU772 20:00 阿姆斯特丹 AMS → 11/24 14:00 上海浦東 PVG T1。益萁在上海結束旅程。"
       },
       {
-        "group": "耘欣、靖宜、靖枝、玉穎｜4 人",
-        "route": "PVG → TPE",
-        "detail": "11/25 MU5007 12:05 浦東 → 14:00 桃園；上海等候 22 小時 05 分。"
+        "group": "耘欣、靖宜、靖枝、玉穎｜4 人・已購票",
+        "route": "PVG → TSA",
+        "detail": "11/25 上海航空 FM819，11:00 浦東 PVG T1 → 12:55 台北松山 TSA。上海轉機等候 21 小時，不安排住宿。時間皆為當地時間；航廈依出發前航空公司通知確認。"
       }
     ]
   },
@@ -1755,6 +1757,86 @@
       "scope": "shared",
       "owner": "靖宜",
       "bookingId": "lodging-2"
+    },
+    {
+      "id": "flight-2026-yuying",
+      "date": "2026-11-12",
+      "category": "交通",
+      "detail": "玉穎｜已購歐洲來回機票",
+      "amount": 27117,
+      "currency": "TWD",
+      "rate": 1,
+      "payer": "玉穎",
+      "note": "台北松山往返歐洲。信用卡已付款；記帳日期採出發日，付款日期未提供。",
+      "status": "已付",
+      "confirmedTwd": 27117,
+      "consumer": "玉穎",
+      "scope": "personal",
+      "owner": "玉穎"
+    },
+    {
+      "id": "flight-2026-yichi",
+      "date": "2026-11-13",
+      "category": "交通",
+      "detail": "益萁｜已購歐洲來回機票",
+      "amount": 31132,
+      "currency": "TWD",
+      "rate": 1,
+      "payer": "靖宜",
+      "note": "上海浦東往返歐洲；票號待補。信用卡已付款；記帳日期採出發日，付款日期未提供。",
+      "status": "已付",
+      "confirmedTwd": 31132,
+      "consumer": "益萁",
+      "scope": "personal",
+      "owner": "益萁"
+    },
+    {
+      "id": "flight-2026-yunhsin",
+      "date": "2026-11-12",
+      "category": "交通",
+      "detail": "耘欣｜已購歐洲來回機票",
+      "amount": 27117,
+      "currency": "TWD",
+      "rate": 1,
+      "payer": "靖宜",
+      "note": "台北松山往返歐洲。三人合購 NT$81,351，按每人 NT$27,117 記入。信用卡已付款；記帳日期採出發日，付款日期未提供。",
+      "status": "已付",
+      "confirmedTwd": 27117,
+      "consumer": "耘欣",
+      "scope": "personal",
+      "owner": "耘欣"
+    },
+    {
+      "id": "flight-2026-jingyi",
+      "date": "2026-11-12",
+      "category": "交通",
+      "detail": "靖宜｜已購歐洲來回機票",
+      "amount": 27117,
+      "currency": "TWD",
+      "rate": 1,
+      "payer": "靖宜",
+      "note": "台北松山往返歐洲。三人合購 NT$81,351，按每人 NT$27,117 記入。信用卡已付款；記帳日期採出發日，付款日期未提供。",
+      "status": "已付",
+      "confirmedTwd": 27117,
+      "consumer": "靖宜",
+      "scope": "personal",
+      "owner": "靖宜"
+    },
+    {
+      "id": "flight-2026-jingzhi",
+      "date": "2026-11-12",
+      "category": "交通",
+      "detail": "靖枝｜已購歐洲來回機票",
+      "amount": 27117,
+      "currency": "TWD",
+      "rate": 1,
+      "payer": "靖宜",
+      "note": "台北松山往返歐洲。三人合購 NT$81,351，按每人 NT$27,117 記入。信用卡已付款；記帳日期採出發日，付款日期未提供。",
+      "status": "已付",
+      "confirmedTwd": 27117,
+      "consumer": "靖枝",
+      "scope": "personal",
+      "owner": "靖枝"
     }
   ],
   "packing": [
@@ -4814,5 +4896,29 @@
     "Florentin Brunch 早午餐",
     "Café-Restaurant De Plantage 庭園餐廳",
     "Patat oorlog 荷式薯條吃法"
+  ],
+  "flightRevision": 1,
+  "flightPayments": [
+    {
+      "travellers": "玉穎",
+      "amount": 27117,
+      "payer": "玉穎",
+      "status": "已付款",
+      "note": "本人信用卡付款；台北松山往返歐洲。"
+    },
+    {
+      "travellers": "益萁",
+      "amount": 31132,
+      "payer": "靖宜",
+      "status": "已付款",
+      "note": "上海浦東往返歐洲；截圖當時顯示正在出票中，票號待補。"
+    },
+    {
+      "travellers": "耘欣、靖宜、靖枝",
+      "amount": 81351,
+      "payer": "靖宜",
+      "status": "已付款",
+      "note": "三人合計，每人 NT$27,117；台北松山往返歐洲。"
+    }
   ]
 }

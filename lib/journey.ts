@@ -77,6 +77,14 @@ export function parsePlan(value:unknown):Plan{
   safe.days=safe.days.map(d=>d.date==='2026-11-18'?{...d,timeline:d.timeline.map(([time,text])=>[time,text.replace('目標抵鹿特丹、午餐；無法寄放行李時先用車站寄物','目標抵鹿特丹；12:00 起可先到住宿寄放行李，再吃午餐')])}:d);
  }
  safe.paymentRevision=1;
+ if(Number(value.flightRevision||0)<1){
+  safe.reference.flights=structuredClone(initialPlan.reference.flights);
+  safe.days=safe.days.map(d=>d.date==='2026-11-25'?structuredClone(initialPlan.days.find(x=>x.date===d.date)!):d.date==='2026-11-23'?{...d,evening:d.evening.replace('續轉桃園','隔日搭 FM819 返回台北松山')}:d.date==='2026-11-24'?{...d,evening:initialPlan.days.find(x=>x.date===d.date)!.evening}:d);
+  const existingIds=new Set(safe.expenses.map(e=>e.id));
+  safe.expenses.push(...structuredClone(initialPlan.expenses.filter(e=>e.id.startsWith('flight-2026-')&&!existingIds.has(e.id))));
+ }
+ safe.flightRevision=1;
+ safe.flightPayments=structuredClone(initialPlan.flightPayments);
  if(!safe.reference.apps.some(a=>a.name==='Reclamefolder'))safe.reference.apps.push(structuredClone(initialPlan.reference.apps.find(a=>a.name==='Reclamefolder')!));
  safe.travelers=[...initialPlan.travelers];
  safe.artworks=structuredClone(initialPlan.artworks);safe.giftProducts=structuredClone(initialPlan.giftProducts);
