@@ -1,29 +1,147 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
-import {categories,categoryName,cents,defaultRates,money,totals,type Expense,type Plan} from '@/lib/journey';
-const icons=['🍴','🚆','🏨','🎁','🎫','🧾'];
-const blank=(name='益萁'):Expense=>({id:'',date:'2026-11-13',category:'吃飯',detail:'',amount:0,currency:'EUR',rate:36.75,payer:name,consumer:name,scope:'personal',note:'',status:'已付'});
-export default function Ledger({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
- const [viewer,setViewer]=useState('益萁'),[form,setForm]=useState<Expense>(()=>blank()),[message,setMessage]=useState(''),[remove,setRemove]=useState('');
- const picker=useRef<HTMLDetailsElement>(null),formElement=useRef<HTMLFormElement>(null);
- useEffect(()=>{try{const name=localStorage.getItem('de-nl-ledger-person');if(name&&plan.travelers.includes(name)){setViewer(name);setForm(blank(name));}}catch{}},[]);
- const amountTwd=(e:Expense)=>cents(e,defaultRates)/100;
- const visible=plan.expenses.filter(e=>e.scope!=='personal'||(e.consumer||e.payer)===viewer);
- const shared=visible.filter(e=>e.scope!=='personal'),personal=visible.filter(e=>e.scope==='personal');
- const sharedTotal=totals(shared,plan.people,defaultRates),personalTotal=totals(personal,1,defaultRates).total;
- const field=<K extends keyof Expense>(k:K,v:Expense[K])=>setForm(prev=>({...prev,[k]:v,...(['amount','currency'].includes(k)?{confirmedTwd:undefined}:{})}));
- function selectPerson(name:string){setViewer(name);setForm(blank(name));setMessage('');try{localStorage.setItem('de-nl-ledger-person',name);}catch{}}
- function save(e:React.FormEvent){e.preventDefault();if(!form.detail.trim()||!Number.isFinite(form.amount)||form.amount<=0||form.amount>1e9){setMessage('請填項目及正確金額。');return;}
- const item:Expense={...form,rate:defaultRates[form.currency],id:form.id||crypto.randomUUID(),category:categoryName(form.category),scope:form.scope||'personal',consumer:viewer,owner:viewer,detail:form.detail.trim()};
- update({...plan,expenses:form.id?plan.expenses.map(x=>x.id===form.id?item:x):[...plan.expenses,item]});setForm({...blank(viewer),date:form.date,currency:form.currency,scope:form.scope});setMessage('已儲存這筆帳目');}
- function canEdit(e:Expense){return (e.owner||(e.scope==='personal'?e.consumer:e.payer))===viewer;}
- function exportCsv(){const lines=[['日期','大項','項目','原幣金額','幣別','台幣小計','分攤方式','消費人','付款人','狀態','備註'],...visible.map(e=>[e.date,categoryName(e.category),e.detail,e.amount,e.currency,amountTwd(e),e.scope==='personal'?'個人消費':'公費均分',e.scope==='personal'?e.consumer:'全組',e.payer,e.status,e.note])];const csv='\ufeff'+lines.map(r=>r.map(v=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replaceAll('"','""')+'"').join(',')).join('\r\n');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=viewer+'-德荷旅行帳本.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
- function groups(entries:Expense[]){return categories.filter(c=>entries.some(e=>categoryName(e.category)===c)).map(cat=>{const rows=entries.filter(e=>categoryName(e.category)===cat);return <details className="j-card j-ledger-group" key={cat}><summary><b>{icons[categories.indexOf(cat)]} {cat} · {rows.length} 筆</b><strong>NT${money(rows.reduce((n,e)=>n+amountTwd(e),0))}</strong></summary>{rows.map(e=><article className="j-entry" key={e.id}><p className="j-muted">{e.date} · {e.scope==='personal'?'個人消費':'全組 '+plan.people+' 人均分'}</p><h4>{e.detail}</h4><p><strong>NT${money(amountTwd(e))}</strong>{e.currency!=='TWD'&&<span> · {e.currency} {money(e.amount)}</span>}</p><p><b>{e.payer}</b> {e.bookingId?'代付安排':'付款'} · {e.status}</p>{e.scope!=='personal'&&<p>每人分攤 NT${money(Math.round(amountTwd(e)/plan.people))}</p>}{e.note&&<p>{e.note}</p>}{canEdit(e)&&<div className="j-actions"><button onClick={()=>{setForm(e);formElement.current?.scrollIntoView({block:'start'});}}>編輯</button><button onClick={()=>setRemove(e.id)}>刪除</button>{remove===e.id&&<><span>刪除這筆？</span><button onClick={()=>{update({...plan,expenses:plan.expenses.filter(x=>x.id!==e.id)});setRemove('');}}>確認刪除</button><button onClick={()=>setRemove('')}>保留</button></>}</div>}</article>)}</details>})}
- return <section><div className="j-section-heading"><h2>記帳</h2><button onClick={exportCsv}>下載明細</button></div><label>誰的帳本<select value={viewer} onChange={e=>selectPerson(e.target.value)}>{plan.travelers.map(t=><option key={t}>{t}</option>)}</select></label>
- <form ref={formElement} className="j-card j-form" onSubmit={save}><h3>{form.id?'編輯帳目':'新增一筆'}</h3><div className="j-grid"><label>金額<input required type="number" inputMode="decimal" min="0.01" max="1000000000" step="0.01" placeholder="0.00" value={form.amount||''} onChange={e=>field('amount',Number(e.target.value))}/></label><label>幣別<select value={form.currency} onChange={e=>field('currency',e.target.value)}>{[['EUR','歐元 EUR'],['TWD','台幣 TWD'],['CNY','人民幣 CNY'],['USD','美金 USD']].map(([c,label])=><option key={c} value={c}>{label}</option>)}</select></label></div><label>項目<input required maxLength={500} placeholder="例：科隆來回火車票" value={form.detail} onChange={e=>field('detail',e.target.value)}/></label>
- <div className="j-grid"><label>日期<input required type="date" value={form.date} onChange={e=>field('date',e.target.value)}/></label><div><label>大項</label><details ref={picker} className="j-category-picker"><summary>{icons[categories.indexOf(categoryName(form.category))]} {categoryName(form.category)} <span>⌄</span></summary><div className="j-category-options" role="group" aria-label="大項選單">{categories.map((c,i)=><button key={c} type="button" aria-pressed={form.category===c} onClick={()=>{field('category',c);if(picker.current)picker.current.open=false;}}>{icons[i]} {c}</button>)}</div></details></div></div>
- <div className="j-toggle" role="group" aria-label="分攤方式"><button type="button" aria-pressed={form.scope==='personal'} onClick={()=>field('scope','personal')}>👤 個人消費</button><button type="button" aria-pressed={form.scope==='shared'} onClick={()=>field('scope','shared')}>👥 公費均分</button></div><p className="j-note">本筆約 NT${money(amountTwd(form))} · {form.scope==='personal'?viewer+' 的消費':'每人約 NT$'+money(Math.round(amountTwd(form)/plan.people))}</p>
- <div className="j-grid"><label>誰先付<select value={form.payer} onChange={e=>field('payer',e.target.value)}>{[...new Set([...plan.travelers,form.payer])].filter(Boolean).map(t=><option key={t}>{t}</option>)}</select></label><label>付款狀態<select value={form.status} onChange={e=>field('status',e.target.value)}>{['已付','未付','待確認','扣款依安排'].map(t=><option key={t}>{t}</option>)}</select></label></div><label>備註（可留白）<input value={form.note} maxLength={2000} placeholder="例：5 人份、信用卡" onChange={e=>field('note',e.target.value)}/></label><button className="j-primary" type="submit">{form.id?'儲存修改':'加進帳本'}</button>{form.id&&<button type="button" onClick={()=>setForm(blank(viewer))}>取消編輯</button>}<p role="status">{message}</p></form>
- <h3>{viewer} 的明細</h3><div className="j-grid j-metrics"><article><span>個人消費</span><strong>NT${money(personalTotal)}</strong></article><article><span>公費應分攤・{plan.people} 人均分</span><strong>NT${money(sharedTotal.perPerson)}</strong></article></div><p className="j-muted">這裡是消費分攤，尚未扣除代墊款或彼此已轉帳金額。</p>{personal.length?groups(personal):<p className="j-card">尚未新增個人消費。</p>}<h3>公費明細・誰先付</h3>{groups(shared)}<p className="j-muted">機票按旅客列為個人消費，付款人依實際刷卡人記錄。三筆住宿已列入公費，城市稅包含在阿姆斯特丹住宿總額，請勿重複記入。帳目存在這台裝置的瀏覽器；家人各自選名字記帳，新增內容不會自動同步。需要彙整時可下載明細。</p></section>;
-}
+import {categories,categoryName,cents,defaultRates,expenseParticipants,expenseSettlement,expenseShares,jingyiFamily,ledgerBalances,money,settlementName,travelers,type Expense,type Plan,type SettlementMode} from '@/lib/journey';
 
+const icons=['🍴','🚆','🏨','🎁','🎫','🧾'];
+const categoryIcon=(category:string)=>icons[Math.max(0,categories.indexOf(categoryName(category)))];
+const blank=(name='益萁'):Expense=>({id:'',date:'2026-11-13',category:'吃飯',detail:'',amount:0,currency:'EUR',rate:defaultRates.EUR,payer:name,consumer:name,scope:'personal',participants:[name],settlement:'personal',settlementStatus:'settled',note:'',status:'已付'});
+const labelCurrency=(currency:string)=>({EUR:'歐元 EUR',TWD:'台幣 TWD',CNY:'人民幣 CNY',USD:'美金 USD'}[currency]||currency);
+const asTwd=(e:Expense)=>cents(e)/100;
+const twdText=(amount:number)=>`NT$${money(Math.round(amount))}`;
+const recommend=(participants:string[],payer:string,viewer:string):SettlementMode=>{
+ if(participants.length===1&&participants[0]===viewer&&payer===viewer)return 'personal';
+ if(participants.length>0&&participants.every(person=>jingyiFamily.includes(person))&&jingyiFamily.includes(payer))return 'family';
+ return 'settle';
+};
+const modeOptions:[SettlementMode,string,string][]=[['settle','🔄 要結算','需要還款的份額會列入轉帳清單。'],['family','👪 家庭支付','靖宜、益萁、耘欣之間不互相算欠款。'],['host','🎁 我請客','其他人不用還款。'],['personal','👤 個人支付','這筆只算在一位旅客名下。']];
+
+export default function Ledger({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
+ const [viewer,setViewer]=useState('益萁');
+ const [form,setForm]=useState<Expense>(()=>blank());
+ const [ownership,setOwnership]=useState<'mine'|'everyone'|'family'|'choose'>('mine');
+ const [payerChoice,setPayerChoice]=useState<'self'|'jingyi'|'other'>('self');
+ const [showPayers,setShowPayers]=useState(false);
+ const [message,setMessage]=useState('');
+ const [remove,setRemove]=useState('');
+ const formElement=useRef<HTMLFormElement>(null);
+ const entries=plan.expenses;
+ const totalCents=entries.reduce((sum,e)=>sum+cents(e),0);
+ const transfers=ledgerBalances(entries);
+ const pendingCents=transfers.reduce((sum,item)=>sum+item.amount,0);
+ const settledCents=Math.max(0,totalCents-pendingCents);
+ const familyEntries=entries.filter(e=>expenseParticipants(e).some(p=>jingyiFamily.includes(p)));
+ const familyPaid=familyEntries.filter(e=>jingyiFamily.includes(e.payer)).reduce((sum,e)=>sum+cents(e),0);
+ const familyCost=familyEntries.reduce((sum,e)=>sum+Object.entries(expenseShares(e)).filter(([person])=>jingyiFamily.includes(person)).reduce((a,[,amount])=>a+amount,0),0);
+ const personalCost=(name:string)=>entries.reduce((sum,e)=>sum+(expenseShares(e)[name]||0),0);
+ const personPaid=(name:string)=>entries.filter(e=>e.payer===name).reduce((sum,e)=>sum+cents(e),0);
+ const owes=(name:string)=>transfers.filter(x=>x.from===name).reduce((sum,x)=>sum+x.amount,0);
+ const receivable=(name:string)=>transfers.filter(x=>x.to===name).reduce((sum,x)=>sum+x.amount,0);
+ const field=<K extends keyof Expense>(key:K,value:Expense[K])=>setForm(previous=>({...previous,[key]:value,...(['amount','currency'].includes(key)?{confirmedTwd:undefined}:{}),...(key==='settlement'&&previous.settlement!==value?{settlementStatus:value==='settle'?'pending':'settled'}:{})}));
+
+ useEffect(()=>{try{const name=localStorage.getItem('de-nl-ledger-person');if(name&&plan.travelers.includes(name)){setViewer(name);setForm(blank(name));}}catch{}},[plan.travelers]);
+
+ function selectPerson(name:string){
+  setViewer(name);setForm(blank(name));setOwnership('mine');setPayerChoice('self');setShowPayers(false);setMessage('');
+  try{localStorage.setItem('de-nl-ledger-person',name);}catch{}
+ }
+ function chooseOwnership(value:'mine'|'everyone'|'family'|'choose'){
+  setOwnership(value);
+  const participants=value==='mine'?[viewer]:value==='everyone'?[...travelers]:value==='family'?[...jingyiFamily]:form.participants||[viewer];
+  const mode=recommend(participants,form.payer,viewer);
+  setForm(previous=>({...previous,participants,consumer:participants.length===1?participants[0]:'全組',scope:participants.length===1?'personal':'shared',settlement:mode,settlementStatus:mode==='settle'?'pending':'settled'}));
+ }
+ function chooseParticipants(name:string){
+  const current=form.participants||[];
+  const participants=current.includes(name)?current.filter(person=>person!==name):[...current,name];
+  const safe=participants.length?participants:[viewer];
+  const mode=recommend(safe,form.payer,viewer);
+  setForm(previous=>({...previous,participants:safe,consumer:safe.length===1?safe[0]:'全組',scope:safe.length===1?'personal':'shared',settlement:mode,settlementStatus:mode==='settle'?'pending':'settled'}));
+ }
+ function choosePayer(choice:'self'|'jingyi'|'other'){
+  setPayerChoice(choice);
+  if(choice==='self'){setShowPayers(false);field('payer',viewer);return;}
+  if(choice==='jingyi'){setShowPayers(false);field('payer','靖宜');return;}
+  setShowPayers(true);
+ }
+ function setPayer(name:string){
+  setShowPayers(false);field('payer',name);
+  const participants=form.participants||[viewer];
+  const mode=recommend(participants,name,viewer);
+  setForm(previous=>({...previous,payer:name,settlement:previous.id?previous.settlement:mode,settlementStatus:previous.id?previous.settlementStatus:mode==='settle'?'pending':'settled'}));
+ }
+ function save(event:React.FormEvent){
+  event.preventDefault();
+  if(!form.detail.trim()||!Number.isFinite(form.amount)||form.amount<=0||form.amount>1e9){setMessage('請填寫項目與正確金額。');return;}
+  const participants=form.participants?.length?form.participants:[viewer];
+  const settlement= form.settlement||recommend(participants,form.payer,viewer);
+  const item:Expense={...form,id:form.id||crypto.randomUUID(),category:categoryName(form.category),detail:form.detail.trim(),rate:defaultRates[form.currency],participants,settlement,settlementStatus:settlement==='settle'?(form.settlementStatus||'pending'):'settled',consumer:participants.length===1?participants[0]:'全組',scope:participants.length===1?'personal':'shared',owner:form.owner||viewer,status:form.status||'已付'};
+  update({...plan,ledgerRevision:1,expenses:form.id?entries.map(row=>row.id===form.id?item:row):[...entries,item]});
+  setForm(blank(viewer));setOwnership('mine');setPayerChoice('self');setMessage('已儲存，這筆帳目已記為已付。');
+ }
+ function edit(item:Expense){
+  const participants=expenseParticipants(item),isMine=participants.length===1&&participants[0]===viewer;
+  setForm({...item,participants,settlement:expenseSettlement(item)});
+  setOwnership(isMine?'mine':participants.length===travelers.length?'everyone':participants.length===jingyiFamily.length&&jingyiFamily.every(person=>participants.includes(person))?'family':'choose');
+  setPayerChoice(item.payer===viewer?'self':item.payer==='靖宜'&&viewer!=='靖宜'?'jingyi':'other');
+  setShowPayers(false);formElement.current?.scrollIntoView({block:'start',behavior:'smooth'});
+ }
+ function canEdit(item:Expense){return (item.owner||(item.scope==='personal'?item.consumer:item.payer))===viewer;}
+ function toggleSettlement(item:Expense){update({...plan,expenses:entries.map(row=>row.id===item.id?{...row,settlementStatus:row.settlementStatus==='settled'?'pending':'settled'}:row)});}
+ function exportCsv(){
+  const csvRows=[['日期','大項','項目','金額','幣別','約合台幣','付款人','費用歸屬','結算方式','付款狀態','備註'],...entries.map(e=>[e.date,categoryName(e.category),e.detail,e.amount,e.currency,asTwd(e),e.payer,expenseParticipants(e).join('、'),settlementName(expenseSettlement(e)),e.status,e.note])];
+  const csv='\ufeff'+csvRows.map(row=>row.map(value=>'"'+String(value??'').replace(/^[=+@-]/,"'$&").replaceAll('"','""')+'"').join(',')).join('\r\n');
+  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const anchor=document.createElement('a');anchor.href=url;anchor.download=viewer+'-德荷旅行帳本.csv';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ }
+ function groups(rows:Expense[]){
+  return categories.filter(category=>rows.some(item=>categoryName(item.category)===category)).map(category=>{
+   const categoryRows=rows.filter(item=>categoryName(item.category)===category);
+   return <details className="j-card j-ledger-group" key={category}><summary><b>{categoryIcon(category)} {category}・{categoryRows.length} 筆</b><strong>{twdText(categoryRows.reduce((sum,item)=>sum+cents(item),0)/100)}</strong></summary>
+    {categoryRows.map(item=>{
+     const people=expenseParticipants(item),shares=expenseShares(item),mode=expenseSettlement(item),isShared=people.length>1;
+     return <article className="j-entry j-ledger-entry" key={item.id}><p className="j-muted">{item.date}</p><h4>{categoryIcon(item.category)} {item.detail}</h4>
+      <p className="j-ledger-amount">{twdText(asTwd(item))}{item.currency!=='TWD'&&<span>　{item.currency} {money(item.amount)}</span>}</p>
+      <p>費用歸屬：{isShared?`${people.length} 人共同${categoryName(item.category)==='住宿'?'住宿':'分攤'}（${people.join('、')}）`:`${people[0]}的旅費`}</p>
+      <p>💳 {item.payer}付款{item.bookingId&&item.status!=='已付'?`・${item.status}`:'・已付'}</p>
+      {isShared&&<p>平均每人約 {twdText(Math.round(asTwd(item)/people.length))}</p>}
+      <p className="j-ledger-mode">{mode==='family'?'👪 家庭支付':mode==='host'?'🎁 付款人請客':mode==='personal'?'👤 個人支付':mode==='settle'&&item.settlementStatus==='settled'?'✅ 已完成結算':'🔄 需要結算'}</p>
+      {item.note&&<p className="j-muted">{item.note}</p>}
+      {canEdit(item)&&<div className="j-actions"><button type="button" onClick={()=>edit(item)}>編輯</button><button type="button" onClick={()=>setRemove(item.id)}>刪除</button>{mode==='settle'&&<button type="button" onClick={()=>toggleSettlement(item)}>{item.settlementStatus==='settled'?'恢復待結算':'標記已結清'}</button>}{remove===item.id&&<><span>刪除這筆？</span><button type="button" onClick={()=>{update({...plan,expenses:entries.filter(row=>row.id!==item.id)});setRemove('');}}>確認刪除</button><button type="button" onClick={()=>setRemove('')}>保留</button></>}</div>}
+     </article>;
+    })}
+   </details>;
+  });
+ }
+ const recommendedMode=recommend(form.participants||[viewer],form.payer,viewer);
+ const amount=asTwd(form),shareCount=form.participants?.length||1;
+ return <section className="j-ledger-page">
+  <div className="j-section-heading"><h2>旅行記帳</h2><button type="button" onClick={exportCsv}>下載明細</button></div>
+  <div className="j-ledger-viewer"><b>目前帳本</b><div className="j-ledger-people" role="group" aria-label="選擇目前帳本旅客">{travelers.map(person=><button type="button" key={person} aria-pressed={viewer===person} onClick={()=>selectPerson(person)}>{person}</button>)}</div></div>
+  <div className="j-ledger-overview"><div className="j-total"><span>💳 旅行總支出</span><strong>{twdText(totalCents/100)}</strong></div><div className="j-grid j-metrics"><article><span>✅ 已結算／免還款</span><strong>{twdText(settledCents/100)}</strong></article><article><span>🔄 待結算轉帳</span><strong>{twdText(pendingCents/100)}</strong></article></div></div>
+  <article className="j-card j-ledger-card"><h3>🔄 最後要轉帳給誰</h3>{transfers.length?transfers.map(item=><div className="j-ledger-transfer" key={`${item.from}-${item.to}`}><b>{item.from}　→　{item.to}</b><strong>{twdText(item.amount/100)}</strong></div>):<p className="j-ledger-clear">✅ 目前沒有需要結算的款項</p>}</article>
+  <article className="j-card j-ledger-card"><h3>👨‍👩‍👧 靖宜家庭</h3><p className="j-muted">靖宜・益萁・耘欣</p><div className="j-grid j-ledger-family-totals"><div><span>家庭已付款</span><strong>{twdText(familyPaid/100)}</strong></div><div><span>家庭旅費</span><strong>{twdText(familyCost/100)}</strong></div></div><p><b>費用歸屬</b></p>{jingyiFamily.map(person=><div className="j-ledger-person-row" key={person}><span>{person}</span><strong>{twdText(personalCost(person)/100)}</strong></div>)}<p className="j-ledger-clear">家庭內待結算：NT$0</p></article>
+  <div className="j-grid j-ledger-individuals">{['靖枝','玉穎'].map(person=><article className="j-card j-ledger-card" key={person}><h3>{person}</h3><div className="j-ledger-person-row"><span>旅費</span><strong>{twdText(personalCost(person)/100)}</strong></div><div className="j-ledger-person-row"><span>已付款</span><strong>{twdText(personPaid(person)/100)}</strong></div><div className="j-ledger-person-row"><span>{owes(person)?'尚需支付':'應收回'}</span><strong>{twdText((owes(person)||receivable(person))/100)}</strong></div></article>)}</div>
+
+  <form ref={formElement} className="j-card j-form j-ledger-form" onSubmit={save}>
+   <h3>{form.id?'編輯帳目':'新增一筆'}</h3>
+   <div className="j-grid"><label>金額<input required type="number" inputMode="decimal" min="0.01" max="1000000000" step="0.01" placeholder="輸入金額" value={form.amount||''} onChange={event=>field('amount',Number(event.target.value))}/></label><label>幣別<select value={form.currency} onChange={event=>field('currency',event.target.value)}>{[['EUR','歐元 EUR'],['TWD','台幣 TWD'],['CNY','人民幣 CNY'],['USD','美金 USD']].map(([currency,label])=><option key={currency} value={currency}>{label}</option>)}</select></label></div>
+   <label>項目<input required maxLength={500} placeholder="例：科隆來回火車票" value={form.detail} onChange={event=>field('detail',event.target.value)}/></label>
+   <div className="j-grid"><label>日期<input required type="date" value={form.date} onChange={event=>field('date',event.target.value)}/></label><label>大項<select value={categoryName(form.category)} onChange={event=>field('category',event.target.value)}>{categories.map((category,index)=><option key={category} value={category}>{icons[index]} {category}</option>)}</select></label></div>
+
+   <fieldset className="j-ledger-question"><legend>這筆是誰的？</legend><div className="j-ledger-choice-grid"><button type="button" aria-pressed={ownership==='mine'} onClick={()=>chooseOwnership('mine')}>👤 我的消費</button><button type="button" aria-pressed={ownership==='everyone'} onClick={()=>chooseOwnership('everyone')}>👥 大家一起</button><button type="button" aria-pressed={ownership==='family'} onClick={()=>chooseOwnership('family')}>👨‍👩‍👧 靖宜家庭</button><button type="button" aria-pressed={ownership==='choose'} onClick={()=>chooseOwnership('choose')}>👥 選幾個人</button></div>
+    {ownership==='choose'&&<div className="j-ledger-choice-grid j-ledger-travelers">{travelers.map(person=><button type="button" key={person} aria-pressed={form.participants?.includes(person)} onClick={()=>chooseParticipants(person)}>{form.participants?.includes(person)?'✓　':''}{person}</button>)}</div>}
+    <p className="j-muted">{form.participants?.length||1} 人平均分攤；每人約 {twdText(Math.round(amount/shareCount))}</p>
+   </fieldset>
+
+   <fieldset className="j-ledger-question"><legend>💳 這筆錢是誰付的？</legend><div className="j-ledger-choice-grid">
+    <button type="button" aria-pressed={payerChoice==='self'} onClick={()=>choosePayer('self')}>👤 我付款</button>
+    {viewer==='益萁'||viewer==='耘欣'?<><button type="button" aria-pressed={payerChoice==='jingyi'} onClick={()=>choosePayer('jingyi')}>👩 靖宜幫我付</button><button type="button" aria-pressed={payerChoice==='other'} onClick={()=>choosePayer('other')}>🤝 其他人幫我付</button></>:<button type="button" aria-pressed={payerChoice==='other'} onClick={()=>choosePayer('other')}>🤝 別人幫我付款</button>}
+   </div>{showPayers&&<div className="j-ledger-choice-grid j-ledger-travelers">{travelers.filter(person=>person!==viewer).map(person=><button key={person} type="button" aria-pressed={form.payer===person} onClick={()=>setPayer(person)}>{person}</button>)}</div>}<p className="j-muted">目前付款人：{form.payer}</p></fieldset>
+
+   <fieldset className="j-ledger-question"><legend>這筆之後要算錢嗎？</legend><div className="j-ledger-mode-grid">{modeOptions.map(([mode,title,description])=><button type="button" key={mode} aria-pressed={form.settlement===mode} onClick={()=>field('settlement',mode)}><b>{title}</b><small>{description}</small></button>)}</div><p className="j-muted">系統建議：{settlementName(recommendedMode)}；你可以手動更改。</p></fieldset>
+   <label>備註（可留白）<input value={form.note} maxLength={2000} placeholder="例：5 人份、刷卡" onChange={event=>field('note',event.target.value)}/></label>
+   <p className="j-ledger-paid-note">新增帳目會直接記為已付。這筆約 {twdText(amount)}。</p><button className="j-primary" type="submit">{form.id?'儲存修改':'加進帳本'}</button>{form.id&&<button type="button" onClick={()=>{setForm(blank(viewer));setOwnership('mine');}}>取消編輯</button>}<p role="status">{message}</p>
+  </form>
+
+  <h3>帳本明細</h3><p className="j-muted">付款人、費用歸屬與結算方式分開記錄。新增帳目預設已付，住宿既有扣款狀態會保留。</p>{entries.length?groups(entries):<p className="j-card">還沒有帳目。</p>}
+ </section>;
+}

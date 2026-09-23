@@ -1,7 +1,8 @@
 import initial from './plan-v6.json';
-export type Expense={id:string;date:string;category:string;detail:string;amount:number;currency:string;rate:number;payer:string;note:string;status:string;scope?:"shared"|"personal";consumer?:string;owner?:string;confirmedTwd?:number;bookingId?:string};
+export type SettlementMode="settle"|"family"|"host"|"personal";
+export type Expense={id:string;date:string;category:string;detail:string;amount:number;currency:string;rate:number;payer:string;note:string;status:string;scope?:"shared"|"personal";consumer?:string;owner?:string;confirmedTwd?:number;bookingId?:string;participants?:string[];settlement?:SettlementMode;settlementStatus?:"pending"|"settled"};
 export type PackItem={id:string;category:string;name:string;done:boolean};
-export type Plan=Omit<typeof initial,'expenses'|'packing'|'photos'|'notes'> & {expenses:Expense[];packing:PackItem[];photos:Record<string,string>;notes:Record<string,string>};
+export type Plan=Omit<typeof initial,'expenses'|'packing'|'photos'|'notes'> & {expenses:Expense[];packing:PackItem[];photos:Record<string,string>;notes:Record<string,string>;ledgerRevision?:number};
 export const initialPlan:Plan={...initial,expenses:initial.expenses.map(e=>({...e,scope:e.scope as Expense['scope']}))};
 export const mapUrl=(q:string)=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);
 export const money=(n:number)=>new Intl.NumberFormat('zh-TW',{minimumFractionDigits:0,maximumFractionDigits:2}).format(n);
@@ -9,6 +10,13 @@ export const defaultRates:Record<string,number>={TWD:1,EUR:36.75,USD:31.65,CNY:4
 export const categories=['吃飯','交通','住宿','購物伴手','門票娛樂','其他雜支'];
 export const categoryName=(s:string)=>({'餐飲':'吃飯','機票':'交通','購物':'購物伴手','超市':'吃飯','門票':'門票娛樂','其他':'其他雜支'}[s]|| (categories.includes(s)?s:'其他雜支'));
 export const cents=(e:Expense,_rates?:Record<string,number>)=>Math.round((e.confirmedTwd??e.amount*(defaultRates[e.currency]??e.rate))*100);
+export const travelers=['益萁','耘欣','靖宜','靖枝','玉穎'];
+export const jingyiFamily=['靖宜','益萁','耘欣'];
+export const settlementName=(mode:SettlementMode|undefined)=>({settle:'需要結算',family:'家庭支付',host:'請客',personal:'個人支付'}[mode||'personal']);
+export const expenseParticipants=(e:Expense):string[]=>e.participants?.length?e.participants:(e.scope==='personal'?[e.consumer||e.payer]:e.consumer==='全組'?travelers:[e.consumer||e.payer]);
+export const expenseSettlement=(e:Expense):SettlementMode=>e.settlement||(e.scope==='personal'?'personal':'settle');
+export function expenseShares(e:Expense){const participants=expenseParticipants(e);if(!participants.length)return{} as Record<string,number>;const total=cents(e),base=Math.floor(total/participants.length),remainder=total%participants.length;return Object.fromEntries(participants.map((name,i)=>[name,base+(i<remainder?1:0)]));}
+export function ledgerBalances(entries:Expense[]){const balances:Record<string,number>={};for(const e of entries){if(expenseSettlement(e)!=='settle'||e.settlementStatus==='settled')continue;const payer=e.payer,shares=expenseShares(e);for(const [person,amount] of Object.entries(shares)){if(person===payer)continue;if(jingyiFamily.includes(person)&&jingyiFamily.includes(payer))continue;balances[`${person}\u0000${payer}`]=(balances[`${person}\u0000${payer}`]||0)+amount;}}return Object.entries(balances).map(([key,amount])=>{const [from,to]=key.split('\u0000');return{from,to,amount};}).filter(x=>x.amount>0);}
 export function totals(entries:Expense[],people:number,rates?:Record<string,number>){const total=entries.reduce((n,e)=>n+cents(e,rates),0)/100;const shared=entries.filter(e=>e.scope!=='personal').reduce((n,e)=>n+cents(e,rates),0)/100;return{total,shared,personal:Math.round((total-shared)*100)/100,perPerson:Math.round(shared/people),count:entries.length};}
 const record=(v:unknown):v is Record<string,unknown>=>!!v&&typeof v==='object'&&!Array.isArray(v);
 const string=(v:unknown)=>typeof v==='string'&&v.length<=20000;
@@ -35,6 +43,7 @@ export function parsePlan(value:unknown):Plan{
  if(value.exchangeRates!==undefined&&(!record(value.exchangeRates)||!['EUR','USD','CNY'].every(k=>typeof (value.exchangeRates as Record<string,unknown>)[k]==='number'&&Number.isFinite((value.exchangeRates as Record<string,number>)[k])&&(value.exchangeRates as Record<string,number>)[k]>0&&(value.exchangeRates as Record<string,number>)[k]<=1e6)))throw Error('設定匯率不正確');
  if((value.expenses as Expense[]).some(e=>(e.scope!==undefined&&!['shared','personal'].includes(e.scope))||(e.consumer!==undefined&&!string(e.consumer))))throw Error('消費分攤方式不正確');
  if((value.expenses as Expense[]).some(e=>(e.confirmedTwd!==undefined&&(typeof e.confirmedTwd!=='number'||!Number.isFinite(e.confirmedTwd)||e.confirmedTwd<0||e.confirmedTwd>1e9))||(e.owner!==undefined&&!string(e.owner))||(e.bookingId!==undefined&&!string(e.bookingId))))throw Error('帳目確認金額或付款人格式不正確');
+ if((value.expenses as Expense[]).some(e=>(e.participants!==undefined&&(!Array.isArray(e.participants)||e.participants.length>travelers.length||!e.participants.every(p=>typeof p==='string'&&travelers.includes(p))))||(e.settlement!==undefined&&!['settle','family','host','personal'].includes(e.settlement))||(e.settlementStatus!==undefined&&!['pending','settled'].includes(e.settlementStatus))))throw Error('記帳分攤資料格式不正確');
  const safe=(Number(value.planRevision)<8?{...structuredClone(initialPlan),expenses:structuredClone(value.expenses),packing:structuredClone(value.packing),notes:structuredClone(value.notes),people:value.people}:structuredClone(value)) as unknown as Plan;
  if(value.stories!==undefined&&!rows(value.stories,s=>['id','day','title','summary'].every(k=>string(s[k]))&&Array.isArray(s.aliases)&&s.aliases.every(string)&&Array.isArray(s.paragraphs)&&s.paragraphs.every(string)))throw Error('故事內容格式不正確');
  safe.stories=value.stories===undefined?structuredClone(initialPlan.stories):structuredClone(value.stories) as Plan['stories'];
@@ -100,6 +109,17 @@ export function parsePlan(value:unknown):Plan{
  }
  safe.shoppingRevision=2;
  for(const c of safe.reference.foodLists)for(const f of c.items){const original=initialPlan.reference.foodLists.flatMap(x=>x.items).find(x=>x.name===f.name);f.image=original?.image||'';f.images=original?.images||[];f.intro=typeof f.intro==='string'?f.intro:original?.intro||'';}
+ if(Number(value.ledgerRevision||0)<1){
+  safe.expenses=safe.expenses.map(e=>{
+   const participants=e.id==='flight-2026-yichi'?['益萁']:e.id==='flight-2026-yunhsin'?['耘欣']:e.id==='flight-2026-jingyi'?['靖宜']:e.id==='flight-2026-jingzhi'?['靖枝']:e.id==='flight-2026-yuying'?['玉穎']:e.bookingId?.startsWith('lodging-')?travelers:e.scope==='personal'?[e.consumer||e.payer]:expenseParticipants(e);
+   let settlement:SettlementMode=e.bookingId?.startsWith('lodging-')?'settle':e.scope==='personal'&&e.payer===participants[0]?'personal':participants.length>0&&participants.every(person=>jingyiFamily.includes(person))&&jingyiFamily.includes(e.payer)?'family':'settle';
+   if(e.id==='flight-2026-yichi'||e.id==='flight-2026-yunhsin')settlement='family';
+   if(e.id==='flight-2026-jingzhi')settlement='settle';
+   if(e.id==='flight-2026-jingyi'||e.id==='flight-2026-yuying')settlement='personal';
+   return {...e,participants,settlement,settlementStatus:settlement==='settle'?'pending':'settled'};
+  });
+ }
+ safe.ledgerRevision=1;
  return safe;
 }
 export function migrateLegacy(raw:unknown):Plan{
