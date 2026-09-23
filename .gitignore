@@ -47,6 +47,7 @@ next-env.d.ts
 /output/
 /tmp/
 /work/
+/.sites-checkout/
 *.tsbuildinfo
 
 # one-off content migration and media collection scripts

@@ -909,3 +909,26 @@
 .j-ticket-upload{display:block;font-size:17px;font-weight:700;color:#194a6b;border:1px dashed #537b94;border-radius:12px;padding:16px;background:#f5f9fc}
 .j-ticket-upload input{display:block;width:100%;max-width:100%;margin-top:10px;font-size:16px}
 .j-ticket-content>.j-grid{margin-top:16px}
+
+/* Keep every image interactive and make a low-resolution preview visible while it loads. */
+.j-hero>.j-gallery{margin:0;border-radius:0}
+.j-lightbox[open]{width:100vw;max-width:none;height:100vh;max-height:none;margin:0;border:0}
+.j-photo-loading{position:absolute;inset:0;display:grid;place-items:center;color:#26465b;font-size:17px;background:#edece6;pointer-events:none}
+.j-image-button img{position:relative}
+.j-lightbox .j-lightbox-preview,.j-lightbox .j-lightbox-full{position:absolute;inset:64px 16px 20px;width:calc(100% - 32px);height:calc(100% - 84px);max-width:100%;max-height:100%;object-fit:contain}
+.j-lightbox .j-lightbox-preview{filter:blur(2px);opacity:.72}
+.j-lightbox .j-lightbox-full{z-index:1}
+.j-lightbox .j-lightbox-close,.j-lightbox .j-lightbox-prev,.j-lightbox .j-lightbox-next{z-index:3;min-width:48px;min-height:48px;font-size:18px}
+.j-lightbox .j-lightbox-close{right:16px;top:12px}
+.j-lightbox .j-lightbox-prev{left:16px;right:auto;top:50%;transform:translateY(-50%)}
+.j-lightbox .j-lightbox-next{right:16px;top:50%;transform:translateY(-50%)}
+.j-lightbox-status{position:absolute;z-index:2;bottom:24px;left:50%;transform:translateX(-50%);padding:6px 12px;border-radius:8px;background:#102d43;color:white;font-size:15px;white-space:nowrap}
+.j-story-media>.j-gallery{margin:0;border-radius:0}
+.j-story-media .j-image-button img{object-fit:contain;background:#f4f3ed}
+.j-layer-guide{padding:18px;margin:18px 0 24px}
+.j-layer-guide>.j-gallery{margin:12px 0}
+.j-layer-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.j-layer-steps p{margin:0;padding:12px;border-radius:10px;background:#f2f5f4;font-size:15px;line-height:1.6}
+.j-layer-steps b,.j-layer-steps span{display:block}
+.j-layer-steps b{font-size:17px;color:#173c58;margin-bottom:5px}
+@media(max-width:650px){.j-layer-steps{grid-template-columns:1fr}.j-layer-steps p{padding:10px 12px}}

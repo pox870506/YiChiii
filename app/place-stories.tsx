@@ -29,7 +29,7 @@ function StoryImages({plan,items,title}:{plan:Plan;items:StoryMediaItem[];title:
  if(!media.length)return null;
  return <div className={'j-story-media-grid '+(media.length>1?'is-multiple':'')}>
   {media.map((item,i)=><figure className="j-story-media" key={(item.src||item.photoKey||title)+i}>
-   <img src={item.src} alt={item.alt||title} loading="lazy" decoding="async"/>
+   <Gallery images={[item.src]} label={item.alt||title} showCaption={false}/>
    {item.caption&&<figcaption><span>{item.caption}</span></figcaption>}
   </figure>)}
  </div>;
