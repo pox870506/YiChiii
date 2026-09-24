@@ -1,11 +1,10 @@
 'use client';
-import {useEffect,useRef,useState} from 'react';
+import {useEffect,useMemo,useRef,useState} from 'react';
 import {categories,categoryName,cents,defaultRates,expenseParticipants,expenseSettlement,expenseShares,jingyiFamily,ledgerBalances,money,settlementName,travelers,type Expense,type Plan,type SettlementMode} from '@/lib/journey';
 
 const icons=['🍴','🚆','🏨','🎁','🎫','🧾'];
 const categoryIcon=(category:string)=>icons[Math.max(0,categories.indexOf(categoryName(category)))];
 const blank=(name='益萁'):Expense=>({id:'',date:'2026-11-13',category:'吃飯',detail:'',amount:0,currency:'EUR',rate:defaultRates.EUR,payer:name,consumer:name,scope:'personal',participants:[name],settlement:'personal',settlementStatus:'settled',note:'',status:'已付'});
-const labelCurrency=(currency:string)=>({EUR:'歐元 EUR',TWD:'台幣 TWD',CNY:'人民幣 CNY',USD:'美金 USD'}[currency]||currency);
 const asTwd=(e:Expense)=>cents(e)/100;
 const twdText=(amount:number)=>`NT$${money(Math.round(amount))}`;
 const recommend=(participants:string[],payer:string,viewer:string):SettlementMode=>{
@@ -25,6 +24,7 @@ export default function Ledger({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
  const [remove,setRemove]=useState('');
  const formElement=useRef<HTMLFormElement>(null);
  const entries=plan.expenses;
+ const {totalCents,transfers,pendingCents,settledCents,familyPaid,familyCost,personalCost,personPaid,owes,receivable}=useMemo(()=>{
  const totalCents=entries.reduce((sum,e)=>sum+cents(e),0);
  const transfers=ledgerBalances(entries);
  const pendingCents=transfers.reduce((sum,item)=>sum+item.amount,0);
@@ -32,10 +32,18 @@ export default function Ledger({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
  const familyEntries=entries.filter(e=>expenseParticipants(e).some(p=>jingyiFamily.includes(p)));
  const familyPaid=familyEntries.filter(e=>jingyiFamily.includes(e.payer)).reduce((sum,e)=>sum+cents(e),0);
  const familyCost=familyEntries.reduce((sum,e)=>sum+Object.entries(expenseShares(e)).filter(([person])=>jingyiFamily.includes(person)).reduce((a,[,amount])=>a+amount,0),0);
- const personalCost=(name:string)=>entries.reduce((sum,e)=>sum+(expenseShares(e)[name]||0),0);
- const personPaid=(name:string)=>entries.filter(e=>e.payer===name).reduce((sum,e)=>sum+cents(e),0);
- const owes=(name:string)=>transfers.filter(x=>x.from===name).reduce((sum,x)=>sum+x.amount,0);
- const receivable=(name:string)=>transfers.filter(x=>x.to===name).reduce((sum,x)=>sum+x.amount,0);
+ const costs=new Map<string,number>(),paid=new Map<string,number>(),owed=new Map<string,number>(),receivables=new Map<string,number>();
+ for(const entry of entries){
+  paid.set(entry.payer,(paid.get(entry.payer)||0)+cents(entry));
+  for(const [person,amount] of Object.entries(expenseShares(entry)))costs.set(person,(costs.get(person)||0)+amount);
+ }
+ for(const transfer of transfers){owed.set(transfer.from,(owed.get(transfer.from)||0)+transfer.amount);receivables.set(transfer.to,(receivables.get(transfer.to)||0)+transfer.amount);}
+ const personalCost=(name:string)=>costs.get(name)||0;
+ const personPaid=(name:string)=>paid.get(name)||0;
+ const owes=(name:string)=>owed.get(name)||0;
+ const receivable=(name:string)=>receivables.get(name)||0;
+ return {totalCents,transfers,pendingCents,settledCents,familyPaid,familyCost,personalCost,personPaid,owes,receivable};
+ },[entries]);
  const field=<K extends keyof Expense>(key:K,value:Expense[K])=>setForm(previous=>({...previous,[key]:value,...(['amount','currency'].includes(key)?{confirmedTwd:undefined}:{}),...(key==='settlement'&&previous.settlement!==value?{settlementStatus:value==='settle'?'pending':'settled'}:{})}));
 
  useEffect(()=>{try{const name=localStorage.getItem('de-nl-ledger-person');if(name&&plan.travelers.includes(name)){setViewer(name);setForm(blank(name));}}catch{}},[plan.travelers]);
@@ -97,7 +105,7 @@ export default function Ledger({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
    const categoryRows=rows.filter(item=>categoryName(item.category)===category);
    return <details className="j-card j-ledger-group" key={category}><summary><b>{categoryIcon(category)} {category}・{categoryRows.length} 筆</b><strong>{twdText(categoryRows.reduce((sum,item)=>sum+cents(item),0)/100)}</strong></summary>
     {categoryRows.map(item=>{
-     const people=expenseParticipants(item),shares=expenseShares(item),mode=expenseSettlement(item),isShared=people.length>1;
+     const people=expenseParticipants(item),mode=expenseSettlement(item),isShared=people.length>1;
      return <article className="j-entry j-ledger-entry" key={item.id}><p className="j-muted">{item.date}</p><h4>{categoryIcon(item.category)} {item.detail}</h4>
       <p className="j-ledger-amount">{twdText(asTwd(item))}{item.currency!=='TWD'&&<span>　{item.currency} {money(item.amount)}</span>}</p>
       <p>費用歸屬：{isShared?`${people.length} 人共同${categoryName(item.category)==='住宿'?'住宿':'分攤'}（${people.join('、')}）`:`${people[0]}的旅費`}</p>

@@ -5,7 +5,8 @@ export type PackItem={id:string;category:string;name:string;done:boolean};
 export type Plan=Omit<typeof initial,'expenses'|'packing'|'photos'|'notes'> & {expenses:Expense[];packing:PackItem[];photos:Record<string,string>;notes:Record<string,string>;ledgerRevision?:number};
 export const initialPlan:Plan={...initial,expenses:initial.expenses.map(e=>({...e,scope:e.scope as Expense['scope']}))};
 export const mapUrl=(q:string)=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);
-export const money=(n:number)=>new Intl.NumberFormat('zh-TW',{minimumFractionDigits:0,maximumFractionDigits:2}).format(n);
+const moneyFormatter=new Intl.NumberFormat('zh-TW',{minimumFractionDigits:0,maximumFractionDigits:2});
+export const money=(n:number)=>moneyFormatter.format(n);
 export const defaultRates:Record<string,number>={TWD:1,EUR:36.75,USD:31.65,CNY:4.72};
 export const categories=['吃飯','交通','住宿','購物伴手','門票娛樂','其他雜支'];
 export const categoryName=(s:string)=>({'餐飲':'吃飯','機票':'交通','購物':'購物伴手','超市':'吃飯','門票':'門票娛樂','其他':'其他雜支'}[s]|| (categories.includes(s)?s:'其他雜支'));
@@ -23,6 +24,8 @@ const string=(v:unknown)=>typeof v==='string'&&v.length<=20000;
 const rows=(v:unknown,p:(v:Record<string,unknown>)=>boolean)=>Array.isArray(v)&&v.length<=2000&&v.every(x=>record(x)&&p(x));
 const unique=(v:{id:string}[])=>new Set(v.map(x=>x.id)).size===v.length;
 const https=(v:unknown)=>{try{return typeof v==='string'&&new URL(v).protocol==='https:';}catch{return false;}};
+const initialFoodByName=new Map<string,typeof initialPlan.reference.foodLists[number]['items'][number]>();
+for(const city of initialPlan.reference.foodLists)for(const food of city.items)if(!initialFoodByName.has(food.name))initialFoodByName.set(food.name,food);
 export function parsePlan(value:unknown):Plan{
  if(!record(value)||!Array.isArray(value.days)||value.days.length!==14||!Array.isArray(value.stays)||!record(value.notes))throw Error('行程格式不完整');
  const dates=initialPlan.days.map(d=>d.date);
@@ -108,7 +111,7 @@ export function parsePlan(value:unknown):Plan{
   }
  }
  safe.shoppingRevision=2;
- for(const c of safe.reference.foodLists)for(const f of c.items){const original=initialPlan.reference.foodLists.flatMap(x=>x.items).find(x=>x.name===f.name);f.image=original?.image||'';f.images=original?.images||[];f.intro=typeof f.intro==='string'?f.intro:original?.intro||'';}
+ for(const c of safe.reference.foodLists)for(const f of c.items){const original=initialFoodByName.get(f.name);f.image=original?.image||'';f.images=original?.images||[];f.intro=typeof f.intro==='string'?f.intro:original?.intro||'';}
  if(Number(value.ledgerRevision||0)<1){
   safe.expenses=safe.expenses.map(e=>{
    const participants=e.id==='flight-2026-yichi'?['益萁']:e.id==='flight-2026-yunhsin'?['耘欣']:e.id==='flight-2026-jingyi'?['靖宜']:e.id==='flight-2026-jingzhi'?['靖枝']:e.id==='flight-2026-yuying'?['玉穎']:e.bookingId?.startsWith('lodging-')?travelers:e.scope==='personal'?[e.consumer||e.payer]:expenseParticipants(e);

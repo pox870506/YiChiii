@@ -2392,5 +2392,12 @@
     "height": 887,
     "small": "/illustrations/three-layer-clothing.webp",
     "smallWidth": 1774
+  },
+  "/photos/fruh-am-dom.webp": {
+    "label": "Brauhaus FRÜH am Dom・科隆傳統啤酒館",
+    "width": 1200,
+    "height": 880,
+    "small": "/photos/fruh-am-dom-800.webp",
+    "smallWidth": 800
   }
 }

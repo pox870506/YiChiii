@@ -143,7 +143,7 @@
       "title": "科隆大教堂、鐘塔、德國豬腳；晚上回杜塞大採買",
       "stay": "杜塞道夫",
       "morning": "09:30 出發（第二天仍在調時差，不排太早）。10:10 抵 Köln Hbf，出站左手邊即大教堂。10:20 進主堂參觀，11:30 爬鐘塔。",
-      "afternoon": "12:30 午餐 Malzmühle 或 Keule。14:00 Hohenzollernbrücke 情人橋、萊茵河畔與老城散步，路上吃 Reibekuchen 馬鈴薯煎餅配蘋果醬。15:00 巧克力博物館或老城逛街（德國週六是最後購物日）。",
+      "afternoon": "12:30 午餐首選 Brauhaus FRÜH am Dom（1904 年開業，距中央車站約 400 公尺）；人多時改 Malzmühle 或 Keule。14:00 Hohenzollernbrücke 情人橋、萊茵河畔與老城散步，路上吃 Reibekuchen 馬鈴薯煎餅配蘋果醬。15:00 巧克力博物館或老城逛街（德國週六是最後購物日）。",
       "evening": "17:00 回杜塞道夫，17:45 超市大採買（週日一般超市多休息，兩餐＋零食一次買足），19:30 自煮晚餐。",
       "timeline": [
         [
@@ -164,7 +164,7 @@
         ],
         [
           "12:30",
-          "午餐 Malzmühle 或 Keule"
+          "午餐首選 Brauhaus FRÜH am Dom；人多時改 Malzmühle 或 Keule"
         ],
         [
           "14:00",
@@ -202,7 +202,7 @@
       ],
       "ticketingNote": "鐘塔 11–2 月僅開放 09:00–16:00，最後入場 15:30。想爬塔請安排在上午。",
       "transport": "Rath 住宿 → Düsseldorf Hbf → ICE／IC 或 RE 直達 Köln Hbf。回程先看車種與票面有效範圍，再回 Rath 公寓。",
-      "food": "午餐 Malzmühle 或 Keule（德國豬腳）；街頭 Reibekuchen 馬鈴薯煎餅配蘋果醬（偏酸解膩，網友評必點）；晚餐回杜塞自煮。",
+      "food": "午餐首選 Brauhaus FRÜH am Dom（1904 年老牌啤酒館，豬腳與 Kölsch 科隆啤酒）；人多時可改 Malzmühle 或 Keule；街頭 Reibekuchen 馬鈴薯煎餅配蘋果醬（偏酸解膩，網友評必點）；晚餐回杜塞自煮。",
       "alerts": [
         [
           "warn",
@@ -1160,6 +1160,21 @@
       {
         "city": "科隆",
         "items": [
+          {
+            "name": "Brauhaus FRÜH am Dom",
+            "dish": "科隆傳統啤酒館料理：脆皮豬腳（Schweinshaxe）、Kölsch 科隆啤酒；也可看 Halver Hahn 黑麵包起司、Himmel un Ääd 血腸馬鈴薯蘋果泥等地方菜",
+            "when": "11/14 午餐・優先選項",
+            "note": "",
+            "image": "/photos/fruh-am-dom.webp",
+            "images": [
+              "/photos/fruh-am-dom.webp"
+            ],
+            "address": "Am Hof 12–18, 50667 Köln",
+            "intro": "1904 年開業的老牌科隆啤酒館，距科隆中央車站約 400 公尺。餐廳緊鄰大教堂，菜單有豬腳、炸馬鈴薯、酸菜與多道萊茵地方料理；服務生 Köbes 以小杯持續供應 Kölsch，若不想續杯，把杯墊放上杯口即可。午餐人多時可改 Malzmühle 或 Keule。",
+            "photoCredit": "© Raimond Spekking／CC BY-SA 4.0",
+            "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Fr%C3%BCh_Brauhaus_K%C3%B6ln_-_Gesamtansicht_(4602-04).jpg"
+          },
           {
             "name": "Brauhaus Malzmühle",
             "dish": "德式啤酒館料理，可找豬腳或燉肉主餐",

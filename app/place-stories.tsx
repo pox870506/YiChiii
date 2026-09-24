@@ -1,8 +1,16 @@
+import {useState,type ComponentProps, type ReactNode} from 'react';
 import type {Plan} from '@/lib/journey';
 import Gallery from './gallery';
 import {extraStoryMedia,storyMedia,type StoryMediaItem} from '@/lib/story-media';
 
 const hiddenStoryIds=new Set(['carrousel']);
+
+// Keep opened content mounted (including its photo index), but do not create
+// hidden galleries and observers before the reader opens their story.
+function StoryDetails({summary,renderContent,...props}:Omit<ComponentProps<'details'>,'children'>&{summary:ReactNode;renderContent:()=>ReactNode}){
+ const [visited,setVisited]=useState(false);
+ return <details {...props} onToggle={event=>{if(event.target===event.currentTarget&&event.currentTarget.open)setVisited(true);}}>{summary}{visited&&renderContent()}</details>;
+}
 
 function resolvedMedia(plan:Plan,items:StoryMediaItem[]){
  return items
@@ -52,13 +60,12 @@ export default function PlaceStories({plan,date,city}:{plan:Plan;date:string;cit
 
  if(!stories.length&&!extras.length&&date!=='2026-11-21')return null;
 
- return <details className="j-card j-stories" aria-label={city+'故事與歷史'}>
-  <summary>📖 故事與歷史</summary>
+ return <StoryDetails className="j-card j-stories" aria-label={city+'故事與歷史'} summary={<summary>📖 故事與歷史</summary>} renderContent={()=> <>
   <div className="j-stories-content">
    {stories.map(s=>{
-    const media=storyMedia[s.id]?.length?storyMedia[s.id]:fallbackMedia(plan,day,s.title);
-    return <details className="j-place-story" key={s.id}>
-     <summary><strong>{s.title}</strong><span>{s.summary}</span></summary>
+    return <StoryDetails className="j-place-story" key={s.id} summary={<summary><strong>{s.title}</strong><span>{s.summary}</span></summary>} renderContent={()=>{
+     const media=storyMedia[s.id]?.length?storyMedia[s.id]:fallbackMedia(plan,day,s.title);
+     return <>
      <div className="j-story-body">
       <StoryImages plan={plan} items={media} title={s.title}/>
       <p className="j-story-lede">{s.summary}</p>
@@ -66,20 +73,21 @@ export default function PlaceStories({plan,date,city}:{plan:Plan;date:string;cit
        {s.paragraphs.map((p,i)=>['歷史與故事','現今樣貌','品牌歷史與百年秘方'].includes(p)?<h4 key={i}>{p}</h4>:<p key={i}>{p}</p>)}
       </div>
      </div>
-    </details>;
+     </>;
+    }}/>
    })}
    {extras.map((s,i)=>{
-    const media=s.media.length?s.media:fallbackMedia(plan,day,s.name);
-    return <details className="j-place-story" key={s.key+i}>
-     <summary><strong>{s.name}</strong></summary>
+    return <StoryDetails className="j-place-story" key={s.key+i} summary={<summary><strong>{s.name}</strong></summary>} renderContent={()=>{
+     const media=s.media.length?s.media:fallbackMedia(plan,day,s.name);
+     return <>
      <div className="j-story-body">
       <StoryImages plan={plan} items={media} title={s.name}/>
       <div className="j-story-copy"><p>{s.text}</p></div>
      </div>
-    </details>;
+     </>;
+    }}/>
    })}
-   {date==='2026-11-21'&&<details className="j-place-story">
-    <summary><strong>梵谷美術館・先認識這幾幅畫</strong><span>向日葵、杏花、吃馬鈴薯的人與臥室。</span></summary>
+   {date==='2026-11-21'&&<StoryDetails className="j-place-story" summary={<summary><strong>梵谷美術館・先認識這幾幅畫</strong><span>向日葵、杏花、吃馬鈴薯的人與臥室。</span></summary>} renderContent={()=> <>
     <p>下列為館藏代表作，實際展出依借展與輪換安排。</p>
     <div className="j-food-grid">
      {plan.artworks.map(a=><article className="j-card" key={a.name}>
@@ -88,7 +96,7 @@ export default function PlaceStories({plan,date,city}:{plan:Plan;date:string;cit
       <p>{a.intro}</p>
      </article>)}
     </div>
-   </details>}
+   </>}/>}
   </div>
- </details>;
+ </>}/>;
 }
