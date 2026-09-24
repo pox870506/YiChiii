@@ -12,7 +12,12 @@ try{
  const tab=async name=>{await page.locator('.j-tabs button').filter({hasText:name}).click();await page.locator('#journey-panel').filter({has:page.locator('section')}).waitFor();};
  await page.goto(base);
  // Seed an existing phone backup in this isolated test browser only.
- const existing={...initial,notes:{...initial.notes,'2026-11-19':'保留手機筆記'}};
+ const existing={...initial,notes:{...initial.notes,'2026-11-19':'保留手機筆記'},packing:[...initial.packing,
+  {id:'legacy-pack-documents',category:'證件與金錢',name:'舊分類證件測試',done:false},
+  {id:'legacy-pack-electronics',category:'電子用品',name:'舊分類電子測試',done:false},
+  {id:'legacy-pack-toiletries',category:'盥洗保養',name:'舊分類盥洗測試',done:false},
+  {id:'legacy-pack-other',category:'其他',name:'舊分類雜項測試',done:false}
+ ]};
  await page.evaluate(({key,existing})=>localStorage.setItem(key,JSON.stringify(existing)),{key,existing});
  await page.reload();
  await tab('每日');
@@ -68,7 +73,14 @@ try{
  await page.locator('.j-entry').filter({hasText:'效能驗證帳目'}).getByRole('button',{name:'刪除',exact:true}).click();
  await page.getByRole('button',{name:'確認刪除',exact:true}).click();
  assert(!(await stored()).expenses.some(e=>e.id===added.id));
- await tab('行李');await page.getByPlaceholder('例：備用眼鏡').fill('效能驗證行李');
+ await tab('行李');
+ const packingOptions=await page.locator('.j-form select option').allTextContents();
+ assert.deepEqual(packingOptions,['衣物','證件與錢','電子與充電','盥洗與保養','藥品','展會用品','生活雜項']);
+ const packingGroups=await page.locator('.j-pack-title').allTextContents();
+ assert.equal(new Set(packingGroups).size,packingGroups.length);
+ assert(!packingGroups.some(name=>['證件與金錢','電子用品','盥洗保養','其他'].includes(name)));
+ for(const item of ['舊分類證件測試','舊分類電子測試','舊分類盥洗測試','舊分類雜項測試'])assert.equal(await page.locator('.j-pack-row').filter({hasText:item}).count(),1);
+ await page.getByPlaceholder('例：備用眼鏡').fill('效能驗證行李');
  await page.getByRole('button',{name:'加入行李清單',exact:true}).click();
  const pack=page.locator('.j-pack-row').filter({hasText:'效能驗證行李'});
  await pack.locator('../..').locator('summary').click();await pack.getByRole('checkbox').check();

@@ -16,6 +16,9 @@ const preferredCategoryIcons:Record<string,string>={
  '隨身用品':'🎒',
  '其他':'📦'
 };
+const defaultCategories=['衣物','證件與錢','電子與充電','盥洗與保養','藥品','展會用品','生活雜項'];
+const categoryAliases:Record<string,string>={'證件與金錢':'證件與錢','電子用品':'電子與充電','盥洗保養':'盥洗與保養','其他':'生活雜項'};
+const categoryName=(category:string)=>categoryAliases[category]||category;
 const fallbackCategoryIcons=['🧢','🧣','🕶️','📓','🧷','🧼','🔦','🧵','🎫','🥤','🧻','🪄'];
 
 function buildCategoryIconMap(categories:string[]){
@@ -36,7 +39,8 @@ function PackingIcon({icon}:{icon:string}){
 }
 
 export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void}){
- const categories=useMemo(()=>[...new Set(plan.packing.map(x=>x.category))],[plan.packing]);
+ const categories=useMemo(()=>[...new Set(plan.packing.map(x=>categoryName(x.category)))],[plan.packing]);
+ const categoryOptions=useMemo(()=>[...new Set([...defaultCategories,...plan.packing.map(x=>categoryName(x.category))])],[plan.packing]);
  const categoryIconMap=useMemo(()=>buildCategoryIconMap(categories),[categories]);
  const [category,setCategory]=useState(categories[0]||'衣物');
  const [name,setName]=useState('');
@@ -61,7 +65,7 @@ export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void})
    <div className="j-grid">
     <label>分類
      <select value={category} required onChange={e=>setCategory(e.target.value)}>
-      {[...new Set(['衣物','證件與金錢','電子用品','盥洗保養','藥品','隨身用品','其他',...plan.packing.map(x=>x.category)])].map(c=><option key={c}>{c}</option>)}
+      {categoryOptions.map(c=><option key={c}>{c}</option>)}
      </select>
     </label>
     <label>新增物品
@@ -75,7 +79,7 @@ export default function Packing({plan,update}:{plan:Plan;update:(p:Plan)=>void})
 
   <div className="j-pack-groups">
    {categories.map(c=>{
-    const items=plan.packing.filter(x=>x.category===c);
+    const items=plan.packing.filter(x=>categoryName(x.category)===c);
     const completed=items.filter(x=>x.done).length;
     return <details className="j-card j-pack-group" key={c}>
      <summary>
